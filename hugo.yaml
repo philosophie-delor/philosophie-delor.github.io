@@ -1,7 +1,7 @@
-baseURL: https://philosophie-delort.github.io/
+baseURL: https://philosophie-delor.github.io/
 languageCode: en-us
 title: My New Hugo Site
-Titel: philosophie-delort
+Titel: philosophie-delor
 Theme: PaperMod
 
 menu:
@@ -18,7 +18,7 @@ menu:
 
 params:
   homeInfoParams:
-    Title: "Philosophie-Delort"
+    Title: "Philosophie-Delor"
     Content: "Essays und Verweise auf wissenschaftliche Veröffentlichungen."
 
   mainSections:
