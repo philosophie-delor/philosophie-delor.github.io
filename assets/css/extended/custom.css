@@ -1,0 +1,9 @@
+/* Thumbnail-Größe in Post-Listen begrenzen */
+.post-entry .entry-cover {
+  max-width: 30%;
+}
+
+.post-entry .entry-cover img {
+  max-height: 180px;
+  object-fit: contain;
+}

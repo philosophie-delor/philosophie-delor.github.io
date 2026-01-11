@@ -1,33 +1,150 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- 0.154.4</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jan 2026 16:33:01 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Erster Post</title>
-      <link>http://localhost:1313/posts/erster-post/</link>
-      <pubDate>Sun, 11 Jan 2026 16:33:01 +0100</pubDate>
-      <guid>http://localhost:1313/posts/erster-post/</guid>
-      <description>&lt;p&gt;Work in progress&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Sun, 11 Jan 2026 16:32:44 +0100</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Dies ist eine Testseite.&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Philosophie-Delor</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on Philosophie-Delor</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>de-at</language>
+        <lastBuildDate>Sun, 11 Jan 2026 16:32:44 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Publications</title>
+        <link>http://localhost:1313/publications/</link>
+        <pubDate>Sun, 11 Jan 2026 16:32:44 +0100</pubDate>
+        
+        <guid>http://localhost:1313/publications/</guid>
+        <description>&lt;h2 id=&#34;bsiherige-veröfentlichung&#34;&gt;Bsiherige Veröfentlichung
+&lt;/h2&gt;&lt;p&gt;Delor, F. S. (2026). Die Kritik des Gen-Zentrismus bei Helmut Walther auf dem Prüfstand (1.0).
+Zenodo. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.5281/zenodo.18186640&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://doi.org/10.5281/zenodo.18186640&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Mindeststandards für eine gelingende philosophische Diskussion</title>
+        <link>http://localhost:1313/posts/mindeststandards-f%C3%BCr-eine-gelingende-philosophische-diskussion/</link>
+        <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/mindeststandards-f%C3%BCr-eine-gelingende-philosophische-diskussion/</guid>
+        <description>&lt;h2 id=&#34;einleitung&#34;&gt;Einleitung
+&lt;/h2&gt;&lt;div style=&#34;display:flex; gap:2rem; align-items:flex-start;&#34;&gt;
+
+  &lt;div style=&#34;flex:1;&#34;&gt;
+    
+
+Philosophische Diskussion unterscheidet sich grundlegend von bloßem Meinungsaustausch, Ideologie oder weltanschaulichem Marketing. Sie zielt auf Wahrheitsfähigkeit und Erkenntnisgewinn. Wo bestimmte Mindeststandards fehlen, entsteht keine Philosophie, sondern Wunschdenken, Rhetorik oder Machtspiel.
+
+Der folgende Text formuliert grundlegende Bedingungen, unter denen philosophische Diskussion überhaupt sinnvoll stattfinden kann. Diese Bedingungen sind keine inhaltlichen Dogmen, sondern methodische Voraussetzungen. Sie bilden auch den Rahmen für Texte und Diskussionen auf dieser Website.
+
+
+  &lt;/div&gt;
+
+  &lt;div style=&#34;flex:1;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/turmbau-zu-babel.png&#34;
+         alt=&#34;Turmbau zu Babel&#34;
+         style=&#34;max-width:100%; height:auto;&#34;&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;grundbedingungen-philosophischer-diskussion&#34;&gt;Grundbedingungen philosophischer Diskussion
+&lt;/h2&gt;&lt;h3 id=&#34;1-sache-statt-person&#34;&gt;1. Sache statt Person
+&lt;/h3&gt;&lt;p&gt;Philosophische Kritik richtet sich an Aussagen, Argumente und Begriffe, nicht an Personen. Persönliche Motive, psychologische Zuschreibungen oder moralische Bewertungen ersetzen kein Argument. Erkenntnis entsteht durch Sachkritik, nicht durch Personalisierung.&lt;/p&gt;
+&lt;p&gt;Diese Trennung gehört zu den ältesten methodischen Einsichten der Philosophie und bildet eine Voraussetzung rationaler Auseinandersetzung&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;2-logik-und-fehlerkultur&#34;&gt;2. Logik und Fehlerkultur
+&lt;/h3&gt;&lt;p&gt;Argumente müssen nachvollziehbar, logisch strukturiert und prüfbar sein. Werden Fehler aufgezeigt, gelten sie als Anlass zur Korrektur, nicht als persönlicher Angriff. Wer philosophisch argumentiert, akzeptiert die Möglichkeit des Irrtums und die Pflicht zur Revision eigener Positionen.&lt;/p&gt;
+&lt;p&gt;Eine Diskussion ohne Fehlerkultur verkommt zur Verteidigung vorgefasster Meinungen.&lt;/p&gt;
+&lt;h3 id=&#34;3-kritischer-rationalismus-als-methodische-basis&#34;&gt;3. Kritischer Rationalismus als methodische Basis
+&lt;/h3&gt;&lt;p&gt;Grundlage philosophischer Erkenntnis ist ein hypothetischer Realismus: Aussagen über die Welt beanspruchen Wahrheit, bleiben aber grundsätzlich fallibel. Erkenntnis entsteht durch Hypothesen, die der Kritik ausgesetzt werden.&lt;/p&gt;
+&lt;p&gt;Aussagen mit Wahrheitsanspruch müssen prinzipiell widerlegbar sein. Wo Falsifikation bewusst ausgeschlossen oder durch Immunisierungsstrategien ersetzt wird, entsteht Ideologie statt Philosophie. Diese Einsicht bildet den Kern des kritischen Rationalismus&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;4-sachkenntnis-und-forschungsstand&#34;&gt;4. Sachkenntnis und Forschungsstand
+&lt;/h3&gt;&lt;p&gt;Wer mit Fachbegriffen, Theorien oder Namen argumentiert, übernimmt Verantwortung für deren sachgerechte Verwendung. Philosophische Diskussion verlangt kein formales Studium, wohl aber die Bereitschaft, sich mit relevanter Fachliteratur und dem aktuellen Forschungsstand ernsthaft auseinanderzusetzen.&lt;/p&gt;
+&lt;p&gt;Begriffe oder Autoritäten zu zitieren, ohne sie verstanden zu haben, stellt kein Argument dar, sondern ein rhetorisches Mittel.&lt;/p&gt;
+&lt;h2 id=&#34;wahrheitsbegriff-realismus-und-metaphysik&#34;&gt;Wahrheitsbegriff, Realismus und Metaphysik
+&lt;/h2&gt;&lt;p&gt;Für Aussagen mit Bezug auf die Wirklichkeit bildet die Korrespondenztheorie der Wahrheit die tragfähige Grundlage: Wahr ist, was mit der Wirklichkeit übereinstimmt; falsch ist, was ihr widerspricht.&lt;/p&gt;
+&lt;p&gt;In formalen Bereichen wie Logik und Mathematik gilt strenge Konsistenz als Minimalanforderung. Metaphysische Systeme deuten Beobachtungen und müssen mit empirischen Erkenntnissen sowie mit dem übrigen gesicherten Wissen kompatibel sein. Metaphysische Modelle, die mit gut bestätigter Empirie oder mit ihrem eigenen formalen Rahmen kollidieren, sind revisionsbedürftig oder verworfen.&lt;/p&gt;
+&lt;p&gt;Relativistische, nihilistische oder rein konsensbasierte Wahrheitskonzepte untergraben diese Grundlage und machen argumentative Philosophie unmöglich&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;minimallogik-und-widerspruchsfreiheit&#34;&gt;Minimallogik und Widerspruchsfreiheit
+&lt;/h2&gt;&lt;p&gt;Ohne elementare Logik gibt es keine Argumente. Der Satz vom Widerspruch gilt: Zwei einander widersprechende Aussagen über denselben Gegenstand im selben Sinn können nicht zugleich wahr sein.&lt;/p&gt;
+&lt;p&gt;Führt eine Behauptung zu einem Widerspruch, so ist diese Behauptung oder sind ihre Prämissen falsch. Wer Widersprüche akzeptiert, verzichtet auf Begründbarkeit und verlässt den Rahmen rationaler Diskussion.&lt;/p&gt;
+&lt;h2 id=&#34;sachkritik-fehlschlüsse-und-argumentative-redlichkeit&#34;&gt;Sachkritik, Fehlschlüsse und argumentative Redlichkeit
+&lt;/h2&gt;&lt;p&gt;Philosophische Kritik betrifft Inhalte, nicht Personen. Psychologisierungen, Motivunterstellungen oder moralische Abwertungen ersetzen keine Argumente.&lt;/p&gt;
+&lt;p&gt;Zur Fehlerkultur gehört, grundlegende Fehlschlüsse nach Hinweis nicht zu wiederholen. Dazu zählen unter anderem Strohmann-Argumente, Ad-hominem-Angriffe, Zirkelschlüsse, Kategorienfehler und bloße Autoritätsberufungen. Wer denselben Fehler dauerhaft wiederholt, zeigt, dass es nicht um Erkenntnis geht&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;bildungsminimum-und-fachliche-verantwortung&#34;&gt;Bildungsminimum und fachliche Verantwortung
+&lt;/h2&gt;&lt;p&gt;Philosophie verlangt kein akademisches Zertifikat, wohl aber ein Mindestmaß an begrifflichen Grundlagen. Dazu gehören unter anderem: kritischer Rationalismus, Falsifikation, Immunisierungsstrategien, logischer Widerspruch, typische Fehlschlüsse und der Korrespondenzbegriff der Wahrheit.&lt;/p&gt;
+&lt;p&gt;Wer darüber hinaus mit spezialisierten Fachgebieten argumentiert – etwa Evolutionstheorie, Neurowissenschaften, Quantenphysik oder mathematischer Logik –, muss sich so weit in die Fachliteratur einarbeiten, dass die betreffenden Argumente verstanden werden. Andernfalls sind solche Verweise zu unterlassen.&lt;/p&gt;
+&lt;h2 id=&#34;geltungsbereich-und-kritik&#34;&gt;Geltungsbereich und Kritik
+&lt;/h2&gt;&lt;p&gt;Die genannten Standards bilden die stillschweigende Voraussetzung jeder Diskussion, die den Anspruch erhebt, Philosophie zu betreiben. Sie werden nicht in jedem Text neu verhandelt, sondern vorausgesetzt.&lt;/p&gt;
+&lt;p&gt;Die Standards selbst bleiben kritisierbar. Eine solche Kritik muss jedoch denselben Maßstäben genügen: Realismus, Wahrheitsfähigkeit, Logik, Falsifizierbarkeit, Sachkritik und argumentative Redlichkeit.&lt;/p&gt;
+&lt;p&gt;Nur unter diesen Bedingungen verdient philosophische Diskussion ihren Namen – und eröffnet die Möglichkeit wirklichen Erkenntnisgewinns statt eines babylonischen Stimmengewirrs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fußnoten&#34;&gt;Fußnoten
+&lt;/h2&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Vgl. Aristoteles, &lt;em&gt;Topik&lt;/em&gt;; außerdem Arthur Schopenhauer, &lt;em&gt;Die Kunst, Recht zu behalten&lt;/em&gt; (als Negativkatalog rhetorischer Tricks).&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Karl Popper, &lt;em&gt;Logik der Forschung&lt;/em&gt;; Hans Albert, &lt;em&gt;Traktat über kritische Vernunft&lt;/em&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Vgl. Popper, &lt;em&gt;Objektive Erkenntnis&lt;/em&gt;; außerdem Hilary Putnam, &lt;em&gt;Reason, Truth and History&lt;/em&gt; (kritisch zu Relativismus).&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Vgl. John Stuart Mill, &lt;em&gt;On Liberty&lt;/em&gt; (Diskussionsethik); außerdem Irving M. Copi, &lt;em&gt;Introduction to Logic&lt;/em&gt;.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>Über den Autor</title>
+        <link>http://localhost:1313/about/</link>
+        <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about/</guid>
+        <description>&lt;h2 id=&#34;kurzprofil&#34;&gt;Kurzprofil
+&lt;/h2&gt;&lt;div style=&#34;display: flex; gap: 2rem; align-items: flex-start;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+  &lt;br&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; Frieder Delor&lt;br&gt;
+    &lt;strong&gt;Wohnort:&lt;/strong&gt; Tirol (Österreich)&lt;br&gt;
+    &lt;strong&gt;Tätigkeit:&lt;/strong&gt; Informatiker&lt;br&gt;
+    &lt;strong&gt;ORCID:&lt;/strong&gt; https://orcid.org/0009-0009-3012-3304&lt;br&gt;
+    &lt;strong&gt;Arbeitsfelder:&lt;/strong&gt; Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/frieder-delor.jpg&#34; alt=&#34;Frieder Delor&#34;
+         style=&#34;max-width: 100%; height: auto; border-radius: 4px;&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; Frieder Sebastian Delor&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wohnort:&lt;/strong&gt; Tirol (Österreich)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ORCID:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://orcid.org/0009-0009-3012-3304&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ORCID&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tätigkeit:&lt;/strong&gt; Informatiker&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Schwerpunkte:&lt;/strong&gt; Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie&lt;/p&gt;
+&lt;h2 id=&#34;herkunft-und-werdegang&#34;&gt;Herkunft und Werdegang
+&lt;/h2&gt;&lt;p&gt;Ich bin im alpinen Raum aufgewachsen und lebe heute in Tirol. Mein Bildungsweg führte mich über den zweiten Bildungsweg zunächst zu einem Physikstudium und anschließend zu einer Ausbildung im Bereich der Informatik. Heute arbeite ich hauptberuflich als Informatiker.&lt;/p&gt;
+&lt;p&gt;Parallel dazu beschäftige ich mich seit meiner frühen Jugend intensiv mit Naturwissenschaften und Philosophie. Im Zentrum standen von Anfang an Fragen nach Erkenntnis, Wirklichkeit und menschlichem Handeln, verbunden mit dem Anspruch, diese Fragen begrifflich klar und methodisch sauber zu bearbeiten.&lt;/p&gt;
+&lt;h2 id=&#34;grundlagen&#34;&gt;Grundlagen
+&lt;/h2&gt;&lt;p&gt;Die erkenntnistheoretische Basis meiner Arbeit bildet der kritische Rationalismus in der Tradition von Karl Popper, Hans Albert und William Warren Bartley. Ergänzend spielt die evolutionäre Erkenntnistheorie, insbesondere in der Ausarbeitung von Gerhard Vollmer, eine zentrale Rolle.&lt;/p&gt;
+&lt;p&gt;Ontologisch vertrete ich einen hypothetischen Realismus und einen emergenten Materialismus im Sinne von Mario Bunge, verstanden als Position der schwachen Emergenz.&lt;/p&gt;
+&lt;h2 id=&#34;einflüsse-und-themenfelder&#34;&gt;Einflüsse und Themenfelder
+&lt;/h2&gt;&lt;p&gt;Meine Arbeit ist interdisziplinär geprägt. Neben Physik und Biologie beziehe ich systematisch Erkenntnisse aus Evolutionsforschung, Verhaltensforschung, Soziologie, Psychologie und Neurowissenschaften ein, ergänzt durch Entscheidungs- und Spieltheorie sowie durch ökonomische Überlegungen, insbesondere aus liberalen Traditionen.&lt;/p&gt;
+&lt;p&gt;Wichtige Bezugspunkte sind unter anderem Konrad Lorenz, Irenäus Eibl-Eibesfeldt, Antonio Damasio, Robert Sapolsky und Daniel Kahneman, außerdem Friedrich August von Hayek und Nassim Nicholas Taleb, dessen Arbeiten zu Unsicherheit, Nichtwissen und unbekannten Risiken für mich von zentraler Bedeutung sind, weil sie den kritischen Rationalismus konsequent praktisch anwenden und ihn aus dem Bereich der reinen Wissenschaftstheorie in den Kern realer Entscheidungsfindung unter Ungewissheit überführen.&lt;/p&gt;
+&lt;h2 id=&#34;philosophische-tradition&#34;&gt;Philosophische Tradition
+&lt;/h2&gt;&lt;p&gt;Ich stehe in der Tradition Aristoteles sowie der skeptischen und empirisch orientierten Strömungen der Antike und verstehe Philosophie als rational prüfbare, wissenschaftsnahe Arbeit. Ich stehe nicht in der platonistischen, idealistischen Schule, die mit moderner Erkenntnistheorie, kritischem Rationalismus und moderner wissenschaftlicher Erkenntnis nicht vereinbar ist.&lt;/p&gt;
+&lt;h2 id=&#34;aktuelle-arbeit&#34;&gt;Aktuelle Arbeit
+&lt;/h2&gt;&lt;p&gt;Mein aktuelles Kernprojekt ist eine kritisch-rationalistische, kulturalistische Ethik, die Erkenntnisse aus den Naturwissenschaften mit kritisch-rationalen Prinzipien bündelt. Dazu entstehen mehrere Texte in Vorbereitung, darunter wissenschaftliche Arbeiten, begleitende Klärungen und Untersuchungen alternativer ethischer und metaethischer Positionen.&lt;/p&gt;
+&lt;p&gt;Neben den wissenschaftlichen Arbeiten entsteht ein Buchprojekt, das diese Themen in einem größeren Zusammenhang entfalten und für ein breiteres Publikum zugänglich machen soll.&lt;/p&gt;
+&lt;h2 id=&#34;zweck-dieser-website&#34;&gt;Zweck dieser Website
+&lt;/h2&gt;&lt;p&gt;Diese Website bündelt meine wissenschaftlichen Arbeiten und allgemeinverständlichen Texte an einem Ort. Sie dient als Einstieg in zentrale Fragen und als Navigationspunkt zu weiterführenden Veröffentlichungen und Projekten.&lt;/p&gt;
+&lt;h2 id=&#34;biherige-veröfentlichung&#34;&gt;Biherige Veröfentlichung
+&lt;/h2&gt;&lt;p&gt;Delor, F. S. (2026). Die Kritik des Gen-Zentrismus bei Helmut Walther auf dem Prüfstand (1.0).
+Zenodo. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.5281/zenodo.18186640&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://doi.org/10.5281/zenodo.18186640&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

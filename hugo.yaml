@@ -1,25 +1,63 @@
-baseURL: https://philosophie-delor.github.io/
-languageCode: en-us
-title: My New Hugo Site
-Titel: philosophie-delor
-Theme: PaperMod
+baseURL: "https://philosophie-delor.github.io/"
+title: "Philosophie-Delor"
+languageCode: "de-at"
+defaultContentLanguage: "de"
+theme: "stack"
+
+pagination:
+  pagerSize: 10
+
+
+# Wichtig für dein HTML-in-Markdown (falls du es weiterhin brauchst)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Stack arbeitet gerne mit /page/* für statische Seiten
+permalinks:
+  posts: /posts/:slug/
 
 menu:
   main:
-    - name: About
-      url: /about/
-      weight: 10
-    - name: Blog
+    - identifier: home
+      name: Start
+      url: /
+      weight: 1
+    - identifier: posts
+      name: Blog
       url: /posts/
-      weight: 20
-    - name: Publikationen
+      weight: 2
+    - identifier: publications
+      name: Publikationen
       url: /publications/
-      weight: 30
+      weight: 3
+    - identifier: about
+      name: Über mich
+      url: /about/
+      weight: 4
 
 params:
-  homeInfoParams:
-    Title: "Philosophie-Delor"
-    Content: "Essays und Verweise auf wissenschaftliche Veröffentlichungen."
+  # Stack: Farbschema / Dark Mode
+  colorScheme:
+    toggle: true
+    default: auto
 
+  # Sidebar-Grundlayout (du kannst das später verfeinern)
+  sidebar:
+    emoji: ""
+    subtitle: "Essays und wissenschaftliche Verweise"
+    compact: false
+
+  # Diese Sektion bestimmt, was als Hauptinhalt gilt
   mainSections:
     - posts
+
+  # Optional, aber hilfreich für saubere deutsche Textdarstellung
+  dateFormat:
+    published: "02.01.2006"
+    lastUpdated: "02.01.2006 15:04"
+
+  # Bilder: du kannst später pro Post ein Titelbild setzen (frontmatter: image:)
+  featuredImageField: "image"
+  rssFullContent: true
