@@ -1,0 +1,25 @@
+baseURL: https://philosophie-delort.github.io/
+languageCode: en-us
+title: My New Hugo Site
+Titel: philosophie-delort
+Theme: PaperMod
+
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 10
+    - name: Blog
+      url: /posts/
+      weight: 20
+    - name: Publikationen
+      url: /publications/
+      weight: 30
+
+params:
+  homeInfoParams:
+    Title: "Philosophie-Delort"
+    Content: "Essays und Verweise auf wissenschaftliche Veröffentlichungen."
+
+  mainSections:
+    - posts
