@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Philosophie-Delor</title>
+        <title>Posts on Deutsch</title>
         <link>http://localhost:1313/posts/</link>
-        <description>Recent content in Posts on Philosophie-Delor</description>
+        <description>Recent content in Posts on Deutsch</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>de-at</language>
+        <language>de</language>
+        <copyright>Frieder Delor</copyright>
         <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Mindeststandards für eine gelingende philosophische Diskussion</title>
-        <link>http://localhost:1313/posts/mindeststandards-f%C3%BCr-eine-gelingende-philosophische-diskussion/</link>
+        <link>http://localhost:1313/posts/mindeststandards/</link>
         <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/mindeststandards-f%C3%BCr-eine-gelingende-philosophische-diskussion/</guid>
+        <guid>http://localhost:1313/posts/mindeststandards/</guid>
         <description>&lt;h2 id=&#34;einleitung&#34;&gt;Einleitung
 &lt;/h2&gt;&lt;div style=&#34;display:flex; gap:2rem; align-items:flex-start;&#34;&gt;
 
