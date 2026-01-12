@@ -301,5 +301,92 @@ body[data-theme="dark"],
   padding: 0 !important;
   margin: 0 !important;
 }
+/* ===== Stack: fehlende Ziele für Wash/Panel (Posts-Section-Card + TOC) ===== */
+/* Ganz ans ENDE der custom.css setzen */
 
+.article-list--compact .section-card,
+.section-card,
+.widget--toc,
+.widget--toc nav,
+.widget--toc #TableOfContents {
+  position: relative;
+  background: var(--panel-bg) !important;
+  border: 1px solid var(--panel-border) !important;
+  border-radius: var(--panel-radius) !important;
+  overflow: hidden;
+  backdrop-filter: none !important; /* bleibt wie bei dir */
+}
+
+/* Wash-Layer auch hier */
+.article-list--compact .section-card::after,
+.section-card::after,
+.widget--toc::after,
+.widget--toc nav::after,
+.widget--toc #TableOfContents::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--panel-wash) !important;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Inhalt über dem Wash */
+.article-list--compact .section-card > *,
+.section-card > *,
+.widget--toc > *,
+.widget--toc nav > *,
+.widget--toc #TableOfContents > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Padding, damit Text nicht am Rand klebt (dein Wunsch) */
+.article-list--compact .section-card,
+.section-card,
+.widget--toc,
+.widget--toc nav,
+.widget--toc #TableOfContents {
+  padding: var(--panel-pad-y) var(--panel-pad-x) !important;
+}
+
+/* ===== Stack: compact article cards (der "zweite Kasten") ===== */
+/* Ganz ans ENDE der custom.css setzen */
+
+.article-list--compact article,
+.article-list--compact article > a,
+.article-list--compact article .article-details {
+  position: relative;
+  background: var(--panel-bg) !important;
+  border: 1px solid var(--panel-border) !important;
+  border-radius: var(--panel-radius) !important;
+  overflow: hidden;
+  display: block; /* wichtig, falls a sonst inline wäre */
+}
+
+/* Wash-Layer auch hier */
+.article-list--compact article::after,
+.article-list--compact article > a::after,
+.article-list--compact article .article-details::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--panel-wash) !important;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Inhalt über Wash */
+.article-list--compact article > *,
+.article-list--compact article > a > *,
+.article-list--compact article .article-details > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Padding, damit Text nicht am Rand klebt */
+.article-list--compact article > a,
+.article-list--compact article .article-details {
+  padding: var(--panel-pad-y) var(--panel-pad-x) !important;
+}
 
