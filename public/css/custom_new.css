@@ -30,6 +30,7 @@ html[data-scheme="dark"]{
 }
 
 
+
 /* 1) One global background on the whole site */
 body{
   background-image: var(--page-bg-image) !important;

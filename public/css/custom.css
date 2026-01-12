@@ -28,6 +28,7 @@
 }
 
 
+
 a {
   text-decoration: underline;
   text-underline-offset: 0.15em;
@@ -93,6 +94,12 @@ nav.sidebar{
 [data-theme="dark"] .article-list .article-card{
   box-shadow: 0 10px 28px rgba(0,0,0,0.35);
 }
+
+/* A) "Posts" Section-Karte (die graue Box mit "1 Seite / Posts") */
+.article-list--compact .section-card{
+  background: transparent !important;   /* Hintergrund durchscheinen lassen */
+}
+
 /* -------------*/
 /* --- STACK: robuste Theme-Selektoren + Panel-Farben (ohne Blur) --- */
 /* =========================
@@ -203,7 +210,7 @@ body[data-theme="dark"],
 .widget--toc,
 .toc #TableOfContents{
   position: relative;
-  background: var(--panel-bg) !important;
+  background: transparent !important; 
   border-radius: var(--panel-radius);
   overflow: hidden;
   padding: var(--panel-pad-y) var(--panel-pad-x);
@@ -215,7 +222,7 @@ body[data-theme="dark"],
   content:"";
   position:absolute;
   inset:0;
-  background: var(--panel-wash);
+  background: transparent !important; 
   z-index:0;
   pointer-events:none;
 }
@@ -257,3 +264,42 @@ body[data-theme="dark"],
   position: relative;
   z-index: 1;
 }
+
+/* --- LISTING: /posts/  (section-card "Posts" + Artikel-Karten) --- */
+.article-list--compact .section-card,
+.article-list--compact article,
+.article-list--compact article > a,
+.article-list--compact .article-details {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none; /* nur falls da ein grauer "Kartenlook" drüber kommt */
+}
+
+/* Falls der graue Hintergrund auf einem Wrapper sitzt */
+.article-list--compact .section-details,
+.article-list--compact .section-card .section-details {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* --- TOC (rechte Sidebar) --- */
+.widget--toc,
+.widget--toc > nav,
+.widget--toc #TableOfContents {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Padding, damit Text nicht am Rand klebt (du wolltest 10–20px) */
+.widget--toc {
+  padding: 16px 18px !important;
+  border-radius: 12px; /* nur Rundung, keine Farbänderung */
+}
+
+/* Wenn im TOC innen trotzdem “Kantenkontakt” bleibt */
+.widget--toc #TableOfContents {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+

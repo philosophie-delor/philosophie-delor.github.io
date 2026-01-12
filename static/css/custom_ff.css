@@ -1,0 +1,100 @@
+/* Thumbnail-Größe in Post-Listen begrenzen */
+.post-entry .entry-cover {
+  max-width: 30%;
+}
+
+.post-entry .entry-cover img {
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.home-intro__card {
+  background: var(--card-background);
+  border-radius: 16px;
+  padding: 1.25rem 1.25rem 1.1rem;
+  box-shadow: var(--shadow-l1);
+}
+
+/* Textfarbe nicht “hart” setzen, sondern Theme-Variablen nutzen */
+.home-intro__card,
+.home-intro__card .article-content {
+  color: var(--body-text-color);
+}
+
+/* Links sollen im Dark Mode nicht “schwarz” bleiben */
+.home-intro__card a {
+  color: var(--link-color);
+}
+
+
+/* ===== Fixes: Blog-Listen + TOC + rechte Sidebar-Padding (Stack theme) =====
+   Ziel: KEINE Farbänderungen am bestehenden Wash-Setup, nur fehlende Boxen
+   ebenfalls mit dem gleichen "Panel"-Look ausstatten und rechts mehr Innenabstand.
+*/
+
+/* 1) Blog-/Listen-Karten (z.B. /posts/, /blog/, /blocks/ etc.) */
+.article-list--compact .article-list__item,
+.article-list__item,
+.article-list__item > a,
+.article-card,
+.article-card__content,
+.article-card__header,
+.article-card__footer {
+  background-color: var(--panel-bg) !important;
+  border-radius: var(--panel-radius) !important;
+  box-shadow: var(--panel-shadow) !important;
+  -webkit-backdrop-filter: blur(1px) !important;
+  backdrop-filter: blur(1px) !important;
+}
+
+/* Falls die Theme-CSS ein eigenes ::before Overlay für Karten nutzt */
+.article-list__item::before,
+.article-card::before {
+  background: transparent !important;
+}
+
+/* 2) Inhaltsverzeichnis / TOC (rechts) */
+.widget--toc,
+.widget.toc,
+.widget-toc,
+.toc,
+nav.toc,
+nav.table-of-contents,
+nav.table-of-content,
+#TableOfContents,
+nav#TableOfContents {
+  background-color: var(--panel-bg) !important;
+  border-radius: var(--panel-radius) !important;
+  box-shadow: var(--panel-shadow) !important;
+  -webkit-backdrop-filter: blur(1px) !important;
+  backdrop-filter: blur(1px) !important;
+}
+
+/* 3) Rechte Sidebar: mehr Innenabstand, ohne Breiten/Colors anzutasten */
+.right-sidebar .widget {
+  padding: 0 !important; /* Container bleibt "tight" ... */
+}
+
+/* ... aber Inhalt bekommt Padding, damit Text nicht am Rand klebt */
+.right-sidebar .widget__title,
+.right-sidebar .widget__content {
+  padding-left: var(--panel-padding) !important;
+  padding-right: var(--panel-padding) !important;
+}
+
+/* Oben/Unten ebenfalls etwas Luft (wirkt in TOC + Navigation) */
+.right-sidebar .widget__title {
+  padding-top: calc(var(--panel-padding) * 0.75) !important;
+  padding-bottom: calc(var(--panel-padding) * 0.5) !important;
+}
+.right-sidebar .widget__content {
+  padding-top: calc(var(--panel-padding) * 0.5) !important;
+  padding-bottom: calc(var(--panel-padding) * 0.75) !important;
+}
+
+/* 4) Wenn das TOC-Nav selbst keinen Abstand hat */
+.right-sidebar nav#TableOfContents,
+.right-sidebar #TableOfContents {
+  padding: 0 !important; /* Padding kommt über widget__content */
+}
+
