@@ -5,7 +5,7 @@ title: 'Publications'
 ---
 
 
-## Bisherige Veröfentlichung
+## Bisherige Veröffentlichung
 
 Delor, F. S. (2026). Die Kritik des Gen-Zentrismus bei Helmut Walther auf dem Prüfstand (1.0). 
 Zenodo. https://doi.org/10.5281/zenodo.18186640

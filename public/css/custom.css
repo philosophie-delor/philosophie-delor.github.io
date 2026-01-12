@@ -390,3 +390,39 @@ body[data-theme="dark"],
   padding: var(--panel-pad-y) var(--panel-pad-x) !important;
 }
 
+/* --- Stack: Transparenz für Posts-Listen-Header (section-card) --- */
+.article-list--compact .section-card,
+.article-list--compact .section-card .section-details {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Falls die Fläche über ein Pseudo-Element kommt */
+.article-list--compact .section-card::before,
+.article-list--compact .section-card::after {
+  background: transparent !important;
+}
+
+/* --- Stack: Transparenz für TOC-Widget rechts --- */
+.widget--toc,
+.widget--toc nav,
+.widget--toc #TableOfContents {
+  background: transparent !important;
+  background-color: transparent !important;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+/* Optional: ein bisschen „Lesbarkeit“ im Dark, ohne eigene Farbe zu erfinden:
+   (nimmt einfach das Theme-Panel als Basis und macht es halbtransparent) */
+[data-scheme="dark"] .widget--toc,
+[data-scheme="dark"] .widget--toc nav,
+[data-scheme="dark"] .widget--toc #TableOfContents {
+  background-color: color-mix(in srgb, var(--card-background) 75%, transparent) !important;
+}
+
+[data-scheme="light"] .widget--toc,
+[data-scheme="light"] .widget--toc nav,
+[data-scheme="light"] .widget--toc #TableOfContents {
+  background-color: color-mix(in srgb, var(--card-background) 55%, transparent) !important;
+}
