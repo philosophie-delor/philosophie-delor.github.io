@@ -49,8 +49,9 @@ permalinks:
     page: /:slug/
 
 params:
+
     mainSections:
-        - post
+        - posts
     featuredImageField: image
     rssFullContent: true
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
@@ -59,9 +60,11 @@ params:
         since: 2020
         customText:
 
-    dateFormat:
-        published: "12.01.2026"
-        lastUpdated: "12.01.2026"
+    params:
+        dateFormat:
+            published: "2006-01-02"
+            lastUpdated: "2006-01-02"
+
 
     sidebar:
         emoji: 🍥
@@ -80,7 +83,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:

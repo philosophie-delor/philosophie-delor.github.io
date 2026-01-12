@@ -1,0 +1,127 @@
+/* custom.css (Hugo Stack) — unified translucent panels over global background image
+   - Keeps ONE global background image on body
+   - Makes content/cards/widgets/TOC use the same translucent “wash”
+   - No heavy blur (only 1px), readable in dark mode
+*/
+
+:root{
+  /* Global page background (set your topographic image here) */
+  --page-bg-image: var(--body-bg-image, none);
+
+  /* Panel look */
+  --panel-radius: 16px;
+  --panel-border: rgba(0,0,0,.10);
+  --panel-pad-x: 18px;
+  --panel-pad-y: 16px;
+
+  /* Light scheme wash (lets background show through) */
+  --panel-wash: rgba(255,255,255,.78);
+  --panel-wash-strong: rgba(255,255,255,.86);
+
+  /* Minimal blur */
+  --panel-blur: 1px;
+}
+
+/* Dark scheme overrides (Stack uses html[data-scheme="dark"]) */
+html[data-scheme="dark"]{
+  --panel-border: rgba(255,255,255,.10);
+  --panel-wash: rgba(0,0,0,.68);
+  --panel-wash-strong: rgba(0,0,0,.76);
+}
+
+
+
+/* 1) One global background on the whole site */
+body{
+  background-image: var(--page-bg-image) !important;
+  background-repeat: repeat !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+}
+
+/* 2) Generic “panel” styling (apply broadly, Stack has many containers) */
+.left-sidebar,
+.right-sidebar,
+.sidebar,
+.widget,
+.article-list .article,
+.article-list article,
+.article-card,
+.section-card,
+.taxonomy-term,
+.tagCloud,
+.card,
+.toc,
+nav.table-of-content,
+nav.table-of-contents,
+.nav.table-of-content,
+.nav.table-of-contents,
+#TableOfContents,
+.widget--toc,
+.widget--toc .widget-content,
+.post-card,
+.list-card{
+  background: var(--panel-wash) !important;
+  border: 1px solid var(--panel-border) !important;
+  border-radius: var(--panel-radius) !important;
+  -webkit-backdrop-filter: blur(var(--panel-blur));
+  backdrop-filter: blur(var(--panel-blur));
+  overflow: hidden;
+}
+
+/* 3) Padding fixes (prevents “text glued to edge”) */
+.widget,
+.widget--toc,
+.widget--toc .widget-content,
+.toc,
+nav.table-of-content,
+nav.table-of-contents,
+#TableOfContents{
+  padding: var(--panel-pad-y) var(--panel-pad-x) !important;
+}
+
+/* Some list cards already have inner padding; keep it if present, but ensure minimum */
+.article-list .article,
+.article-list article,
+.article-card,
+.post-card,
+.list-card,
+.section-card,
+.card{
+  padding: max(14px, var(--panel-pad-y)) max(16px, var(--panel-pad-x)) !important;
+}
+
+/* 4) Make sure the post list / “Blogs” previews use wash instead of theme defaults */
+.article-list .article > a,
+.article-list article > a{
+  background: transparent !important;
+}
+
+/* 5) TOC container height: make it behave more like a full panel in the sticky sidebar */
+.right-sidebar .widget--toc,
+.sidebar .widget--toc{
+  align-self: stretch;
+}
+
+/* 6) Optional: slightly stronger wash for very dense areas (search, menus, etc.) */
+.search,
+.search-result,
+.menu,
+.site-menu,
+.pagination{
+  background: var(--panel-wash-strong) !important;
+  border: 1px solid var(--panel-border) !important;
+  border-radius: var(--panel-radius) !important;
+  -webkit-backdrop-filter: blur(var(--panel-blur));
+  backdrop-filter: blur(var(--panel-blur));
+}
+
+/* 7) Kill any theme “solid card background” variables if they leak through */
+:root{
+  --card-background: transparent;
+  --card-background-selected: transparent;
+}
+html[data-scheme="dark"]{
+  --card-background: transparent;
+  --card-background-selected: transparent;
+}

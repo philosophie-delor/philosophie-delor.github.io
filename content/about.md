@@ -9,11 +9,10 @@ draft: true
 <div style="display: flex; gap: 2rem; align-items: flex-start;">
 
   <div style="flex: 2;">
-  <br><br>
     <p><strong>Name:</strong> Frieder Delor<br>
     <strong>Wohnort:</strong> Tirol (Österreich)<br>
     <strong>Tätigkeit:</strong> Informatiker<br>
-    <strong>ORCID:</strong> https://orcid.org/0009-0009-3012-3304<br>
+    <strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-3012-3304">0009-0009-3012-3304</a><br>
     <strong>Arbeitsfelder:</strong> Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie</p>
   </div>
   <div style="flex: 1;">
@@ -22,18 +21,6 @@ draft: true
   </div>
 
 </div>
-
-
-**Name:** Frieder Sebastian Delor
-
-**Wohnort:** Tirol (Österreich)
-
-**ORCID:** [ORCID](https://orcid.org/0009-0009-3012-3304)
-
-**Tätigkeit:** Informatiker
-
-**Schwerpunkte:** Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie
-
 
 
 ## Herkunft und Werdegang
@@ -68,9 +55,3 @@ Neben den wissenschaftlichen Arbeiten entsteht ein Buchprojekt, das diese Themen
 
 Diese Website bündelt meine wissenschaftlichen Arbeiten und allgemeinverständlichen Texte an einem Ort. Sie dient als Einstieg in zentrale Fragen und als Navigationspunkt zu weiterführenden Veröffentlichungen und Projekten.
 
-
-## Biherige Veröfentlichung
-
-
-Delor, F. S. (2026). Die Kritik des Gen-Zentrismus bei Helmut Walther auf dem Prüfstand (1.0). 
-Zenodo. https://doi.org/10.5281/zenodo.18186640

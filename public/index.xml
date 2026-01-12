@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Deutsch</title>
+        <title>Philosophie – Delor on Deutsch</title>
         <link>http://localhost:1313/</link>
-        <description>Recent content on Deutsch</description>
+        <description>Recent content in Philosophie – Delor on Deutsch</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>de</language>
         <copyright>Frieder Delor</copyright>
@@ -13,7 +13,7 @@
         <pubDate>Sun, 11 Jan 2026 16:32:44 +0100</pubDate>
         
         <guid>http://localhost:1313/publications/</guid>
-        <description>&lt;h2 id=&#34;bsiherige-veröfentlichung&#34;&gt;Bsiherige Veröfentlichung
+        <description>&lt;h2 id=&#34;bisherige-veröfentlichung&#34;&gt;Bisherige Veröfentlichung
 &lt;/h2&gt;&lt;p&gt;Delor, F. S. (2026). Die Kritik des Gen-Zentrismus bei Helmut Walther auf dem Prüfstand (1.0).
 Zenodo. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.5281/zenodo.18186640&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://doi.org/10.5281/zenodo.18186640&lt;/a&gt;&lt;/p&gt;
@@ -106,11 +106,10 @@ Der folgende Text formuliert grundlegende Bedingungen, unter denen philosophisch
         <description>&lt;h2 id=&#34;kurzprofil&#34;&gt;Kurzprofil
 &lt;/h2&gt;&lt;div style=&#34;display: flex; gap: 2rem; align-items: flex-start;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
-  &lt;br&gt;&lt;br&gt;
     &lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; Frieder Delor&lt;br&gt;
     &lt;strong&gt;Wohnort:&lt;/strong&gt; Tirol (Österreich)&lt;br&gt;
     &lt;strong&gt;Tätigkeit:&lt;/strong&gt; Informatiker&lt;br&gt;
-    &lt;strong&gt;ORCID:&lt;/strong&gt; https://orcid.org/0009-0009-3012-3304&lt;br&gt;
+    &lt;strong&gt;ORCID:&lt;/strong&gt; &lt;a href=&#34;https://orcid.org/0009-0009-3012-3304&#34;&gt;0009-0009-3012-3304&lt;/a&gt;&lt;br&gt;
     &lt;strong&gt;Arbeitsfelder:&lt;/strong&gt; Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie&lt;/p&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -118,12 +117,6 @@ Der folgende Text formuliert grundlegende Bedingungen, unter denen philosophisch
          style=&#34;max-width: 100%; height: auto; border-radius: 4px;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; Frieder Sebastian Delor&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Wohnort:&lt;/strong&gt; Tirol (Österreich)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ORCID:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://orcid.org/0009-0009-3012-3304&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;ORCID&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tätigkeit:&lt;/strong&gt; Informatiker&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Schwerpunkte:&lt;/strong&gt; Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie&lt;/p&gt;
 &lt;h2 id=&#34;herkunft-und-werdegang&#34;&gt;Herkunft und Werdegang
 &lt;/h2&gt;&lt;p&gt;Ich bin im alpinen Raum aufgewachsen und lebe heute in Tirol. Mein Bildungsweg führte mich über den zweiten Bildungsweg zunächst zu einem Physikstudium und anschließend zu einer Ausbildung im Bereich der Informatik. Heute arbeite ich hauptberuflich als Informatiker.&lt;/p&gt;
 &lt;p&gt;Parallel dazu beschäftige ich mich seit meiner frühen Jugend intensiv mit Naturwissenschaften und Philosophie. Im Zentrum standen von Anfang an Fragen nach Erkenntnis, Wirklichkeit und menschlichem Handeln, verbunden mit dem Anspruch, diese Fragen begrifflich klar und methodisch sauber zu bearbeiten.&lt;/p&gt;
@@ -140,10 +133,6 @@ Der folgende Text formuliert grundlegende Bedingungen, unter denen philosophisch
 &lt;p&gt;Neben den wissenschaftlichen Arbeiten entsteht ein Buchprojekt, das diese Themen in einem größeren Zusammenhang entfalten und für ein breiteres Publikum zugänglich machen soll.&lt;/p&gt;
 &lt;h2 id=&#34;zweck-dieser-website&#34;&gt;Zweck dieser Website
 &lt;/h2&gt;&lt;p&gt;Diese Website bündelt meine wissenschaftlichen Arbeiten und allgemeinverständlichen Texte an einem Ort. Sie dient als Einstieg in zentrale Fragen und als Navigationspunkt zu weiterführenden Veröffentlichungen und Projekten.&lt;/p&gt;
-&lt;h2 id=&#34;biherige-veröfentlichung&#34;&gt;Biherige Veröfentlichung
-&lt;/h2&gt;&lt;p&gt;Delor, F. S. (2026). Die Kritik des Gen-Zentrismus bei Helmut Walther auf dem Prüfstand (1.0).
-Zenodo. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.5281/zenodo.18186640&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://doi.org/10.5281/zenodo.18186640&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
