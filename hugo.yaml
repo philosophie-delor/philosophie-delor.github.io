@@ -62,8 +62,8 @@ params:
 
     params:
         dateFormat:
-            published: "2006-01-02"
-            lastUpdated: "2006-01-02"
+            published: "2026-01-02"
+            lastUpdated: "2026-01-02"
 
 
     sidebar:
