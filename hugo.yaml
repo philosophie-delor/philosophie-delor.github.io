@@ -79,10 +79,10 @@ params:
         license:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
-params:
+            
     comments:
         enabled: true
-        provider: giscus‚
+        provider: giscus
         giscus:
             repo: "philosophie-delor/philosophie-delor.github.io"
             repoID: "R_kgDOQ3xipQ"          # von giscus.app

@@ -14,6 +14,8 @@
 <meta name="twitter:title" content="Über den Autor">
 <meta name="twitter:description" content="Kurzprofil Name: Frieder Delor\nWohnort: Tirol (Österreich)\nTätigkeit: Informatiker\nORCID: 0009-0009-3012-3304\nArbeitsfelder: Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie\nHerkunft und Werdegang Ich bin im alpinen Raum aufgewachsen und lebe heute in Tirol. Mein Bildungsweg führte mich über den zweiten Bildungsweg zunächst zu einem Physikstudium und anschließend zu einer Ausbildung im Bereich der Informatik. Heute arbeite ich hauptberuflich als Informatiker.\n"><link rel="stylesheet" href="/css/custom.css">
 
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e69ce43c3c1640dfbe371f4e2b9d875d"}'></script>
+
     </head>
     <body class="
     article-page
@@ -330,13 +332,62 @@
      
     
         
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="philosophie-delor/philosophie-delor.github.io"
+    data-repo-id="R_kgDOQ3xipQ"
+    data-category="General"
+    data-category-id="DIC_kwDOQ3xipc4C1ETV"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="de"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
     
 
     <footer class="site-footer">
     <section class="copyright">
         &copy; 
-        
-            2020 - 
         
         2026 Frieder Delor
     </section>
