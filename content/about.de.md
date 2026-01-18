@@ -16,8 +16,6 @@ draft: true
     <strong>Arbeitsfelder:</strong> Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie</p>
   </div>
   <div style="flex: 1;">
-    <img src="/images/frieder-delor.jpg" alt="Frieder Delor"
-         style="max-width: 100%; height: auto; border-radius: 4px;">
   </div>
 
 </div>

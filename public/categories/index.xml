@@ -6,6 +6,15 @@
         <description>Recent content in Categories on Deutsch</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>de</language>
-        <copyright>Frieder Delor</copyright><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Frieder Delor</copyright>
+        <lastBuildDate>Sun, 18 Jan 2026 17:45:33 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Philosophie</title>
+        <link>http://localhost:1313/categories/philosophie/</link>
+        <pubDate>Sun, 18 Jan 2026 17:45:33 +0100</pubDate>
+        
+        <guid>http://localhost:1313/categories/philosophie/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

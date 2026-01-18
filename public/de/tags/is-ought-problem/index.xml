@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Is-Ought Problem on Philosophie-Delor</title>
+        <link>http://localhost:1313/de/tags/is-ought-problem/</link>
+        <description>Recent content in Is-Ought Problem on Philosophie-Delor</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>de</language>
+        <copyright>Frieder Delor</copyright>
+        <lastBuildDate>Sun, 18 Jan 2026 17:45:33 +0100</lastBuildDate><atom:link href="http://localhost:1313/de/tags/is-ought-problem/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to Prove Humes Law</title>
+        <link>http://localhost:1313/de/posts/how-to-prove-humes-law/</link>
+        <pubDate>Sun, 18 Jan 2026 17:45:33 +0100</pubDate>
+        
+        <guid>http://localhost:1313/de/posts/how-to-prove-humes-law/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Ein Beweis von bewundernswerter Konsequenz: Oder wie man 30 Seiten braucht, um eine Definition zu beweisen&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lob-der-formalen-virtuosität&#34;&gt;Lob der formalen Virtuosität
+&lt;/h2&gt;&lt;p&gt;Es ist eine seltene Freude, einem Werk wie Gillian Russells &amp;ldquo;How to Prove Hume&amp;rsquo;s Law&amp;rdquo; (2023) zu begegnen. Über 30 Seiten entfaltet sich hier ein Monument formaler Präzision: indexikalische Logik (IL), modale Systeme (S4, B, S5), Temporal-Modal-Logik (TML), Deontisch-Modal-Logik (DML) – jedes System mit eigener Modelltheorie, eigenen Wahrheitsbedingungen, eigenen Relationen auf Modellmengen.&lt;/p&gt;
+&lt;p&gt;Man muss sich die Arbeit vorstellen, die hier investiert wurde. Jede Definition konsistent durchgehalten, jeder Beweisschritt formal korrekt, keine einzige Ableitung fehlerhaft. Wochenlange, vermutlich monatelange Arbeit. Symbolmanipulation auf höchstem Niveau. Ein Meisterwerk der technischen Ausführung.&lt;/p&gt;
+&lt;p&gt;Und wofür das alles?&lt;/p&gt;
+&lt;p&gt;Um zu beweisen, was auf Seite 22 bereits definiert wurde.&lt;/p&gt;
+&lt;h2 id=&#34;die-definition-die-alles-entscheidet&#34;&gt;Die Definition, die alles entscheidet
+&lt;/h2&gt;&lt;p&gt;Russell definiert normative Sätze als &amp;ldquo;S-shift-breakable&amp;rdquo;: Ein Satz ist normativ, wenn sein Wahrheitswert sich ändern kann, indem man die Menge S (die &amp;ldquo;superben Welten&amp;rdquo;, die normativen Standards) ändert, während alle deskriptiven Tatsachen konstant bleiben.&lt;/p&gt;
+&lt;p&gt;Das bedeutet in aller wünschenswerten Klarheit: &lt;strong&gt;Normative Sätze hängen per Definition von etwas ab, das von deskriptiven Tatsachen unabhängig ist.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Wenn nun auf den folgenden 20 Seiten bewiesen wird, dass normative Sätze nicht aus rein deskriptiven Prämissen folgen (es sei denn unter Sonderbedingungen), dann ist das ungefähr so überraschend wie die Erkenntnis, dass Junggesellen unverheiratet sind.&lt;/p&gt;
+&lt;p&gt;Man stelle sich vor: Jemand definiert &amp;ldquo;Farbe&amp;rdquo; als &amp;ldquo;Eigenschaft, die unabhängig von der Wellenlänge des Lichts existiert&amp;rdquo; und entwickelt dann ein hochkomplexes physikalisches Modell mit Tensor-Kalkülen und Quantenfeldtheorie, um zu beweisen, dass aus Prämissen über Wellenlängen keine Aussagen über Farben folgen.&lt;/p&gt;
+&lt;p&gt;Technisch wäre alles korrekt. Die Mathematik tadellos. Die Schlüsse zwingend.&lt;/p&gt;
+&lt;p&gt;Und vollkommen wertlos.&lt;/p&gt;
+&lt;h2 id=&#34;die-kunst-das-offensichtliche-kompliziert-zu-machen&#34;&gt;Die Kunst, das Offensichtliche kompliziert zu machen
+&lt;/h2&gt;&lt;p&gt;Was Russell hier vorführt, ist eine bemerkenswerte Leistung – allerdings nicht die, die beabsichtigt war. Sie demonstriert, wie viel formale Arbeit man investieren kann, um eine &lt;strong&gt;analytische Wahrheit&lt;/strong&gt; (eine Aussage, die aus Definitionen folgt) als &lt;strong&gt;synthetische Wahrheit&lt;/strong&gt; (eine Aussage über die Welt) zu tarnen.&lt;/p&gt;
+&lt;p&gt;Der Leser wird durch Modelltheorien, Kontextshifts, Domain Extensions, W-Extensions, Future-Switches und S-Shifts geschleust. Er lernt die Feinheiten indexikalischer Logik, die Unterschiede zwischen B, S4 und S5, die Behandlung temporaler Operatoren.&lt;/p&gt;
+&lt;p&gt;Und am Ende? Am Ende hat er gelernt: Wenn normative Sätze definitionsgemäß von X abhängen und deskriptive Sätze definitionsgemäß nicht von X abhängen, dann folgen normative Sätze nicht aus deskriptiven Prämissen.&lt;/p&gt;
+&lt;p&gt;Das hätte man auch kürzer haben können. Etwa so:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem (Trivial):&lt;/strong&gt; Wenn A definitionsgemäß von X abhängt und B definitionsgemäß nicht von X abhängt, dann folgt A nicht aus B allein.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Beweis:&lt;/strong&gt; Folgt aus der Definition. ∎&lt;/p&gt;
+&lt;p&gt;Stattdessen: 30 Seiten.&lt;/p&gt;
+&lt;h2 id=&#34;die-versuchung-des-formalismus&#34;&gt;Die Versuchung des Formalismus
+&lt;/h2&gt;&lt;p&gt;Es gibt eine Versuchung im akademischen Betrieb, die man die &lt;strong&gt;Versuchung des Formalismus&lt;/strong&gt; nennen könnte: Je komplizierter das formale Gerüst, desto beeindruckender das Ergebnis. Je mehr Symbole, desto wissenschaftlicher. Je länger der Beweis, desto tiefer die Einsicht.&lt;/p&gt;
+&lt;p&gt;Russell ist dieser Versuchung nicht etwa verfallen – sie hat sie vollständig überwältigt und ein Festmahl aus ihr gemacht.&lt;/p&gt;
+&lt;p&gt;Man bewundert die Konsequenz. Wirklich. Keine Halbheiten. Wenn man schon eine Tautologie beweisen will, dann richtig. Mit allem Drum und Dran. Mit fünf verschiedenen Logiken. Mit formaler Perfektion.&lt;/p&gt;
+&lt;p&gt;Das ist, als würde jemand eine Weltreise unternehmen, um zu beweisen, dass er nicht zu Hause ist. Technisch korrekt. Beeindruckend aufwendig. Und doch irgendwie am Punkt vorbei.&lt;/p&gt;
+&lt;h2 id=&#34;die-frage-die-nicht-gestellt-wird&#34;&gt;Die Frage, die nicht gestellt wird
+&lt;/h2&gt;&lt;p&gt;Die eigentlich interessante Frage lautet: &lt;strong&gt;Ist diese Definition von &amp;ldquo;normativ&amp;rdquo; angemessen?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sollte man akzeptieren, dass normative Begriffe von vornherein als &lt;strong&gt;unabhängig&lt;/strong&gt; von deskriptiven Tatsachen konzipiert werden müssen?&lt;/p&gt;
+&lt;p&gt;Könnte es nicht auch sein, dass &amp;ldquo;X soll getan werden&amp;rdquo; eine Abkürzung ist für &amp;ldquo;X fördert unter den gegebenen Bedingungen K das Ziel G&amp;rdquo; – und dass dies eine &lt;strong&gt;empirisch überprüfbare Aussage&lt;/strong&gt; ist?&lt;/p&gt;
+&lt;p&gt;Diese Frage stellt Russell nicht. Sie kann sie auch nicht stellen, denn sie hat die Antwort bereits in ihren Definitionen festgelegt.&lt;/p&gt;
+&lt;p&gt;Das ist keine &lt;strong&gt;Kritik&lt;/strong&gt; an Russell im persönlichen Sinne. Es ist eine &lt;strong&gt;Beobachtung&lt;/strong&gt; über eine bestimmte Art akademischer Arbeit. Sie hat eine bestimmte Semantik gewählt, diese Wahl konsequent durchgezogen und gezeigt, dass innerhalb dieser Semantik bestimmte Schlüsse unmöglich sind.&lt;/p&gt;
+&lt;p&gt;Das Problem entsteht erst, wenn man den Eindruck erweckt, hier sei etwas &lt;strong&gt;Allgemeingültiges&lt;/strong&gt; über die Logik normativer Schlüsse bewiesen worden. Etwas, das unabhängig von semantischen Vorentscheidungen gilt.&lt;/p&gt;
+&lt;p&gt;Das ist nicht der Fall.&lt;/p&gt;
+&lt;h2 id=&#34;ein-bescheidener-vorschlag&#34;&gt;Ein bescheidener Vorschlag
+&lt;/h2&gt;&lt;p&gt;Im Geiste von Douglas Adams – der uns gelehrt hat, dass die Antwort auf die große Frage nach dem Leben, dem Universum und allem zwar &amp;ldquo;42&amp;rdquo; ist, aber nur, wenn man die richtige Frage stellt – möchte ich einen bescheidenen Vorschlag machen:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bevor man 30 Seiten investiert, um etwas zu beweisen, prüfe man, ob es bereits in den Definitionen enthalten ist.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Das hätte Russell einige Monate Arbeit erspart. Dem Leser einige Stunden. Und der Philosophie eine gewisse Peinlichkeit.&lt;/p&gt;
+&lt;p&gt;Andererseits: Für diese Art von Arbeit werden akademische Titel verliehen. Peer-Review-Verfahren bestanden. Zitationen gesammelt.&lt;/p&gt;
+&lt;p&gt;Man könnte fast auf die Idee kommen, dass im akademischen Betrieb manchmal nicht die Tiefe der Einsicht zählt, sondern die Masse des Formalismus. Je undurchdringlicher, desto respektabler. Je mehr Symbole, desto weniger Fragen.&lt;/p&gt;
+&lt;p&gt;Das wäre natürlich eine zynische Sicht der Dinge.&lt;/p&gt;
+&lt;p&gt;Aber sie würde erklären, warum jemand mathematisch versiert genug ist, ein solches System zu konstruieren – und zugleich nicht bemerkt (oder nicht erwähnt), dass das Ergebnis bereits in den Definitionen steckt.&lt;/p&gt;
+&lt;h2 id=&#34;bewunderung-und-bedauern&#34;&gt;Bewunderung und Bedauern
+&lt;/h2&gt;&lt;p&gt;Man muss Russell bewundern. Wirklich. Die formale Korrektheit ist makellos. Die Systematik beeindruckend. Die Durchführung fehlerfrei.&lt;/p&gt;
+&lt;p&gt;Und man muss bedauern, dass all diese Energie, all diese Präzision, all diese Arbeit dafür verwendet wurde, eine &lt;strong&gt;analytische Trivialität&lt;/strong&gt; als tiefe &lt;strong&gt;logische Einsicht&lt;/strong&gt; zu präsentieren.&lt;/p&gt;
+&lt;p&gt;Russells &amp;ldquo;Beweis&amp;rdquo; beweist, dass wenn man &amp;ldquo;normativ&amp;rdquo; als &amp;ldquo;abhängig von externen Standards&amp;rdquo; definiert, dann normative Sätze von externen Standards abhängen.&lt;/p&gt;
+&lt;p&gt;Das ist kein Beweis.&lt;/p&gt;
+&lt;p&gt;Das ist ein sehr, sehr langer Weg, um zu sagen: &amp;ldquo;Definitionen haben Konsequenzen.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Für die Frage, ob Is-Ought-Schlüsse &lt;strong&gt;wirklich&lt;/strong&gt; unmöglich sind – also unabhängig von semantischen Vorentscheidungen – ist damit rein gar nichts gewonnen.&lt;/p&gt;
+&lt;p&gt;Die Frage bleibt: &lt;strong&gt;Welche Sollsemantik ist angemessen?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Und diese Frage wird nicht durch Formalismus beantwortet, sondern durch theoretische Überlegung, empirische Anschlussfähigkeit und kritische Prüfung.&lt;/p&gt;
+&lt;p&gt;Aber das wäre vermutlich nicht lang genug für 30 Seiten gewesen.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referenzen&#34;&gt;Referenzen
+&lt;/h2&gt;&lt;p&gt;Russell, Gillian (2023): &amp;ldquo;How to Prove Hume&amp;rsquo;s Law&amp;rdquo;. &lt;em&gt;Journal of Philosophical Logic&lt;/em&gt; (forthcoming). &lt;a class=&#34;link&#34; href=&#34;https://philarchive.org/archive/RUSHTP-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PhilArchive&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Dieser Blogpost ist Teil meiner Arbeiten zum Sein-Sollen-Problem. Eine ausführlichere, akademisch-sachliche Behandlung findet sich in meinem kommenden Paper zur evolutionären Ethik im Rahmen des kritischen Rationalismus.&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Philosophy on Deutsch</title>
+        <link>http://localhost:1313/categories/philosophy/</link>
+        <description>Recent content in Philosophy on Deutsch</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>de</language>
+        <copyright>Frieder Delor</copyright><atom:link href="http://localhost:1313/categories/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

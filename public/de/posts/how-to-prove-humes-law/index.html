@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Eine kritische (und leicht satirische) Betrachtung formaler 'Beweise' der Unmöglichkeit von Is-Ought-Schlüssen am Beispiel von Gillian Russells 'How to Prove Hume's Law'">
+<title>How to Prove Humes Law</title>
+
+<link rel='canonical' href='http://localhost:1313/de/posts/how-to-prove-humes-law/'>
+
+<link rel="stylesheet" href="/scss/style.min.833d6eed45de56f48306bf57268d5b8cdfc8a60e8e7bdc99810464fcd033f7c6.css"><meta property='og:title' content="How to Prove Humes Law">
+<meta property='og:description' content="Eine kritische (und leicht satirische) Betrachtung formaler 'Beweise' der Unmöglichkeit von Is-Ought-Schlüssen am Beispiel von Gillian Russells 'How to Prove Hume's Law'">
+<meta property='og:url' content='http://localhost:1313/de/posts/how-to-prove-humes-law/'>
+<meta property='og:site_name' content='Philosophie-Delor'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='Philosophie' /><meta property='article:tag' content='Logick' /><meta property='article:tag' content='Is-Ought Problem' /><meta property='article:tag' content='Metaethics' /><meta property='article:tag' content='Academic Satire' /><meta property='article:published_time' content='2026-01-18T17:45:33&#43;01:00'/><meta property='article:modified_time' content='2026-01-18T17:45:33&#43;01:00'/>
+<meta name="twitter:title" content="How to Prove Humes Law">
+<meta name="twitter:description" content="Eine kritische (und leicht satirische) Betrachtung formaler 'Beweise' der Unmöglichkeit von Is-Ought-Schlüssen am Beispiel von Gillian Russells 'How to Prove Hume's Law'"><link rel="stylesheet" href="/css/custom.css">
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e69ce43c3c1640dfbe371f4e2b9d875d"}'></script>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Menü umschalten">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/de/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_fc3dee147af2d0dd.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/de">Philosophie-Delor</a></h1>
+            <h2 class="site-description">Essays und wissenschaftliche Verweise</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/de/' >
+                
+                
+                
+                <span>Start</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/de/posts/' >
+                
+                
+                
+                <span>Blog</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/de/publications/' >
+                
+                
+                
+                <span>Publikationen</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/de/about/' >
+                
+                
+                
+                <span>Über mich</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/de/" selected>Deutsch</option>
+                                
+                                    <option value="http://localhost:1313/en/" >English</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dunkler Modus</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Inhaltsverzeichnis</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#lob-der-formalen-virtuosität">Lob der formalen Virtuosität</a></li>
+    <li><a href="#die-definition-die-alles-entscheidet">Die Definition, die alles entscheidet</a></li>
+    <li><a href="#die-kunst-das-offensichtliche-kompliziert-zu-machen">Die Kunst, das Offensichtliche kompliziert zu machen</a></li>
+    <li><a href="#die-versuchung-des-formalismus">Die Versuchung des Formalismus</a></li>
+    <li><a href="#die-frage-die-nicht-gestellt-wird">Die Frage, die nicht gestellt wird</a></li>
+    <li><a href="#ein-bescheidener-vorschlag">Ein bescheidener Vorschlag</a></li>
+    <li><a href="#bewunderung-und-bedauern">Bewunderung und Bedauern</a></li>
+    <li><a href="#referenzen">Referenzen</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/de/categories/philosophie/" >
+                Philosophie
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/de/posts/how-to-prove-humes-law/">How to Prove Humes Law</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Eine kritische (und leicht satirische) Betrachtung formaler &#39;Beweise&#39; der Unmöglichkeit von Is-Ought-Schlüssen am Beispiel von Gillian Russells &#39;How to Prove Hume&#39;s Law&#39;
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2026-01-18T17:45:33&#43;01:00'>Jan. 18, 2026</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    6 Minuten Lesezeit
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="http://localhost:1313/en/posts/how-to-prove-humes-law/" class="link">English</a>
+                
+            </div>
+        </footer>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>Ein Beweis von bewundernswerter Konsequenz: Oder wie man 30 Seiten braucht, um eine Definition zu beweisen</strong></p>
+<h2 id="lob-der-formalen-virtuosität">Lob der formalen Virtuosität
+</h2><p>Es ist eine seltene Freude, einem Werk wie Gillian Russells &ldquo;How to Prove Hume&rsquo;s Law&rdquo; (2023) zu begegnen. Über 30 Seiten entfaltet sich hier ein Monument formaler Präzision: indexikalische Logik (IL), modale Systeme (S4, B, S5), Temporal-Modal-Logik (TML), Deontisch-Modal-Logik (DML) – jedes System mit eigener Modelltheorie, eigenen Wahrheitsbedingungen, eigenen Relationen auf Modellmengen.</p>
+<p>Man muss sich die Arbeit vorstellen, die hier investiert wurde. Jede Definition konsistent durchgehalten, jeder Beweisschritt formal korrekt, keine einzige Ableitung fehlerhaft. Wochenlange, vermutlich monatelange Arbeit. Symbolmanipulation auf höchstem Niveau. Ein Meisterwerk der technischen Ausführung.</p>
+<p>Und wofür das alles?</p>
+<p>Um zu beweisen, was – auf Seite 22 – bereits definiert wurde, öfentlich so „ausgestellt“, wie einst jene berühmten Baupläne: theoretisch öffentlich, praktisch im untersten Aktenschrank einer stillgelegten Toilette hinter einem Schild, das jedem vernünftigen Menschen nahelegt, umzukehren. Bis dorthin haben die meisten Leser längst kapituliert, nachdem sie zwei Seiten Formeln gesehen haben, die ungefähr so einladend wirken wie Vogon-Poesie im Vollkontaktmodus, und sie retten sich instinktiv ins Abstract, scrollen zum Ende und nehmen die Schlusszeile mit wie einen Beleg dafür, dass irgendwo da draußen jemand das schon geprüft haben wird. Wer tatsächlich auf Seite 22 landet, tut das meist mit einem Schädel, der bereits wie nach drei pan-galaktischen Donnergurglern vibriert, und die folgenden zehn Seiten Beweisfeuerwerk aus fünf verschiedenen Galaxien sorgen zuverlässig dafür, dass selbst die Erinnerung an diese Definition von einem „Somebody-Else’s-Problem“-Feld geschluckt wird, also jenem unsichtbaren Trick, der Dinge dadurch verbirgt, dass dein Gehirn sie als „Problem von jemand anderem“ etikettiert und schlicht aus dem Blick schneidet. Am Schluss steht dann, wundersam zwingend, genau das Ergebnis, das man auf Seite 22 hineingelegt hat, und wer in solchen Momenten kurz über Absicht nachdenkt, erinnert sich besser an die altbewährte Heuristik: In den meisten Universen gewinnt Inkompetenz gegen Heimtücke schon allein durch schiere Verfügbarkeit.</p>
+<h2 id="die-definition-die-alles-entscheidet">Die Definition, die alles entscheidet
+</h2><p>Russell definiert normative Sätze als &ldquo;S-shift-breakable&rdquo;: Ein Satz ist normativ, wenn sein Wahrheitswert sich ändern kann, indem man die Menge S (die &ldquo;superben Welten&rdquo;, die normativen Standards) ändert, während alle deskriptiven Tatsachen konstant bleiben.</p>
+<p>Das bedeutet in aller wünschenswerten Klarheit: <strong>Normative Sätze hängen per Definition von etwas ab, das von deskriptiven Tatsachen unabhängig ist.</strong></p>
+<p>Wenn nun auf den folgenden 10 Seiten bewiesen wird, dass normative Sätze nicht aus rein deskriptiven Prämissen folgen (es sei denn unter Sonderbedingungen), dann ist das ungefähr so überraschend wie die Erkenntnis, dass Junggesellen unverheiratet sind.</p>
+<p>Man stelle sich vor: Jemand definiert &ldquo;Farbe&rdquo; als &ldquo;Eigenschaft, die unabhängig von der Wellenlänge des Lichts existiert&rdquo; und entwickelt dann ein hochkomplexes physikalisches Modell mit Tensor-Kalkülen und Quantenfeldtheorie, um zu beweisen, dass aus Prämissen über Wellenlängen keine Aussagen über Farben folgen.</p>
+<p>Technisch wäre alles korrekt. Die Mathematik tadellos. Die Schlüsse zwingend.</p>
+<p>Und vollkommen wertlos.</p>
+<h2 id="die-kunst-das-offensichtliche-kompliziert-zu-machen">Die Kunst, das Offensichtliche kompliziert zu machen
+</h2><p>Was Russell hier vorführt, ist eine bemerkenswerte Leistung – allerdings nicht die, die beabsichtigt war. Sie demonstriert, wie viel formale Arbeit man investieren kann, um eine <strong>analytische Wahrheit</strong> (eine Aussage, die aus Definitionen folgt) als <strong>synthetische Wahrheit</strong> (eine Aussage über die Welt) zu tarnen.</p>
+<p>Der Leser wird durch Modelltheorien, Kontextshifts, Domain Extensions, W-Extensions, Future-Switches und S-Shifts geschleust. Er lernt die Feinheiten indexikalischer Logik, die Unterschiede zwischen B, S4 und S5, die Behandlung temporaler Operatoren.</p>
+<p>Und am Ende? Am Ende hat er gelernt: Wenn normative Sätze definitionsgemäß von X abhängen und deskriptive Sätze definitionsgemäß nicht von X abhängen, dann folgen normative Sätze nicht aus deskriptiven Prämissen.</p>
+<p>Das hätte man auch kürzer haben können. Etwa so:</p>
+<p><strong>Theorem (Trivial):</strong> Wenn A definitionsgemäß von X abhängt und B definitionsgemäß nicht von X abhängt, dann folgt A nicht aus B allein.</p>
+<p><strong>Beweis:</strong> Folgt aus der Definition. ∎</p>
+<p>Stattdessen: 30 Seiten.</p>
+<h2 id="die-versuchung-des-formalismus">Die Versuchung des Formalismus
+</h2><p>Es gibt eine Versuchung im akademischen Betrieb, die man die <strong>Versuchung des Formalismus</strong> nennen könnte: Je komplizierter das formale Gerüst, desto beeindruckender das Ergebnis. Je mehr Symbole, desto wissenschaftlicher. Je länger der Beweis, desto tiefer die Einsicht.</p>
+<p>Russell ist dieser Versuchung nicht etwa verfallen – sie hat sie vollständig überwältigt und ein Festmahl aus ihr gemacht.</p>
+<p>Man bewundert die Konsequenz. Wirklich. Keine Halbheiten. Wenn man schon eine Tautologie beweisen will, dann richtig. Mit allem Drum und Dran. Mit fünf verschiedenen Logiken. Mit formaler Perfektion.</p>
+<p>Das ist, als würde jemand eine Weltreise unternehmen, um zu beweisen, dass er nicht zu Hause ist. Technisch korrekt. Beeindruckend aufwendig. Und doch irgendwie am Punkt vorbei.</p>
+<h2 id="die-frage-die-nicht-gestellt-wird">Die Frage, die nicht gestellt wird
+</h2><p>Die eigentlich interessante Frage lautet: <strong>Ist diese Definition von &ldquo;normativ&rdquo; angemessen?</strong></p>
+<p>Sollte man akzeptieren, dass normative Begriffe von vornherein als <strong>unabhängig</strong> von deskriptiven Tatsachen konzipiert werden müssen?</p>
+<p>Könnte es nicht auch sein, dass &ldquo;X soll getan werden&rdquo; eine Abkürzung ist für &ldquo;X fördert unter den gegebenen Bedingungen K das Ziel G&rdquo; – und dass dies eine <strong>empirisch überprüfbare Aussage</strong> ist?</p>
+<p>Diese Frage stellt Russell nicht. Sie kann sie auch nicht stellen, denn sie hat die Antwort bereits in ihren Definitionen festgelegt.</p>
+<p>Das ist keine <strong>Kritik</strong> an Russell im persönlichen Sinne. Es ist eine <strong>Beobachtung</strong> über eine bestimmte Art akademischer Arbeit. Sie hat eine bestimmte Semantik gewählt, diese Wahl konsequent durchgezogen und gezeigt, dass innerhalb dieser Semantik bestimmte Schlüsse unmöglich sind.</p>
+<p>Das Problem entsteht erst, wenn man den Eindruck erweckt, hier sei etwas <strong>Allgemeingültiges</strong> über die Logik normativer Schlüsse bewiesen worden. Etwas, das unabhängig von semantischen Vorentscheidungen gilt.</p>
+<p>Das ist nicht der Fall.</p>
+<h2 id="ein-bescheidener-vorschlag">Ein bescheidener Vorschlag
+</h2><p>Im Geiste von Douglas Adams – der uns gelehrt hat, dass die Antwort auf die große Frage nach dem Leben, dem Universum und allem zwar &ldquo;42&rdquo; ist, aber nur, wenn man die richtige Frage stellt – möchte ich einen bescheidenen Vorschlag machen:</p>
+<p><strong>Bevor man 30 Seiten investiert, um etwas zu beweisen, prüfe man, ob es bereits in den Definitionen enthalten ist.</strong></p>
+<p>Das hätte Russell einige Monate Arbeit erspart. Dem Leser einige Stunden. Und der Philosophie eine gewisse Peinlichkeit.</p>
+<p>Andererseits: Für diese Art von Arbeit werden akademische Titel verliehen. Peer-Review-Verfahren bestanden. Zitationen gesammelt.</p>
+<p>Man könnte fast auf die Idee kommen, dass im akademischen Betrieb manchmal nicht die Tiefe der Einsicht zählt, sondern die Masse des Formalismus. Je undurchdringlicher, desto respektabler. Je mehr Symbole, desto weniger Fragen.</p>
+<p>Das wäre natürlich eine zynische Sicht der Dinge.</p>
+<p>Aber sie würde erklären, warum jemand mathematisch versiert genug ist, ein solches System zu konstruieren – und zugleich nicht bemerkt (oder nicht erwähnt), dass das Ergebnis bereits in den Definitionen steckt.</p>
+<h2 id="bewunderung-und-bedauern">Bewunderung und Bedauern
+</h2><p>Man muss Russell bewundern. Wirklich. Die formale Korrektheit ist makellos. Die Systematik beeindruckend. Die Durchführung fehlerfrei.</p>
+<p>Und man muss bedauern, dass all diese Energie, all diese Präzision, all diese Arbeit dafür verwendet wurde, eine <strong>analytische Trivialität</strong> als tiefe <strong>logische Einsicht</strong> zu präsentieren.</p>
+<p>Russells &ldquo;Beweis&rdquo; beweist, dass wenn man &ldquo;normativ&rdquo; als &ldquo;abhängig von externen Standards&rdquo; definiert, dann normative Sätze von externen Standards abhängen.</p>
+<p>Das ist kein Beweis.</p>
+<p>Das ist ein sehr, sehr langer Weg, um zu sagen: &ldquo;Definitionen haben Konsequenzen.&rdquo;</p>
+<p>Für die Frage, ob Is-Ought-Schlüsse <strong>wirklich</strong> unmöglich sind – also unabhängig von semantischen Vorentscheidungen – ist damit rein gar nichts gewonnen.</p>
+<p>Die Frage bleibt: <strong>Welche Sollsemantik ist angemessen?</strong></p>
+<p>Und diese Frage wird nicht durch Formalismus beantwortet, sondern durch theoretische Überlegung, empirische Anschlussfähigkeit und kritische Prüfung.</p>
+<p>Aber das wäre vermutlich nicht lang genug für 30 Seiten gewesen.</p>
+<hr>
+<h2 id="referenzen">Referenzen
+</h2><p>Russell, Gillian (2023): &ldquo;How to Prove Hume&rsquo;s Law&rdquo;. <em>Journal of Philosophical Logic</em> (forthcoming). <a class="link" href="https://philarchive.org/archive/RUSHTP-2"  target="_blank" rel="noopener"
+    >PhilArchive</a></p>
+<hr>
+<p><em>Dieser Blogpost ist Teil meiner Arbeiten zum Sein-Sollen-Problem. Eine ausführlichere, akademisch-sachliche Behandlung findet sich in meinem kommenden Paper zur evolutionären Ethik im Rahmen des kritischen Rationalismus.</em></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/de/tags/philosophie/">Philosophie</a>
+        
+            <a href="/de/tags/logick/">Logick</a>
+        
+            <a href="/de/tags/is-ought-problem/">Is-Ought Problem</a>
+        
+            <a href="/de/tags/metaethics/">Metaethics</a>
+        
+            <a href="/de/tags/academic-satire/">Academic Satire</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Verwandte Inhalte</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/de/posts/mindeststandards/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Mindeststandards für eine gelingende philosophische Diskussion</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="philosophie-delor/philosophie-delor.github.io"
+    data-repo-id="R_kgDOQ3xipQ"
+    data-category="General"
+    data-category-id="DIC_kwDOQ3xipc4C1ETV"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="de"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 Frieder Delor
+    </section>
+    
+    <section class="powerby">
+        Erstellt mit <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> gestaltet von <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.2fdf4c2657a34930029a03370ee5c778662ced40fc4de596c586aa9592a4901a.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

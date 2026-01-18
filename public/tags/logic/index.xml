@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Logic on Deutsch</title>
+        <link>http://localhost:1313/tags/logic/</link>
+        <description>Recent content in Logic on Deutsch</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>de</language>
+        <copyright>Frieder Delor</copyright>
+        <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/logic/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mindeststandards für eine gelingende philosophische Diskussion</title>
+        <link>http://localhost:1313/posts/mindeststandards/</link>
+        <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/mindeststandards/</guid>
+        <description>&lt;h2 id=&#34;einleitung&#34;&gt;Einleitung
+&lt;/h2&gt;&lt;div style=&#34;display:flex; gap:2rem; align-items:flex-start;&#34;&gt;
+
+  &lt;div style=&#34;flex:1;&#34;&gt;
+    
+
+Philosophische Diskussion unterscheidet sich grundlegend von bloßem Meinungsaustausch, Ideologie oder weltanschaulichem Marketing. Sie zielt auf Wahrheitsfähigkeit und Erkenntnisgewinn. Wo bestimmte Mindeststandards fehlen, entsteht keine Philosophie, sondern Wunschdenken, Rhetorik oder Machtspiel.
+
+Der folgende Text formuliert grundlegende Bedingungen, unter denen philosophische Diskussion überhaupt sinnvoll stattfinden kann. Diese Bedingungen sind keine inhaltlichen Dogmen, sondern methodische Voraussetzungen für alle Texte und Diskussionen auf dieser Website.
+
+
+  &lt;/div&gt;
+
+  &lt;div style=&#34;flex:1;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/turmbau-zu-babel.png&#34;
+         alt=&#34;Turmbau zu Babel&#34;
+         style=&#34;max-width:100%; height:auto;&#34;&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;grundbedingungen-philosophischer-diskussion&#34;&gt;Grundbedingungen philosophischer Diskussion
+&lt;/h2&gt;&lt;h3 id=&#34;1-sache-statt-person&#34;&gt;1. Sache statt Person
+&lt;/h3&gt;&lt;p&gt;Philosophische Kritik richtet sich an Aussagen, Argumente und Begriffe – niemals an Personen. Psychologische Zuschreibungen, Motivunterstellungen oder moralische Bewertungen ersetzen kein Argument. Diese Trennung gehört zu den ältesten methodischen Einsichten der Philosophie und bildet eine Voraussetzung rationaler Auseinandersetzung&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;2-logik-als-fundament&#34;&gt;2. Logik als Fundament
+&lt;/h3&gt;&lt;p&gt;Ohne elementare Logik gibt es keine Argumente. Der Satz vom Widerspruch gilt: Zwei einander widersprechende Aussagen über denselben Gegenstand im selben Sinn können nicht zugleich wahr sein. Argumente müssen nachvollziehbar, logisch strukturiert und prüfbar sein.&lt;/p&gt;
+&lt;p&gt;Führt eine Behauptung zu einem Widerspruch, ist sie oder sind ihre Prämissen falsch. Wer Widersprüche akzeptiert, verzichtet auf Begründbarkeit und verlässt den Rahmen rationaler Diskussion.&lt;/p&gt;
+&lt;h3 id=&#34;3-fehlerkultur-und-fallibilität&#34;&gt;3. Fehlerkultur und Fallibilität
+&lt;/h3&gt;&lt;p&gt;Werden Fehler aufgezeigt, gelten sie als Anlass zur Korrektur, nicht als persönlicher Angriff. Wer philosophisch argumentiert, akzeptiert die Möglichkeit des Irrtums und die Pflicht zur Revision eigener Positionen. Eine Diskussion ohne Fehlerkultur verkommt zur Verteidigung vorgefasster Meinungen.&lt;/p&gt;
+&lt;p&gt;Grundlegende Fehlschlüsse sollten nach Hinweis nicht wiederholt werden: Strohmann-Argumente, Ad-hominem-Angriffe, Zirkelschlüsse, Kategorienfehler oder bloße Autoritätsberufungen. Wer denselben Fehler dauerhaft wiederholt, zeigt, dass es nicht um Erkenntnis geht&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;4-kritischer-rationalismus-als-methodische-basis&#34;&gt;4. Kritischer Rationalismus als methodische Basis
+&lt;/h3&gt;&lt;p&gt;Grundlage philosophischer Erkenntnis ist ein hypothetischer Realismus: Aussagen über die Welt beanspruchen Wahrheit, bleiben aber grundsätzlich fallibel. Erkenntnis entsteht durch Hypothesen, die der Kritik ausgesetzt werden.&lt;/p&gt;
+&lt;p&gt;Aussagen mit Wahrheitsanspruch müssen prinzipiell widerlegbar sein. Wo Falsifikation bewusst ausgeschlossen oder durch Immunisierungsstrategien ersetzt wird, entsteht Ideologie statt Philosophie&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;5-wahrheit-und-realismus&#34;&gt;5. Wahrheit und Realismus
+&lt;/h3&gt;&lt;p&gt;Für Aussagen mit Bezug auf die Wirklichkeit bildet die Korrespondenztheorie der Wahrheit die tragfähige Grundlage: Wahr ist, was mit der Wirklichkeit übereinstimmt; falsch ist, was ihr widerspricht.&lt;/p&gt;
+&lt;p&gt;In formalen Bereichen wie Logik und Mathematik gilt strenge Konsistenz. Metaphysische Systeme müssen mit empirischen Erkenntnissen sowie mit dem übrigen gesicherten Wissen kompatibel sein. Modelle, die mit gut bestätigter Empirie oder ihrem eigenen formalen Rahmen kollidieren, sind revisionsbedürftig.&lt;/p&gt;
+&lt;p&gt;Relativistische, nihilistische oder rein konsensbasierte Wahrheitskonzepte untergraben diese Grundlage und machen argumentative Philosophie unmöglich&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;6-sachkenntnis-und-fachliche-verantwortung&#34;&gt;6. Sachkenntnis und fachliche Verantwortung
+&lt;/h3&gt;&lt;p&gt;Philosophie verlangt kein akademisches Zertifikat, wohl aber ein Mindestmaß an begrifflichen Grundlagen: kritischer Rationalismus, Falsifikation, Immunisierungsstrategien, logischer Widerspruch, typische Fehlschlüsse und der Korrespondenzbegriff der Wahrheit.&lt;/p&gt;
+&lt;p&gt;Wer mit Fachbegriffen, Theorien oder Namen argumentiert, übernimmt Verantwortung für deren sachgerechte Verwendung. Wer mit spezialisierten Fachgebieten argumentiert – etwa Evolutionstheorie, Neurowissenschaften, Quantenphysik oder mathematischer Logik – muss sich so weit einarbeiten, dass die betreffenden Argumente verstanden werden. Begriffe oder Autoritäten zu zitieren, ohne sie verstanden zu haben, ist kein Argument, sondern ein rhetorisches Mittel.&lt;/p&gt;
+&lt;h2 id=&#34;geltungsbereich-und-kritik&#34;&gt;Geltungsbereich und Kritik
+&lt;/h2&gt;&lt;p&gt;Die genannten Standards bilden die stillschweigende Voraussetzung jeder Diskussion, die den Anspruch erhebt, Philosophie zu betreiben. Sie werden nicht in jedem Text neu verhandelt, sondern vorausgesetzt.&lt;/p&gt;
+&lt;p&gt;Die Standards selbst bleiben kritisierbar. Eine solche Kritik muss jedoch denselben Maßstäben genügen: Realismus, Wahrheitsfähigkeit, Logik, Falsifizierbarkeit, Sachkritik und argumentative Redlichkeit.&lt;/p&gt;
+&lt;p&gt;Nur unter diesen Bedingungen verdient philosophische Diskussion ihren Namen – und eröffnet die Möglichkeit wirklichen Erkenntnisgewinns statt eines babylonischen Stimmengewirrs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fußnoten&#34;&gt;Fußnoten
+&lt;/h2&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Vgl. Aristoteles, &lt;em&gt;Topik&lt;/em&gt;; außerdem Arthur Schopenhauer, &lt;em&gt;Die Kunst, Recht zu behalten&lt;/em&gt; (als Negativkatalog rhetorischer Tricks).&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Vgl. John Stuart Mill, &lt;em&gt;On Liberty&lt;/em&gt; (Diskussionsethik); außerdem Irving M. Copi, &lt;em&gt;Introduction to Logic&lt;/em&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Karl Popper, &lt;em&gt;Logik der Forschung&lt;/em&gt;; Hans Albert, &lt;em&gt;Traktat über kritische Vernunft&lt;/em&gt;.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Vgl. Popper, &lt;em&gt;Objektive Erkenntnis&lt;/em&gt;; außerdem Hilary Putnam, &lt;em&gt;Reason, Truth and History&lt;/em&gt; (kritisch zu Relativismus).&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

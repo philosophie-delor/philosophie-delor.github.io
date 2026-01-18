@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Is-Ought Problem on Philosophie-Delor</title>
+        <link>http://localhost:1313/en/tags/is-ought-problem/</link>
+        <description>Recent content in Is-Ought Problem on Philosophie-Delor</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Frieder Delor</copyright>
+        <lastBuildDate>Sun, 18 Jan 2026 17:45:33 +0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/is-ought-problem/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to Prove Humes Law</title>
+        <link>http://localhost:1313/en/posts/how-to-prove-humes-law/</link>
+        <pubDate>Sun, 18 Jan 2026 17:45:33 +0100</pubDate>
+        
+        <guid>http://localhost:1313/en/posts/how-to-prove-humes-law/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;A Proof of Admirable Consistency: Or How to Spend 30 Pages Proving a Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;in-praise-of-formal-virtuosity&#34;&gt;In Praise of Formal Virtuosity
+&lt;/h2&gt;&lt;p&gt;It is a rare pleasure to encounter a work like Gillian Russell&amp;rsquo;s &amp;ldquo;How to Prove Hume&amp;rsquo;s Law&amp;rdquo; (2023). Over 30 pages unfold a monument of formal precision: indexical logic (IL), modal systems (S4, B, S5), Tense-Modal Logic (TML), Deontic-Modal Logic (DML) – each system with its own model theory, its own truth conditions, its own relations on model sets.&lt;/p&gt;
+&lt;p&gt;One must imagine the work invested here. Every definition maintained consistently, every proof step formally correct, not a single derivation flawed. Weeks, probably months of work. Symbol manipulation at the highest level. A masterpiece of technical execution.&lt;/p&gt;
+&lt;p&gt;And for what purpose?&lt;/p&gt;
+&lt;p&gt;To prove what was already defined on page 22.&lt;/p&gt;
+&lt;h2 id=&#34;the-definition-that-decides-everything&#34;&gt;The Definition That Decides Everything
+&lt;/h2&gt;&lt;p&gt;Russell defines normative sentences as &amp;ldquo;S-shift-breakable&amp;rdquo;: A sentence is normative if its truth value can change by altering the set S (the &amp;ldquo;superb worlds&amp;rdquo;, the normative standards) while all descriptive facts remain constant.&lt;/p&gt;
+&lt;p&gt;This means, with all desirable clarity: &lt;strong&gt;Normative sentences depend, by definition, on something that is independent of descriptive facts.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When the following 20 pages then prove that normative sentences do not follow from purely descriptive premises (except under special conditions), this is about as surprising as discovering that bachelors are unmarried.&lt;/p&gt;
+&lt;p&gt;Imagine: Someone defines &amp;ldquo;color&amp;rdquo; as &amp;ldquo;a property that exists independently of the wavelength of light&amp;rdquo; and then develops a highly complex physical model with tensor calculus and quantum field theory to prove that no statements about color follow from premises about wavelengths.&lt;/p&gt;
+&lt;p&gt;Technically, everything would be correct. The mathematics impeccable. The inferences compelling.&lt;/p&gt;
+&lt;p&gt;And completely worthless.&lt;/p&gt;
+&lt;h2 id=&#34;the-art-of-making-the-obvious-complicated&#34;&gt;The Art of Making the Obvious Complicated
+&lt;/h2&gt;&lt;p&gt;What Russell demonstrates here is a remarkable achievement – though not the one intended. She shows how much formal work one can invest to disguise an &lt;strong&gt;analytic truth&lt;/strong&gt; (a statement that follows from definitions) as a &lt;strong&gt;synthetic truth&lt;/strong&gt; (a statement about the world).&lt;/p&gt;
+&lt;p&gt;The reader is led through model theories, context shifts, domain extensions, W-extensions, future-switches and S-shifts. They learn the subtleties of indexical logic, the differences between B, S4 and S5, the treatment of temporal operators.&lt;/p&gt;
+&lt;p&gt;And in the end? In the end, they have learned: If normative sentences depend by definition on X and descriptive sentences do not depend by definition on X, then normative sentences do not follow from descriptive premises.&lt;/p&gt;
+&lt;p&gt;This could have been shorter. Something like:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem (Trivial):&lt;/strong&gt; If A depends by definition on X and B does not depend by definition on X, then A does not follow from B alone.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Follows from the definition. ∎&lt;/p&gt;
+&lt;p&gt;Instead: 30 pages.&lt;/p&gt;
+&lt;h2 id=&#34;the-temptation-of-formalism&#34;&gt;The Temptation of Formalism
+&lt;/h2&gt;&lt;p&gt;There is a temptation in academia that one might call the &lt;strong&gt;temptation of formalism&lt;/strong&gt;: The more complicated the formal framework, the more impressive the result. The more symbols, the more scientific. The longer the proof, the deeper the insight.&lt;/p&gt;
+&lt;p&gt;Russell has not merely succumbed to this temptation – she has been completely overwhelmed by it and made a feast of it.&lt;/p&gt;
+&lt;p&gt;One admires the consistency. Really. No half-measures. If you&amp;rsquo;re going to prove a tautology, do it properly. With all the trimmings. With five different logics. With formal perfection.&lt;/p&gt;
+&lt;p&gt;This is like someone undertaking a world tour to prove they are not at home. Technically correct. Impressively elaborate. And yet somehow missing the point.&lt;/p&gt;
+&lt;h2 id=&#34;the-question-that-isnt-asked&#34;&gt;The Question That Isn&amp;rsquo;t Asked
+&lt;/h2&gt;&lt;p&gt;The actually interesting question is: &lt;strong&gt;Is this definition of &amp;ldquo;normative&amp;rdquo; appropriate?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Should one accept that normative concepts must be conceived from the outset as &lt;strong&gt;independent&lt;/strong&gt; of descriptive facts?&lt;/p&gt;
+&lt;p&gt;Could it not be that &amp;ldquo;X ought to be done&amp;rdquo; is an abbreviation for &amp;ldquo;X promotes goal G under the given conditions K&amp;rdquo; – and that this is an &lt;strong&gt;empirically verifiable statement&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;Russell does not ask this question. She cannot ask it, because she has already fixed the answer in her definitions.&lt;/p&gt;
+&lt;p&gt;This is not a &lt;strong&gt;criticism&lt;/strong&gt; of Russell in a personal sense. It is an &lt;strong&gt;observation&lt;/strong&gt; about a certain kind of academic work. She has chosen a particular semantics, pursued this choice consistently, and shown that within this semantics certain inferences are impossible.&lt;/p&gt;
+&lt;p&gt;The problem only arises when one creates the impression that something &lt;strong&gt;universally valid&lt;/strong&gt; has been proven about the logic of normative inferences. Something that holds independently of semantic precommitments.&lt;/p&gt;
+&lt;p&gt;This is not the case.&lt;/p&gt;
+&lt;h2 id=&#34;a-modest-proposal&#34;&gt;A Modest Proposal
+&lt;/h2&gt;&lt;p&gt;In the spirit of Douglas Adams – who taught us that the answer to the great question of life, the universe and everything is indeed &amp;ldquo;42&amp;rdquo;, but only if you ask the right question – I would like to make a modest proposal:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Before investing 30 pages to prove something, check whether it is already contained in the definitions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This would have saved Russell several months of work. The reader several hours. And philosophy a certain embarrassment.&lt;/p&gt;
+&lt;p&gt;On the other hand: For this kind of work, academic titles are awarded. Peer review processes are passed. Citations are collected.&lt;/p&gt;
+&lt;p&gt;One could almost get the idea that in academia sometimes what counts is not the depth of insight but the mass of formalism. The more impenetrable, the more respectable. The more symbols, the fewer questions.&lt;/p&gt;
+&lt;p&gt;That would, of course, be a cynical view of things.&lt;/p&gt;
+&lt;p&gt;But it would explain why someone is mathematically sophisticated enough to construct such a system – and yet does not notice (or does not mention) that the result is already contained in the definitions.&lt;/p&gt;
+&lt;h2 id=&#34;admiration-and-regret&#34;&gt;Admiration and Regret
+&lt;/h2&gt;&lt;p&gt;One must admire Russell. Truly. The formal correctness is flawless. The systematicity impressive. The execution error-free.&lt;/p&gt;
+&lt;p&gt;And one must regret that all this energy, all this precision, all this work was used to present an &lt;strong&gt;analytic triviality&lt;/strong&gt; as a deep &lt;strong&gt;logical insight&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Russell&amp;rsquo;s &amp;ldquo;proof&amp;rdquo; proves that if one defines &amp;ldquo;normative&amp;rdquo; as &amp;ldquo;dependent on external standards&amp;rdquo;, then normative sentences depend on external standards.&lt;/p&gt;
+&lt;p&gt;This is not a proof.&lt;/p&gt;
+&lt;p&gt;This is a very, very long way of saying: &amp;ldquo;Definitions have consequences.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For the question of whether is-ought inferences are &lt;strong&gt;really&lt;/strong&gt; impossible – that is, independently of semantic precommitments – nothing whatsoever has been gained.&lt;/p&gt;
+&lt;p&gt;The question remains: &lt;strong&gt;Which semantics for ought-operators is appropriate?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;And this question is not answered by formalism, but by theoretical consideration, empirical connectivity, and critical examination.&lt;/p&gt;
+&lt;p&gt;But that probably wouldn&amp;rsquo;t have been long enough for 30 pages.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;references&#34;&gt;References
+&lt;/h2&gt;&lt;p&gt;Russell, Gillian (2023): &amp;ldquo;How to Prove Hume&amp;rsquo;s Law&amp;rdquo;. &lt;em&gt;Journal of Philosophical Logic&lt;/em&gt; (forthcoming). &lt;a class=&#34;link&#34; href=&#34;https://philarchive.org/archive/RUSHTP-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PhilArchive&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This blog post is part of my work on the is-ought problem. A more detailed, academically rigorous treatment can be found in my forthcoming paper on evolutionary ethics within the framework of critical rationalism.&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

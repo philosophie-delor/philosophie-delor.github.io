@@ -17,21 +17,55 @@ DefaultContentLanguage: de
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
 
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+
 languages:
-    de:
-        languageName: Deutsch
-        title: Deutsch
-        weight: 1
-        params:
-            sidebar:
-                subtitle: Deutsch
-    en:
-        languageName: English
-        title: Example Site
-        weight: 2
-        params:
-            sidebar:
-                subtitle: Example description
+  de:
+    languageName: Deutsch
+    weight: 1
+    menus:
+      main:
+        - identifier: home
+          name: Start
+          pageRef: /
+          weight: 1
+        - identifier: posts
+          name: Blog
+          pageRef: /posts/
+          weight: 2
+        - identifier: publications
+          name: Publikationen
+          pageRef: /publications/
+          weight: 3
+        - identifier: about
+          name: Über mich
+          pageRef: /about/
+          weight: 4
+
+  en:
+    languageName: English
+    weight: 2
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          pageRef: /
+          weight: 1
+        - identifier: posts
+          name: Blog
+          pageRef: /posts/
+          weight: 2
+        - identifier: publications
+          name: Publications
+          pageRef: /publications/
+          weight: 3
+        - identifier: about
+          name: About
+          pageRef: /about/
+          weight: 4
+
+
 
 
 
@@ -65,7 +99,7 @@ params:
 
 
     sidebar:
-        emoji: 🍥
+        emoji: 
         subtitle: "Essays und wissenschaftliche Verweise"
         avatar:
             enabled: true
@@ -135,28 +169,6 @@ params:
             enabled: true
         content:
             enabled: true
-
-### Custom menu
-### See https://stack.jimmycai.com/config/menu
-### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
-menu:
-  main:
-    - identifier: home
-      name: Start
-      url: /
-      weight: 1
-    - identifier: posts
-      name: Blog
-      url: /posts/
-      weight: 2
-    - identifier: publications
-      name: Publikationen
-      url: /publications/
-      weight: 3
-    - identifier: about
-      name: Über mich
-      url: /about/
-      weight: 4
 
 
 related:
