@@ -1,6 +1,6 @@
 ---
 date: '2026-01-18T17:45:33+01:00'
-draft: true
+draft: false
 title: 'How to Prove Humes Law'
 tags: ["Philosophy", "Logic", "Is-Ought Problem", "Metaethics", "Academic Satire"]
 categories: ["Philosophy"]
