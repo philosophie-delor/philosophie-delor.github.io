@@ -1,7 +1,7 @@
 ---
 title: "About the Author"
 date: 2026-01-11
-draft: true
+draft: false
 ---
 
 ## Brief Profile
