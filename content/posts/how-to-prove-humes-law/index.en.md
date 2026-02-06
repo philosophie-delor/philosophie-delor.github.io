@@ -1,7 +1,7 @@
 ---
 date: '2026-01-18T17:45:33+01:00'
 draft: false
-title: 'How to Prove Humes Law'
+title: "How to Prove Hume's Law"
 tags: ["Philosophy", "Logic", "Is-Ought Problem", "Metaethics", "Academic Satire"]
 categories: ["Philosophy"]
 description: "A critical (and slightly satirical) examination of formal 'proofs' of the impossibility of is-ought inferences, using Gillian Russell's 'How to Prove Hume's Law' as an example"
