@@ -12,6 +12,7 @@ draft: false
     <p><strong>Name:</strong> Frieder Delor<br>
     <strong>Location:</strong> Tyrol (Austria)<br>
     <strong>Occupation:</strong> Computer Scientist<br>
+    <strong>E-Mail:</strong> philosophie-delor [at] proton [dot] me<br>
     <strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-3012-3304">0009-0009-3012-3304</a><br>
     <strong>Fields of Work:</strong> Ethics, Epistemology, Ontology, Philosophy of Science</p>
   </div>
@@ -54,7 +55,7 @@ Alongside the scientific work, a book project is developing that will unfold the
 
 This website consolidates my scientific work and accessible texts in one place. It serves as an entry point to central questions and as a navigation point to further publications and projects.
 
-# Contact (At Your Own Risk)
+## Contact (At Your Own Risk)
 Should you wish to complain – about the content of this site, the disappearance of Schrödinger's cat, the incompleteness of arithmetic, or the general unfairness of a universe that refuses to provide ultimate foundations – you are most welcome to do so.
 Criticism is not merely tolerated here; it is the point. If you can show me I am wrong, you have done me a favour. I shall correct the error and thank you – probably in that order.
 However: those who criticise should expect to be criticised in return. This is not a threat; it is the principle. If you are looking for agreement, you have come to the wrong place.

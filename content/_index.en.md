@@ -9,11 +9,15 @@ The author subscribes to critical rationalism – a position which holds that re
 The texts reflect this. They take arguments seriously – sometimes rather more seriously than their authors might have wished. They do not take nonsense seriously, even when it appears in peer-reviewed journals. And they are occasionally satirical, because some positions are so absurd that sober analysis alone would fail to do justice to their comedic potential.
 If you find this arrogant, you are welcome to disagree. That is, after all, what criticism is for.
 
-# Legal Matters (Of a Sort)
+
+> ⚠️ Warning: Satire ahead.
+> The tone is intentionally dry, but the content is serious. The jokes are there to carry an argument.
+
+## Legal Matters (Of a Sort)
 At this point, one would normally expect an imprint, perhaps a privacy policy, possibly a disclaimer noting that the views expressed are solely those of the author and not those of his employer, his cat, or the International Society for Critical Rationalism.
 Instead, what follows is a liability disclaimer. Not because the law requires one – philosophy, as far as anyone knows, remains an unregulated activity – but because experience has shown it to be necessary.
 
-# General Disclaimer in Accordance with the Principles of Philosophical Due Diligence
+## General Disclaimer in Accordance with the Principles of Philosophical Due Diligence
 
 The content presented on this website is predominantly philosophical, occasionally polemical, but primarily satirical in nature. The author advocates a position of critical rationalism in the tradition of Karl Popper—which, despite Popper spending most of his career at the London School of Economics, remains surprisingly unpopular in British philosophy departments. One suspects the weather.
 
@@ -27,7 +31,7 @@ Entry to this site is at your own risk and responsibility. Any claims for compen
 
 ---
 
-# Recommended Countermeasures in Cases of Acute Philosophical Exposure
+## Recommended Countermeasures in Cases of Acute Philosophical Exposure
 
 Should you, after reading this site, notice one or more of the following symptoms—including: doubts about the existence of immaterial substances, discomfort at the word "qualia," a spontaneous allergy to the phrase "Well, it's all relative, isn't it," the sudden urge to ask for empirical evidence in discussions, or an uncontrollable eye-twitch whenever someone mentions "ways of knowing"—we recommend the following immediate measures:
 
@@ -47,7 +51,7 @@ Should you, after reading this site, notice one or more of the following symptom
 
 For persistent complaints, consult an epistemologist you trust. Visits to transcendental philosophers are not recommended. Under no circumstances contact a "life coach."
 
-# Contact (At Your Own Risk)
+## Contact (At Your Own Risk)
 Should you wish to complain – about the content of this site, the disappearance of Schrödinger's cat, the incompleteness of arithmetic, or the general unfairness of a universe that refuses to provide ultimate foundations – you are most welcome to do so.
 Criticism is not merely tolerated here; it is the point. If you can show me I am wrong, you have done me a favour. I shall correct the error and thank you – probably in that order.
 However: those who criticise should expect to be criticised in return. This is not a threat; it is the principle. If you are looking for agreement, you have come to the wrong place.

@@ -12,6 +12,7 @@ draft: false
     <p><strong>Name:</strong> Frieder Delor<br>
     <strong>Wohnort:</strong> Tirol (Österreich)<br>
     <strong>Tätigkeit:</strong> Informatiker<br>
+    <strong>E-Mail:</strong> philosophie-delor [at] proton [dot] me<br>
     <strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-3012-3304">0009-0009-3012-3304</a><br>
     <strong>Arbeitsfelder:</strong> Ethik, Erkenntnistheorie, Ontologie, Wissenschaftstheorie</p>
   </div>
@@ -19,6 +20,7 @@ draft: false
   </div>
 
 </div>
+
 
 
 ## Herkunft und Werdegang
@@ -45,7 +47,7 @@ Ich stehe in der Tradition Aristoteles sowie der skeptischen und empirisch orien
 
 ## Aktuelle Arbeit
 
-Mein aktuelles Kernprojekt ist eine kritisch-rationalistische, kulturalistische Ethik, die Erkenntnisse aus den Naturwissenschaften mit kritisch-rationalen Prinzipien bündelt. Dazu entstehen mehrere Texte in Vorbereitung, darunter wissenschaftliche Arbeiten, begleitende Klärungen und Untersuchungen alternativer ethischer und metaethischer Positionen.
+Mein aktuelles Kernprojekt ist eine kritisch-rationalistische, evolutionäre Ethik, die Erkenntnisse aus den Naturwissenschaften mit kritisch-rationalen Prinzipien bündelt. Dazu entstehen mehrere Texte in Vorbereitung, darunter wissenschaftliche Arbeiten, begleitende Klärungen und Untersuchungen alternativer ethischer und metaethischer Positionen.
 
 Neben den wissenschaftlichen Arbeiten entsteht ein Buchprojekt, das diese Themen in einem größeren Zusammenhang entfalten und für ein breiteres Publikum zugänglich machen soll.
 
@@ -54,7 +56,7 @@ Neben den wissenschaftlichen Arbeiten entsteht ein Buchprojekt, das diese Themen
 Diese Website bündelt meine wissenschaftlichen Arbeiten und allgemeinverständlichen Texte an einem Ort. Sie dient als Einstieg in zentrale Fragen und als Navigationspunkt zu weiterführenden Veröffentlichungen und Projekten.
 
 
-# Kontakt (auf eigene Gefahr)
+## Kontakt (auf eigene Gefahr)
 
 Wer sich beschweren möchte – über den Inhalt dieser Seite, das Verschwinden von Schrödingers Katze, die Unvollständigkeit der Arithmetik oder die allgemeine Ungerechtigkeit eines Universums, das keine Letztbegründung zulässt – darf dies gerne tun.
 Kritik ist willkommen. Mehr noch: Sie ist der Sinn der Sache. Wer mir einen Fehler nachweist, hat mir einen Gefallen getan. Ich werde ihn korrigieren und mich bedanken – vermutlich in dieser Reihenfolge.

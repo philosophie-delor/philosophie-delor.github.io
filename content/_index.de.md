@@ -2,19 +2,22 @@
 title: "Philosophie – Delor"
 description: "Publikationen, Essays und thematisch geordnete Notizen."
 ---
-# Worum es hier geht
+## Worum es hier geht
 
 Diese Seite enthält Philosophie. Nicht die Art von Philosophie, bei der jeder seine eigene Wahrheit hat und alle Perspektiven gleich gültig sind. Sondern die Art, bei der manche Behauptungen falsch sind und man das auch sagen darf.
 Der Autor vertritt den kritischen Rationalismus – eine Position, die davon ausgeht, dass es eine Wirklichkeit gibt, dass wir etwas über sie herausfinden können, und dass der beste Weg dorthin nicht Offenbarung, Intuition oder akademische Autorität ist, sondern Kritik. Scharfe, ehrliche, unerbittliche Kritik. Auch an sich selbst.
-Die Texte sind entsprechend. Sie nehmen Argumente ernst – manchmal ernster, als deren Urheber es sich gewünscht hätten. Sie nehmen Unsinn nicht ernst, auch wenn er in Fachzeitschriften erscheint. Und sie sind gelegentlich satirisch, weil manche Positionen so absurd sind, dass nüchterne Analyse allein ihrer Komik nicht gerecht würde.
-Wer das für arrogant hält, darf gerne widersprechen. Dafür ist Kritik da.
- 
-# Rechtliches (oder so ähnlich)
+Die Texte sind entsprechend. Sie nehmen Argumente ernst – manchmal ernster, als deren Urheber es sich gewünscht hätten. Sie nehmen Unsinn nicht ernst, auch wenn er in Fachzeitschriften erscheint. Und sie sind gelegentlich satirisch, weil manche Positionen so absurd sind, dass nüchterne Analyse allein ihrer Komik nicht gerecht würde.Wer das für arrogant hält, darf gerne widersprechen. Dafür ist Kritik da.
+
+
+> ⚠️ Achtung: Ab hier folgt Satire.
+> Der Ton ist absichtlich trocken, aber der Inhalt bleibt ernst. Hinter dem Spott steckt ein Argument.
+
+## Rechtliches (oder so ähnlich)
 
 An dieser Stelle wäre normalerweise ein Impressum zu erwarten, vielleicht eine Datenschutzerklärung, möglicherweise der Hinweis, dass die Meinungen des Autors nur seine eigenen sind und nicht die seines Arbeitgebers, seiner Katze oder der Internationalen Gesellschaft für Kritischen Rationalismus.
 Stattdessen folgt ein Haftungsausschluss. Nicht weil das Gesetz ihn verlangt – Philosophie unterliegt, soweit bekannt, keiner Zulassungspflicht –, sondern weil die Erfahrung gezeigt hat, dass er nötig ist.
 
-# Allgemeiner Haftungsausschluss gemäß den Grundsätzen philosophischer Sorgfaltspflicht
+## Allgemeiner Haftungsausschluss gemäß den Grundsätzen philosophischer Sorgfaltspflicht
 
  Es wird ausdrücklich darauf hingewiesen, dass das Rezipieren entsprechender Argumentation in der Vergangenheit gelegentlich zu unerwünschten Nebenwirkungen geführt haben soll, darunter: kognitive Verwirrung mittleren bis schweren Grades, Migräne, Übelkeit, spontane Infragestellung bislang für selbstverständlich gehaltener Annahmen sowie in mindestens einem dokumentierten Fall vorübergehendes Tourette-Syndrom.
 
@@ -24,7 +27,7 @@ Stattdessen folgt ein Haftungsausschluss. Nicht weil das Gesetz ihn verlangt –
 
 Das Betreten dieser Seite erfolgt auf eigene Gefahr und eigene Verantwortung. Etwaige Regressansprüche sind schriftlich an die oben genannte Ethikkommission zu richten.
 
-# Empfohlene Gegenmaßnahmen bei akuter philosophischer Exposition
+## Empfohlene Gegenmaßnahmen bei akuter philosophischer Exposition
 
  Sollten Sie nach dem Lesen dieser Seite eines oder mehrere der folgenden Symptome bei sich feststellen – darunter: Zweifel an der Existenz immaterieller Substanzen, Unbehagen beim Wort „Wesensschau", spontane Allergie gegen den Satz „Das kann man so nicht sagen" oder den plötzlichen Drang, in Diskussionen nach empirischen Belegen zu fragen –, empfehlen wir folgende Sofortmaßnahmen:
 
@@ -44,7 +47,8 @@ Das Betreten dieser Seite erfolgt auf eigene Gefahr und eigene Verantwortung. Et
 
  Bei anhaltenden Beschwerden konsultieren Sie einen Erkenntnistheoretiker Ihres Vertrauens. Von Besuchen bei Transzendentalphilosophen wird abgeraten.
 
-# Kontakt (auf eigene Gefahr)
+## Kontakt (auf eigene Gefahr)
+
 Wer sich beschweren möchte – über den Inhalt dieser Seite, das Verschwinden von Schrödingers Katze, die Unvollständigkeit der Arithmetik oder die allgemeine Ungerechtigkeit eines Universums, das keine Letztbegründung zulässt – darf dies gerne tun.
 Kritik ist willkommen. Mehr noch: Sie ist der Sinn der Sache. Wer mir einen Fehler nachweist, hat mir einen Gefallen getan. Ich werde ihn korrigieren und mich bedanken – vermutlich in dieser Reihenfolge.
 Allerdings: Wer kritisiert, muss mit Gegenkritik rechnen. Das ist keine Drohung, sondern das Prinzip. Wer nur Zustimmung sucht, ist hier falsch.

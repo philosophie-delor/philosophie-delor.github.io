@@ -24,6 +24,10 @@ languages:
   de:
     languageName: Deutsch
     weight: 1
+    params:
+      sidebar:
+        avatar: "img/avatar.png"
+        subtitle: "Essays, Satiere und wissenschaftliche Artikel"
     menus:
       main:
         - identifier: home
@@ -46,6 +50,10 @@ languages:
   en:
     languageName: English
     weight: 2
+    params:
+      sidebar:
+        avatar: "img/avatar.png"
+        subtitle: "Essays, Satire and scientiffic publications"
     menus:
       main:
         - identifier: home
@@ -96,11 +104,6 @@ params:
         dateFormat:
             published: "2026-01-02"
             lastUpdated: "2026-01-02"
-
-
-    sidebar:
-      subtitle: "Essays und wissenschaftliche Verweise"
-      avatar: "img/avatar.png"
 
 
     article:

@@ -1,7 +1,7 @@
 ---
 date: '2026-02-05'
 draft: false
-title: 'What Is Qualety'
+title: 'What Is Quality'
 
 tags: ["Philosophy", "Quality"]
 categories: ["Philosophy"]
