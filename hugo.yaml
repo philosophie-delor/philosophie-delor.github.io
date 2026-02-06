@@ -99,12 +99,9 @@ params:
 
 
     sidebar:
-        emoji: 
-        subtitle: "Essays und wissenschaftliche Verweise"
-        avatar:
-            enabled: true
-            local: true
-            src: img/avatar.png
+      subtitle: "Essays und wissenschaftliche Verweise"
+      avatar: "img/avatar.png"
+
 
     article:
         math: false
