@@ -13,3 +13,5 @@
         crossorigin="anonymous"
         async>
 </script>
+
+hugo new content/post/how-to-prove-humes-law"/index.md

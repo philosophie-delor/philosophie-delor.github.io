@@ -92,7 +92,7 @@ nav.sidebar{
 [data-theme="dark"] .article-page .main-article,
 [data-theme="dark"] .article-list .article,
 [data-theme="dark"] .article-list .article-card{
-  box-shadow: 0 10px 28px rgba(0,0,0,0.35);
+  box-shadow: 0 10px 28px rgba(133, 160, 206, 0.758);
 }
 
 /* A) "Posts" Section-Karte (die graue Box mit "1 Seite / Posts") */
@@ -141,6 +141,15 @@ body[data-theme="dark"],
   --panel-bg: rgba(0, 0, 0, 0);
   --panel-wash: rgba(41, 53, 66, 0.864);        /* Lesbarkeit dunkel */
   --panel-border: none;
+  --blockquote-background-color:#0550ae69;
+}
+
+.article-content blockquote {
+    position: relative;
+    margin: 1.5em 0;
+    border-inline-start: var(--blockquote-border-size) solid var(--card-separator-color);
+    padding: 15px calc(var(--card-padding) - var(--blockquote-border-size));
+    background-color: #96d0ff4d;
 }
 
 /* 3) Panel-Ziele */

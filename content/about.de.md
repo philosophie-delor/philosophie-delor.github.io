@@ -53,3 +53,14 @@ Neben den wissenschaftlichen Arbeiten entsteht ein Buchprojekt, das diese Themen
 
 Diese Website bündelt meine wissenschaftlichen Arbeiten und allgemeinverständlichen Texte an einem Ort. Sie dient als Einstieg in zentrale Fragen und als Navigationspunkt zu weiterführenden Veröffentlichungen und Projekten.
 
+
+# Kontakt (auf eigene Gefahr)
+
+Wer sich beschweren möchte – über den Inhalt dieser Seite, das Verschwinden von Schrödingers Katze, die Unvollständigkeit der Arithmetik oder die allgemeine Ungerechtigkeit eines Universums, das keine Letztbegründung zulässt – darf dies gerne tun.
+Kritik ist willkommen. Mehr noch: Sie ist der Sinn der Sache. Wer mir einen Fehler nachweist, hat mir einen Gefallen getan. Ich werde ihn korrigieren und mich bedanken – vermutlich in dieser Reihenfolge.
+Allerdings: Wer kritisiert, muss mit Gegenkritik rechnen. Das ist keine Drohung, sondern das Prinzip. Wer nur Zustimmung sucht, ist hier falsch.
+Ich kann nicht versprechen, auf jede Nachricht zu antworten. Manche Antworten erscheinen möglicherweise in Form eines Blogbeitrags. Wer das nicht wünscht, sollte es ausdrücklich dazuschreiben. Eine Garantie, dass ich mich daran halte, gibt es nicht – aber ich werde es versuchen, sofern mir die Anfrage nicht als Beispiel für einen besonders lehrreichen Denkfehler zu wertvoll erscheint.
+Kontaktmöglichkeiten:
+
+E-Mail: philosophie-delor [at] proton [dot] me
+Kommentarfunktion unter den Blogbeiträgen (erfordert ein GitHub-Konto – ja, auch Philosophie hat mittlerweile eine Versionskontrolle nötig)

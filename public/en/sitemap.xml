@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/what-is-qualety/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/what-is-qualety/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/what-is-qualety/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/academic-satire/</loc>
     <lastmod>2026-01-18T17:45:33+01:00</lastmod>
     <xhtml:link
@@ -76,32 +115,6 @@
     <loc>http://localhost:1313/en/tags/philosophy/</loc>
     <lastmod>2026-01-18T17:45:33+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-01-18T17:45:33+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2026-01-18T17:45:33+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2026-01-18T17:45:33+01:00</lastmod>
     <xhtml:link
@@ -126,19 +139,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/publications/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/about/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/mindeststandards/</loc>
