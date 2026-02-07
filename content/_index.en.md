@@ -2,16 +2,33 @@
 title: "Philosophy – Delor"
 description: "Philosophy, Essays and Satire – Guaranteed Free of Vogon Poetry."
 ---
+# What This Is About – And More Importantly, What It Is Not
 
-# What This Is About
-This site contains philosophy. Not the sort of philosophy where everyone has their own truth and all perspectives are equally valid. Rather, the sort where some claims are wrong, and one is permitted to say so.
-The author subscribes to critical rationalism – a position which holds that reality exists, that we can find out things about it, and that the best way of doing so is neither revelation, nor intuition, nor academic authority, but criticism. Sharp, honest, relentless criticism. Including of oneself.
-The texts reflect this. They take arguments seriously – sometimes rather more seriously than their authors might have wished. They do not take nonsense seriously, even when it appears in peer-reviewed journals. And they are occasionally satirical, because some positions are so absurd that sober analysis alone would fail to do justice to their comedic potential.
-If you find this arrogant, you are welcome to disagree. That is, after all, what criticism is for.
+> ⚠️ **DON'T PANIC**
+>
+> This is satire.
+>
+> That does not mean it is a joke – quite the opposite.
+>
+> The topics here are far too important to be wrapped in that cotton-wool academic prose which glides through peer-review processes without anyone waking up, reconsidering, or so much as raising an eyebrow. That tone carefully calibrated to ensure no one feels challenged – and therefore no one examines their worldview.
+>
+> Satire here is a tool of honesty. It says what academic tone is not permitted to say: that some positions are not merely wrong, but absurd. That criticism may sting if it is to land. That politeness which spares nonsense is no virtue.
+>
+> The claim to truth is serious. The tone sometimes is not. This is not a contradiction. It is the only way to be heard.
 
+This site contains philosophy. Please have your towel ready.
 
-> ⚠️ Warning: Satire ahead.
-> The tone is intentionally dry, but the content is serious. The jokes are there to carry an argument.
+You will not find the Answer 42 here, nor the Question that goes with it – though we suspect it has something to do with epistemology. If you are looking for Schrödinger's cat: we have decided not to check.
+
+What you will find is philosophy in the tradition of critical rationalism. This is a position which holds that reality exists, that we can find out things about it, and that the best way of doing so is neither revelation, nor intuition, nor academic authority, but criticism. Sharp, honest, relentless criticism. Including of oneself.
+
+Not the sort of philosophy where everyone has their own truth and all perspectives are equally valid and therefore equally irrelevant. Rather, the sort where some claims are wrong, and one is permitted to say so.
+
+The texts take arguments seriously – sometimes rather more seriously than their authors might have wished. They do not take nonsense seriously, even when it appears in peer-reviewed journals. And they are occasionally satirical, because some positions are so absurd that sober analysis alone would fail to do justice to their comedic potential.
+
+It is recommended to keep a Pan Galactic Gargle Blaster within reach while reading. The side effects – sudden clarity, loss of cherished illusions, spontaneous demand for evidence – are easier to bear that way.
+
+If you find all this arrogant, you are welcome to disagree. That is, after all, what criticism is for.
 
 ## Legal Matters (Of a Sort)
 At this point, one would normally expect an imprint, perhaps a privacy policy, possibly a disclaimer noting that the views expressed are solely those of the author and not those of his employer, his cat, or the International Society for Critical Rationalism.

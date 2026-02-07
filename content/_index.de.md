@@ -2,15 +2,30 @@
 title: "Philosophie – Delor"
 description: "Philosophie, Essays und Satire garantiert ohne  Vogonische Lyrik."
 ---
-## Worum es hier geht
 
-Diese Seite enthält Philosophie. Nicht die Art von Philosophie, bei der jeder seine eigene Wahrheit hat und alle Perspektiven gleich gültig und somit gleichgültig sind. Sondern die Art, bei der manche Behauptungen falsch sind und man das auch sagen darf.
-Der Autor vertritt den kritischen Rationalismus – eine Position, die davon ausgeht, dass es eine Wirklichkeit gibt, dass wir etwas über sie herausfinden können, und dass der beste Weg dorthin nicht Offenbarung, Intuition oder akademische Autorität ist, sondern Kritik. Scharfe, ehrliche, unerbittliche Kritik. Auch an sich selbst.
-Die Texte sind entsprechend. Sie nehmen Argumente ernst – manchmal ernster, als deren Urheber es sich gewünscht hätten. Sie nehmen Unsinn nicht ernst, auch wenn er in Fachzeitschriften erscheint. Und sie sind gelegentlich satirisch, weil manche Positionen so absurd sind, dass nüchterne Analyse allein ihrer Komik nicht gerecht würde.Wer das für arrogant hält, darf gerne widersprechen. Dafür ist Kritik da.
+# Worum es hier geht - Und noch Wichtiger, worum nicht.
+
+> ⚠️ **KEINE PANIK**
+>
+>Dies ist Satire. 
+>
+>Das bedeutet nicht, dass es ein Jux ist – ganz im Gegenteil.
+>
+>Die Themen hier sind zu wichtig, um sie in jenem wattierten Akademikerdeutsch zu verpacken, das durch Peer-Review-Verfahren gleitet, ohne dass jemand aufwacht umdenkt oder auch nur zusammenzuckt. Jener Tonfall, der so formuliert ist, dass sich niemand angegriffen fühlt – und deshalb auch niemand sein Weltbild hinterfragt.
+>
+>Satire ist hier ein Werkzeug der Ehrlichkeit. Sie sagt, was der akademische Ton nicht sagen darf: dass manche Positionen nicht nur falsch sind, sondern absurd. Dass Kritik wehtun darf, wenn sie treffen soll. Dass Höflichkeit, die Unsinn schont, keine Tugend ist.
+>
+> Der Wahrheitsanspruch ist ernst. Der Ton ist es manchmal nicht. Das ist kein Widerspruch. Das ist die einzige Möglichkeit, gehört zu werden.
+
+Diese Seite enthält Philosophie. Bitte halten Sie Ihr Handtuch bereit.
+Sie werden hier nicht die Antwort 42 finden, und auch nicht die dazugehörige Frage – obwohl wir vermuten, dass sie etwas mit Erkenntnistheorie zu tun hat. Falls Sie Schrödingers Katze suchen: Wir haben beschlossen, nicht nachzusehen.
+Was Sie finden werden, ist Philosophie in der Tradition des kritischen Rationalismus. Das ist eine Position, die davon ausgeht, dass es eine Wirklichkeit gibt, dass wir etwas über sie herausfinden können, und dass der beste Weg dorthin nicht Offenbarung, Intuition oder akademische Autorität ist, sondern Kritik. Scharfe, ehrliche, unerbittliche Kritik. Auch an sich selbst.
+Nicht die Art von Philosophie, bei der jeder seine eigene Wahrheit hat und alle Perspektiven gleich gültig und somit gleichgültig sind. Sondern die Art, bei der manche Behauptungen falsch sind und man das auch sagen darf.
+Die Texte nehmen Argumente ernst – manchmal ernster, als deren Urheber es sich gewünscht hätten. Sie nehmen Unsinn nicht ernst, auch wenn er in Fachzeitschriften erscheint. Und sie sind gelegentlich satirisch, weil manche Positionen so absurd sind, dass nüchterne Analyse allein ihrer Komik nicht gerecht würde.
+Es wird empfohlen, beim Lesen einen pangalaktischen Donnergurgler in Reichweite zu halten. Die Nebenwirkungen – plötzliche Klarheit, Verlust liebgewonnener Illusionen, spontanes Verlangen nach Belegen – lassen sich so leichter ertragen.
+Wer das alles für arrogant hält, darf gerne widersprechen. Dafür ist Kritik da.
 
 
-> ⚠️ Achtung: Ab hier folgt Satire.
-> Der Ton ist absichtlich trocken, aber der Inhalt bleibt ernst. Hinter dem Spott steckt ein Argument.
 
 ## Rechtliches (oder so ähnlich)
 
