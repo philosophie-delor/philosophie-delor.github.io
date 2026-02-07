@@ -4,7 +4,7 @@ description: "Publikationen, Essays und thematisch geordnete Notizen."
 ---
 ## Worum es hier geht
 
-Diese Seite enthält Philosophie. Nicht die Art von Philosophie, bei der jeder seine eigene Wahrheit hat und alle Perspektiven gleich gültig sind. Sondern die Art, bei der manche Behauptungen falsch sind und man das auch sagen darf.
+Diese Seite enthält Philosophie. Nicht die Art von Philosophie, bei der jeder seine eigene Wahrheit hat und alle Perspektiven gleich gültig und somit gleichgültig sind. Sondern die Art, bei der manche Behauptungen falsch sind und man das auch sagen darf.
 Der Autor vertritt den kritischen Rationalismus – eine Position, die davon ausgeht, dass es eine Wirklichkeit gibt, dass wir etwas über sie herausfinden können, und dass der beste Weg dorthin nicht Offenbarung, Intuition oder akademische Autorität ist, sondern Kritik. Scharfe, ehrliche, unerbittliche Kritik. Auch an sich selbst.
 Die Texte sind entsprechend. Sie nehmen Argumente ernst – manchmal ernster, als deren Urheber es sich gewünscht hätten. Sie nehmen Unsinn nicht ernst, auch wenn er in Fachzeitschriften erscheint. Und sie sind gelegentlich satirisch, weil manche Positionen so absurd sind, dass nüchterne Analyse allein ihrer Komik nicht gerecht würde.Wer das für arrogant hält, darf gerne widersprechen. Dafür ist Kritik da.
 
