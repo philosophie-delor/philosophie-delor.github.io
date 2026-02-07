@@ -1,6 +1,6 @@
 ---
 title: "Philosophie – Delor"
-description: "Publikationen, Essays und thematisch geordnete Notizen."
+description: "Philosophie, Essays und Satire garantiert ohne  Vogonische Lyrik."
 ---
 ## Worum es hier geht
 

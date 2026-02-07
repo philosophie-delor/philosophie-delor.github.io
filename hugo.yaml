@@ -27,7 +27,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Essays, Satiere und wissenschaftliche Artikel"
+        subtitle: "Philosophie, Essays und Satire garantiert ohne  Vogonische Lyrik."
     menus:
       main:
         - identifier: home
@@ -53,7 +53,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Essays, Satire and scientiffic publications"
+        subtitle: "Philosophy, Essays and Satire – Guaranteed Free of Vogon Poetry"
     menus:
       main:
         - identifier: home

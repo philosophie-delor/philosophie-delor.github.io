@@ -1,6 +1,6 @@
 ---
 title: "Philosophy – Delor"
-description: "Publications, essays, and thematically organized notes."
+description: "Philosophy, Essays and Satire – Guaranteed Free of Vogon Poetry."
 ---
 
 # What This Is About
