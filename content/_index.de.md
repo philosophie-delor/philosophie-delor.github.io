@@ -1,6 +1,6 @@
 ---
 title: "Philosophie – Delor"
-description: "Philosophie, Essays und Satire garantiert ohne  Vogonische Lyrik."
+description: "Philosophie, Essays und Satire - Ohne Vogonische Lyrik oder Hegelinaischerm Geschwurbel."
 ---
 
 # Worum es hier geht - Und noch Wichtiger, worum nicht.
