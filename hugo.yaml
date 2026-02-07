@@ -27,7 +27,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Philosophie, Essays und Satire garantiert ohne  Vogonische Lyrik."
+        subtitle: "Philosophie, Essays und Satire - Ohne  Vogonische Lyrik oder Hegelianischem Geschwurbel."
     menus:
       main:
         - identifier: home
@@ -53,7 +53,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Philosophy, Essays and Satire – Guaranteed Free of Vogon Poetry"
+        subtitle: "Philosophy, Essays and Satire – Free of Vogon Poetry and Hegelianism."
     menus:
       main:
         - identifier: home
