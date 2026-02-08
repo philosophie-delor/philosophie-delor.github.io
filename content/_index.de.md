@@ -26,7 +26,6 @@ Es wird empfohlen, beim Lesen einen pangalaktischen Donnergurgler in Reichweite 
 Wer das alles für arrogant hält, darf gerne widersprechen. Dafür ist Kritik da.
 
 
-
 ## Rechtliches (oder so ähnlich)
 
 An dieser Stelle wäre normalerweise ein Impressum zu erwarten, vielleicht eine Datenschutzerklärung, möglicherweise der Hinweis, dass die Meinungen des Autors nur seine eigenen sind und nicht die seines Arbeitgebers, seiner Katze oder der Internationalen Gesellschaft für Kritischen Rationalismus.
