@@ -1,7 +1,7 @@
 ---
 date: '2026-01-18T17:45:33+01:00'
 draft: false
-title: "How to Prove Hume's Law"
+title: "Wie man Hume's Gesetz bewesit, oder auch nicht"
 tags: ["Philosophie", "Logick", "Is-Ought Problem", "Metaethics", "Academic Satire"]
 categories: ["Philosophie"]
 description: "Eine kritische (und leicht satirische) Betrachtung formaler 'Beweise' der Unmöglichkeit von Is-Ought-Schlüssen am Beispiel von Gillian Russells 'How to Prove Hume's Law'"
@@ -118,6 +118,3 @@ Aber das wäre vermutlich nicht lang genug für 30 Seiten gewesen.
 
 Russell, Gillian (2023): "How to Prove Hume's Law". *Journal of Philosophical Logic* (forthcoming). [PhilArchive](https://philarchive.org/archive/RUSHTP-2)
 
----
-
-*Dieser Blogpost ist Teil meiner Arbeiten zum Sein-Sollen-Problem. Eine ausführlichere, akademisch-sachliche Behandlung findet sich in meinem kommenden Paper zur evolutionären Ethik im Rahmen des kritischen Rationalismus.*

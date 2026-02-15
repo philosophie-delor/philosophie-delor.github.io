@@ -213,3 +213,14 @@ markup:
         tabWidth: 4
 
 
+enableRobotsTXT: true
+
+sitemap:
+  disable: false
+  filename: sitemap.xml
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - SITEMAP

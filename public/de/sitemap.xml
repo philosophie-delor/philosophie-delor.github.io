@@ -2,41 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/de/tags/academische-satiere/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/categories/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/categories/philosophie/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/tags/philosophie/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/"
-                />
-  </url><url>
     <loc>http://localhost:1313/de/posts/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -50,103 +15,6 @@
                 href="http://localhost:1313/de/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/tags/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/posts/what-is-philosophy/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/what-is-philosophy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/posts/what-is-philosophy/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/qualit%C3%A4t/</loc>
-    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/posts/what-is-qualety/</loc>
-    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/what-is-qualety/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/posts/what-is-qualety/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/academic-satire/</loc>
-    <lastmod>2026-01-18T17:45:33+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/academic-satire/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/academic-satire/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/posts/how-to-prove-humes-law/</loc>
-    <lastmod>2026-01-18T17:45:33+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/how-to-prove-humes-law/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/posts/how-to-prove-humes-law/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/is-ought-problem/</loc>
-    <lastmod>2026-01-18T17:45:33+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/is-ought-problem/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/is-ought-problem/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/logick/</loc>
-    <lastmod>2026-01-18T17:45:33+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/tags/metaethics/</loc>
-    <lastmod>2026-01-18T17:45:33+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/metaethics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/metaethics/"
-                />
-  </url><url>
     <loc>http://localhost:1313/de/publications/</loc>
     <lastmod>2026-01-11T16:32:44+01:00</lastmod>
     <xhtml:link
@@ -158,19 +26,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/publications/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/posts/mindeststandards/</loc>
-    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/mindeststandards/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/posts/mindeststandards/"
                 />
   </url><url>
     <loc>http://localhost:1313/de/about/</loc>

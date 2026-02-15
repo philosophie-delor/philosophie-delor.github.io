@@ -1,6 +1,6 @@
 ---
 title: "Philosophy – Delor"
-description: "Philosophy, Essays and Satire – Guaranteed Free of Vogon Poetry."
+description: "Philosophy, Essays and Satire – Free of Vogon Poetry and Hegelianism."
 ---
 # What This Is About – And More Importantly, What It Is Not
 

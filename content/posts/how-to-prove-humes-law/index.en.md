@@ -1,7 +1,7 @@
 ---
 date: '2026-01-18T17:45:33+01:00'
 draft: false
-title: "How to Prove Hume's Law"
+title: "How not to Prove Hume's Law"
 tags: ["Philosophy", "Logic", "Is-Ought Problem", "Metaethics", "Academic Satire"]
 categories: ["Philosophy"]
 description: "A critical (and slightly satirical) examination of formal 'proofs' of the impossibility of is-ought inferences, using Gillian Russell's 'How to Prove Hume's Law' as an example"
@@ -25,7 +25,7 @@ Russell defines normative sentences as "S-shift-breakable": A sentence is normat
 
 This means, with all desirable clarity: **Normative sentences depend, by definition, on something that is independent of descriptive facts.**
 
-When the following 20 pages then prove that normative sentences do not follow from purely descriptive premises (except under special conditions), this is about as surprising as discovering that bachelors are unmarried.
+When the following 10 pages then prove that normative sentences do not follow from purely descriptive premises (except under special conditions), this is about as surprising as discovering that bachelors are unmarried.
 
 Imagine: Someone defines "color" as "a property that exists independently of the wavelength of light" and then develops a highly complex physical model with tensor calculus and quantum field theory to prove that no statements about color follow from premises about wavelengths.
 
@@ -117,6 +117,3 @@ But that probably wouldn't have been long enough for 30 pages.
 
 Russell, Gillian (2023): "How to Prove Hume's Law". *Journal of Philosophical Logic* (forthcoming). [PhilArchive](https://philarchive.org/archive/RUSHTP-2)
 
----
-
-*This blog post is part of my work on the is-ought problem. A more detailed, academically rigorous treatment can be found in my forthcoming paper on evolutionary ethics within the framework of critical rationalism.*
