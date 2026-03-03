@@ -129,12 +129,3 @@ It would be time to reopen the question.
 
 ---
 
-**References:**
-
-- Albert, H. (1968). *Traktat über kritische Vernunft* [Treatise on Critical Reason]. Tübingen: Mohr Siebeck.
-- Bunge, M. (1974–1989). *Treatise on Basic Philosophy*, 8 vols. Dordrecht: Reidel.
-- Dancy, J. (2004). *Ethics Without Principles*. Oxford: Oxford University Press.
-- Dreyfus, H. & Dreyfus, S. (1986). *Mind over Machine: The Power of Human Intuition and Expertise in the Era of the Computer*. New York: Free Press.
-- Putnam, H. (2002). *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
-- Ryle, G. (1949). *The Concept of Mind*. London: Hutchinson.
-- Williams, B. (1985). *Ethics and the Limits of Philosophy*. Cambridge, MA: Harvard University Press.
