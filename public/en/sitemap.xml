@@ -1,44 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/publications/</loc>
-    <lastmod>2026-01-11T16:32:44+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/publications/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/publications/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/about/"
-                />
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>http://localhost:1313/en/posts/expressivism/</loc><lastmod>2026-03-03T21:07:06&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/expressivism/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/expressivism/"/></url><url>
+    <loc>http://localhost:1313/en/posts/the-gospel-of-john/</loc><lastmod>2026-03-02T22:23:46&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/the-gospel-of-john/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/the-gospel-of-john/"/></url><url>
+    <loc>http://localhost:1313/en/posts/what-is-philosophy/</loc><lastmod>2026-02-06T00:00:00&#43;00:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/what-is-philosophy/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/what-is-philosophy/"/></url><url>
+    <loc>http://localhost:1313/en/posts/what-is-qualety/</loc><lastmod>2026-02-05T00:00:00&#43;00:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/what-is-qualety/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/what-is-qualety/"/></url><url>
+    <loc>http://localhost:1313/en/posts/how-to-prove-humes-law/</loc><lastmod>2026-01-18T17:45:33&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/how-to-prove-humes-law/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/how-to-prove-humes-law/"/></url><url>
+    <loc>http://localhost:1313/en/publications/</loc><lastmod>2026-01-11T16:32:44&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/publications/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/publications/"/></url><url>
+    <loc>http://localhost:1313/en/about/</loc><lastmod>2026-01-11T00:00:00&#43;00:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/about/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/about/"/></url><url>
+    <loc>http://localhost:1313/en/posts/mindeststandards/</loc><lastmod>2026-01-11T00:00:00&#43;00:00</lastmod><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/mindeststandards/"/><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/mindeststandards/"/></url></urlset>

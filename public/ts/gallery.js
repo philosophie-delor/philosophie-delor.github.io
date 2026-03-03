@@ -8,6 +8,9 @@ var wrap = (figures) => {
     galleryContainer.appendChild(figure);
   }
 };
+var unescapeHtml = (html) => {
+  return html.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+};
 var stdin_default = (container) => {
   const images = container.querySelectorAll("img.gallery-image");
   for (const img of Array.from(images)) {
@@ -42,9 +45,13 @@ var stdin_default = (container) => {
     }
     el.parentElement.insertBefore(figure, el);
     figure.appendChild(el);
-    if (img.hasAttribute("alt")) {
+    let caption = img.getAttribute("alt");
+    if (img.getAttribute("data-title-escaped")) {
+      caption = unescapeHtml(img.getAttribute("data-title-escaped"));
+    }
+    if (caption) {
       const figcaption = document.createElement("figcaption");
-      figcaption.innerText = img.getAttribute("alt");
+      figcaption.innerHTML = caption;
       figure.appendChild(figcaption);
     }
   }
