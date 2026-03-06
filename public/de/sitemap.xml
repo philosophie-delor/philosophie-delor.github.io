@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>http://localhost:1313/de/posts/thick-rules/</loc><lastmod>2026-03-03T22:01:15&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/thick-rules/"/><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/thick-rules/"/></url><url>
+    <loc>http://localhost:1313/de/posts/thick-rules/</loc><lastmod>2026-03-06T22:01:15&#43;01:00</lastmod></url><url>
     <loc>http://localhost:1313/de/posts/expressivism/</loc><lastmod>2026-03-03T21:06:57&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/expressivism/"/><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/expressivism/"/></url><url>
     <loc>http://localhost:1313/de/posts/the-gospel-of-john/</loc><lastmod>2026-03-02T22:23:54&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/the-gospel-of-john/"/><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/the-gospel-of-john/"/></url><url>
     <loc>http://localhost:1313/de/posts/what-is-philosophy/</loc><lastmod>2026-02-06T00:00:00&#43;00:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/what-is-philosophy/"/><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/what-is-philosophy/"/></url><url>
@@ -9,3 +9,8 @@
     <loc>http://localhost:1313/de/publications/</loc><lastmod>2026-01-11T16:32:44&#43;01:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/publications/"/><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/publications/"/></url><url>
     <loc>http://localhost:1313/de/posts/mindeststandards/</loc><lastmod>2026-01-11T00:00:00&#43;00:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/mindeststandards/"/><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/posts/mindeststandards/"/></url><url>
     <loc>http://localhost:1313/de/about/</loc><lastmod>2026-01-11T00:00:00&#43;00:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/about/"/><xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/about/"/></url></urlset>
+
+
+hugo new posts/the-gospel-of-john/index.en.md    
+
+The Gospel of John

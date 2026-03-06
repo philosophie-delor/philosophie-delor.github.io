@@ -1,6 +1,6 @@
 ---
-date: '2026-03-03T23:41:40+01:00'
-draft: true
+date: '2026-03-06T23:41:40+01:00'
+draft: tfalsee
 title: 'Thick Rules'
 ---
 # Thick Rules and Fat Concepts: A User's Guide to Philosophical Fog

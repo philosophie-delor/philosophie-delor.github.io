@@ -1,6 +1,6 @@
 ---
-date: '2026-03-03T22:01:15+01:00'
-draft: true
+date: '2026-03-06T22:01:15+01:00'
+draft: false
 title: 'Thick Rules'
 ---
 # Dicke Regeln und fette Konzepte: Eine Gebrauchsanweisung für philosophischen Nebel
