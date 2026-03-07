@@ -1,6 +1,6 @@
 ---
 date: '2026-03-07T19:53:54+01:00'
-draft: true
+draft: false
 title: 'Parfit und die normative Parallelwelt'
 ---
 # Derek Parfit und die normative Parallelwelt
