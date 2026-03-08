@@ -1,6 +1,6 @@
 ---
-date: '2026-03-03T21:06:57+01:00'
-draft: true
+date: '2026-03-08T21:06:57+01:00'
+draft: false
 title: 'Expressivism'
 ---
 # Die Vogelstrauß-Taktik der Ethik

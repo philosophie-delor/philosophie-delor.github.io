@@ -1,6 +1,6 @@
 ---
-date: '2026-03-03T21:07:06+01:00'
-draft: true
+date: '2026-03-08T21:07:06+01:00'
+draft: false
 title: 'Expressivism'
 ---
 # The Ostrich Strategy of Ethics
