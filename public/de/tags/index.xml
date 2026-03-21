@@ -6,17 +6,47 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>de</language>
         <copyright>Frieder Delor</copyright>
-        <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-            <title>Academische Satiere</title>
-            <link>http://localhost:1313/de/tags/academische-satiere/</link>
-            <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/de/tags/academische-satiere/</guid>
+        <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>Ethik</title>
+            <link>http://localhost:1313/de/tags/ethik/</link>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/ethik/</guid>
+            <description></description>
+        </item><item>
+            <title>Kant</title>
+            <link>http://localhost:1313/de/tags/kant/</link>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/kant/</guid>
+            <description></description>
+        </item><item>
+            <title>Kritischer Rationalismus</title>
+            <link>http://localhost:1313/de/tags/kritischer-rationalismus/</link>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/kritischer-rationalismus/</guid>
+            <description></description>
+        </item><item>
+            <title>Menschenwürde</title>
+            <link>http://localhost:1313/de/tags/menschenw%C3%BCrde/</link>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/menschenw%C3%BCrde/</guid>
             <description></description>
         </item><item>
             <title>Philosophie</title>
             <link>http://localhost:1313/de/tags/philosophie/</link>
-            <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
             <guid>http://localhost:1313/de/tags/philosophie/</guid>
+            <description></description>
+        </item><item>
+            <title>Sein-Sollen-Problem</title>
+            <link>http://localhost:1313/de/tags/sein-sollen-problem/</link>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/sein-sollen-problem/</guid>
+            <description></description>
+        </item><item>
+            <title>Academische Satiere</title>
+            <link>http://localhost:1313/de/tags/academische-satiere/</link>
+            <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/academische-satiere/</guid>
             <description></description>
         </item><item>
             <title>Qualität</title>
