@@ -2,7 +2,7 @@
 date: '2026-02-06'
 draft: false
 title: 'Was ist Philosophie?'
-tags: ["Philosophie", "Academische Satiere"]
+tags: ["Philosophie", "Academische Satire"]
 categories: ["Philosophie"]
 ---
 
