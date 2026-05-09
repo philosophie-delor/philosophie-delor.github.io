@@ -6,53 +6,89 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>de</language>
         <copyright>Frieder Delor</copyright>
-        <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-            <title>Aufklärung</title>
-            <link>http://localhost:1313/de/tags/aufkl%C3%A4rung/</link>
-            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/de/tags/aufkl%C3%A4rung/</guid>
-            <description></description>
-        </item><item>
+        <lastBuildDate>Tue, 28 Apr 2026 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Ethik</title>
             <link>http://localhost:1313/de/tags/ethik/</link>
-            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
             <guid>http://localhost:1313/de/tags/ethik/</guid>
             <description></description>
         </item><item>
-            <title>Kant</title>
-            <link>http://localhost:1313/de/tags/kant/</link>
-            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/de/tags/kant/</guid>
+            <title>Evolutionstheorie</title>
+            <link>http://localhost:1313/de/tags/evolutionstheorie/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/evolutionstheorie/</guid>
+            <description></description>
+        </item><item>
+            <title>Hedonismus</title>
+            <link>http://localhost:1313/de/tags/hedonismus/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/hedonismus/</guid>
+            <description></description>
+        </item><item>
+            <title>Is-Ought Problem</title>
+            <link>http://localhost:1313/de/tags/is-ought-problem/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/is-ought-problem/</guid>
             <description></description>
         </item><item>
             <title>Kritischer Rationalismus</title>
             <link>http://localhost:1313/de/tags/kritischer-rationalismus/</link>
-            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
             <guid>http://localhost:1313/de/tags/kritischer-rationalismus/</guid>
+            <description></description>
+        </item><item>
+            <title>Metaethik</title>
+            <link>http://localhost:1313/de/tags/metaethik/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/metaethik/</guid>
+            <description></description>
+        </item><item>
+            <title>Philosophie</title>
+            <link>http://localhost:1313/de/tags/philosophie/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/philosophie/</guid>
+            <description></description>
+        </item><item>
+            <title>Sam Harris</title>
+            <link>http://localhost:1313/de/tags/sam-harris/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/sam-harris/</guid>
+            <description></description>
+        </item><item>
+            <title>Sein-Sollen-Problem</title>
+            <link>http://localhost:1313/de/tags/sein-sollen-problem/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/sein-sollen-problem/</guid>
+            <description></description>
+        </item><item>
+            <title>Utilitarismus</title>
+            <link>http://localhost:1313/de/tags/utilitarismus/</link>
+            <pubDate>Tue, 28 Apr 2026 12:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/utilitarismus/</guid>
+            <description></description>
+        </item><item>
+            <title>Aufklärung</title>
+            <link>http://localhost:1313/de/tags/aufkl%C3%A4rung/</link>
+            <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/aufkl%C3%A4rung/</guid>
+            <description></description>
+        </item><item>
+            <title>Kant</title>
+            <link>http://localhost:1313/de/tags/kant/</link>
+            <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/kant/</guid>
+            <description></description>
+        </item><item>
+            <title>Willensfreiheit</title>
+            <link>http://localhost:1313/de/tags/willensfreiheit/</link>
+            <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/de/tags/willensfreiheit/</guid>
             <description></description>
         </item><item>
             <title>Menschenwürde</title>
             <link>http://localhost:1313/de/tags/menschenw%C3%BCrde/</link>
             <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
             <guid>http://localhost:1313/de/tags/menschenw%C3%BCrde/</guid>
-            <description></description>
-        </item><item>
-            <title>Philosophie</title>
-            <link>http://localhost:1313/de/tags/philosophie/</link>
-            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/de/tags/philosophie/</guid>
-            <description></description>
-        </item><item>
-            <title>Sein-Sollen-Problem</title>
-            <link>http://localhost:1313/de/tags/sein-sollen-problem/</link>
-            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/de/tags/sein-sollen-problem/</guid>
-            <description></description>
-        </item><item>
-            <title>Willensfreiheit</title>
-            <link>http://localhost:1313/de/tags/willensfreiheit/</link>
-            <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/de/tags/willensfreiheit/</guid>
             <description></description>
         </item><item>
             <title>Academische Satire</title>
@@ -73,12 +109,6 @@
             <guid>http://localhost:1313/de/tags/academic-satire/</guid>
             <description></description>
         </item><item>
-            <title>Is-Ought Problem</title>
-            <link>http://localhost:1313/de/tags/is-ought-problem/</link>
-            <pubDate>Sun, 18 Jan 2026 17:45:33 +0100</pubDate>
-            <guid>http://localhost:1313/de/tags/is-ought-problem/</guid>
-            <description></description>
-        </item><item>
             <title>Logick</title>
             <link>http://localhost:1313/de/tags/logick/</link>
             <pubDate>Sun, 18 Jan 2026 17:45:33 +0100</pubDate>
@@ -89,12 +119,6 @@
             <link>http://localhost:1313/de/tags/metaethics/</link>
             <pubDate>Sun, 18 Jan 2026 17:45:33 +0100</pubDate>
             <guid>http://localhost:1313/de/tags/metaethics/</guid>
-            <description></description>
-        </item><item>
-            <title>Academische Satiere</title>
-            <link>http://localhost:1313/de/tags/academische-satiere/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/de/tags/academische-satiere/</guid>
             <description></description>
         </item></channel>
 </rss>

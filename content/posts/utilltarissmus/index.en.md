@@ -1,9 +1,9 @@
 ---
-date: '2026-04-28T12:00:00+02:00'
+date: '2026-05-09T12:00:00+02:00'
 draft: true
 title: "The Failure of Utilitarianism and the Solution to the Is–Ought Problem"
 tags: ["Philosophy", "Ethics", "Metaethics", "Utilitarianism", "Hedonism", "Is-Ought Problem", "Evolutionary Theory", "Sam Harris", "Critical Rationalism"]
-categories: ["Philosophy"]
+categories: ["Philosophy","Utilitarianism", "Ethics", "Is-Ought Problem", Sam Harris"]
 description: "A detailed critique of hedonism, utilitarianism, and Sam Harris' Moral Landscape — and an outline of the solution to the is–ought problem through evolutionary reconstruction of the objective ultimate goal."
 ---
 
@@ -14,12 +14,15 @@ description: "A detailed critique of hedonism, utilitarianism, and Sam Harris' M
 
 ## Introduction
 
-> "He who has a why to live can bear almost any how. Man does not strive for happiness; only the Englishman does that."
+> "He who has a why to live can bear almost any how. Man does not strive for happiness; only the Englishman does."
 > (Friedrich Nietzsche, *Twilight of the Idols*, Maxims and Arrows, §12)
 
 People endure extreme suffering — the loss of limbs, the death of loved ones, mortal danger — when they have a strong *why*. Once that *why* is missing, the *how* — more happiness, less suffering — gets elevated to a supposed ultimate goal. This very confusion underlies most ethical approaches today, from hedonism to utilitarianism to Effective Altruism.
 
-Hedonism — the doctrine that pleasure is the highest good and pain the greatest evil — is the oldest variant of this error (Epicurus; Bentham, 1789). Utilitarianism extends it by demanding the maximization of aggregate well-being across all affected parties (Mill, 1861). Both approaches share the same foundational assumption: that happiness and suffering are the decisive standards of moral action. This post shows why that is wrong — and that there is an objective ultimate goal that can be determined empirically.
+Hedonism — the doctrine that pleasure is the highest good and pain the greatest evil — is the oldest variant of this error (Epicurus; Bentham, 1789). Utilitarianism extends it by demanding the maximization of aggregate well-being across all affected parties (Mill, 1861). Both approaches share the same foundational assumption: that happiness and suffering are the decisive standards of moral action. 
+
+This post shows why these approaches fail: they do not solve the is–ought problem, but instead mistake a merely proximate control signal for the ultimate goal. It also gives a brief empirical reconstruction of the actual ultimate goal, and in doing so solves the is–ought problem. The full argument can be found in my paper (Delor, 2026).
+
 
 
 ## 1. Sam Harris and the Failure of Utilitarianism
@@ -42,7 +45,7 @@ Moreover, both proposals presuppose something counterfactual. Neither Harris' ha
 
 ### For Whom?
 
-**Well-being for whom?** For the individual? Their family? Their group? All of humanity? The biosphere? Future beings, as longtermism demands? Harris leaves this underdetermined. If the landscape applies to the individual agent, there are as many landscapes as there are agents — and no shared map. If it is supposed to apply to all of humanity or the biosphere, it is unclear why we should agree on that. And as soon as future generations are included, the problem becomes fully apparent: no one can know what well-being will mean for beings that do not yet exist.
+**Well-being for whom?** For the individual? Their family? Their group? All of humanity? The biosphere? Future beings, as longtermism demands? Harris leaves this underdetermined. If the landscape applies to the individual agent, there are as many landscapes as there are agents — and no shared map. If it is supposed to apply to all of humanity or the biosphere, it is unclear why we should agree on that. And as soon as future generations are included (like longtermism suggests), the problem becomes fully apparent: no one can know what well-being will mean for beings that do not yet exist.
 
 ### Centralization and Abuse
 
@@ -70,22 +73,28 @@ And the only way to reconstruct it empirically is through evolutionary theory. A
 
 ## Conclusion
 
-Lineage fitness is at once the first genuinely objective standard that allows the formulation of an ethics testable against reality and not immunized against criticism. Any ethics that systematically undermines lineage fitness undermines itself: either its adherents learn in time — or they perish, together with the ethics they follow. Both the derivation and the moral claims that follow from it are entirely open to criticism and testable against reality.
+Lineage fitness is the first objective standard and the first solution to the is–ought problem that is not circular, does not immunize itself against criticism, and leaves its foundational assumptions, its derivation, and the resulting moral claims testable against reality.
 
-What this concretely means for life decisions and social coexistence has not yet been addressed. That will follow in further publications.
+Any ethics that systematically undermines lineage fitness undermines itself: either its adherents learn in time, or they perish together with the ethics they follow.
 
-This is the only solution to the is–ought problem that is not circular, does not immunize itself against criticism, and in which the foundational assumptions, the derivation, and the moral claims that follow are all testable against reality. The complete argument — including methodological, epistemological, and ontological (i.e., concerning the nature of reality) foundations, the full reconstruction, critiques of alternative ethical systems, and anticipated objections — can be found in my paper (Delor, 2026).
+What this concretely means for individual life decisions and social coexistence will be developed in further publications.
 
-I welcome serious criticism. Since my paper challenges the prevailing paradigm in ethics and metaethics, however, it cannot be attacked from within that paradigm. Meaningful criticism either shows where my argument fails within my own framework, where my framework itself is flawed, or which alternative framework is better suited to solve the problem.
+The full argument — including the methodological, epistemological, and ontological foundations, the complete reconstruction, the critique of alternative ethical systems, and the treatment of anticipated objections — can be found in my paper (Delor, 2026).
 
-- German version: [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
+I welcome serious criticism. Since my paper challenges the dominant paradigm in ethics and metaethics, such criticism cannot simply proceed from that very paradigm. Meaningful criticism must show either where my argument fails within its own framework, where that framework itself is defective, or which alternative framework solves the problem better.
+
 - English version: [https://philpapers.org/rec/DELTST](https://philpapers.org/rec/DELTST)
+- German version: [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
 
+## Disclosure on AI assistance
+
+The argument, the conceptual framework, the claims, and the structure of this post are entirely my own. Since I am not a native English speaker, I used AI tools for translation assistance and for limited linguistic polishing of some English formulations. I did not use AI to generate the argument, decide the content, or supply claims that I do not understand and endorse. I take full responsibility for every statement in the text.
+
+Tools used: ChatGPT and Claude.
 
 ## References
 
 - Bentham, J. (1789). *An Introduction to the Principles of Morals and Legislation*.
-- Delor, F. (2026). Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie. Preprint. [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
 - Delor, F. (2026). The Solution to the Is–Ought Problem Based on Critical Rationalism and Evolutionary Theory. Preprint. [https://philpapers.org/rec/DELTST](https://philpapers.org/rec/DELTST)
 - Frankena, W. K. (1939). The Naturalistic Fallacy. *Mind*, 48(192), 464–477.
 - Harris, S. (2010). *The Moral Landscape*. Free Press.

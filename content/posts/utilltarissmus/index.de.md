@@ -1,9 +1,9 @@
 ---
-date: '2026-04-28T12:00:00+02:00'
-draft: true
+date: '2026-05-09T12:00:00+02:00'
+draft: false
 title: "Das Scheitern des Utilitarismus und die Lösung des Sein-Sollen-Problems"
 tags: ["Philosophie", "Ethik", "Metaethik", "Utilitarismus", "Hedonismus", "Is-Ought Problem", "Sein-Sollen-Problem", "Evolutionstheorie", "Sam Harris", "Kritischer Rationalismus"]
-categories: ["Philosophie"]
+categories: ["Philosophie", "Utilitarismus", "Sein-Sollen-Problem", "Ethik", "Sam Harris"]
 description: "Eine ausführliche Kritik an Hedonismus, Utilitarismus und Sam Harris' Moral Landscape — und ein Ausblick auf die Lösung des Sein-Sollen-Problems durch evolutionäre Rekonstruktion des objektiven Oberziels."
 ---
 
@@ -19,8 +19,9 @@ description: "Eine ausführliche Kritik an Hedonismus, Utilitarismus und Sam Har
 
 Menschen ertragen extremes Leid — den Verlust von Gliedmaßen, den Tod nahestehender Personen, die eigene Todesgefahr —, wenn sie ein starkes *Warum* haben. Sobald dieses *Warum* fehlt, wird das *Wie* — mehr Glück, weniger Leid — zum vermeintlichen Oberziel erklärt. Genau diese Verwechslung liegt den meisten heutigen ethischen Ansätzen zugrunde, vom Hedonismus über den Utilitarismus bis zum Effective Altruism.
 
-Hedonismus — die Lehre, dass Lust das höchste Gut und Schmerz das größte Übel sei — ist die älteste Variante dieses Fehlers (Epikur; Bentham, 1789). Der Utilitarismus erweitert ihn, indem er fordert, die Summe des Wohlbefindens über alle Betroffenen zu maximieren (Mill, 1861). Beide Ansätze teilen dieselbe Grundannahme: dass Glück und Leid die entscheidenden Maßstäbe moralischen Handelns seien. Dieser Post zeigt, warum das falsch ist — und dass es ein objektives Oberziel gibt, das sich empirisch bestimmen lässt.
+Hedonismus — die Lehre, dass Lust das höchste Gut und Schmerz das größte Übel sei — ist die älteste Variante dieses Fehlers (Epikur; Bentham, 1789). Der Utilitarismus erweitert ihn, indem er fordert, die Summe des Wohlbefindens über alle Betroffenen zu maximieren (Mill, 1861). Beide Ansätze teilen dieselbe Grundannahme: dass Glück und Leid die entscheidenden Maßstäbe moralischen Handelns seien.
 
+Dieser Post zeigt, warum diese Ansätze scheitern: Sie lösen das Sein-Sollen-Problem nicht, sondern setzen ein bloß proximales Steuerungssignal als Oberziel. Darüber hinaus rekonstruiert er skizzenhaft das tatsächliche Oberziel empirisch und löst damit das Sein-Sollen-Problem. Die vollständige Argumentation findet sich in meinem Paper (Delor, 2026).
 
 ## 1. Sam Harris und das Scheitern des Utilitarismus
 
@@ -70,23 +71,23 @@ Und die einzige Möglichkeit, sie empirisch zu rekonstruieren, ist die Evolution
 
 ## Schlusswort
 
-Linienfitness ist zugleich der erste tatsächlich objektive Maßstab, der es erlaubt, eine an der Realität überprüfbare und nicht gegen Kritik immunisierte Ethik zu formulieren. Jede Ethik, die Linienfitness systematisch unterminiert, unterminiert sich selbst: Entweder lernen ihre Anhänger rechtzeitig um — oder sie gehen zugrunde, zusammen mit der Ethik, der sie folgen. Sowohl die Herleitung als auch die moralischen Aussagen, die daraus folgen, sind allesamt kritikoffen und an der Realität überprüfbar.
+Linienfitness ist der erste objektive Maßstab und die erste Lösung des Sein-Sollen-Problems, die nicht zirkulär ist, sich nicht gegen Kritik immunisiert und bei der sowohl die Grundannahmen als auch die Herleitung und die daraus folgenden moralischen Aussagen an der Realität überprüfbar sind.
 
-Was das konkret für Lebensentscheidungen und das soziale Zusammenleben bedeutet, folgt in weiteren Veröffentlichungen.
+Jede Ethik, die Linienfitness systematisch unterminiert, unterminiert sich selbst: Entweder lernen ihre Anhänger rechtzeitig um — oder sie gehen zugrunde, zusammen mit der Ethik, der sie folgen.
 
-Dies ist die einzige Lösung des Sein-Sollen-Problems, die nicht zirkulär ist, sich nicht gegen Kritik immunisiert und in der sowohl die Grundannahmen als auch die Herleitung als auch die moralischen Aussagen, die daraus folgen, an der Realität überprüfbar sind. Die vollständige Argumentation — mit methodischen, erkenntnistheoretischen und ontologischen (also die Beschaffenheit der Wirklichkeit betreffenden) Grundlagen, mit der gesamten Rekonstruktion, mit Kritiken an alternativen Ethiken und mit zu erwartenden Einwänden — findet sich in meinem Paper (Delor, 2026).
+Was das konkret für Lebensentscheidungen und soziales Zusammenleben bedeutet, folgt in weiteren Veröffentlichungen.
 
-Ich freue mich auf ernsthafte Kritik. Da mein Paper das vorherrschende Paradigma in Ethik und Metaethik angreift, kann dies aber nicht aus diesem Paradigma heraus geschehen. Sinnvolle Kritik zeigt entweder, wo meine Argumentation innerhalb meines eigenen Rahmens scheitert, wo mein Rahmen selbst fehlerhaft ist, oder welcher alternative Rahmen besser geeignet ist, das Problem zu lösen.
+Die vollständige Argumentation — einschließlich der methodischen, erkenntnistheoretischen und ontologischen Grundlagen, der gesamten Rekonstruktion, der Kritik alternativer Ethiken und der Behandlung zu erwartender Einwände — findet sich in meinem Paper (Delor, 2026).
+
+Ich freue mich auf ernsthafte Kritik. Da mein Paper das vorherrschende Paradigma in Ethik und Metaethik angreift, kann diese Kritik aber nicht einfach aus genau diesem Paradigma heraus erfolgen. Sinnvolle Kritik muss zeigen, wo meine Argumentation innerhalb ihres eigenen Rahmens scheitert, wo dieser Rahmen selbst fehlerhaft ist, oder welcher alternative Rahmen das Problem besser löst.
 
 - Deutsche Version: [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
 - Englische Version: [https://philpapers.org/rec/DELTST](https://philpapers.org/rec/DELTST)
-
 
 ## Quellen
 
 - Bentham, J. (1789). *An Introduction to the Principles of Morals and Legislation*.
 - Delor, F. (2026). Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie. Preprint. [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
-- Delor, F. (2026). The Solution to the Is–Ought Problem Based on Critical Rationalism and Evolutionary Theory. Preprint. [https://philpapers.org/rec/DELTST](https://philpapers.org/rec/DELTST)
 - Frankena, W. K. (1939). The Naturalistic Fallacy. *Mind*, 48(192), 464–477.
 - Harris, S. (2010). *The Moral Landscape*. Free Press.
 - Hayek, F. A. (1945). The Use of Knowledge in Society. *American Economic Review*, 35(4), 519–530.
