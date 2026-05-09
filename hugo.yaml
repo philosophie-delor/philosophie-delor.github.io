@@ -27,7 +27,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Philosophie, Essays und Satire - Ohne  Vogonische Lyrik oder Hegelianischem Geschwurbel."
+        subtitle: "Philosophie, Ethik, die Lösung des Sein-Sollen-Problems, Metaethik, evolutionäre Ethik, kritischer Rationalismus, Quine-Duhem-These und Bunges Systemontologie"
     menus:
       main:
         - identifier: home
@@ -53,7 +53,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Philosophy, Essays and Satire – Free of Vogon Poetry and Hegelianism."
+        subtitle: "Philosophie, Ethik, die Lösung des Sein-Sollen-Problems, Metaethik, evolutionäre Ethik, kritischer Rationalismus, Quine-Duhem-These und Bunges Systemontologie"
     menus:
       main:
         - identifier: home
