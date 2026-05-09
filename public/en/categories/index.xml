@@ -36,5 +36,41 @@
             <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
             <guid>http://localhost:1313/en/categories/utilitarianism/</guid>
             <description></description>
+        </item><item>
+            <title>Bunge’s Systems Ontology</title>
+            <link>http://localhost:1313/en/categories/bunges-systems-ontology/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/en/categories/bunges-systems-ontology/</guid>
+            <description></description>
+        </item><item>
+            <title>Critical Rationalism</title>
+            <link>http://localhost:1313/en/categories/critical-rationalism/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/en/categories/critical-rationalism/</guid>
+            <description></description>
+        </item><item>
+            <title>Evolutionary Ethics</title>
+            <link>http://localhost:1313/en/categories/evolutionary-ethics/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/en/categories/evolutionary-ethics/</guid>
+            <description></description>
+        </item><item>
+            <title>Metaethics</title>
+            <link>http://localhost:1313/en/categories/metaethics/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/en/categories/metaethics/</guid>
+            <description></description>
+        </item><item>
+            <title>Quine-Duhem Thesis</title>
+            <link>http://localhost:1313/en/categories/quine-duhem-thesis/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/en/categories/quine-duhem-thesis/</guid>
+            <description></description>
+        </item><item>
+            <title>Solution to the Is-Ought Problem</title>
+            <link>http://localhost:1313/en/categories/solution-to-the-is-ought-problem/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/en/categories/solution-to-the-is-ought-problem/</guid>
+            <description></description>
         </item></channel>
 </rss>
