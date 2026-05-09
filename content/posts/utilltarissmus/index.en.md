@@ -1,6 +1,6 @@
 ---
 date: '2026-05-09T12:00:00+02:00'
-draft: true
+draft: false
 title: "The Failure of Utilitarianism and the Solution to the Is–Ought Problem"
 tags: ["Philosophy", "Ethics", "Metaethics", "Utilitarianism", "Hedonism", "Is-Ought Problem", "Evolutionary Theory", "Sam Harris", "Critical Rationalism"]
 categories: ["Philosophy","Utilitarianism", "Ethics", "Is-Ought Problem", Sam Harris"]
