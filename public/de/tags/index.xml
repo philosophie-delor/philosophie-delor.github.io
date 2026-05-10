@@ -6,35 +6,95 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>de</language>
         <copyright>Frieder Delor</copyright>
-        <lastBuildDate>Sat, 09 May 2026 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 May 2026 08:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Buchkritik</title>
             <link>http://localhost:1313/de/tags/buchkritik/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
             <guid>http://localhost:1313/de/tags/buchkritik/</guid>
             <description></description>
         </item><item>
             <title>Ethik</title>
             <link>http://localhost:1313/de/tags/ethik/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
             <guid>http://localhost:1313/de/tags/ethik/</guid>
             <description></description>
         </item><item>
             <title>Evolution</title>
             <link>http://localhost:1313/de/tags/evolution/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
             <guid>http://localhost:1313/de/tags/evolution/</guid>
+            <description></description>
+        </item><item>
+            <title>Hanno Sauer</title>
+            <link>http://localhost:1313/de/tags/hanno-sauer/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/hanno-sauer/</guid>
+            <description></description>
+        </item><item>
+            <title>Karl Popper</title>
+            <link>http://localhost:1313/de/tags/karl-popper/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/karl-popper/</guid>
+            <description></description>
+        </item><item>
+            <title>Kritischer Rationalismus</title>
+            <link>http://localhost:1313/de/tags/kritischer-rationalismus/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/kritischer-rationalismus/</guid>
+            <description></description>
+        </item><item>
+            <title>Lindy-Heuristik</title>
+            <link>http://localhost:1313/de/tags/lindy-heuristik/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/lindy-heuristik/</guid>
+            <description></description>
+        </item><item>
+            <title>Linienfitness</title>
+            <link>http://localhost:1313/de/tags/linienfitness/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/linienfitness/</guid>
+            <description></description>
+        </item><item>
+            <title>Metaethik</title>
+            <link>http://localhost:1313/de/tags/metaethik/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/metaethik/</guid>
+            <description></description>
+        </item><item>
+            <title>Moralphilosophie</title>
+            <link>http://localhost:1313/de/tags/moralphilosophie/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/moralphilosophie/</guid>
+            <description></description>
+        </item><item>
+            <title>Philosophie</title>
+            <link>http://localhost:1313/de/tags/philosophie/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/philosophie/</guid>
+            <description></description>
+        </item><item>
+            <title>Robert Nozick</title>
+            <link>http://localhost:1313/de/tags/robert-nozick/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/robert-nozick/</guid>
+            <description></description>
+        </item><item>
+            <title>Sein-Sollen-Problem</title>
+            <link>http://localhost:1313/de/tags/sein-sollen-problem/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/sein-sollen-problem/</guid>
+            <description></description>
+        </item><item>
+            <title>Taleb</title>
+            <link>http://localhost:1313/de/tags/taleb/</link>
+            <pubDate>Sun, 10 May 2026 08:00:00 +0200</pubDate>
+            <guid>http://localhost:1313/de/tags/taleb/</guid>
             <description></description>
         </item><item>
             <title>Evolutionstheorie</title>
             <link>http://localhost:1313/de/tags/evolutionstheorie/</link>
             <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
             <guid>http://localhost:1313/de/tags/evolutionstheorie/</guid>
-            <description></description>
-        </item><item>
-            <title>Hanno Sauer</title>
-            <link>http://localhost:1313/de/tags/hanno-sauer/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/hanno-sauer/</guid>
             <description></description>
         </item><item>
             <title>Hedonismus</title>
@@ -49,70 +109,10 @@
             <guid>http://localhost:1313/de/tags/is-ought-problem/</guid>
             <description></description>
         </item><item>
-            <title>Karl Popper</title>
-            <link>http://localhost:1313/de/tags/karl-popper/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/karl-popper/</guid>
-            <description></description>
-        </item><item>
-            <title>Kritischer Rationalismus</title>
-            <link>http://localhost:1313/de/tags/kritischer-rationalismus/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/kritischer-rationalismus/</guid>
-            <description></description>
-        </item><item>
-            <title>Lindy-Heuristik</title>
-            <link>http://localhost:1313/de/tags/lindy-heuristik/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/lindy-heuristik/</guid>
-            <description></description>
-        </item><item>
-            <title>Linienfitness</title>
-            <link>http://localhost:1313/de/tags/linienfitness/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/linienfitness/</guid>
-            <description></description>
-        </item><item>
-            <title>Metaethik</title>
-            <link>http://localhost:1313/de/tags/metaethik/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/metaethik/</guid>
-            <description></description>
-        </item><item>
-            <title>Moralphilosophie</title>
-            <link>http://localhost:1313/de/tags/moralphilosophie/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/moralphilosophie/</guid>
-            <description></description>
-        </item><item>
-            <title>Philosophie</title>
-            <link>http://localhost:1313/de/tags/philosophie/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/philosophie/</guid>
-            <description></description>
-        </item><item>
-            <title>Robert Nozick</title>
-            <link>http://localhost:1313/de/tags/robert-nozick/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/robert-nozick/</guid>
-            <description></description>
-        </item><item>
             <title>Sam Harris</title>
             <link>http://localhost:1313/de/tags/sam-harris/</link>
             <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
             <guid>http://localhost:1313/de/tags/sam-harris/</guid>
-            <description></description>
-        </item><item>
-            <title>Sein-Sollen-Problem</title>
-            <link>http://localhost:1313/de/tags/sein-sollen-problem/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/sein-sollen-problem/</guid>
-            <description></description>
-        </item><item>
-            <title>Taleb</title>
-            <link>http://localhost:1313/de/tags/taleb/</link>
-            <pubDate>Sat, 09 May 2026 12:00:00 +0200</pubDate>
-            <guid>http://localhost:1313/de/tags/taleb/</guid>
             <description></description>
         </item><item>
             <title>Utilitarismus</title>
