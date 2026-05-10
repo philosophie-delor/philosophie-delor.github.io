@@ -1,6 +1,6 @@
 ---
-date: '2026-05-09T12:00:00+02:00'
-draft: false
+date: '2026-05-10T12:00:00+02:00'
+draft: true
 title: "Professor Hanno Sauer: Moral: Die (Eigen-)Erfindung von Gut und Böse"
 tags: ["Philosophie", "Ethik", "Metaethik", "Hanno Sauer", "Buchkritik", "Sein-Sollen-Problem", "Karl Popper", "Evolution", "Kritischer Rationalismus", "Linienfitness", "Moralphilosophie", "Robert Nozick", "Lindy-Heuristik", "Taleb"]
 categories: ["Philosophie", "Ethik", "Buchkritik"]
@@ -58,7 +58,7 @@ Historisch ist die Konsequenz der „austauschbares Individuum"-Logik gut dokume
 
 Eine eigene rhetorische Funktion erfüllt Sauers Vergleich der Schadensbilanz sexueller Gewalt mit den Todeszahlen durch Krebs oder Nierenleiden. Das Argument läuft darauf hinaus, dass Hinweise auf statistische Auffälligkeiten bei Sexualdelikten — etwa die überproportionale Repräsentation von Zuwanderern aus bestimmten Herkunftsländern in Kriminalstatistiken — quantitativ unter den großen Krankheitsbildern lägen und damit im moralischen Gesamtbild kein hinreichendes Gewicht hätten. Der Vergleich dient der Diskreditierung politischer Gegner, nicht der moralischen Analyse.
 
-Sachlich ist er kategorial falsch. Krankheiten sind keine zurechenbaren Handlungen, sondern Naturereignisse ohne Handlungsträger. Sexuelle Gewalt ist eine absichtliche Tat mit Täterverantwortung, Zwang, körperlicher und psychischer Verletzung, Vertrauenszerstörung und sozialen Folgewirkungen. Diese Dimensionen lassen sich nicht in eine Schadensmenge auflösen, die mit Krebssterblichkeit verrechenbar wäre. Die Verschiebung von Schuld, Handlung und gesellschaftlichem Schutzauftrag auf bloße Statistik ist nicht Nebeneffekt, sondern Zweck der Argumentationsfigur: Sie erlaubt es, empirische Befunde, die nicht ins ideologische Bild passen, als unverhältnismäßig zu markieren, ohne sie inhaltlich entkräften zu müssen.
+Das ist ein kategorien Fehler. Krankheiten sind keine zurechenbaren Handlungen, sondern Naturereignisse ohne Handlungsträger. Sexuelle Gewalt ist eine absichtliche Tat mit Täterverantwortung, Zwang, körperlicher und psychischer Verletzung, Vertrauenszerstörung und sozialen Folgewirkungen. Diese Dimensionen lassen sich nicht in eine Schadensmenge auflösen, die mit Krebssterblichkeit verrechenbar wäre. Die Verschiebung von Schuld, Handlung und gesellschaftlichem Schutzauftrag auf bloße Statistik ist nicht Nebeneffekt, sondern Zweck der Argumentationsfigur: Sie erlaubt es, empirische Befunde, die nicht ins ideologische Bild passen, als unverhältnismäßig zu markieren, ohne sie inhaltlich entkräften zu müssen.
 
 ## Robert Nozicks Wilt-Chamberlain-Argument
 
