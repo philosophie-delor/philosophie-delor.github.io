@@ -27,7 +27,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Philosophie, Ethik, die Lösung des Sein-Sollen-Problems, Metaethik, evolutionäre Ethik, kritischer Rationalismus, Quine-Duhem-These und Bunges Systemontologie"
+        subtitle: ""
     menus:
       main:
         - identifier: home
@@ -53,7 +53,7 @@ languages:
     params:
       sidebar:
         avatar: "img/avatar.png"
-        subtitle: "Philosophie, Ethik, die Lösung des Sein-Sollen-Problems, Metaethik, evolutionäre Ethik, kritischer Rationalismus, Quine-Duhem-These und Bunges Systemontologie"
+        subtitle: ""
     menus:
       main:
         - identifier: home

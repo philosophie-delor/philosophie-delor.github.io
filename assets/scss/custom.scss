@@ -1,17 +1,207 @@
+/* Einheitliche Glasflächen. Stack bindet diese Datei nach seinen Styles ein. */
 :root {
-  /* optional: auch Light, falls du willst */
-  /* --body-background: #ffffff; */
+  --glass-background: rgba(252, 252, 252, 0.78);
+  --glass-border: rgba(80, 100, 120, 0.16);
+  --glass-shadow: 0 6px 22px rgba(0, 0, 0, 0.06);
+  --glass-radius: 18px;
+  --glass-blur: 1px;
+  --chip-background: rgba(235, 240, 246, 0.72);
+  --blockquote-background-color: rgba(150, 208, 255, 0.30);
 }
 
-/* Stack schaltet über data-scheme am Root-Element */
 :root[data-scheme="dark"] {
-  --body-background: #071a3a;       /* dein Dunkelblau */
-
-  /* Diese hier sind typischerweise die “grauen” Flächen */
-  --card-background: #081f46;       /* Panels/Karten */
+  --body-background: #071a3a;
+  --card-background: #081f46;
   --card-background-selected: #0a2654;
-  --blockquote-background-color:#0550ae3b;
+  --glass-background: rgba(41, 53, 66, 0.78);
+  --glass-border: rgba(180, 202, 229, 0.16);
+  --glass-shadow: 0 6px 22px rgba(0, 0, 0, 0.20);
+  --chip-background: rgba(8, 31, 70, 0.72);
+  --blockquote-background-color: #0550ae3b;
+  --pre-background-color: #2f405fc7;
+}
 
-  /* Falls nötig (kommt auf deine konkreten grauen Stellen an) */
-  --pre-background-color: #2f405fc7;  /* Codeblöcke (wenn sie grau bleiben) */
+body {
+  background-color: var(--body-background);
+  /* Relativ zur von Stack erzeugten Datei /scss/style….css. */
+  background-image: url("../images/contours.svg");
+  background-repeat: repeat;
+  background-size: 600px 600px;
+}
+
+/* Genau eine Glasfläche pro Bereich, ohne überlagerte Pseudoelemente. */
+.left-sidebar,
+.right-sidebar,
+.article-page .main-article,
+.article-list,
+.article-list--compact,
+.section-card,
+.home-intro__card,
+.pagination,
+.search-form {
+  background: var(--glass-background);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+}
+
+.left-sidebar,
+.right-sidebar {
+  padding: 16px 18px;
+}
+
+/* Listen sind eine zusammenhängende Fläche. Flex-Layout des Themes bleibt. */
+.article-list {
+  gap: 0;
+}
+
+.article-list article,
+.article-list article:hover,
+.article-list--compact article,
+.article-list--compact article > a,
+.article-list--compact article .article-details {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.article-list > article:not(:last-child),
+.article-list--compact > article:not(:last-child) {
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.article-list > article:first-child {
+  border-radius: var(--glass-radius) var(--glass-radius) 0 0;
+}
+
+.article-list > article:last-child {
+  border-radius: 0 0 var(--glass-radius) var(--glass-radius);
+}
+
+.article-list > article:only-child {
+  border-radius: var(--glass-radius);
+}
+
+.article-list article .article-image img {
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.article-list--compact article .article-preview {
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--card-text-color-secondary);
+}
+
+/* Die Sidebar liefert den Hintergrund bereits. Keine zweite Glasschicht. */
+.right-sidebar .widget,
+.right-sidebar .widget--toc,
+.right-sidebar #TableOfContents,
+.right-sidebar .widget.archives .widget-archive--list,
+.sidebar .search-form,
+.search-form input,
+.article-page .article-toc details {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+/* Tags behalten ihre Form, bekommen aber halbtransparente Flächen. */
+.tagCloud .tagCloud-tags a {
+  background: var(--chip-background);
+  box-shadow: none;
+}
+
+.home-intro__card {
+  padding: 1.25rem 1.25rem 1.1rem;
+}
+
+.home-intro__card,
+.home-intro__card .article-content {
+  color: var(--card-text-color-main);
+}
+
+/* Unterstreichungen in Lesetexten, ohne ganze Listeneinträge zu unterstreichen. */
+.article-content a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.article-content a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.search-form input:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: -3px;
+}
+
+/* Oberer Bildstreifen */
+
+body::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 240px;
+
+  background-image: url("/images/title-banner.png");
+  background-position: center 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Schmalerer Bildstreifen auf kleinen Bildschirmen */
+
+@media (max-width: 768px) {
+  body::before {
+    height: 150px;
+    background-position: center 35%;
+  }
+}
+
+/* Abstand zwischen Titelbild und Seiteninhalt */
+body::before {
+  margin-bottom: 24px;
+}
+
+/* Kompaktere Seitenleiste auf größeren Bildschirmen */
+@media (min-width: 768px) {
+  .left-sidebar {
+    align-self: flex-start;
+    height: auto;
+    max-height: calc(100vh - 32px);
+    padding: 16px 18px;
+    gap: 16px;
+
+    --sidebar-element-separation: 16px;
+  }
+
+  .left-sidebar.sticky {
+    top: 16px;
+  }
+
+  /* Menü nicht auf die gesamte verfügbare Höhe strecken */
+  .left-sidebar #main-menu {
+    flex-grow: 0;
+    min-height: 0;
+    gap: 12px;
+  }
+
+  /* Sprache und Dark Mode direkt unter die Menüpunkte setzen */
+  .left-sidebar #main-menu .menu-bottom-section {
+    margin-top: 4px;
+  }
+
+  .left-sidebar #main-menu .menu-bottom-section ol {
+    gap: 12px;
+  }
+
+  .left-sidebar #dark-mode-toggle {
+    margin-top: 0;
+  }
 }
