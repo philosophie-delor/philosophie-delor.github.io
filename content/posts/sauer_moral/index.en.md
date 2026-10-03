@@ -67,9 +67,9 @@ In this respect, it repeats the central error of socialism at a technocratic lev
 
 Later in the book, Hanno Sauer tries to belittle crime statistics and sexual violence by comparing them with deaths from cancer and kidney disease. The comparison misses the point. Cancer patients are not a perpetrator group, do not pursue a political-religious ideology, and do not threaten women in public space. Violent and sexual offences, by contrast, are intentional acts by responsible perpetrators with concrete victims. The consequences often extend far beyond the act itself: fear, depression, inability to form attachments, inability to work, and destroyed family prospects.
 
-Moreover, this problem does not stand in isolation. It belongs to a larger cultural conflict when migration from Islamic-shaped countries of origin comes with milieus in which sharia, religious honor orders, and traditional gender roles are placed above Western freedom, equality, secularism, and the rule of law (Brettfeld et al., 2026; Dreißigacker et al., 2024; Pfündel et al., 2021). This is no longer a marginal phenomenon. In Germany, around 43 percent of pupils had a migration background in 2025; in Hamburg, the share of pupils with a migration background from preschool classes through grade 10 was already 53.9 percent in the 2023/24 school year. In Vienna, around 49 percent of all pupils had a non-German everyday language in 2023/24 (Mediendienst Integration, 2026; Austrian Integration Fund, 2025; City of Hamburg, 2024). Such figures change the cultural basis of the next generation.
+Moreover, this problem does not stand in isolation. It belongs to a broader cultural conflict when migration from countries shaped by Islam comes with milieus in which sharia, religious codes of honor, and traditional gender roles are placed above Western freedom, equality, secularism, and the rule of law (Brettfeld et al., 2026; Dreißigacker et al., 2024; Pfündel et al., 2021). This is no longer a marginal phenomenon. In western Germany, including Berlin, over 40 percent of children under six had a migration background in 2020 (Bundeszentrale für politische Bildung, 2022). Such figures change the cultural and ethnic basis of the next generation.
 
-Nor does this imply a blanket condemnation of every individual migrant or every individual Muslim. The point is different: if a substantial part of a growing population group rejects or relativizes liberal, secular, and constitutional principles, that is enough to constitute a real danger (Brettfeld et al., 2026; Dreißigacker et al., 2024). A liberal order can exist only if it is supported and defended by the majority. Sauer’s comparison with cancer and kidney disease makes precisely these victims, risks, and political connections invisible.
+This does not imply a blanket condemnation of every individual migrant or every individual Muslim. The point is that if a substantial part of a growing population group rejects or relativizes liberal, secular principles and the rule of law, that is enough to constitute a real threat (Brettfeld et al., 2026; Dreißigacker et al., 2024). A liberal order can exist only if it is supported and defended by the majority. Sauer’s comparison with cancer and kidney disease makes these victims, risks, and political connections invisible.
 
 ### Robert Nozick’s Wilt Chamberlain Argument
 
@@ -127,93 +127,75 @@ Anyone interested in the actual biological, social, cultural, psychological, and
 
 ## Literature and Sources
 
+- Amato, P. R., Patterson, S. E., & Beattie, B. (2015). *Single-parent households and children’s educational achievement: A state-level analysis*. *Social Science Research, 53*, 191–202. https://pmc.ncbi.nlm.nih.gov/articles/PMC4508674/
+
 - Ames, K. M., & Maschner, H. D. G. (1999). *Peoples of the Northwest Coast: Their archaeology and prehistory*. Thames & Hudson.
 
-- Amato, P. R., Patterson, S. E., & Beattie, B. (2015). Single-parent households and children’s educational achievement: A state-level analysis. *Social Science Research, 53*, 191–202.  
-  https://pmc.ncbi.nlm.nih.gov/articles/PMC4508674/
+- Aristoteles. (2009). *Nikomachische Ethik* (E. Rolfes, Trans.). Anaconda. (Original work published in the 4th century BCE)
 
-- Aristotle. (2019). *Nicomachean Ethics* (T. Irwin, Trans.; 3rd ed.). Hackett Publishing. (Original work published 4th century BCE)
+- Austrian Integration Fund. (2025, August 29). *Factsheet Schule und Integration 2025*. https://www.integrationsfonds.at/fileadmin/content/AT/monitor/Factsheet_Schule_und_Integration_2025-08-29.pdf
 
-- Austrian Integration Fund. (2025, August 29). *Factsheet Schule und Integration 2025* [Factsheet school and integration 2025].  
-  https://www.integrationsfonds.at/fileadmin/content/AT/monitor/Factsheet_Schule_und_Integration_2025-08-29.pdf
-
-- Axelrod, R. (1984). *The evolution of cooperation*. Basic Books.
+- Axelrod, R. (2009). *Die Evolution der Kooperation* (7th ed.; W. Raub & T. Voss, Trans. and afterword). Oldenbourg. (Original work published 1984)
 
 - Boehm, C. (1999). *Hierarchy in the forest: The evolution of egalitarian behavior*. Harvard University Press.
 
-- Bostrom, N. (2013). Existential risk prevention as global priority. *Global Policy, 4*(1), 15–31.  
-  https://doi.org/10.1111/1758-5899.12002
+- Bostrom, N. (2013). Existential risk prevention as global priority. *Global Policy, 4*(1), 15–31. https://doi.org/10.1111/1758-5899.12002
 
 - Bostrom, N. (2014). *Superintelligence: Paths, dangers, strategies*. Oxford University Press.
 
-- Bostrom, N., & Ord, T. (2006). The reversal test: Eliminating status quo bias in applied ethics. *Ethics, 116*(4), 656–679.  
-  https://doi.org/10.1086/505233
+- Bostrom, N., & Ord, T. (2006). The reversal test: Eliminating status quo bias in applied ethics. *Ethics, 116*(4), 656–679. https://doi.org/10.1086/505233
 
-- Brettfeld, K., Endtricht, R., Farren, D., Fischer, J.-M. K., Kemmesies, U., & Wetzels, P. (2026). *MOTRA-Monitor 2026*.  
-  https://www.jura.uni-hamburg.de/media/die-fakultaet/aktuelles/brettfeld-et-al-motra-monitor-2026.pdf
+- Brettfeld, K., Endtricht, R., Farren, D., Fischer, J.-M. K., Kemmesies, U., & Wetzels, P. (2026). *MOTRA-Monitor 2026*. https://www.jura.uni-hamburg.de/media/die-fakultaet/aktuelles/brettfeld-et-al-motra-monitor-2026.pdf
 
-- Campbell, B., & Manning, J. (2014). Microaggression and moral cultures. *Comparative Sociology, 13*(6), 692–726.  
-  https://doi.org/10.1163/15691330-12341332
+- Bundeszentrale für politische Bildung. (2022, January 1). *Bevölkerung mit Migrationshintergrund nach Alter*. https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/150599/bevoelkerung-mit-migrationshintergrund-nach-alter/
 
-- Campbell, B., & Manning, J. (2018). *The rise of victimhood culture: Microaggressions, safe spaces, and the new culture wars*. Palgrave Macmillan.  
-  https://link.springer.com/book/10.1007/978-3-319-70329-9
+- Campbell, B., & Manning, J. (2014). Microaggression and moral cultures. *Comparative Sociology, 13*(6), 692–726. https://doi.org/10.1163/15691330-12341332
 
-- Chapple, S. (2009). *Child well-being and sole-parent family structure in the OECD: An analysis*. OECD Social, Employment and Migration Working Papers, No. 82.  
-  https://www.oecd.org/en/publications/child-well-being-and-sole-parent-family-structure-in-the-oecd_225407362040.html
+- Campbell, B., & Manning, J. (2018). *The rise of victimhood culture: Microaggressions, safe spaces, and the new culture wars*. Palgrave Macmillan. https://link.springer.com/book/10.1007/978-3-319-70329-9
+
+- Chapple, S. (2009). *Child well-being and sole-parent family structure in the OECD: An analysis*. OECD Social, Employment and Migration Working Papers, No. 82. https://www.oecd.org/en/publications/child-well-being-and-sole-parent-family-structure-in-the-oecd_225407362040.html
 
 - Chesterton, G. K. (1929). *The thing: Why I am a Catholic*. Sheed & Ward.
 
-- City of Hamburg. (2024, February 13). *Historischer Schülerzuwachs stellt Schulen weiter vor deutliche Herausforderungen* [Historic growth in pupil numbers continues to pose major challenges for schools].  
-  https://www.hamburg.de/politik-und-verwaltung/behoerden/bsfb/veroeffentlichungen/pressemeldungen/historischer-schuelerzuwachs-stellt-schulen-weiter-vor-deutliche-herausforderungen-anzahl-der-klassenwiederholungen-weiter-gesunken-575480
+- City of Hamburg. (2024, February 13). *Historischer Schülerzuwachs stellt Schulen weiter vor deutliche Herausforderungen*. https://www.hamburg.de/politik-und-verwaltung/behoerden/bsfb/veroeffentlichungen/pressemeldungen/historischer-schuelerzuwachs-stellt-schulen-weiter-vor-deutliche-herausforderungen-anzahl-der-klassenwiederholungen-weiter-gesunken-575480
 
-- Courtois, S., Werth, N., Panné, J.-L., Paczkowski, A., Bartošek, K., & Margolin, J.-L. (1999). *The black book of communism: Crimes, terror, repression* (J. Murphy & M. Kramer, Trans.). Harvard University Press. (Original work published 1997)
+- Courtois, S., Werth, N., Panné, J.-L., Paczkowski, A., Bartošek, K., & Margolin, J.-L. (1999). *Das Schwarzbuch des Kommunismus: Unterdrückung, Verbrechen und Terror* (I. Lorenz et al., Trans.). Piper. (Original work published 1997)
 
-- Crenshaw, K. (1989). Demarginalizing the intersection of race and sex: A Black feminist critique of antidiscrimination doctrine, feminist theory and antiracist politics. *University of Chicago Legal Forum, 1989*(1), Article 8.  
-  https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/
+- Crenshaw, K. (1989). Demarginalizing the intersection of race and sex: A Black feminist critique of antidiscrimination doctrine, feminist theory and antiracist politics. *University of Chicago Legal Forum, 1989*(1), Article 8. https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/
 
-- Crenshaw, K. W. (1991). Mapping the margins: Intersectionality, identity politics, and violence against women of color. *Stanford Law Review, 43*(6), 1241–1299.  
-  https://www.jstor.org/stable/1229039
+- Crenshaw, K. W. (1991). Mapping the margins: Intersectionality, identity politics, and violence against women of color. *Stanford Law Review, 43*(6), 1241–1299. https://www.jstor.org/stable/1229039
 
-- Dawkins, R. (2016). *The selfish gene* (40th anniversary ed.). Oxford University Press. (Original work published 1976)
+- Dawkins, R. (2016). *Das egoistische Gen* (K. de Sousa Ferreira, Trans.; expanded anniversary ed.). Springer Spektrum. (Original work published 1976)
 
-- Delor, F. (2026). *The Solution to the Is-Ought Problem based on Critical Rationalism and Evolutionary Theory*. PhilPapers.  
-  https://philpapers.org/rec/DELTST
+- Delor, F. (2026). *Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*. PhilPapers. https://philpapers.org/rec/DELDLD-13
 
-- Dreißigacker, A., Baier, D., Riesner, L., Rumpold, B., Wallner, S., & Zwengel, B. (2024). *Forschungsbericht Nr. 169* [Research report no. 169]. Kriminologisches Forschungsinstitut Niedersachsen.  
-  https://kfn.de/wp-content/uploads/2024/06/FB_169.pdf
+- Dreißigacker, A., Baier, D., Riesner, L., Rumpold, B., Wallner, S., & Zwengel, B. (2024). *Forschungsbericht Nr. 169*. Kriminologisches Forschungsinstitut Niedersachsen. https://kfn.de/wp-content/uploads/2024/06/FB_169.pdf
 
-- Eibl-Eibesfeldt, I. (1972). *Love and hate: The natural history of behavior patterns*. Holt, Rinehart and Winston. (Original work published 1970)
+- Eibl-Eibesfeldt, I. (1970). *Liebe und Haß: Zur Naturgeschichte elementarer Verhaltensweisen*. Piper.
 
-- Eibl-Eibesfeldt, I. (1979). *The biology of peace and war: Men, animals, and aggression* (E. Mosbacher, Trans.). Viking Press. (Original work published 1975)
+- Eibl-Eibesfeldt, I. (1975). *Krieg und Frieden aus der Sicht der Verhaltensforschung*. Piper.
 
-- Eibl-Eibesfeldt, I. (1989). *Human ethology*. Aldine de Gruyter.
+- Eibl-Eibesfeldt, I. (1997). *Die Biologie des menschlichen Verhaltens: Grundriß der Humanethologie* (3rd, revised and expanded ed.). Piper. (Original work published 1984)
 
-- Eurostat. (2025). *Fertility statistics*.  
-  https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics
+- Eurostat. (2025). *Fertility statistics*. https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics
 
-- Eurostat. (2025). *Population structure and ageing*.  
-  https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_structure_and_ageing
+- Eurostat. (2025). *Population structure and ageing*. https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_structure_and_ageing
 
-- Fehr, E., & Gächter, S. (2002). Altruistic punishment in humans. *Nature, 415*, 137–140.  
-  https://doi.org/10.1038/415137a
+- Fehr, E., & Gächter, S. (2002). Altruistic punishment in humans. *Nature, 415*, 137–140. https://doi.org/10.1038/415137a
 
 - Fukuyama, F. (2018). *Identity: The demand for dignity and the politics of resentment*. Farrar, Straus and Giroux.
 
-- Greaves, H., & MacAskill, W. (2021). *The case for strong longtermism*. Global Priorities Institute Working Paper No. 5-2021.  
-  https://globalprioritiesinstitute.org/the-case-for-strong-longtermism/
+- Greaves, H., & MacAskill, W. (2021). *The case for strong longtermism*. Global Priorities Institute Working Paper No. 5-2021. https://globalprioritiesinstitute.org/the-case-for-strong-longtermism/
 
-- Hall, L., Johansson, P., & Strandberg, T. (2012). Lifting the veil of morality: Choice blindness and attitude reversals on a self-transforming survey. *PLOS ONE, 7*(9), e45457.  
-  https://doi.org/10.1371/journal.pone.0045457
+- Hall, L., Johansson, P., & Strandberg, T. (2012). Lifting the veil of morality: Choice blindness and attitude reversals on a self-transforming survey. *PLOS ONE, 7*(9), e45457. https://doi.org/10.1371/journal.pone.0045457
 
-- Hall, L., Strandberg, T., Pärnamets, P., Lind, A., Tärning, B., & Johansson, P. (2013). How the polls can be both spot on and dead wrong: Using choice blindness to shift political attitudes and voter intentions. *PLOS ONE, 8*(4), e60554.  
-  https://doi.org/10.1371/journal.pone.0060554
+- Hall, L., Strandberg, T., Pärnamets, P., Lind, A., Tärning, B., & Johansson, P. (2013). How the polls can be both spot on and dead wrong: Using choice blindness to shift political attitudes and voter intentions. *PLOS ONE, 8*(4), e60554. https://doi.org/10.1371/journal.pone.0060554
 
 - Haller, R. (2019). *Das Böse: Die Psychologie der menschlichen Destruktivität*. Ecowin.
 
-- Harari, Y. N. (2015). *Sapiens: A brief history of humankind* (J. Purcell & H. Watzman, Trans.). Harper. (Original work published 2011)
+- Harari, Y. N. (2013). *Eine kurze Geschichte der Menschheit* (J. Neubauer, Trans.). Deutsche Verlags-Anstalt.
 
-- Hayek, F. A. von. (1945). The use of knowledge in society. *The American Economic Review, 35*(4), 519–530.  
-  https://doi.org/10.2307/1809376
+- Hayek, F. A. von. (1945). The use of knowledge in society. *The American Economic Review, 35*(4), 519–530. https://doi.org/10.2307/1809376
 
 - Henrich, J. (2016). *The secret of our success: How culture is driving human evolution, domesticating our species, and making us smarter*. Princeton University Press.
 
@@ -221,7 +203,9 @@ Anyone interested in the actual biological, social, cultural, psychological, and
 
 - Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences, 33*(2–3), 61–83.
 
-- Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
+- Institut für Bildungsmonitoring und Qualitätsentwicklung. (Ed.). (2025). *Lernausgangslagen und -entwicklungen an Grundschulen. Themenheft IfBQ 2025*. Commissioned by the Behörde für Schule, Familie und Berufsbildung. https://ifbq.hamburg.de/wp-content/uploads/sites/803/2025/11/Lernausgangslagen_entwicklungen_Themenheft-IfBQ_2025_Online.pdf
+
+- Kahneman, D. (2012). *Schnelles Denken, langsames Denken* (T. Schmidt, Trans.). Siedler. (Original work published 2011)
 
 - Kelly, R. L. (2013). *The lifeways of hunter-gatherers: The foraging spectrum*. Cambridge University Press.
 
@@ -231,54 +215,45 @@ Anyone interested in the actual biological, social, cultural, psychological, and
 
 - Maynard Smith, J. (1982). *Evolution and the theory of games*. Cambridge University Press.
 
-- Maynard Smith, J., & Price, G. R. (1973). The logic of animal conflict. *Nature, 246*, 15–18.  
-  https://doi.org/10.1038/246015a0
+- Maynard Smith, J., & Price, G. R. (1973). The logic of animal conflict. *Nature, 246*, 15–18. https://doi.org/10.1038/246015a0
 
 - Maynard Smith, J., & Szathmáry, E. (1995). *The major transitions in evolution*. Oxford University Press.
 
-- Mediendienst Integration. (2026, April 13). *Wie viele Schüler haben einen Migrationshintergrund?* [How many pupils have a migration background?]  
-  https://mediendienst-integration.de/bildung/schule/wie-viele-schueler-haben-einen-migrationshintergrund/
+- Mediendienst Integration. (2026, April 13). *Wie viele Schüler haben einen Migrationshintergrund?* https://mediendienst-integration.de/bildung/schule/wie-viele-schueler-haben-einen-migrationshintergrund/
 
-- Mill, J. S. (1859). *On liberty*. John W. Parker and Son.  
-  https://www.gutenberg.org/files/34901/34901-h/34901-h.htm
-
-- Nozick, R. (1974). *Anarchy, state, and utopia*. Basic Books.
+- Mill, J. S. (1859). *On liberty*. John W. Parker and Son. https://www.gutenberg.org/files/34901/34901-h/34901-h.htm
 
 - Nowak, M. A. (2006). *Evolutionary dynamics: Exploring the equations of life*. Harvard University Press.
 
-- OECD. (2024). *Declining fertility rates put prosperity of future generations at risk*.  
-  https://www.oecd.org/en/about/news/press-releases/2024/06/declining-fertility-rates-put-prosperity-of-future-generations-at-risk.html
+- Nozick, R. (1974). *Anarchy, state, and utopia*. Basic Books.
 
-- OECD. (2024). *OECD Economic Surveys: Japan 2024*.  
-  https://www.oecd.org/en/publications/oecd-economic-surveys-japan-2024_41e807f9-en.html
+- OECD. (2024). *Declining fertility rates put prosperity of future generations at risk*. https://www.oecd.org/en/about/news/press-releases/2024/06/declining-fertility-rates-put-prosperity-of-future-generations-at-risk.html
+
+- OECD. (2024). *OECD Economic Surveys: Japan 2024*. https://www.oecd.org/en/publications/oecd-economic-surveys-japan-2024_41e807f9-en.html
 
 - Ord, T. (2020). *The precipice: Existential risk and the future of humanity*. Hachette Books.
 
-- Pfündel, K., Stichs, A., & Tanis, K. (2021). *Muslimisches Leben in Deutschland 2020* [Muslim life in Germany 2020]. Bundesamt für Migration und Flüchtlinge.  
-  https://www.bamf.de/SharedDocs/Anlagen/DE/Forschung/Forschungsberichte/fb38-muslimisches-leben.html
+- Pfündel, K., Stichs, A., & Tanis, K. (2021). *Muslimisches Leben in Deutschland 2020*. Bundesamt für Migration und Flüchtlinge. https://www.bamf.de/SharedDocs/Anlagen/DE/Forschung/Forschungsberichte/fb38-muslimisches-leben.html
 
-- Popper, K. R. (2013). *The open society and its enemies*. Princeton University Press. (Original work published 1945)
+- Popper, K. R. (2013). *Die offene Gesellschaft und ihre Feinde* (8th ed.). Mohr Siebeck. (Original work published 1945)
 
-- Samuelson, W., & Zeckhauser, R. (1988). Status quo bias in decision making. *Journal of Risk and Uncertainty, 1*(1), 7–59.  
-  https://doi.org/10.1007/BF00055564
+- Samuelson, W., & Zeckhauser, R. (1988). Status quo bias in decision making. *Journal of Risk and Uncertainty, 1*(1), 7–59. https://doi.org/10.1007/BF00055564
 
-- Sapolsky, R. M. (2017). *Behave: The biology of humans at our best and worst*. Penguin Press.
+- Sapolsky, R. M. (2017). *Gewalt und Mitgefühl: Die Biologie des menschlichen Verhaltens* (H. Kober, Trans.). Carl Hanser Verlag. (Original work: *Behave: The Biology of Humans at Our Best and Worst*)
 
-- Sauer, H. (2024). *The invention of good and evil: A world history of morality* (J. Heinrich, Trans.). Profile Books. (Original work published 2023)
+- Sauer, H. (2023). *Moral: Die Erfindung von Gut und Böse. Eine philosophische Geschichte zu moralischen Wertvorstellungen*. Piper.
 
 - Scott, J. C. (1998). *Seeing like a state: How certain schemes to improve the human condition have failed*. Yale University Press.
 
 - Seligman, M. E. P. (1975). *Helplessness: On depression, development, and death*. W. H. Freeman.
 
-- Singer, P. (1972). Famine, affluence, and morality. *Philosophy & Public Affairs, 1*(3), 229–243.  
-  https://www.jstor.org/stable/2265052
+- Singer, P. (1972). Famine, affluence, and morality. *Philosophy & Public Affairs, 1*(3), 229–243. https://www.jstor.org/stable/2265052
 
 - Singer, P. (2015). *The most good you can do: How effective altruism is changing ideas about living ethically*. Yale University Press.
 
 - Snyder, T. (2010). *Bloodlands: Europe between Hitler and Stalin*. Basic Books.
 
-- Statistisches Bundesamt. (2026, January 20). *29 % der Schülerinnen und Schüler an allgemeinbildenden Schulen hatten 2024 eine Einwanderungsgeschichte* [29% of pupils at general education schools had an immigration history in 2024].  
-  https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_04_p002.html
+- Statistisches Bundesamt. (2026, January 20). *29 % der Schülerinnen und Schüler an allgemeinbildenden Schulen hatten 2024 eine Einwanderungsgeschichte*. https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_04_p002.html
 
 - Taleb, N. N. (2012). *Antifragile: Things that gain from disorder*. Random House.
 

@@ -9,7 +9,7 @@ description: "Kritik an Hanno Sauers Moral. Die Erfindung von Gut und Böse: Che
 
 ## Moral: Die (Eigen-)Erfindung von Gut und Böse – Wie Professor Hanno Sauer durch Fehlschlüsse zur Wunschmoral gelangt
 
-Professor Hanno Sauer (2023) gibt in seinem Buch *Moral. Die Erfindung von Gut und Böse* vor, die Entstehung von Moral aus Evolution, Kooperation und Kultur wissenschaftlich zu rekonstruieren. Er verspricht eine objektive Herleitung, wie Sanktionen und Normen uns zu dem gemacht haben, was wir heute sind. Diesen Anspruch löst das Werk an keiner Stelle ein. Statt einer ergebnisoffenen Rekonstruktion betreibt Sauer exzessives Cherry-Picking bei Befunden und Theorien, um eine bestimmte, links-progressive Moralphilosophie zu unterfüttern. Was in sein Weltbild passt, wird breit ausgewalzt; was ihm widerspricht, wird ignoriert oder ins Psychologische abgedrängt.
+Professor Hanno Sauer (2023) gibt in seinem Buch *Moral. Die Erfindung von Gut und Böse* vor, die Entstehung von Moral aus Evolution, Kooperation und Kultur wissenschaftlich zu rekonstruieren. Er verspricht eine objektive Herleitung, wie Sanktionen und Normen uns zu dem gemacht haben, was wir heute sind. Diesen Anspruch löst das Werk an keiner Stelle ein. Statt einer ergebnisoffenen Rekonstruktion betreibt Sauer exzessives Cherry-Picking bei Befunden und Theorien, um eine bestimmte, links-progressive Moralphilosophie zu unterfüttern. Was in sein Weltbild passt, wird breit ausgewalzt, während Gegenbefunde entweder ignoriert oder durch Fehlschlüsse und verzerrte Darstellungen diskreditiert werden.
 
 Sauer behauptet apodiktisch, es sei bewiesen, dass aus dem Sein kein Sollen folgen könne. Diese Aussage ist falsch. Wie ich in [*Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*](https://philpapers.org/rec/DELDLD-13) (Delor 2026) nachweise, liegt ein solcher Beweis bis heute nicht vor, und er kann auch nicht erbracht werden (Delor, 2026). Im Gegenteil: Es existiert eine objektive Lösung, deren Grundzüge bereits bei Aristoteles (2009) angelegt sind.
 
@@ -68,9 +68,10 @@ Damit wiederholt er den zentralen Fehler des Sozialismus auf technokratischer Eb
 
 Später im Buch versucht Hanno Sauer Kriminalstatistik und sexuelle Gewalt zu bagatellisieren, indem er sie mit Todesfällen bei Krebs und Nierenerkrankungen vergleicht. Der Vergleich verfehlt den Gegenstand. Krebskranke sind keine Tätergruppe, verfolgen keine politisch-religiöse Ideologie und bedrohen keine Frauen im öffentlichen Raum. Gewalt- und Sexualdelikte sind dagegen absichtliche Handlungen verantwortlicher Täter mit konkreten Opfern. Die Folgen reichen oft weit über die Tat hinaus: Angst, Depression, Bindungsunfähigkeit, Arbeitsunfähigkeit und zerstörte Familienperspektiven.
 
-Hinzu kommt: Dieses Problem steht nicht isoliert. Es gehört zu einem größeren kulturellen Konflikt, wenn Migration aus islamisch geprägten Herkunftsländern mit Milieus einhergeht, in denen Scharia, religiöse Ehrordnungen und traditionelle Geschlechterbilder über westliche Freiheit, Gleichberechtigung, Säkularität und Rechtsstaat gestellt werden (Brettfeld et al., 2026; Dreißigacker et al., 2024; Pfündel et al., 2021). Das ist keine Randerscheinung mehr. In Deutschland hatten 2025 rund 43 Prozent der Schüler einen Migrationshintergrund; in Hamburg lag der Anteil der Schüler mit Migrationshintergrund in Vorschulklassen bis Klasse 10 im Schuljahr 2023/24 bereits bei 53,9 Prozent. In Wien hatten 2023/24 rund 49 Prozent aller Schüler eine nicht-deutsche Umgangssprache (Mediendienst Integration, 2026; Österreichischer Integrationsfonds, 2025; Stadt Hamburg, 2024). Solche Zahlen verändern die kulturelle Grundlage der nächsten Generation.
+Hinzu kommt: Dieses Problem steht nicht isoliert. Es gehört zu einem größeren kulturellen Konflikt, wenn Migration aus islamisch geprägten Herkunftsländern mit Milieus einhergeht, in denen Scharia, religiöse Ehrordnungen und traditionelle Geschlechterbilder über westliche Freiheit, Gleichberechtigung, Säkularität und Rechtsstaat gestellt werden (Brettfeld et al., 2026; Dreißigacker et al., 2024; Pfündel et al., 2021). Das ist keine Randerscheinung mehr. In Westdeutschland einschließlich Berlin hatten 2020 über 40 Prozent der unter Sechsjährigen einen Migrationshintergrund (Bundeszentrale für politische Bildung, 2022). Solche Zahlen verändern die kulturelle und ethnische Grundlage der nächsten Generation.
 
-Auch daraus folgt keine pauschale Verurteilung jedes einzelnen Migranten oder jedes einzelnen Muslims. Der Punkt ist ein anderer: Wenn ein erheblicher Teil einer wachsenden Bevölkerungsgruppe liberale, säkulare und rechtsstaatliche Prinzipien ablehnt oder relativiert, reicht das für eine reale Gefährdung (Brettfeld et al., 2026; Dreißigacker et al., 2024). Eine liberale Ordnung kann nur bestehen, wenn sie von der Mehrheit getragen und verteidigt wird. Sauers Vergleich mit Krebs und Nierenerkrankungen macht genau diese Opfer, Risiken und politischen Zusammenhänge unsichtbar.
+Daraus folgt keine pauschale Verurteilung jedes einzelnen Migranten oder jedes einzelnen Muslims. Der Punkt ist wenn ein erheblicher Teil einer wachsenden Bevölkerungsgruppe liberale, säkulare und rechtsstaatliche Prinzipien ablehnt oder relativiert, reicht das für eine reale Gefährdung (Brettfeld et al., 2026; Dreißigacker et al., 2024). Eine liberale Ordnung kann nur bestehen, wenn sie von der Mehrheit getragen und verteidigt wird. Sauers Vergleich mit Krebs und Nierenerkrankungen macht diese Opfer, Risiken und politischen Zusammenhänge unsichtbar.
+
 
 ### Robert Nozicks Wilt-Chamberlain-Argument
 
@@ -129,10 +130,10 @@ Wer sich für die tatsächlichen biologischen, sozialen, kulturellen, psychologi
 
 ## Literatur und Quellen
 
-- Ames, K. M., & Maschner, H. D. G. (1999). *Peoples of the Northwest Coast: Their archaeology and prehistory*. Thames & Hudson.
-
 - Amato, P. R., Patterson, S. E., & Beattie, B. (2015). *Single-parent households and children’s educational achievement: A state-level analysis*. *Social Science Research, 53*, 191–202.  
   https://pmc.ncbi.nlm.nih.gov/articles/PMC4508674/
+
+- Ames, K. M., & Maschner, H. D. G. (1999). *Peoples of the Northwest Coast: Their archaeology and prehistory*. Thames & Hudson.
 
 - Aristoteles. (2009). *Nikomachische Ethik* (E. Rolfes, Übers.). Anaconda. (Originalwerk erschienen im 4. Jh. v. Chr.)
 
@@ -150,6 +151,9 @@ Wer sich für die tatsächlichen biologischen, sozialen, kulturellen, psychologi
 
 - Brettfeld, K., Endtricht, R., Farren, D., Fischer, J.-M. K., Kemmesies, U., & Wetzels, P. (2026). *MOTRA-Monitor 2026*.  
   https://www.jura.uni-hamburg.de/media/die-fakultaet/aktuelles/brettfeld-et-al-motra-monitor-2026.pdf
+
+- Bundeszentrale für politische Bildung. (2022, 1. Januar). *Bevölkerung mit Migrationshintergrund nach Alter*.  
+  https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/150599/bevoelkerung-mit-migrationshintergrund-nach-alter/
 
 - Campbell, B., & Manning, J. (2014). Microaggression and moral cultures. *Comparative Sociology, 13*(6), 692–726.  
   https://doi.org/10.1163/15691330-12341332
@@ -217,6 +221,9 @@ Wer sich für die tatsächlichen biologischen, sozialen, kulturellen, psychologi
 
 - Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences, 33*(2–3), 61–83.
 
+- Institut für Bildungsmonitoring und Qualitätsentwicklung. (Hrsg.). (2025). *Lernausgangslagen und -entwicklungen an Grundschulen. Themenheft IfBQ 2025*. Im Auftrag der Behörde für Schule, Familie und Berufsbildung.  
+  https://ifbq.hamburg.de/wp-content/uploads/sites/803/2025/11/Lernausgangslagen_entwicklungen_Themenheft-IfBQ_2025_Online.pdf
+
 - Kahneman, D. (2012). *Schnelles Denken, langsames Denken* (T. Schmidt, Übers.). Siedler. (Originalwerk erschienen 2011)
 
 - Kelly, R. L. (2013). *The lifeways of hunter-gatherers: The foraging spectrum*. Cambridge University Press.
@@ -238,9 +245,9 @@ Wer sich für die tatsächlichen biologischen, sozialen, kulturellen, psychologi
 - Mill, J. S. (1859). *On liberty*. John W. Parker and Son.  
   https://www.gutenberg.org/files/34901/34901-h/34901-h.htm
 
-- Nozick, R. (1974). *Anarchy, state, and utopia*. Basic Books.
-
 - Nowak, M. A. (2006). *Evolutionary dynamics: Exploring the equations of life*. Harvard University Press.
+
+- Nozick, R. (1974). *Anarchy, state, and utopia*. Basic Books.
 
 - OECD. (2024). *Declining fertility rates put prosperity of future generations at risk*.  
   https://www.oecd.org/en/about/news/press-releases/2024/06/declining-fertility-rates-put-prosperity-of-future-generations-at-risk.html
