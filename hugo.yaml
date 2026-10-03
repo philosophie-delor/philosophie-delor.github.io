@@ -4,7 +4,7 @@ copyright: Frieder Delor
 theme: "stack"
 
 pagination:
-  pagerSize: 5
+  pagerSize: 50
 
 
 
