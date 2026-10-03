@@ -14,6 +14,7 @@ tags:
 categories:
   - Philosophie
   - Metaethik
+  - Ethik
   - Sein-Sollen-Problem
   - David Hume
 description: "Der Beitrag erläutert das Sein-Sollen-Problem und Humes Lösungsvorschlag. Er zeigt, warum dieser und andere Ansätze scheitern, und skizziert anschließend die Lösung. Die ausführliche Lösung findet sich im Paper am Ende des Beitrags."

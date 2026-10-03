@@ -14,6 +14,7 @@ tags:
 categories:
   - Philosophy
   - Metaethics
+  - Ethics
   - Is-Ought Problem
   - David Hume
 description: "The article explains the is–ought problem and Hume’s proposed solution. It shows why this and other approaches fail, then outlines the solution. The detailed solution can be found in the paper at the end of the article."
