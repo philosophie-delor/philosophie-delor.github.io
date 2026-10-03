@@ -13,6 +13,7 @@ tags:
   - Linienfitness
 categories:
   - Kritische Evolutionäre Ethik
+description: "Der Beitrag erläutert das Sein-Sollen-Problem und Humes Lösungsvorschlag. Er zeigt, warum dieser und andere Ansätze scheitern, und skizziert anschließend die Lösung. Die ausführliche Lösung findet sich im Paper am Ende des Beitrags."
 ---
 
 # Humes Sein-Sollen-Problem und seine Lösung
