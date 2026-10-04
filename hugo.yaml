@@ -1,7 +1,8 @@
 baseURL: "https://philosophie-delor.github.io/"
 title: "Philosophie-Delor"
 copyright: Frieder Delor
-theme: "stack"
+#theme: "stack"
+theme: "hugo-book"
 
 pagination:
   pagerSize: 50
@@ -30,10 +31,6 @@ languages:
         subtitle: ""
     menus:
       main:
-        - identifier: home
-          name: Start
-          pageRef: /
-          weight: 1
         - identifier: posts
           name: Blog
           pageRef: /posts/
@@ -56,10 +53,6 @@ languages:
         subtitle: ""
     menus:
       main:
-        - identifier: home
-          name: Home
-          pageRef: /
-          weight: 1
         - identifier: posts
           name: Blog
           pageRef: /posts/
