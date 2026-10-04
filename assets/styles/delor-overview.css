@@ -23,3 +23,11 @@
 .delor-entry-title { margin: 0 0 .5rem; font-size: 1.25rem; line-height: 1.35; overflow-wrap: anywhere; }
 .delor-entry-meta { display: flex; flex-wrap: wrap; gap: .35rem 1rem; font-size: .8rem; }
 .delor-entry-description { line-height: 1.65; margin-block: .7rem; overflow-wrap: anywhere; }
+.delor-reading-time { display: inline-flex; align-items: center; gap: .4em; font-size: .85rem; }
+.delor-reading-time svg { flex: none; vertical-align: middle; }
+.delor-article-header { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--glass-border, var(--gray-200)); }
+.delor-article-header > h1 { margin-top: 0; }
+.delor-article-description { line-height: 1.65; }
+.delor-article-reading { margin-block: .65rem; }
+.delor-entry-meta + .delor-chips { margin-top: .75rem; }
+.delor-article-header .book-post-date { margin-block: .65rem; }

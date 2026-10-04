@@ -1,0 +1,21 @@
+{{- if default true .Site.Params.BookSearch -}}
+{{- $de := eq .Language.Lang "de" -}}
+{{- $detail := .Site.GetPage "/detailsuche" -}}
+{{- with resources.Get "styles/delor-search.css" }}<style>{{ .Content | safeCSS }}</style>{{ end -}}
+<div class="book-search hidden">
+  {{ if $detail }}
+  <form class="delor-quick-search" role="search" action="{{ $detail.RelPermalink }}" method="get">
+    <div class="delor-quick-input">
+      <input id="book-search-input" name="q" type="search" role="searchbox" enterkeyhint="search" placeholder="{{ partial "docs/text/i18n" "Search" }}" aria-label="{{ partial "docs/text/i18n" "Search" }}" maxlength="64" />
+      <div class="book-search-spinner hidden"></div>
+    </div>
+    <button type="submit" class="delor-search-button">{{ if $de }}Detailsuche{{ else }}Full search{{ end }}</button>
+  </form>
+  {{ else }}
+    <input id="book-search-input" type="search" role="searchbox" aria-label="{{ partial "docs/text/i18n" "Search" }}" placeholder="{{ partial "docs/text/i18n" "Search" }}" maxlength="64" />
+    <div class="book-search-spinner hidden"></div>
+  {{ end }}
+  <ul id="book-search-results" aria-live="polite"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+{{- end -}}

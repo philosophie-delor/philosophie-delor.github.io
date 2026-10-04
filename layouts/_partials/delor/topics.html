@@ -1,6 +1,6 @@
 {{- $de := eq .Language.Lang "de" -}}
 <nav class="delor-topics" aria-label="{{ if $de }}Themen{{ else }}Topics{{ end }}">
-  {{ range slice "categories" "tags" }}
+  {{ range slice "categories" }}
     {{ $taxonomy := . }}
     {{ with $.Site.GetPage (printf "/%s" $taxonomy) }}
       {{ if .Pages }}

@@ -9,7 +9,7 @@ outputs:
 menu:
   main:
     identifier: search
-    weight: 5
+    weight: 
     params:
       icon: search
 ---

@@ -1,0 +1,25 @@
+.delor-quick-search, .delor-search-row { display: flex; align-items: stretch; gap: .4rem; flex-wrap: wrap; }
+.delor-quick-input { position: relative; flex: 1 1 6rem; min-width: 0; }
+.book-search .delor-quick-input input { margin: 0; min-width: 0; }
+.delor-search-button {
+  border: 1px solid var(--glass-border, var(--gray-200));
+  border-radius: 6px;
+  padding: .5rem .65rem;
+  background: var(--glass-background, var(--gray-100));
+  color: var(--body-font-color);
+  font: inherit;
+  cursor: pointer;
+}
+.delor-search-button:hover { border-color: var(--color-link); }
+.delor-quick-search .delor-search-button { flex: 0 0 auto; font-size: .8rem; }
+#delor-search-form label { display: block; margin-bottom: .5rem; }
+#delor-search-query { flex: 1 1 10rem; min-width: 0; padding: .65rem; border: 1px solid var(--gray-200); border-radius: 6px; background: var(--glass-background, var(--gray-100)); color: var(--body-font-color); font: inherit; }
+#delor-search-results { list-style: none; padding: 0; margin: 0; }
+#delor-search-results > li { padding-block: 1.25rem; border-bottom: 1px solid var(--glass-border, var(--gray-200)); }
+#delor-search-results h2 { font-size: 1.2rem; margin: 0 0 .4rem; overflow-wrap: anywhere; }
+#delor-search-results p { line-height: 1.65; margin: .5rem 0 0; overflow-wrap: anywhere; white-space: pre-line; }
+.delor-result-section { font-size: .85rem; }
+#delor-search-results mark { background: color-mix(in srgb, var(--color-link) 22%, transparent); color: inherit; border-radius: 2px; }
+#delor-search-more { margin-top: 1rem; }
+#delor-full-search [hidden] { display: none; }
+#delor-full-search [aria-busy="true"] { opacity: .7; }

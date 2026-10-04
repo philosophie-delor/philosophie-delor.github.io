@@ -5,8 +5,13 @@
 
 <div class="delor-overview">
   <article class="markdown">
-    {{ if not .IsHome }}<h1>{{ .Title }}</h1>{{ end }}
-    {{ .Content }}
+    {{ if .IsHome }}
+      {{ .Content }}
+    {{ else }}
+      {{ $parts := partial "delor/content-parts" . }}
+      {{ if $parts.Heading }}{{ $parts.Heading | safeHTML }}{{ else }}<h1>{{ .Title }}</h1>{{ end }}
+      {{ $parts.Body | safeHTML }}
+    {{ end }}
   </article>
 
   {{ if not .IsHome }}

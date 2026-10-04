@@ -1,0 +1,31 @@
+{{- with resources.Get "styles/delor-overview.css" -}}
+<style>{{ .Content | safeCSS }}</style>
+{{- end -}}
+{{- $parts := partial "delor/content-parts" . -}}
+{{- $description := .Description -}}
+{{- if not $description }}{{ $description = .Summary | plainify | htmlUnescape | truncate 240 }}{{ end -}}
+<article class="markdown book-article{{ if eq .Type "posts" }} book-post{{ end }}">
+  <header class="delor-article-header">
+    {{ if $parts.Heading }}
+      {{ $parts.Heading | safeHTML }}
+    {{ else }}
+      <h1>{{ partial "docs/title" . }}</h1>
+    {{ end }}
+    {{ with $description }}<p class="delor-article-description">{{ . }}</p>{{ end }}
+    <div class="delor-article-reading">{{ partial "delor/reading-time" . }}</div>
+    {{ if eq .Type "posts" }}
+  {{ partial "docs/post-meta" . }}
+{{ else if not .Date.IsZero }}
+  <div class="text-small book-post-date">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ if eq .Language.Lang "de" }}
+        {{ .Date.Format "02.01.2006" }}
+      {{ else }}
+        {{ .Date.Format "2006-01-02" }}
+      {{ end }}
+    </time>
+  </div>
+{{ end }}
+  </header>
+  {{ $parts.Body | safeHTML }}
+</article>

@@ -1,2 +1,0 @@
-layouts/_partials/delor/topics.html
-layouts/_partials/docs/inject/content-before.html

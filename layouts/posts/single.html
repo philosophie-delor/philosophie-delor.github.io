@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ partial "delor/article" . }}
+{{ end }}
+
+{{ define "breadcrumbs" }}{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "docs/post-prev-next" . }}
+{{ end }}

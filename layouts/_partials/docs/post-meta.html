@@ -1,0 +1,10 @@
+{{ with .Date }}
+  <div class="text-small book-post-date">
+    <time datetime="{{ .Format "2006-01-02" }}">{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</time>
+  </div>
+{{ end }}
+{{ with .GetTerms "categories" }}
+  <div class="delor-chips">
+    {{ range . }}<a class="delor-chip delor-chip--categories" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+  </div>
+{{ end }}

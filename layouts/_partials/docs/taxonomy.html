@@ -1,0 +1,14 @@
+<nav aria-label="{{ if eq .Language.Lang "de" }}Kategorien{{ else }}Categories{{ end }}">
+  {{ with .Site.GetPage "/categories" }}
+    <ul>
+      <li class="book-section-flat">
+        <a href="{{ .RelPermalink }}">{{ if eq .Language.Lang "de" }}Kategorien{{ else }}Categories{{ end }}</a>
+        <ul>
+          {{ range .Pages.ByTitle }}
+            <li class="flex align-center"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><span>{{ len .Pages }}</span></li>
+          {{ end }}
+        </ul>
+      </li>
+    </ul>
+  {{ end }}
+</nav>
