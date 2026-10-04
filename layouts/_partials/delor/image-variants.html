@@ -1,0 +1,58 @@
+{{- /* Resolve optional siblings at build time. Remote URLs remain untouched. */ -}}
+{{- $page := .page -}}
+{{- $src := .src -}}
+{{- $result := dict "src" $src "light" $src "dark" $src "width" 0 "height" 0 "found" false -}}
+{{- $url := urls.Parse $src -}}
+{{- if and (not $url.IsAbs) (not $url.Host) -}}
+  {{- $path := strings.TrimPrefix "./" $url.Path -}}
+  {{- $resource := false -}}
+  {{- $kind := "" -}}
+  {{- if not (hasPrefix $path "/") -}}
+    {{- with $page.Resources.Get $path -}}{{- $resource = . -}}{{- $kind = "page" -}}{{- end -}}
+  {{- end -}}
+  {{- $clean := strings.TrimPrefix "/" $path -}}
+  {{- if not $resource -}}
+    {{- if os.FileExists (printf "static/%s" $clean) -}}
+      {{- $kind = "static" -}}
+    {{- else -}}
+      {{- with resources.Get $clean -}}{{- $resource = . -}}{{- $kind = "asset" -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $kind -}}
+    {{- $default := $src -}}
+    {{- $width := 0 -}}{{- $height := 0 -}}
+    {{- if $resource -}}
+      {{- $default = $resource.RelPermalink -}}
+      {{- if in (slice ".png" ".jpg" ".jpeg" ".gif" ".webp" ".tif" ".tiff" ".bmp") (lower (path.Ext $clean)) -}}
+        {{- $width = $resource.Width -}}{{- $height = $resource.Height -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $default = relURL $clean -}}
+      {{- if in (slice ".png" ".jpg" ".jpeg" ".gif" ".webp" ".tif" ".tiff" ".bmp") (lower (path.Ext $clean)) -}}
+        {{- with images.Config (printf "static/%s" $clean) -}}{{- $width = .Width -}}{{- $height = .Height -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $result = dict "src" $default "light" $default "dark" $default "width" $width "height" $height "found" true -}}
+    {{- range slice "light" "dark" -}}
+      {{- $mode := . -}}
+      {{- $candidate := path.Join (path.Dir $clean) $mode (path.Base $clean) -}}
+      {{- $variant := "" -}}
+      {{- if eq $kind "static" -}}
+        {{- if os.FileExists (printf "static/%s" $candidate) -}}{{- $variant = relURL $candidate -}}{{- end -}}
+      {{- else if eq $kind "page" -}}
+        {{- with $page.Resources.Get $candidate -}}{{- $variant = .RelPermalink -}}{{- end -}}
+      {{- else -}}
+        {{- with resources.Get $candidate -}}{{- $variant = .RelPermalink -}}{{- end -}}
+      {{- end -}}
+      {{- with $variant -}}{{- $result = merge $result (dict $mode .) -}}{{- end -}}
+    {{- end -}}
+    {{- /* Preserve query strings and SVG fragments on all variants. */ -}}
+    {{- $suffix := "" -}}
+    {{- with $url.RawQuery -}}{{- $suffix = printf "?%s" . -}}{{- end -}}
+    {{- with $url.Fragment -}}{{- $suffix = printf "%s#%s" $suffix . -}}{{- end -}}
+    {{- range slice "src" "light" "dark" -}}
+      {{- $result = merge $result (dict . (printf "%s%s" (index $result .) $suffix)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}

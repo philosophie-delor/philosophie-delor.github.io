@@ -1,0 +1,7 @@
+{{- $src := .Destination -}}
+{{- /* Bundle resources are resolved directly, preserving access to siblings. */ -}}
+{{- $resolved := partial "delor/image-variants" (dict "page" .Page "src" $src) -}}
+{{- if and .Page.Site.Params.BookPortableLinks (not $resolved.found) -}}
+  {{- $src = partial "docs/links/portable-image" . -}}
+{{- end -}}
+{{- partial "delor/theme-image" (dict "page" .Page "src" $src "alt" (.PlainText | default (.Text | plainify)) "title" .Title) -}}
