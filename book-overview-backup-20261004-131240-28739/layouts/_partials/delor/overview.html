@@ -1,0 +1,48 @@
+{{- $de := eq .Language.Lang "de" -}}
+{{- with resources.Get "styles/delor-overview.css" -}}
+<style>{{ .Content | safeCSS }}</style>
+{{- end -}}
+
+<div class="delor-overview">
+  <article class="markdown">
+    {{ if not .IsHome }}<h1>{{ .Title }}</h1>{{ end }}
+    {{ .Content }}
+  </article>
+
+  <nav class="delor-topics" aria-label="{{ if $de }}Themen{{ else }}Topics{{ end }}">
+    {{ range slice "categories" "tags" }}
+      {{ $taxonomy := . }}
+      {{ with $.Site.GetPage (printf "/%s" $taxonomy) }}
+        {{ if .Pages }}
+          <div class="delor-topic-group">
+            <span class="delor-topic-label">{{ if eq $taxonomy "categories" }}{{ if $de }}Kategorien{{ else }}Categories{{ end }}{{ else }}{{ if $de }}Schlagwörter{{ else }}Tags{{ end }}{{ end }}</span>
+            <div class="delor-chips">
+              {{ range .Pages.ByTitle }}
+                <a class="delor-chip delor-chip--{{ $taxonomy }}" href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} aria-current="page"{{ end }}>{{ .LinkTitle }}</a>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </nav>
+
+  {{- $pages := .Pages.ByWeight -}}
+  {{- if .IsHome -}}
+    {{- $pages = .Site.RegularPages -}}
+    {{- $pages = where $pages "Section" "not in" (slice "search" "page" "pages") -}}
+    {{- $pages = where $pages "Params.delorexclude" "ne" true -}}
+    {{- $pages = where $pages "Date.IsZero" false -}}
+    {{- $count := int (default 5 .Site.Params.DelorRecentCount) -}}
+    {{- $pages = first $count $pages.ByDate.Reverse -}}
+    <h2>{{ if $de }}Neueste Beiträge{{ else }}Latest articles{{ end }}</h2>
+  {{- end -}}
+
+  <div class="delor-entry-list">
+    {{ range $pages }}
+      {{ partial "delor/entry" . }}
+    {{ else }}
+      <p>{{ if $de }}Hier sind noch keine Beiträge vorhanden.{{ else }}There are no articles here yet.{{ end }}</p>
+    {{ end }}
+  </div>
+</div>

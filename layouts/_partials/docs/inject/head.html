@@ -1,0 +1,14 @@
+<script>
+(() => {
+  let theme = "ayu-auto";
+
+  try {
+    const saved = localStorage.getItem("book-ayu-theme");
+    if (["ayu-auto", "ayu-light", "ayu-dark"].includes(saved)) {
+      theme = saved;
+    }
+  } catch {}
+
+  document.documentElement.dataset.theme = theme;
+})();
+</script>

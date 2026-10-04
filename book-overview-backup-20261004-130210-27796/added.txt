@@ -1,0 +1,7 @@
+layouts/posts/list.html
+layouts/home.html
+layouts/_partials/delor/overview.html
+layouts/_partials/delor/entry.html
+layouts/section.html
+layouts/term.html
+assets/styles/delor-overview.css

@@ -1,0 +1,26 @@
+{{- $de := eq .Language.Lang "de" -}}
+<article class="delor-entry">
+  <h2 class="delor-entry-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  <div class="delor-entry-meta">
+    {{ if .IsPage }}
+      {{ if not .Date.IsZero }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ if $de }}{{ .Date.Format "02.01.2006" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}</time>
+      {{ end }}
+      {{ if gt .ReadingTime 0 }}<span>{{ .ReadingTime }} {{ if $de }}Min. Lesezeit{{ else }}min read{{ end }}</span>{{ end }}
+    {{ end }}
+    {{ range .Translations }}
+      <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}">{{ if eq .Language.Lang "en" }}English{{ else if eq .Language.Lang "de" }}Deutsch{{ else }}{{ .Language.Label | default .Language.Lang }}{{ end }}</a>
+    {{ end }}
+  </div>
+  {{- $description := .Description -}}
+  {{- if not $description }}{{ $description = .Summary | plainify | htmlUnescape | truncate 240 }}{{ end -}}
+  {{ with $description }}<p class="delor-entry-description">{{ . }}</p>{{ end }}
+  <div class="delor-chips">
+    {{ range slice "categories" "tags" }}
+      {{ $taxonomy := . }}
+      {{ range $.GetTerms $taxonomy }}
+        <a class="delor-chip delor-chip--{{ $taxonomy }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+</article>

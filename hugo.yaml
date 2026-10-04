@@ -84,7 +84,8 @@ permalinks:
     page: /:slug/
 
 params:
-
+    BookSection: "/"
+    BookTheme: "ayu-auto"
     mainSections:
         - posts
     featuredImageField: image
