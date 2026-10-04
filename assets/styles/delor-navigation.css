@@ -1,5 +1,9 @@
 /* Navigation only becomes active once its script has initialized. */
-:root { --delor-bar-height: calc(52px + env(safe-area-inset-top, 0px)); }
+:root {
+  --delor-bar-height: calc(52px + env(safe-area-inset-top, 0px));
+  --delor-reading-opacity: .84;
+  --delor-overlay-opacity: .94;
+}
 body.delor-nav-ready { padding-top: var(--delor-bar-height); overflow-x: clip; }
 html:has(body.delor-nav-ready) { scroll-padding-top: calc(var(--delor-bar-height) + 16px); scrollbar-gutter: stable; }
 body.delor-nav-ready .markdown :is(h1,h2,h3,h4,h5,h6)[id] { scroll-margin-top: 16px; }
@@ -53,6 +57,11 @@ body.delor-nav-ready .markdown :is(h1,h2,h3,h4,h5,h6)[id] { scroll-margin-top: 1
 body.delor-nav-ready .book-header,
 body.delor-nav-ready .book-menu-overlay { display: none; }
 body.delor-nav-ready .book-page { opacity: 1; max-width: 88ch; min-width: 0; margin-inline: auto; }
+body.delor-nav-ready .book-page {
+  background-color: rgb(from var(--glass-background, var(--body-background)) r g b / var(--delor-reading-opacity));
+}
+body.delor-nav-ready .book-menu .book-brand span,
+body.delor-nav-ready .book-menu .book-brand:not(:has(img)) { display: none; }
 body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
 .delor-panel-close { display: none; }
 .delor-toc-current { color: var(--color-link); font-weight: 700; }
@@ -112,6 +121,7 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
     transform: none;
     transition: none;
     background: var(--glass-background, var(--body-background));
+    background-color: rgb(from var(--glass-background, var(--body-background)) r g b / var(--delor-overlay-opacity));
     border: 1px solid var(--glass-border, var(--gray-200));
     border-radius: var(--glass-radius, 14px);
     box-shadow: var(--glass-shadow, 0 8px 28px #0002);
@@ -141,6 +151,36 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
 #delor-theme-toggle[data-mode="light"] .delor-theme-light,
 #delor-theme-toggle[data-mode="dark"] .delor-theme-dark { display: block; }
 .delor-top-search { margin: 0; gap: 4px; align-items: center; }
+.delor-top-search { position: relative; }
+.delor-search-dropdown {
+  position: absolute; top: calc(100% + 10px); right: 0;
+  width: min(26rem, calc(100vw - 32px)); max-height: calc(100dvh - 80px); overflow-y: auto;
+  background: var(--glass-background, var(--body-background));
+  border: 1px solid var(--glass-border, var(--gray-200)); border-radius: var(--glass-radius, 14px);
+  box-shadow: var(--glass-shadow, 0 8px 28px #0002); padding: 12px;
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  color: var(--body-font-color); text-align: left;
+}
+.delor-top-search-status { margin: 0 0 6px; font-size: .9rem; }
+#delor-top-results { list-style: none; padding: 0; margin: 0; }
+#delor-top-results a, .delor-top-search-more { display: block; padding: 10px; border-radius: 8px; }
+#delor-top-results a:hover, #delor-top-results a:focus-visible { background: var(--gray-100); }
+#delor-top-results strong, #delor-top-results small { display: block; }
+#delor-top-results small { margin-top: 4px; line-height: 1.5; color: var(--body-font-color); }
+.delor-top-search-more { border-top: 1px solid var(--glass-border, var(--gray-200)); }
+.delor-theme-choice { min-height: 44px; min-width: 44px; border-radius: 8px !important; padding: 8px 12px !important; }
+.delor-theme-choice[aria-pressed="false"] { color: var(--body-font-color) !important; background: transparent !important; border: 1px solid var(--glass-border, var(--gray-200)) !important; }
+.delor-theme-choice[aria-pressed="true"] { color: var(--body-background) !important; background: var(--color-link) !important; border: 1px solid var(--color-link) !important; }
+body.delor-nav-ready .book-menu-content { font-size: 1rem; line-height: 1.5; }
+body.delor-nav-ready .book-toc-content { font-size: 1rem; line-height: 1.5; }
+body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6px; }
+@media (pointer: coarse), (max-width: 56rem) {
+  body.delor-nav-ready .book-menu-content nav a,
+  body.delor-nav-ready .book-menu-content nav label,
+  body.delor-nav-ready .book-toc-content nav a { min-height: 44px; box-sizing: border-box; padding-block: 10px; }
+  body.delor-nav-ready .book-menu-content nav label { display: flex; align-items: center; }
+  body.delor-nav-ready .book-menu-content nav label > a { min-height: 0; padding-block: 0; }
+}
 .delor-top-search input { display: none; width: 12rem; min-width: 0; padding: 7px 10px; height: 36px; box-sizing: border-box; color: var(--body-font-color); background: var(--glass-background, var(--body-background)); border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; font: inherit; }
 .delor-top-links { grid-column: 1; grid-row: 1; gap: 20px; min-width: 0; overflow: hidden; }
 .delor-top-links a { color: var(--body-font-color); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

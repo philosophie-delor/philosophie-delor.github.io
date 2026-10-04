@@ -169,6 +169,28 @@
   const themeButton = document.getElementById('delor-theme-toggle');
   const root = document.documentElement;
   const themes = ['ayu-auto', 'ayu-light', 'ayu-dark'];
+  // Adapt the existing Auto/Hell/Dunkel buttons without replacing the menu hook.
+  const sidebarThemes = new Map();
+  document.querySelectorAll('.book-menu-content button').forEach(button => {
+    const raw = button.dataset.theme || button.dataset.bookTheme || button.textContent;
+    const value = raw.toLowerCase().trim().replace(/^ayu-/, '').replace(/[^a-zäöü]/g, '');
+    const mode = { auto: 'auto', automatic: 'auto', automatisch: 'auto', hell: 'light', light: 'light', dunkel: 'dark', dark: 'dark' }[value];
+    if (!mode) return;
+    sidebarThemes.set(button, `ayu-${mode}`);
+    button.classList.add('delor-theme-choice');
+    button.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      applyTheme(`ayu-${mode}`);
+    }, true);
+  });
+  function applyTheme(theme) {
+    if (!themes.includes(theme)) return;
+    if (root.dataset.theme !== theme) root.dataset.theme = theme;
+    try { localStorage.setItem('book-ayu-theme', theme); } catch {}
+    updateThemeButton();
+    document.dispatchEvent(new CustomEvent('delor-theme-change', { detail: { theme } }));
+  }
   function updateThemeButton() {
     const value = root.dataset.theme || 'ayu-auto';
     const mode = value.endsWith('dark') ? 'dark' : value.endsWith('light') ? 'light' : 'auto';
@@ -178,20 +200,25 @@
     const text = de ? `Darstellung: ${label}. Wechseln zu ${next}` : `Theme: ${label}. Switch to ${next}`;
     themeButton.setAttribute('aria-label', text);
     themeButton.title = text;
+    for (const [button, theme] of sidebarThemes) {
+      button.setAttribute('aria-pressed', String(theme === `ayu-${mode}`));
+    }
+    try { localStorage.setItem('book-ayu-theme', `ayu-${mode}`); } catch {}
   }
   themeButton?.addEventListener('click', () => {
     const current = root.dataset.theme || 'ayu-auto';
     const index = current.endsWith('light') ? 1 : current.endsWith('dark') ? 2 : 0;
     const next = themes[(index + 1) % themes.length];
-    root.dataset.theme = next;
-    try { localStorage.setItem('book-ayu-theme', next); } catch {}
-    document.dispatchEvent(new CustomEvent('delor-theme-change', { detail: { theme: next } }));
+    applyTheme(next);
   });
   if (themeButton) {
     try { const saved = localStorage.getItem('book-ayu-theme'); if (themes.includes(saved)) root.dataset.theme = saved; } catch {}
     new MutationObserver(updateThemeButton).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
     updateThemeButton();
   }
+  addEventListener('storage', event => {
+    if (event.key === 'book-ayu-theme') applyTheme(event.newValue || 'ayu-auto');
+  });
   // Clear the original mobile switches; the original header is replaced visually.
   document.querySelectorAll('#menu-control, #toc-control').forEach(input => { input.checked = false; });
   body.classList.add('delor-nav-ready');
