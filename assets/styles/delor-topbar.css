@@ -19,13 +19,13 @@
 #delor-menu-toggle { order: -1; flex: none; }
 #delor-toc-toggle { order: 4; flex: none; }
 .delor-topbar-title {
-  order: 3;
+  order: 0;
   flex: none;
   min-width: 0;
   max-width: 18rem;
   color: var(--body-font-color);
   font-weight: 600;
-  text-align: right;
+  text-align: left;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -103,10 +103,6 @@
 .delor-top-actions button { width: 36px; display: grid; place-items: center; flex: none; }
 #delor-language { max-width: 6rem; }
 .delor-topbar :is(button, input, select, a, summary):focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
-/* The title moves directly after the menu button when the left sidebar is an overlay. */
-@media (max-width: 899.98px) {
-  .delor-topbar-title { order: 0; text-align: left; }
-}
 @media (pointer: coarse) {
   .delor-top-actions button, #delor-language, .delor-top-search input { height: 44px; }
   .delor-top-actions button { width: 44px; }

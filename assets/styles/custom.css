@@ -41,7 +41,7 @@ body::before {
   height: 240px;
   margin-bottom: 8px;
   background-image: url("/images/title-banner.png");
-  background-position: center 35%;
+  background-position: center 45%;
   background-size: cover;
   background-repeat: no-repeat;
 }

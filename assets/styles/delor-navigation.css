@@ -169,9 +169,27 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
   }
   body.delor-nav-ready .book-page { flex: 0 1 var(--delor-reading-max); width: auto; max-width: min(76ch, var(--delor-reading-max)); min-width: 0; margin-inline: 0; box-sizing: border-box; }
   body.delor-nav-ready .book-menu:not(.delor-overlay) { display: block; visibility: visible; position: static; margin: 0; transform: none; flex: 1 0 var(--delor-menu-min); width: auto; min-width: var(--delor-menu-min); max-width: var(--delor-menu-max); }
-  body.delor-nav-ready .book-toc:not(.delor-overlay):not(.delor-empty-panel) { display: block; visibility: visible; position: static; order: initial; margin: 0; transform: none; flex: 1.2 0 var(--delor-toc-min); width: auto; min-width: var(--delor-toc-min); max-width: var(--delor-toc-max); }
   body.delor-nav-ready :is(.book-menu,.book-toc):not(.delor-overlay) :is(.book-menu-content,.book-toc-content) { box-sizing: border-box; width: 100%; padding-inline: 14px; overflow-wrap: anywhere; }
 }
+/* Reserve the right column on wide screens even when it has no content.
+   Empty columns have no visible glass surface and no mobile overlay button. */
+@media screen and (min-width: 1400px) {
+  body.delor-nav-ready .book-toc:not(.delor-overlay) { display: block; visibility: visible; position: static; order: initial; margin: 0; transform: none; flex: 1.2 0 var(--delor-toc-min); width: auto; min-width: var(--delor-toc-min); max-width: var(--delor-toc-max); }
+  body.delor-nav-ready .book-toc.delor-empty-panel .book-toc-content { visibility: hidden; }
+  body.delor-nav-ready > main.container:not(:has(> .book-toc))::after {
+    content: "";
+    flex: 1.2 0 var(--delor-toc-min);
+    min-width: var(--delor-toc-min);
+    max-width: var(--delor-toc-max);
+  }
+}
+.book-toc-content .delor-topics { margin-block: 1rem 0; }
+.book-toc-content .delor-topics:first-child { margin-top: 0; }
+.book-toc-content #TableOfContents:has(a) ~ .delor-topics {
+  border-top: 1px solid var(--glass-border);
+  padding-top: 1rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   body.delor-nav-ready .book-menu, body.delor-nav-ready .book-toc { transition: none; }
 }

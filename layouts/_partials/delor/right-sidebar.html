@@ -1,0 +1,9 @@
+{{/* Keep the same sidebar slot on articles, sections, home and search. */}}
+<aside class="book-toc" aria-label="{{ if eq .Language.Lang "de" }}Seitenübersicht{{ else }}Page navigation{{ end }}">
+  <div class="book-toc-content">
+    {{ if .Param "BookToC" | default true }}
+      {{ partial "docs/toc" . }}
+    {{ end }}
+    {{ partial "delor/topics" . }}
+  </div>
+</aside>

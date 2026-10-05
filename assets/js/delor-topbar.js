@@ -9,9 +9,6 @@
   const search = bar.querySelector('.delor-top-search');
   const input = search?.querySelector('input');
   const searchButton = search?.querySelector('button');
-  const title = bar.querySelector('.delor-topbar-title');
-  const menu = document.getElementById('delor-menu-toggle');
-  const toc = document.getElementById('delor-toc-toggle');
   let frame;
 
   function freeSpace() {
@@ -68,12 +65,6 @@
       searchButton.setAttribute('aria-label', searchButton.title);
     }
     bar.querySelectorAll('.delor-top-item[hidden] details[open]').forEach(el => { el.open = false; });
-    // Match tab order to the visual order, including the title's mobile position.
-    if (title && menu) {
-      if (getComputedStyle(title).order === '0') menu.after(title);
-      else if (toc) toc.before(title);
-      else bar.append(title);
-    }
     // Mobile keyboards change the viewport height. Keep an open search usable.
     if (wasExpanded && search.dataset.compact === 'true') {
       search.dataset.expanded = 'true';

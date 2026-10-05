@@ -4,10 +4,11 @@
 
 {{ define "breadcrumbs" }}{{ end }}
 
-{{ define "toc" }}
-  {{ partial "docs/toc" . }}
-{{ end }}
 
 {{ define "footer" }}
   {{ partial "docs/post-prev-next" . }}
+{{ end }}
+
+{{ define "toc-container" }}
+  {{ partial "delor/right-sidebar" . }}
 {{ end }}

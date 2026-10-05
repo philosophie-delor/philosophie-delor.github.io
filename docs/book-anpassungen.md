@@ -46,8 +46,14 @@ Inhalte, Übersetzungen, Bilder, Theme-Submodule und Deployment bleiben unverän
 
 `delor-topbar.js` misst die tatsächlichen Breiten einschließlich Beschriftungen und Steuerelementen. Das Suchfeld wird zwischen 160 und 300px breit. Bei Platzmangel werden zuerst zusätzliche Menüpunkte, danach Sprach- und Theme-Schalter ausgeblendet. Diese Funktionen bleiben in der Seitenleiste verfügbar. Erst danach wird der Titel gekürzt und das Suchfeld bei Bedarf über das Suchsymbol aufgeklappt.
 
-Auf breiten Fenstern steht der Titel rechts. Sobald die linke Seitenleiste zum Overlay wird, steht er direkt rechts neben dem Menübutton. Die visuelle Reihenfolge und die Tab-Reihenfolge stimmen überein.
+Der Titel steht links, direkt hinter dem Menübutton, falls dieser eingeblendet ist. Danach folgen die Hauptabschnitte. Suche und weitere Bedienelemente bleiben rechts. Die visuelle Reihenfolge und die Tab-Reihenfolge stimmen überein.
 
 Die Leiste zeigt höchstens drei sichtbare Hauptabschnitte nach ihrer Gewichtung. `params.DelorTopMenuLimit` kann diese Anzahl ändern. Unterseiten werden rekursiv als aufklappbare Menüs ausgegeben. Jeder aufgeklappte Abschnitt enthält einen Link zu seiner Übersicht. Ausgeblendete Hauptabschnitte bleiben im Hauptmenü erreichbar.
 
 Die Suchseiten müssen unter dem aktiven `content`-Verzeichnis liegen. In `content_org` archivierte Dateien werden von Hugo nicht als Seiten gebaut. Der Patch stellt die vorhandenen deutschen und englischen Suchseiten in `content/detailsuche` wieder her. `delor/search-page.html` findet die Detailsuche auch dann noch, wenn sie später verschoben wird und das Layout `delor-search` behält.
+
+## Rechte Seitenleiste
+
+`delor/right-sidebar.html` liefert die Seitenleiste für Startseite, Abschnittsübersichten, Artikel, Kategorieansichten und Detailsuche. Unter dem Inhaltsverzeichnis stehen die Kategorien der aktuellen Sprachfassung. `bookToC: false` blendet nur das Inhaltsverzeichnis aus, die Kategorien bleiben verfügbar.
+
+Ab 1400 CSS-Pixeln bleibt die rechte Spalte reserviert, auch wenn sie ausnahmsweise leer ist. Leere Flächen werden dann unsichtbar gehalten. Auf schmaleren Fenstern gilt weiterhin das Overlay-Verhalten. Ein vollständig leeres Overlay hat keinen Öffnen-Button.
