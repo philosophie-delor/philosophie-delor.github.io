@@ -77,12 +77,12 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
     overflow-y: auto;
   }
 }
-@media (min-width: 56.001rem) { #delor-menu-toggle { display: none; } }
-@media (min-width: 75.001rem) { #delor-toc-toggle { display: none; } }
-@media (max-width: 56rem) { body.delor-nav-ready > main.container { flex-direction: column; } }
+@media (min-width: 900px) { #delor-menu-toggle { display: none; } }
+@media (min-width: 1400px) { #delor-toc-toggle { display: none; } }
+@media (max-width: 899.98px) { body.delor-nav-ready > main.container { flex-direction: column; } }
 
-/* At <=1200px (with 16px root) both panels overlay the full-width article. */
-@media screen and (max-width: 75rem) {
+/* Sidebar thresholds use CSS pixels, independently of the default font size. */
+@media screen and (max-width: 1399.98px) {
   body.delor-nav-ready .book-page { box-sizing: border-box; width: 100%; min-width: 0; }
   body.delor-nav-ready .book-menu.delor-overlay,
   body.delor-nav-ready .book-toc.delor-overlay {
@@ -146,12 +146,15 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
 .delor-top-actions button { width: 36px; display: grid; place-items: center; }
 .delor-top-actions :is(button, input, select):focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
 #delor-theme-toggle, #delor-language, .delor-top-search, .delor-top-links { display: none; }
-:is(#delor-theme-toggle, #delor-sidebar-theme-toggle) svg { display: none; }
-:is(#delor-theme-toggle, #delor-sidebar-theme-toggle)[data-mode="auto"] .delor-theme-auto,
-:is(#delor-theme-toggle, #delor-sidebar-theme-toggle)[data-mode="light"] .delor-theme-light,
-:is(#delor-theme-toggle, #delor-sidebar-theme-toggle)[data-mode="dark"] .delor-theme-dark { display: block; }
-#delor-sidebar-theme-toggle { display: grid; place-items: center; width: 44px; height: 44px; padding: 8px; border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; color: var(--body-font-color); background: transparent; cursor: pointer; }
-#delor-sidebar-theme-toggle:focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
+#delor-theme-toggle svg { display: none; }
+#delor-theme-toggle[data-mode="auto"] .delor-theme-auto,
+#delor-theme-toggle[data-mode="light"] .delor-theme-light,
+#delor-theme-toggle[data-mode="dark"] .delor-theme-dark { display: block; }
+#delor-sidebar-themes { display: inline-flex; flex: 0 0 auto; width: max-content; gap: 6px; align-self: flex-start; }
+#delor-sidebar-themes > button { display: grid; place-items: center; box-sizing: border-box; flex: 0 0 44px !important; width: 44px !important; min-width: 44px !important; max-width: 44px !important; height: 44px; padding: 8px; margin: 0; border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; color: var(--body-font-color); background: transparent; cursor: pointer; }
+#delor-sidebar-themes > button svg { display: block; width: 20px; height: 20px; }
+#delor-sidebar-themes > button[aria-pressed="true"] { background: var(--color-link); color: var(--body-background); border-color: var(--color-link); }
+#delor-sidebar-themes > button:focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
 .book-menu-content .delor-theme-choice[hidden] { display: none !important; }
 .delor-top-search { margin: 0; gap: 4px; align-items: center; }
 .delor-top-search { position: relative; }
@@ -177,7 +180,7 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
 body.delor-nav-ready .book-menu-content { font-size: 1rem; line-height: 1.5; }
 body.delor-nav-ready .book-toc-content { font-size: 1rem; line-height: 1.5; }
 body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6px; }
-@media (pointer: coarse), (max-width: 56rem) {
+@media (pointer: coarse), (max-width: 899.98px) {
   body.delor-nav-ready .book-menu-content nav a,
   body.delor-nav-ready .book-menu-content nav label,
   body.delor-nav-ready .book-toc-content nav a { min-height: 44px; box-sizing: border-box; padding-block: 10px; }
@@ -187,12 +190,30 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
 .delor-top-search input { display: none; width: 12rem; min-width: 0; padding: 7px 10px; height: 36px; box-sizing: border-box; color: var(--body-font-color); background: var(--glass-background, var(--body-background)); border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; font: inherit; }
 .delor-top-links { grid-column: 1; grid-row: 1; gap: 20px; min-width: 0; overflow: hidden; }
 .delor-top-links a { color: var(--body-font-color); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-@media (min-width: 32rem) { #delor-theme-toggle { display: grid; } }
-@media (min-width: 40rem) { .delor-top-search { display: flex; } }
-@media (min-width: 48rem) { #delor-language { display: block; } }
-@media (min-width: 70rem) { .delor-top-search input { display: block; } }
-@media (min-width: 75.001rem) { .delor-top-actions { margin-right: 0; } }
-@media (min-width: 87.5rem) { .delor-top-links { display: flex; } }
+@media (min-width: 512px) { #delor-theme-toggle { display: grid; } }
+@media (min-width: 640px) { .delor-top-search { display: flex; } }
+@media (min-width: 768px) { #delor-language { display: block; } }
+@media (min-width: 1120px) { .delor-top-search input { display: block; } }
+@media (min-width: 1400px) { .delor-top-actions { margin-right: 0; } }
+@media (min-width: 1400px) { .delor-top-links { display: flex; } }
+
+/* Compact desktop typography; touch devices keep their existing font size. */
+@media screen and (hover: hover) and (pointer: fine) {
+  html:has(body.delor-nav-ready) { font-size: 16px; }
+  body.delor-nav-ready { font-size: 1rem; }
+  body.delor-nav-ready .markdown { font-size: 1rem; line-height: 1.65; }
+}
+@media screen and (min-width: 900px) {
+  body.delor-nav-ready > main.container {
+    display: flex; flex-direction: row; align-items: flex-start; justify-content: center;
+    box-sizing: border-box; width: 100%; max-width: 1440px; margin-inline: auto;
+    gap: clamp(12px, 1.2vw, 20px); padding-inline: 16px;
+  }
+  body.delor-nav-ready .book-page { flex: 0 1 720px; width: auto; max-width: min(76ch, 720px); min-width: 0; margin-inline: 0; box-sizing: border-box; }
+  body.delor-nav-ready .book-menu:not(.delor-overlay) { display: block; visibility: visible; position: static; margin: 0; transform: none; flex: 1 0 220px; width: auto; min-width: 220px; max-width: 300px; }
+  body.delor-nav-ready .book-toc:not(.delor-overlay):not(.delor-empty-panel) { display: block; visibility: visible; position: static; order: initial; margin: 0; transform: none; flex: 1.2 0 240px; width: auto; min-width: 240px; max-width: 360px; }
+  body.delor-nav-ready :is(.book-menu,.book-toc):not(.delor-overlay) :is(.book-menu-content,.book-toc-content) { box-sizing: border-box; width: 100%; padding-inline: 14px; overflow-wrap: anywhere; }
+}
 @media (prefers-reduced-motion: reduce) {
   body.delor-nav-ready .book-menu, body.delor-nav-ready .book-toc { transition: none; }
 }

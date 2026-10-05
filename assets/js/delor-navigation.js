@@ -4,8 +4,8 @@
   if (!bar) return;
   const body = document.body;
   const de = bar.dataset.language === 'de';
-  const menuNarrow = matchMedia('(max-width: 56rem)');
-  const tocNarrow = matchMedia('(max-width: 75rem)');
+  const menuNarrow = matchMedia('(max-width: 899.98px)');
+  const tocNarrow = matchMedia('(max-width: 1399.98px)');
   const page = document.querySelector('main.container > .book-page');
   const backdrop = document.getElementById('delor-panel-backdrop');
   const panels = {
@@ -169,7 +169,6 @@
   const themeButton = document.getElementById('delor-theme-toggle');
   const root = document.documentElement;
   const themes = ['ayu-auto', 'ayu-light', 'ayu-dark'];
-  let sidebarThemeButton;
   // Adapt the existing Auto/Hell/Dunkel buttons without replacing the menu hook.
   const sidebarThemes = new Map();
   document.querySelectorAll('.book-menu-content button').forEach(button => {
@@ -186,12 +185,26 @@
     }, true);
   });
   if (themeButton && panels.menu.content) {
-    sidebarThemeButton = themeButton.cloneNode(true);
-    sidebarThemeButton.id = 'delor-sidebar-theme-toggle';
+    const group = document.createElement('div');
+    group.id = 'delor-sidebar-themes';
+    group.setAttribute('role', 'group');
+    group.setAttribute('aria-label', de ? 'Darstellung' : 'Theme');
     const first = sidebarThemes.keys().next().value;
-    if (first) first.before(sidebarThemeButton);
-    else panels.menu.content.append(sidebarThemeButton);
+    if (first) first.before(group);
+    else panels.menu.content.append(group);
     for (const button of sidebarThemes.keys()) button.hidden = true;
+    for (const mode of ['auto', 'light', 'dark']) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.dataset.mode = mode;
+      const label = { auto: de ? 'Auto – Systemeinstellung' : 'Auto – system setting', light: de ? 'Hell' : 'Light', dark: de ? 'Dunkel' : 'Dark' }[mode];
+      button.title = label;
+      button.setAttribute('aria-label', label);
+      button.append(themeButton.querySelector(`.delor-theme-${mode}`).cloneNode(true));
+      button.addEventListener('click', () => applyTheme(`ayu-${mode}`));
+      sidebarThemes.set(button, `ayu-${mode}`);
+      group.append(button);
+    }
   }
   function applyTheme(theme) {
     if (!themes.includes(theme)) return;
@@ -206,7 +219,7 @@
     const label = { auto: 'Auto', light: de ? 'Hell' : 'Light', dark: de ? 'Dunkel' : 'Dark' }[mode];
     const next = { auto: de ? 'Hell' : 'Light', light: de ? 'Dunkel' : 'Dark', dark: 'Auto' }[mode];
     const text = de ? `Darstellung: ${label}. Wechseln zu ${next}` : `Theme: ${label}. Switch to ${next}`;
-    for (const button of [themeButton, sidebarThemeButton].filter(Boolean)) {
+    for (const button of [themeButton].filter(Boolean)) {
       button.dataset.mode = mode;
       button.setAttribute('aria-label', text);
       button.title = text;
@@ -223,7 +236,6 @@
     applyTheme(next);
   }
   themeButton?.addEventListener('click', cycleTheme);
-  sidebarThemeButton?.addEventListener('click', cycleTheme);
   if (themeButton) {
     try { const saved = localStorage.getItem('book-ayu-theme'); if (themes.includes(saved)) root.dataset.theme = saved; } catch {}
     new MutationObserver(updateThemeButton).observe(root, { attributes: true, attributeFilter: ['data-theme'] });

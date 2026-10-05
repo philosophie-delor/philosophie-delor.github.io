@@ -72,5 +72,5 @@
   });
   form.addEventListener('focusout', () => setTimeout(() => { if (!form.contains(document.activeElement)) close(); },0));
   document.addEventListener('pointerdown', event => { if (!form.contains(event.target)) close(); });
-  matchMedia('(min-width: 70rem)').addEventListener('change', close);
+  matchMedia('(min-width: 1120px)').addEventListener('change', close);
 })();
