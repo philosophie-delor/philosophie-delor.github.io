@@ -26,9 +26,9 @@
   --delor-overlay-opacity: .94;
   --delor-layout-max: 1900px;
   --delor-reading-max: 700px;
-  --delor-menu-min: 240px;
+  --delor-menu-min: 220px;
   --delor-menu-max: 340px;
-  --delor-toc-min: 240px;
+  --delor-toc-min: 220px;
   --delor-toc-max: 340px;
 }
 body.delor-nav-ready { padding-top: var(--delor-bar-height); overflow-x: clip; }
