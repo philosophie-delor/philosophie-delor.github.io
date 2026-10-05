@@ -34,36 +34,6 @@
 body.delor-nav-ready { padding-top: var(--delor-bar-height); overflow-x: clip; }
 html:has(body.delor-nav-ready) { scroll-padding-top: calc(var(--delor-bar-height) + 16px); scrollbar-gutter: stable; }
 body.delor-nav-ready .markdown :is(h1,h2,h3,h4,h5,h6)[id] { scroll-margin-top: 16px; }
-.delor-topbar {
-  position: fixed;
-  inset: 0 0 auto;
-  height: var(--delor-bar-height);
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: minmax(44px, 1fr) minmax(0, auto) minmax(44px, 1fr);
-  align-items: center;
-  gap: 8px;
-  padding: env(safe-area-inset-top, 0px) max(12px, env(safe-area-inset-right, 0px)) 0 max(12px, env(safe-area-inset-left, 0px));
-  z-index: 1200;
-  background: var(--glass-background, var(--body-background));
-  border-bottom: 1px solid var(--glass-border, var(--gray-200));
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
-}
-.delor-topbar[hidden], .delor-topbar [hidden], #delor-panel-backdrop[hidden] { display: none; }
-.delor-topbar-title {
-  grid-column: 2;
-  grid-row: 1;
-  min-width: 0;
-  text-align: center;
-  color: var(--body-font-color);
-  font-weight: 600;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 42vw;
-  text-decoration: none;
-}
 .delor-nav-toggle, .delor-panel-close {
   padding: 8px;
   border: 1px solid transparent;
@@ -73,9 +43,7 @@ body.delor-nav-ready .markdown :is(h1,h2,h3,h4,h5,h6)[id] { scroll-margin-top: 1
   font: inherit;
   cursor: pointer;
 }
-.delor-nav-toggle { width: 44px; height: 44px; display: grid; place-items: center; grid-row: 1; }
-#delor-menu-toggle { grid-column: 1; }
-#delor-toc-toggle { grid-column: 3; justify-self: end; }
+.delor-nav-toggle { width: 44px; height: 44px; display: grid; place-items: center; }
 .delor-nav-toggle:hover, .delor-panel-close:hover { background: var(--gray-100); }
 .delor-nav-toggle:focus-visible, .delor-panel-close:focus-visible { outline: 2px solid var(--color-link); outline-offset: 1px; }
 .delor-nav-toggle .delor-close-icon { display: none; }
@@ -167,14 +135,6 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
   #delor-panel-backdrop { position: fixed; inset: var(--delor-bar-height) 0 0; z-index: 1100; background: rgba(0,0,0,.06); touch-action: none; }
   html:has(body.delor-nav-ready[data-delor-panel]) { overflow: hidden; }
 }
-.delor-top-actions { grid-column: 3; grid-row: 1; display: flex; align-items: center; justify-self: end; gap: 6px; margin-right: 48px; }
-.delor-top-actions button, #delor-language {
-  color: var(--body-font-color); background: transparent; border: 1px solid var(--glass-border, var(--gray-200));
-  border-radius: 8px; height: 36px; font: inherit; padding: 6px; cursor: pointer;
-}
-.delor-top-actions button { width: 36px; display: grid; place-items: center; }
-.delor-top-actions :is(button, input, select):focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
-#delor-theme-toggle, #delor-language, .delor-top-search, .delor-top-links { display: none; }
 #delor-theme-toggle svg { display: none; }
 #delor-theme-toggle[data-mode="auto"] .delor-theme-auto,
 #delor-theme-toggle[data-mode="light"] .delor-theme-light,
@@ -195,17 +155,6 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
   body.delor-nav-ready .book-menu-content nav label { display: flex; align-items: center; }
   body.delor-nav-ready .book-menu-content nav label > a { min-height: 0; padding-block: 0; }
 }
-.delor-top-links { grid-column: 1; grid-row: 1; gap: 20px; min-width: 0; overflow: hidden; }
-.delor-top-links a { color: var(--body-font-color); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-@media (min-width: 512px) { #delor-theme-toggle { display: grid; } }
-@media (min-width: 640px) { .delor-top-search { display: flex; } }
-@media (min-width: 768px) { #delor-language { display: block; } }
-@media (min-width: 1120px) { .delor-top-search input { display: block; } }
-@media (min-width: 1400px) {
-  .delor-top-actions { margin-right: 0; }
-  .delor-top-links { display: flex; }
-}
-
 /* Compact desktop typography; touch devices keep their existing font size. */
 @media screen and (hover: hover) and (pointer: fine) {
   html:has(body.delor-nav-ready) { font-size: 16px; }

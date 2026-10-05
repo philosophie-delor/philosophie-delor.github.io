@@ -1,0 +1,18 @@
+{{- $page := .page -}}
+{{- $de := eq $page.Language.Lang "de" -}}
+{{- $children := where $page.Pages.ByWeight "Params.bookHidden" "ne" true -}}
+{{- if $children -}}
+<details class="delor-top-menu">
+  <summary>{{ $page.LinkTitle }}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary>
+  <div class="delor-top-submenu">
+    <a class="delor-top-overview" href="{{ $page.RelPermalink }}">{{ if $de }}Übersicht{{ else }}Overview{{ end }} · {{ $page.LinkTitle }}</a>
+    <ul>
+      {{- range $children -}}
+      <li>{{ partial "delor/top-menu-node" (dict "page" .) }}</li>
+      {{- end -}}
+    </ul>
+  </div>
+</details>
+{{- else -}}
+<a href="{{ $page.Params.BookHref | default $page.RelPermalink }}">{{ $page.LinkTitle }}</a>
+{{- end -}}

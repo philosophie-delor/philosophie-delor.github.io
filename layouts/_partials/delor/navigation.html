@@ -7,16 +7,17 @@
   </button>
   <a class="delor-topbar-title" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
   <nav class="delor-top-links" aria-label="{{ if $de }}Direktzugriff{{ else }}Quick links{{ end }}">
-    {{- range first 2 (where .Site.Home.Sections.ByWeight "Params.bookHidden" "ne" true) -}}
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- $limit := int (.Site.Params.DelorTopMenuLimit | default 3) -}}
+    {{- range first $limit (where .Site.Home.Sections.ByWeight "Params.bookHidden" "ne" true) -}}
+      <div class="delor-top-item">{{ partial "delor/top-menu-node" (dict "page" .) }}</div>
     {{- end -}}
   </nav>
   <div class="delor-top-actions">
     {{- $searchData := resources.Get "search-data.json" | resources.ExecuteAsTemplate (printf "%s.search-data.json" .Language.Name) . | resources.Minify | resources.Fingerprint -}}
-    {{- with .Site.GetPage "/detailsuche" -}}
+    {{- with partial "delor/search-page" . -}}
     <form class="delor-top-search" action="{{ .RelPermalink }}" role="search" data-index="{{ $searchData.RelPermalink }}" data-engine="{{ "minisearch.min.js" | relURL }}">
-      <input type="search" name="q" maxlength="200" autocomplete="off" aria-controls="delor-top-results" aria-label="{{ if $de }}Schnellsuche{{ else }}Quick search{{ end }}" placeholder="{{ if $de }}Suchen …{{ else }}Search …{{ end }}" />
-      <button type="submit" title="{{ if $de }}Detailsuche{{ else }}Full search{{ end }}" aria-label="{{ if $de }}Detailsuche öffnen{{ else }}Open full search{{ end }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
+      <input id="delor-top-query" type="search" name="q" maxlength="200" autocomplete="off" aria-controls="delor-top-results" aria-label="{{ if $de }}Schnellsuche{{ else }}Quick search{{ end }}" placeholder="{{ if $de }}Suchen …{{ else }}Search …{{ end }}" />
+      <button class="delor-top-search-toggle" type="submit" aria-controls="delor-top-query delor-top-results" title="{{ if $de }}Detailsuche{{ else }}Full search{{ end }}" aria-label="{{ if $de }}Detailsuche öffnen{{ else }}Open full search{{ end }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
       <div class="delor-search-dropdown" hidden>
         <p class="delor-top-search-status" role="status" aria-live="polite"></p>
         <ul id="delor-top-results"></ul>

@@ -1,6 +1,6 @@
 {{- if default true .Site.Params.BookSearch -}}
 {{- $de := eq .Language.Lang "de" -}}
-{{- $detail := .Site.GetPage "/detailsuche" -}}
+{{- $detail := partial "delor/search-page" . -}}
 
 <div class="book-search hidden">
   {{ if $detail }}

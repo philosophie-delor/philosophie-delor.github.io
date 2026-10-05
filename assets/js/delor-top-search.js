@@ -7,9 +7,28 @@
   const results = form.querySelector('#delor-top-results');
   const status = form.querySelector('.delor-top-search-status');
   const more = form.querySelector('.delor-top-search-more');
-  const de = document.getElementById('delor-topbar').dataset.language === 'de';
+  const bar = document.getElementById('delor-topbar');
+  const de = bar.dataset.language === 'de';
+  const button = form.querySelector('button');
   let timer, generation = 0;
   function close() { ++generation; clearTimeout(timer); box.hidden = true; }
+  function collapse() {
+    close();
+    if (form.dataset.compact === 'true') {
+      delete form.dataset.expanded;
+      input.hidden = true;
+      button.setAttribute('aria-expanded', 'false');
+    }
+  }
+  button.addEventListener('click', event => {
+    if (form.dataset.compact === 'true' && !form.hasAttribute('data-expanded')) {
+      event.preventDefault();
+      form.dataset.expanded = 'true';
+      input.hidden = false;
+      button.setAttribute('aria-expanded', 'true');
+      input.focus({ preventScroll: true });
+    }
+  });
   async function search() {
     const request = ++generation;
     const query = input.value.trim();
@@ -49,7 +68,13 @@
     if (event.key === 'ArrowDown' && !box.hidden) { event.preventDefault(); box.querySelector('a')?.focus(); }
   });
   form.addEventListener('keydown', event => {
-    if (event.key === 'Escape') { event.preventDefault(); close(); input.focus({preventScroll:true}); close(); }
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      collapse();
+      (input.hidden ? button : input).focus({ preventScroll: true });
+      close();
+      return;
+    }
     if (event.target === input || !['ArrowDown','ArrowUp'].includes(event.key)) return;
     const links = [...box.querySelectorAll('a')];
     const index = links.indexOf(document.activeElement);
@@ -58,7 +83,7 @@
     const next = index + (event.key === 'ArrowDown' ? 1 : -1);
     (next < 0 ? input : links[Math.min(next, links.length-1)]).focus();
   });
-  form.addEventListener('focusout', () => setTimeout(() => { if (!form.contains(document.activeElement)) close(); },0));
-  document.addEventListener('pointerdown', event => { if (!form.contains(event.target)) close(); });
-  matchMedia('(min-width: 1120px)').addEventListener('change', close);
+  form.addEventListener('focusout', () => setTimeout(() => { if (!form.contains(document.activeElement)) collapse(); },0));
+  document.addEventListener('pointerdown', event => { if (!form.contains(event.target)) collapse(); });
+  bar.addEventListener('delor-topbar-layout', close);
 })();

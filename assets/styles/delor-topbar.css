@@ -1,0 +1,115 @@
+/* The bar has two compact groups. Space, not fixed viewport breakpoints,
+   determines which optional controls are visible (delor-topbar.js). */
+.delor-topbar {
+  position: fixed;
+  inset: 0 0 auto;
+  height: var(--delor-bar-height);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: env(safe-area-inset-top, 0px) max(12px, env(safe-area-inset-right, 0px)) 0 max(12px, env(safe-area-inset-left, 0px));
+  z-index: 1200;
+  background: var(--glass-background, var(--body-background));
+  border-bottom: 1px solid var(--glass-border, var(--gray-200));
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+#delor-topbar[hidden], #delor-topbar [hidden], #delor-panel-backdrop[hidden] { display: none !important; }
+#delor-menu-toggle { order: -1; flex: none; }
+#delor-toc-toggle { order: 4; flex: none; }
+.delor-topbar-title {
+  order: 3;
+  flex: none;
+  min-width: 0;
+  max-width: 18rem;
+  color: var(--body-font-color);
+  font-weight: 600;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.delor-topbar[data-title-compact] .delor-topbar-title { max-width: min(12rem, 35vw); }
+.delor-top-links { order: 1; display: flex; align-items: center; gap: 12px; flex: none; min-width: 0; }
+.delor-top-item { flex: none; }
+.delor-top-links a, .delor-top-links summary {
+  color: var(--body-font-color);
+  text-decoration: none;
+}
+.delor-top-item > a, .delor-top-item > details > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.delor-top-menu { position: relative; }
+.delor-top-menu summary { display: flex; align-items: center; justify-content: space-between; gap: 8px; cursor: pointer; list-style: none; }
+.delor-top-menu summary::-webkit-details-marker { display: none; }
+.delor-top-menu summary > svg { flex: none; }
+.delor-top-menu[open] > summary > svg { transform: rotate(180deg); }
+.delor-top-item > a:hover, .delor-top-menu summary:hover, .delor-top-menu[open] > summary { background: var(--gray-100); }
+.delor-top-item > details > .delor-top-submenu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
+  width: min(24rem, calc(100vw - 24px));
+  max-height: calc(100dvh - var(--delor-bar-height) - 24px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--glass-radius);
+  background: var(--glass-background);
+  background-color: rgb(from var(--glass-background) r g b / var(--delor-overlay-opacity));
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.delor-top-submenu ul { list-style: none; padding: 0; margin: 0; }
+.delor-top-submenu li { margin: 0; }
+.delor-top-submenu a, .delor-top-submenu summary {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.delor-top-submenu a:hover { background: var(--gray-100); }
+.delor-top-submenu .delor-top-submenu { padding-left: 12px; border-left: 1px solid var(--glass-border); }
+.delor-top-submenu .delor-top-overview { border-bottom: 1px solid var(--glass-border); border-radius: 0; margin-bottom: 4px; }
+.delor-top-actions { order: 2; display: flex; align-items: center; flex: none; gap: 6px; margin-inline-start: auto; }
+.delor-top-actions button, #delor-language {
+  color: var(--body-font-color);
+  background: transparent;
+  border: 1px solid var(--glass-border, var(--gray-200));
+  border-radius: 8px;
+  height: 36px;
+  font: inherit;
+  padding: 6px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.delor-top-actions button { width: 36px; display: grid; place-items: center; flex: none; }
+#delor-language { max-width: 6rem; }
+.delor-topbar :is(button, input, select, a, summary):focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
+/* The title moves directly after the menu button when the left sidebar is an overlay. */
+@media (max-width: 899.98px) {
+  .delor-topbar-title { order: 0; text-align: left; }
+}
+@media (pointer: coarse) {
+  .delor-top-actions button, #delor-language, .delor-top-search input { height: 44px; }
+  .delor-top-actions button { width: 44px; }
+  .delor-top-submenu a, .delor-top-submenu summary { min-height: 44px; }
+}
+@media print { #delor-topbar { display: none; } }

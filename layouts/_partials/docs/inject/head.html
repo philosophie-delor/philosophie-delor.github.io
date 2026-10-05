@@ -15,7 +15,7 @@
 {{ partial "delor/theme-images-head" . }}
 
 {{/* Deferred scripts execute in this order after the document is parsed. */}}
-{{- $scripts := slice "delor-search-index" "delor-theme" "delor-navigation" "delor-top-search" -}}
+{{- $scripts := slice "delor-search-index" "delor-theme" "delor-navigation" "delor-topbar" "delor-top-search" -}}
 {{- if eq .Layout "delor-search" -}}{{- $scripts = $scripts | append "delor-full-search" -}}{{- end -}}
 {{- range $scripts -}}
   {{- with resources.Get (printf "js/%s.js" .) | resources.Minify | resources.Fingerprint -}}

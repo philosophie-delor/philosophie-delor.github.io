@@ -42,11 +42,12 @@
 }
 
 /* Top-bar search and result dropdown */
-.delor-top-search { margin: 0; gap: 4px; align-items: center; position: relative; }
+.delor-top-search { display: flex; margin: 0; gap: 4px; align-items: center; position: relative; flex: none; }
 .delor-search-dropdown {
   position: absolute; top: calc(100% + 10px); right: 0;
   width: min(26rem, calc(100vw - 32px)); max-height: calc(100dvh - 80px); overflow-y: auto;
   background: var(--glass-background, var(--body-background));
+  background-color: rgb(from var(--glass-background, var(--body-background)) r g b / var(--delor-overlay-opacity));
   border: 1px solid var(--glass-border, var(--gray-200)); border-radius: var(--glass-radius, 14px);
   box-shadow: var(--glass-shadow, 0 8px 28px #0002); padding: 12px;
   -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
@@ -59,4 +60,23 @@
 #delor-top-results strong, #delor-top-results small { display: block; }
 #delor-top-results small { margin-top: 4px; line-height: 1.5; color: var(--body-font-color); }
 .delor-top-search-more { border-top: 1px solid var(--glass-border, var(--gray-200)); }
-.delor-top-search input { display: none; width: 12rem; min-width: 0; padding: 7px 10px; height: 36px; box-sizing: border-box; color: var(--body-font-color); background: var(--glass-background, var(--body-background)); border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; font: inherit; }
+.delor-top-search input { display: block; width: 160px; min-width: 0; padding: 7px 10px; height: 36px; box-sizing: border-box; color: var(--body-font-color); background: var(--glass-background, var(--body-background)); border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; font: inherit; }
+
+/* On a narrow bar the search button opens the same input as a floating field. */
+.delor-top-search[data-expanded] input {
+  position: fixed;
+  top: calc(var(--delor-bar-height) + 8px);
+  right: 12px;
+  width: min(26rem, calc(100vw - 24px)) !important;
+  height: 44px;
+  background: var(--body-background);
+  box-shadow: var(--glass-shadow);
+}
+.delor-top-search[data-expanded] .delor-search-dropdown {
+  position: fixed;
+  top: calc(var(--delor-bar-height) + 60px);
+  right: 12px;
+  width: min(26rem, calc(100vw - 24px));
+  max-height: calc(100dvh - var(--delor-bar-height) - 76px);
+  box-sizing: border-box;
+}
