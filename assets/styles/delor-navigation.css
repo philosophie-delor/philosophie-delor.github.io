@@ -2,7 +2,7 @@
 @media screen and (min-width: 56.001rem) {
   body:not(.delor-nav-ready) .book-menu .book-menu-content,
   body:not(.delor-nav-ready) .book-toc .book-toc-content {
-    position: sticky;
+    position: sticky; 
     top: 16px;
     bottom: auto;
     max-height: calc(100vh - 32px);
@@ -24,7 +24,7 @@
   --delor-bar-height: calc(52px + env(safe-area-inset-top, 0px));
   --delor-reading-opacity: .84;
   --delor-overlay-opacity: .94;
-  --delor-layout-max: 1440px;
+  --delor-layout-max: 1800px;
   --delor-reading-max: 720px;
   --delor-menu-min: 220px;
   --delor-menu-max: 300px;
@@ -66,7 +66,7 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
 @media screen {
   body.delor-nav-ready .book-menu:not(.delor-overlay) .book-menu-content,
   body.delor-nav-ready .book-toc:not(.delor-overlay) .book-toc-content {
-    position: sticky;
+    position: sticky; 
     top: calc(var(--delor-bar-height) + 16px);
     bottom: auto;
     max-height: calc(100dvh - var(--delor-bar-height) - 32px);
@@ -161,18 +161,89 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
   body.delor-nav-ready { font-size: 1rem; }
   body.delor-nav-ready .markdown { font-size: 1rem; line-height: 1.65; }
 }
-@media screen and (min-width: 900px) {
+
+/* Seitenleisten bleiben nach dem Banner stehen,
+   passen sich aber an ihren Inhalt an. */ 
+   @media screen and (min-width: 900px) {
   body.delor-nav-ready > main.container {
-    display: flex; flex-direction: row; align-items: flex-start; justify-content: center;
-    box-sizing: border-box; width: 100%; max-width: var(--delor-layout-max); margin-inline: auto;
-    gap: clamp(12px, 1.2vw, 20px); padding-inline: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: var(--delor-layout-max);
+    margin-inline: auto;
+    gap: clamp(12px, 1.2vw, 20px);
+    padding-inline: 16px;
   }
-  body.delor-nav-ready .book-page { flex: 0 1 var(--delor-reading-max); width: auto; max-width: min(76ch, var(--delor-reading-max)); min-width: 0; margin-inline: 0; box-sizing: border-box; }
-  body.delor-nav-ready .book-menu:not(.delor-overlay) { display: block; visibility: visible; position: static; margin: 0; transform: none; flex: 1 0 var(--delor-menu-min); width: auto; min-width: var(--delor-menu-min); max-width: var(--delor-menu-max); }
-  body.delor-nav-ready :is(.book-menu,.book-toc):not(.delor-overlay) :is(.book-menu-content,.book-toc-content) { box-sizing: border-box; width: 100%; padding-inline: 14px; overflow-wrap: anywhere; }
+
+  body.delor-nav-ready .book-page {
+    flex: 0 1 var(--delor-reading-max);
+    width: auto;
+    max-width: min(76ch, var(--delor-reading-max));
+    min-width: 0;
+    margin-inline: 0;
+    box-sizing: border-box;
+  }
+
+  body.delor-nav-ready
+  .book-menu:not(.delor-overlay),
+  body.delor-nav-ready
+  .book-toc:not(.delor-overlay) {
+    display: block;
+    visibility: visible;
+    position: static;
+    margin: 0;
+    transform: none;
+    flex: 1 1 0;
+    width: auto;
+    min-width: 220px;
+    max-width: 360px;
+  }
+
+  body.delor-nav-ready
+  :is(.book-menu, .book-toc):not(.delor-overlay)
+  :is(.book-menu-content, .book-toc-content) {
+    box-sizing: border-box;
+    width: 100%;
+    padding-inline: 14px;
+    overflow-wrap: anywhere;
+  }
 }
+   /*
+@media screen and (min-width: 900px) {
+  body.delor-nav-ready
+  .book-menu:not(.delor-overlay),
+  body.delor-nav-ready
+  .book-toc:not(.delor-overlay):not(.delor-empty-panel) {
+    position: sticky;
+    top: calc(var(--delor-bar-height) + 16px);
+    align-self: flex-start;
+    height: auto;
+    max-height: calc(100dvh - var(--delor-bar-height) - 32px);
+    overflow: visible;
+  }
+
+  body.delor-nav-ready
+  .book-menu:not(.delor-overlay) .book-menu-content,
+  body.delor-nav-ready
+  .book-toc:not(.delor-overlay) .book-toc-content {
+    position: static;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    height: auto;
+    max-height: calc(100dvh - var(--delor-bar-height) - 32px);
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+*/
 /* Reserve the right column on wide screens even when it has no content.
    Empty columns have no visible glass surface and no mobile overlay button. */
+   
 @media screen and (min-width: 1400px) {
   body.delor-nav-ready .book-toc:not(.delor-overlay) { display: block; visibility: visible; position: static; order: initial; margin: 0; transform: none; flex: 1.2 0 var(--delor-toc-min); width: auto; min-width: var(--delor-toc-min); max-width: var(--delor-toc-max); }
   body.delor-nav-ready .book-toc.delor-empty-panel .book-toc-content { visibility: hidden; }
@@ -183,6 +254,7 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
     max-width: var(--delor-toc-max);
   }
 }
+
 .book-toc-content .delor-topics { margin-block: 1rem 0; }
 .book-toc-content .delor-topics:first-child { margin-top: 0; }
 .book-toc-content #TableOfContents:has(a) ~ .delor-topics {
@@ -196,4 +268,21 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
 @media print {
   .delor-topbar, #delor-panel-backdrop, .delor-panel-close { display: none; }
   body.delor-nav-ready { padding-top: 0; }
+}
+
+.delor-menu-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 16px;
+  width: 100%;
+}
+
+.delor-menu-avatar-image {
+  display: block;
+  width: min(260px, 90%);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border-radius: 50%;
 }

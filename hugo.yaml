@@ -45,10 +45,6 @@ languages:
         subtitle: ""
     menus:
       main:
-        - identifier: posts
-          name: Blog
-          pageRef: /posts/
-          weight: 40
         - identifier: publications
           name: Publications
           pageRef: /publications/
