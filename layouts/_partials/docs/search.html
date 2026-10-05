@@ -1,7 +1,7 @@
 {{- if default true .Site.Params.BookSearch -}}
 {{- $de := eq .Language.Lang "de" -}}
 {{- $detail := .Site.GetPage "/detailsuche" -}}
-{{- with resources.Get "styles/delor-search.css" }}<style>{{ .Content | safeCSS }}</style>{{ end -}}
+
 <div class="book-search hidden">
   {{ if $detail }}
   <form class="delor-quick-search" role="search" action="{{ $detail.RelPermalink }}" method="get">

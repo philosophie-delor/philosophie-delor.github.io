@@ -15,12 +15,5 @@
       <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}">{{ if eq .Language.Lang "en" }}English{{ else if eq .Language.Lang "de" }}Deutsch{{ else }}{{ .Language.Label | default .Language.Lang }}{{ end }}</a>
     {{ end }}
   </div>
-  <div class="delor-chips">
-    {{ range slice "categories" }}
-      {{ $taxonomy := . }}
-      {{ range $.GetTerms $taxonomy }}
-        <a class="delor-chip delor-chip--{{ $taxonomy }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-      {{ end }}
-    {{ end }}
-  </div>
+  {{ partial "delor/article-categories" . }}
 </article>

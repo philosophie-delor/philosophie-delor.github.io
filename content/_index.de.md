@@ -1,10 +1,8 @@
 ---
-#title: "Philosophie – Delor"
-
-# menu:
-#   main:
-#     identifier: Start
-#     weight: 1
+title: "Philosophie – Delor"
+description: "Philosophie, Ethik, die Lösung des Sein-Sollen-Problems, Metaethik, evolutionäre Ethik, kritischer Rationalismus, Quine-Duhem-These und Bunges Systemontologie"
+tags: ["Philosophie", "Ethik", "Lösung des Sein-Sollen-Problems", "Metaethik, evolutionäre Ethik", "kritischer Rationalismus", "Quine-Duhem-These und Bunges Systemontologie"]
+categories: ["Philosophie", "Ethik", "Lösung des Sein-Sollen-Problems", "Metaethik, evolutionäre Ethik", "kritischer Rationalismus", "Quine-Duhem-These und Bunges Systemontologie"]
 ---
 
 Dieser Blog behandelt Philosophie mit Schwerpunkt auf Ethik, kritischem Rationalismus und Metaethik.

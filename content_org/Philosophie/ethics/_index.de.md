@@ -1,6 +1,6 @@
 ---
 title: "Ethik"
-weight: 20
+weight: 10
 params:
   bookToC: true
   bookCollapseSection: true

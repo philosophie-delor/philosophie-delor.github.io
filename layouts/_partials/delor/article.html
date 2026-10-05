@@ -1,6 +1,3 @@
-{{- with resources.Get "styles/delor-overview.css" -}}
-<style>{{ .Content | safeCSS }}</style>
-{{- end -}}
 {{- $parts := partial "delor/content-parts" . -}}
 {{- $description := .Description -}}
 {{- if not $description }}{{ $description = .Summary | plainify | htmlUnescape | truncate 240 }}{{ end -}}
@@ -13,20 +10,7 @@
     {{ end }}
     {{ with $description }}<p class="delor-article-description">{{ . }}</p>{{ end }}
     <div class="delor-article-reading">{{ partial "delor/reading-time" . }}</div>
-    {{ if eq .Type "posts" }}
-  {{ partial "docs/post-meta" . }}
-{{ else if not .Date.IsZero }}
-  <div class="text-small book-post-date">
-    <time datetime="{{ .Date.Format "2006-01-02" }}">
-      {{ if eq .Language.Lang "de" }}
-        {{ .Date.Format "02.01.2006" }}
-      {{ else }}
-        {{ .Date.Format "2006-01-02" }}
-      {{ end }}
-    </time>
-  </div>
-{{ end }}
-    {{ if ne .Type "posts" }}{{ partial "delor/article-categories" . }}{{ end }}
+    {{ partial "docs/post-meta" . }}
   </header>
   {{ $parts.Body | safeHTML }}
 </article>

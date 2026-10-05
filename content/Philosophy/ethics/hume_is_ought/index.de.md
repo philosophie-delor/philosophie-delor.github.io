@@ -2,10 +2,6 @@
 title: "Humes Sein-Sollen-Problem und seine Lösung"
 date: 2026-10-03
 draft: false
-menu:
-  main:
-    name: "Ethik/Is-ougt"
-    weight: 30
 tags:
   - Philosophie
   - Ethik

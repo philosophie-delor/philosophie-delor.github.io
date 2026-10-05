@@ -1,43 +1,9 @@
-<div class="theme-switch" role="group"
-     aria-label="{{ if eq .Site.Language.Lang "de" }}Farbschema{{ else }}Color scheme{{ end }}">
-  <button type="button" data-theme-choice="ayu-auto">
-    Auto
-  </button>
-  <button type="button" data-theme-choice="ayu-light">
-    {{ if eq .Site.Language.Lang "de" }}Hell{{ else }}Light{{ end }}
-  </button>
-  <button type="button" data-theme-choice="ayu-dark">
-    {{ if eq .Site.Language.Lang "de" }}Dunkel{{ else }}Dark{{ end }}
-  </button>
+{{- $de := eq .Language.Lang "de" -}}
+<div class="theme-switch">
+  <div id="delor-sidebar-themes" role="group" aria-label="{{ if $de }}Darstellung{{ else }}Theme{{ end }}">
+    {{- range slice "auto" "light" "dark" -}}
+      {{- $label := cond (eq . "auto") (cond $de "Auto – Systemeinstellung" "Auto – system setting") (cond (eq . "light") (cond $de "Hell" "Light") (cond $de "Dunkel" "Dark")) -}}
+      <button type="button" data-theme-choice="ayu-{{ . }}" title="{{ $label }}" aria-label="{{ $label }}" aria-pressed="false">{{ partial "delor/theme-icon" . }}</button>
+    {{- end -}}
+  </div>
 </div>
-
-<script>
-(() => {
-  const buttons = document.querySelectorAll("[data-theme-choice]");
-  const root = document.documentElement;
-
-  function updateButtons() {
-    buttons.forEach(button => {
-      button.setAttribute(
-        "aria-pressed",
-        String(button.dataset.themeChoice === root.dataset.theme)
-      );
-    });
-  }
-
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      const theme = button.dataset.themeChoice;
-      root.dataset.theme = theme;
-
-      try {
-        localStorage.setItem("book-ayu-theme", theme);
-      } catch {}
-
-      updateButtons();
-    });
-  });
-
-  updateButtons();
-})();
-</script>

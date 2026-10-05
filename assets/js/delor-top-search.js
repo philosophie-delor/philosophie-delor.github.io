@@ -8,19 +8,7 @@
   const status = form.querySelector('.delor-top-search-status');
   const more = form.querySelector('.delor-top-search-more');
   const de = document.getElementById('delor-topbar').dataset.language === 'de';
-  let pending, timer, generation = 0;
-  function load() {
-    if (!pending) pending = Promise.all([
-      import(form.dataset.engine),
-      fetch(form.dataset.index).then(r => { if (!r.ok) throw Error('Search unavailable'); return r.json(); })
-    ]).then(async ([module, pages]) => {
-      const Engine = window.MiniSearch || module.default;
-      const index = new Engine({ fields: ['title','content'], storeFields: ['title','content','href'], searchOptions: { boost: { title: 2 }, prefix: true, fuzzy: .2, combineWith: 'AND' } });
-      await index.addAllAsync(pages);
-      return index;
-    }).catch(error => { pending = null; throw error; });
-    return pending;
-  }
+  let timer, generation = 0;
   function close() { ++generation; clearTimeout(timer); box.hidden = true; }
   async function search() {
     const request = ++generation;
@@ -33,7 +21,7 @@
     status.textContent = de ? 'Suche …' : 'Searching …';
     box.hidden = false;
     try {
-      const index = await load();
+      const index = await window.DelorSearch.getIndex(form);
       if (request !== generation) return;
       const hits = index.search(query).slice(0,5);
       for (const hit of hits) {

@@ -64,19 +64,6 @@ body > main.container {
   backdrop-filter: blur(var(--glass-blur));
 }
 
-/* Desktop: Seitenleisten beginnen unterhalb des Banners */
-@media screen and (min-width: 56.001rem) {
-  .book-menu .book-menu-content,
-  .book-toc .book-toc-content {
-    position: sticky;
-    top: 16px;
-    bottom: auto;
-    max-height: calc(100vh - 32px);
-    overflow-y: auto;
-    padding: 16px;
-  }
-}
-
 /* Handy: schmalerer Banner und weniger Außenabstand */
 @media screen and (max-width: 56rem) {
   body::before {
@@ -86,12 +73,6 @@ body > main.container {
   body > main.container {
     padding: 12px;
     gap: 12px;
-  }
-
-  .book-menu .book-menu-content {
-    top: 0;
-    bottom: 0;
-    border-radius: 0;
   }
 }
 
@@ -112,47 +93,4 @@ body > main.container {
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
   }
-}
-
-.theme-switch {
-  display: flex;
-  gap: 4px;
-  margin-top: 16px;
-}
-
-.theme-switch button {
-  flex: 1;
-  padding: 8px 4px;
-  border: 1px solid var(--glass-border);
-  border-radius: 8px;
-  background: var(--glass-background);
-  color: var(--body-font-color);
-  font: inherit;
-  cursor: pointer;
-}
-
-.theme-switch button:hover {
-  border-color: var(--color-link);
-}
-
-.theme-switch button[aria-pressed="true"] {
-  border-color: var(--color-link);
-  color: var(--color-link);
-  box-shadow: inset 0 0 0 1px var(--color-link);
-}
-
-.book-search .delor-quick-search {
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.book-search .delor-quick-input {
-  flex: none;
-  width: 100%;
-}
-
-.book-search .delor-quick-search .delor-search-button {
-  align-self: flex-end;
-  padding: 4px 8px;
-  font-size: 0.75rem;
 }

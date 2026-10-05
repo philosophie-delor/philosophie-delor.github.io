@@ -8,33 +8,10 @@
   const status = document.getElementById('delor-search-status');
   const results = document.getElementById('delor-search-results');
   const more = document.getElementById('delor-search-more');
-  let indexPromise;
   let generation = 0;
   let timer;
   let hits = [];
   let shown = 0;
-
-  function getIndex() {
-    if (!indexPromise) {
-      indexPromise = Promise.all([
-        import(root.dataset.engine),
-        fetch(root.dataset.index).then(response => {
-          if (!response.ok) throw new Error('Search data unavailable');
-          return response.json();
-        })
-      ]).then(async ([module, pages]) => {
-        const Engine = window.MiniSearch || module.default;
-        const index = new Engine({
-          fields: ['title', 'content'],
-          storeFields: ['title', 'content', 'href', 'section'],
-          searchOptions: { boost: { title: 2 }, prefix: true, fuzzy: 0.2, combineWith: 'AND' }
-        });
-        await index.addAllAsync(pages);
-        return index;
-      }).catch(error => { indexPromise = undefined; throw error; });
-    }
-    return indexPromise;
-  }
 
   // Work with text nodes so neither article content nor search text becomes HTML.
   function highlight(text, terms, excerpt = false) {
@@ -116,7 +93,7 @@
     status.textContent = de ? 'Suche läuft …' : 'Searching …';
     results.setAttribute('aria-busy', 'true');
     try {
-      const index = await getIndex();
+      const index = await window.DelorSearch.getIndex(root);
       if (request !== generation) return;
       hits = index.search(query);
       status.textContent = hits.length

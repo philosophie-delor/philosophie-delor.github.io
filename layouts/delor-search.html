@@ -2,7 +2,7 @@
   {{ $de := eq .Language.Lang "de" }}
   {{ $filename := printf "%s.search-data.json" .Language.Name }}
   {{ $data := resources.Get "search-data.json" | resources.ExecuteAsTemplate $filename . | resources.Minify | resources.Fingerprint }}
-  {{ with resources.Get "styles/delor-search.css" }}<style>{{ .Content | safeCSS }}</style>{{ end }}
+
   <section id="delor-full-search" data-language="{{ .Language.Lang }}" data-index="{{ $data.RelPermalink }}" data-engine="{{ "minisearch.min.js" | relURL }}">
     <h1>{{ .Title }}</h1>
     <form id="delor-search-form" role="search" method="get" action="{{ .RelPermalink }}">
@@ -17,9 +17,6 @@
     <button id="delor-search-more" class="delor-search-button" type="button" hidden>{{ if $de }}Weitere Treffer anzeigen{{ else }}Show more results{{ end }}</button>
     <noscript><p>{{ if $de }}Die Suche benötigt JavaScript.{{ else }}Search requires JavaScript.{{ end }}</p></noscript>
   </section>
-  {{ with resources.Get "js/delor-full-search.js" | resources.Minify | resources.Fingerprint }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
 {{ end }}
 {{ define "breadcrumbs" }}{{ end }}
 {{ define "toc-container" }}{{ end }}

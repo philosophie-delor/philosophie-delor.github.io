@@ -1,7 +1,4 @@
 {{- $de := eq .Language.Lang "de" -}}
-{{- with resources.Get "styles/delor-overview.css" -}}
-<style>{{ .Content | safeCSS }}</style>
-{{- end -}}
 
 <div class="delor-overview">
   <article class="markdown">

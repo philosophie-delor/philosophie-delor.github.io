@@ -7,12 +7,8 @@ theme: "hugo-book"
 pagination:
   pagerSize: 50
 
-
-
-
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: de
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
@@ -62,10 +58,6 @@ languages:
           pageRef: /about/
           weight: 4
 
-
-
-
-
 services:
     # Change it to your Disqus shortname before using
     disqus:
@@ -73,7 +65,6 @@ services:
     # GA Tracking ID
     googleAnalytics:
         id:
-
 
 permalinks:
     post: /p/:slug/
@@ -92,7 +83,6 @@ params:
         dateFormat:
             published: "2026-01-02"
             lastUpdated: "2026-01-02"
-
 
     article:
         math: false
@@ -158,7 +148,6 @@ params:
         content:
             enabled: true
 
-
 related:
     includeNewer: true
     threshold: 60
@@ -199,7 +188,6 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
-
 
 enableRobotsTXT: true
 
