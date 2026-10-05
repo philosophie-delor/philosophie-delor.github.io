@@ -24,12 +24,12 @@
   --delor-bar-height: calc(52px + env(safe-area-inset-top, 0px));
   --delor-reading-opacity: .84;
   --delor-overlay-opacity: .94;
-  --delor-layout-max: 1800px;
-  --delor-reading-max: 720px;
-  --delor-menu-min: 220px;
-  --delor-menu-max: 300px;
+  --delor-layout-max: 1900px;
+  --delor-reading-max: 700px;
+  --delor-menu-min: 240px;
+  --delor-menu-max: 340px;
   --delor-toc-min: 240px;
-  --delor-toc-max: 360px;
+  --delor-toc-max: 340px;
 }
 body.delor-nav-ready { padding-top: var(--delor-bar-height); overflow-x: clip; }
 html:has(body.delor-nav-ready) { scroll-padding-top: calc(var(--delor-bar-height) + 16px); scrollbar-gutter: stable; }
