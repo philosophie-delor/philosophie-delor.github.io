@@ -146,10 +146,13 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
 .delor-top-actions button { width: 36px; display: grid; place-items: center; }
 .delor-top-actions :is(button, input, select):focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
 #delor-theme-toggle, #delor-language, .delor-top-search, .delor-top-links { display: none; }
-#delor-theme-toggle svg { display: none; }
-#delor-theme-toggle[data-mode="auto"] .delor-theme-auto,
-#delor-theme-toggle[data-mode="light"] .delor-theme-light,
-#delor-theme-toggle[data-mode="dark"] .delor-theme-dark { display: block; }
+:is(#delor-theme-toggle, #delor-sidebar-theme-toggle) svg { display: none; }
+:is(#delor-theme-toggle, #delor-sidebar-theme-toggle)[data-mode="auto"] .delor-theme-auto,
+:is(#delor-theme-toggle, #delor-sidebar-theme-toggle)[data-mode="light"] .delor-theme-light,
+:is(#delor-theme-toggle, #delor-sidebar-theme-toggle)[data-mode="dark"] .delor-theme-dark { display: block; }
+#delor-sidebar-theme-toggle { display: grid; place-items: center; width: 44px; height: 44px; padding: 8px; border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; color: var(--body-font-color); background: transparent; cursor: pointer; }
+#delor-sidebar-theme-toggle:focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
+.book-menu-content .delor-theme-choice[hidden] { display: none !important; }
 .delor-top-search { margin: 0; gap: 4px; align-items: center; }
 .delor-top-search { position: relative; }
 .delor-search-dropdown {

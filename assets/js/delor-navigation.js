@@ -169,6 +169,7 @@
   const themeButton = document.getElementById('delor-theme-toggle');
   const root = document.documentElement;
   const themes = ['ayu-auto', 'ayu-light', 'ayu-dark'];
+  let sidebarThemeButton;
   // Adapt the existing Auto/Hell/Dunkel buttons without replacing the menu hook.
   const sidebarThemes = new Map();
   document.querySelectorAll('.book-menu-content button').forEach(button => {
@@ -184,6 +185,14 @@
       applyTheme(`ayu-${mode}`);
     }, true);
   });
+  if (themeButton && panels.menu.content) {
+    sidebarThemeButton = themeButton.cloneNode(true);
+    sidebarThemeButton.id = 'delor-sidebar-theme-toggle';
+    const first = sidebarThemes.keys().next().value;
+    if (first) first.before(sidebarThemeButton);
+    else panels.menu.content.append(sidebarThemeButton);
+    for (const button of sidebarThemes.keys()) button.hidden = true;
+  }
   function applyTheme(theme) {
     if (!themes.includes(theme)) return;
     if (root.dataset.theme !== theme) root.dataset.theme = theme;
@@ -194,23 +203,27 @@
   function updateThemeButton() {
     const value = root.dataset.theme || 'ayu-auto';
     const mode = value.endsWith('dark') ? 'dark' : value.endsWith('light') ? 'light' : 'auto';
-    themeButton.dataset.mode = mode;
     const label = { auto: 'Auto', light: de ? 'Hell' : 'Light', dark: de ? 'Dunkel' : 'Dark' }[mode];
     const next = { auto: de ? 'Hell' : 'Light', light: de ? 'Dunkel' : 'Dark', dark: 'Auto' }[mode];
     const text = de ? `Darstellung: ${label}. Wechseln zu ${next}` : `Theme: ${label}. Switch to ${next}`;
-    themeButton.setAttribute('aria-label', text);
-    themeButton.title = text;
+    for (const button of [themeButton, sidebarThemeButton].filter(Boolean)) {
+      button.dataset.mode = mode;
+      button.setAttribute('aria-label', text);
+      button.title = text;
+    }
     for (const [button, theme] of sidebarThemes) {
       button.setAttribute('aria-pressed', String(theme === `ayu-${mode}`));
     }
     try { localStorage.setItem('book-ayu-theme', `ayu-${mode}`); } catch {}
   }
-  themeButton?.addEventListener('click', () => {
+  function cycleTheme() {
     const current = root.dataset.theme || 'ayu-auto';
     const index = current.endsWith('light') ? 1 : current.endsWith('dark') ? 2 : 0;
     const next = themes[(index + 1) % themes.length];
     applyTheme(next);
-  });
+  }
+  themeButton?.addEventListener('click', cycleTheme);
+  sidebarThemeButton?.addEventListener('click', cycleTheme);
   if (themeButton) {
     try { const saved = localStorage.getItem('book-ayu-theme'); if (themes.includes(saved)) root.dataset.theme = saved; } catch {}
     new MutationObserver(updateThemeButton).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
