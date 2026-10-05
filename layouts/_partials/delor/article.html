@@ -1,0 +1,16 @@
+{{- $parts := partial "delor/content-parts" . -}}
+{{- $description := .Description -}}
+{{- if not $description }}{{ $description = .Summary | plainify | htmlUnescape | truncate 240 }}{{ end -}}
+<article class="markdown book-article{{ if eq .Type "posts" }} book-post{{ end }}">
+  <header class="delor-article-header">
+    {{ if $parts.Heading }}
+      {{ $parts.Heading | safeHTML }}
+    {{ else }}
+      <h1>{{ partial "docs/title" . }}</h1>
+    {{ end }}
+    {{ with $description }}<p class="delor-article-description">{{ . }}</p>{{ end }}
+    <div class="delor-article-reading">{{ partial "delor/reading-time" . }}</div>
+    {{ partial "docs/post-meta" . }}
+  </header>
+  {{ $parts.Body | safeHTML }}
+</article>

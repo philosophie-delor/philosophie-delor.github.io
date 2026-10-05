@@ -1,0 +1,7 @@
+{{- $search := .Site.GetPage "/detailsuche" -}}
+{{- if not $search -}}
+  {{- range first 1 (where .Site.RegularPages "Layout" "delor-search") -}}
+    {{- $search = . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $search -}}

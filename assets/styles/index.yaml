@@ -1,0 +1,14 @@
+# Hugo Book reads this list in order and builds one fingerprinted stylesheet.
+- normalize.css
+- variables.css
+- utils.css
+- book.css
+- markdown.css
+- shortcodes.css
+- print.css
+- themes.css
+- custom.css
+- delor-overview.css
+- delor-search.css
+- delor-navigation.css
+- delor-topbar.css

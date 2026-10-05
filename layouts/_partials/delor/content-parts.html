@@ -1,0 +1,7 @@
+{{- $body := .Content -}}
+{{- $heading := "" -}}
+{{- with findRE `(?s)^\s*<h1\b[^>]*>.*?</h1>` $body 1 -}}
+  {{- $heading = index . 0 -}}
+  {{- $body = strings.TrimPrefix $heading $body -}}
+{{- end -}}
+{{- return (dict "Heading" $heading "Body" $body) -}}

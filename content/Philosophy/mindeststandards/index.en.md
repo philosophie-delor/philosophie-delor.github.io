@@ -16,13 +16,10 @@ categories: ["Philosophy"]
 ---
 ## Introduction
 
-{{< textimage src="/images/turmbau-zu-babel.png" alt="Tower of Babel" >}}
-
 Philosophical discussion differs fundamentally from mere exchange of opinions, ideology, or worldview marketing. It aims at truth-aptness and knowledge acquisition. Where certain minimum standards are absent, what emerges is not philosophy but wishful thinking, rhetoric, or power play.
 
 The following text formulates basic conditions under which philosophical discussion can meaningfully take place at all. These conditions are not substantive dogmas but methodological prerequisites for all texts and discussions on this website.
 
-{{< /textimage >}}
 
 ## Basic Conditions of Philosophical Discussion
 

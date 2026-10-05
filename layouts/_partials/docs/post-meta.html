@@ -1,0 +1,14 @@
+{{- if not .Date.IsZero -}}
+  <div class="text-small book-post-date">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">
+      {{- if eq .Type "posts" -}}
+        {{ partial "docs/date" (dict "Date" .Date "Format" .Site.Params.BookDateFormat) }}
+      {{- else if eq .Language.Lang "de" -}}
+        {{ .Date.Format "02.01.2006" }}
+      {{- else -}}
+        {{ .Date.Format "2006-01-02" }}
+      {{- end -}}
+    </time>
+  </div>
+{{- end -}}
+{{ partial "delor/article-categories" . }}

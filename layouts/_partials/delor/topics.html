@@ -1,0 +1,18 @@
+{{- $de := eq .Language.Lang "de" -}}
+<nav class="delor-topics" aria-label="{{ if $de }}Themen{{ else }}Topics{{ end }}">
+  {{ range slice "categories" }}
+    {{ $taxonomy := . }}
+    {{ with $.Site.GetPage (printf "/%s" $taxonomy) }}
+      {{ if .Pages }}
+        <div class="delor-topic-group">
+          <span class="delor-topic-label">{{ if eq $taxonomy "categories" }}{{ if $de }}Kategorien{{ else }}Categories{{ end }}{{ else }}{{ if $de }}Schlagwörter{{ else }}Tags{{ end }}{{ end }}</span>
+          <div class="delor-chips">
+            {{ range .Pages.ByTitle }}
+              <a class="delor-chip delor-chip--{{ $taxonomy }}" href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} aria-current="page"{{ end }}>{{ .LinkTitle }}</a>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</nav>

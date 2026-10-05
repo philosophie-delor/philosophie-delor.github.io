@@ -1,0 +1,24 @@
+<script>
+(() => {
+  let theme = "ayu-auto";
+
+  try {
+    const saved = localStorage.getItem("book-ayu-theme");
+    if (["ayu-auto", "ayu-light", "ayu-dark"].includes(saved)) {
+      theme = saved;
+    }
+  } catch {}
+
+  document.documentElement.dataset.theme = theme;
+})();
+</script>
+{{ partial "delor/theme-images-head" . }}
+
+{{/* Deferred scripts execute in this order after the document is parsed. */}}
+{{- $scripts := slice "delor-search-index" "delor-theme" "delor-navigation" "delor-topbar" "delor-top-search" -}}
+{{- if eq .Layout "delor-search" -}}{{- $scripts = $scripts | append "delor-full-search" -}}{{- end -}}
+{{- range $scripts -}}
+  {{- with resources.Get (printf "js/%s.js" .) | resources.Minify | resources.Fingerprint -}}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,33 @@
+.delor-overview { min-width: 0; }
+.delor-topics { margin-block: 1.5rem; }
+.delor-topic-group + .delor-topic-group { margin-top: .75rem; }
+.delor-topic-label { display: block; margin-bottom: .4rem; font-size: .85rem; font-weight: 600; }
+.delor-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+.delor-chips:empty, .delor-entry-meta:empty { display: none; }
+.delor-chip {
+  display: inline-block;
+  flex: none;
+  padding: .25rem .65rem;
+  border: 1px solid var(--glass-border, var(--gray-200));
+  border-radius: 999px;
+  font-size: .8rem;
+  line-height: 1.4;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.delor-chip--categories { background: color-mix(in srgb, var(--color-link) 13%, transparent); }
+.delor-chip--tags { background: color-mix(in srgb, var(--color-visited-link) 11%, transparent); }
+.delor-chip:hover, .delor-chip[aria-current="page"] { border-color: var(--color-link); }
+.delor-entry { padding-block: 1.3rem; }
+.delor-entry + .delor-entry { border-top: 1px solid var(--glass-border, var(--gray-200)); }
+.delor-entry-title { margin: 0 0 .5rem; font-size: 1.25rem; line-height: 1.35; overflow-wrap: anywhere; }
+.delor-entry-meta { display: flex; flex-wrap: wrap; gap: .35rem 1rem; font-size: .8rem; }
+.delor-entry-description { line-height: 1.65; margin-block: .7rem; overflow-wrap: anywhere; }
+.delor-reading-time { display: inline-flex; align-items: center; gap: .4em; font-size: .85rem; }
+.delor-reading-time svg { flex: none; vertical-align: middle; }
+.delor-article-header { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--glass-border, var(--gray-200)); }
+.delor-article-header > h1 { margin-top: 0; }
+.delor-article-description { line-height: 1.65; }
+.delor-article-reading { margin-block: .65rem; }
+.delor-entry-meta + .delor-chips { margin-top: .75rem; }
+.delor-article-header .book-post-date { margin-block: .65rem; }

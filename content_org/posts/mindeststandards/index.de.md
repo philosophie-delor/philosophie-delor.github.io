@@ -17,13 +17,11 @@ categories: ["Philosophie"]
 ---
 ## Einleitung
 
-{{< textimage src="/images/turmbau-zu-babel.png" alt="Turmbau zu Babel" >}}
 
 Philosophische Diskussion unterscheidet sich grundlegend von bloßem Meinungsaustausch, Ideologie oder weltanschaulichem Marketing. Sie zielt auf Wahrheitsfähigkeit und Erkenntnisgewinn. Wo bestimmte Mindeststandards fehlen, entsteht keine Philosophie, sondern Wunschdenken, Rhetorik oder Machtspiel.
 
 Der folgende Text formuliert grundlegende Bedingungen, unter denen philosophische Diskussion überhaupt sinnvoll stattfinden kann. Diese Bedingungen sind keine inhaltlichen Dogmen, sondern methodische Voraussetzungen für alle Texte und Diskussionen auf dieser Website.
 
-{{< /textimage >}}
 
 ## Grundbedingungen philosophischer Diskussion
 

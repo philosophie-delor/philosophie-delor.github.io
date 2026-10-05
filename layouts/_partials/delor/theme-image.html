@@ -1,0 +1,8 @@
+{{- $image := partial "delor/image-variants" (dict "page" .page "src" .src) -}}
+{{- $themed := or (ne $image.light $image.src) (ne $image.dark $image.src) -}}
+{{- if $themed -}}<picture class="delor-theme-image">
+  <source data-delor-image-mode="dark" media="(prefers-color-scheme: dark)" srcset="{{ $image.dark | safeURL }}">
+  <source data-delor-image-mode="light" media="(prefers-color-scheme: light)" srcset="{{ $image.light | safeURL }}">
+{{- end -}}
+<img src="{{ $image.src | safeURL }}" alt="{{ .alt }}"{{ with .title }} title="{{ . }}"{{ end }}{{ with .class }} class="{{ . }}"{{ end }}{{ if $image.width }} width="{{ $image.width }}" height="{{ $image.height }}"{{ if $themed }} style="aspect-ratio: {{ $image.width }} / {{ $image.height }}; object-fit: contain;"{{ end }}{{ end }}>
+{{- if $themed -}}</picture>{{- end -}}

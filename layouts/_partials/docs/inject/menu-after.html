@@ -1,0 +1,9 @@
+{{- $de := eq .Language.Lang "de" -}}
+<div class="theme-switch">
+  <div id="delor-sidebar-themes" role="group" aria-label="{{ if $de }}Darstellung{{ else }}Theme{{ end }}">
+    {{- range slice "auto" "light" "dark" -}}
+      {{- $label := cond (eq . "auto") (cond $de "Auto – Systemeinstellung" "Auto – system setting") (cond (eq . "light") (cond $de "Hell" "Light") (cond $de "Dunkel" "Dark")) -}}
+      <button type="button" data-theme-choice="ayu-{{ . }}" title="{{ $label }}" aria-label="{{ $label }}" aria-pressed="false">{{ partial "delor/theme-icon" . }}</button>
+    {{- end -}}
+  </div>
+</div>

@@ -1,0 +1,15 @@
+{{- $bannerPath := .Site.Params.delorBanner | default "images/title-banner.png" -}}
+{{- $banner := partial "delor/image-variants" (dict "page" .Site.Home "src" $bannerPath) -}}
+{{- if $banner.found -}}
+<style>
+:root { --delor-banner-image: {{ printf "url(%q)" $banner.light | safeCSS }}; }
+:root[data-theme$="dark"] { --delor-banner-image: {{ printf "url(%q)" $banner.dark | safeCSS }}; }
+@media (prefers-color-scheme: dark) {
+  :root[data-theme$="auto"], :root:not([data-theme]) { --delor-banner-image: {{ printf "url(%q)" $banner.dark | safeCSS }}; }
+}
+body::before { background-image: var(--delor-banner-image) !important; }
+</style>
+{{- end -}}
+{{- with resources.Get "js/delor-theme-images.js" | resources.Minify | resources.Fingerprint -}}
+<script src="{{ .RelPermalink }}" defer></script>
+{{- end -}}

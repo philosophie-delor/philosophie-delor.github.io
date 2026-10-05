@@ -1,0 +1,36 @@
+{{- $de := eq .Language.Lang "de" -}}
+
+<div class="delor-overview">
+  <article class="markdown">
+    {{ if .IsHome }}
+      {{ .Content }}
+    {{ else }}
+      {{ $parts := partial "delor/content-parts" . }}
+      {{ if $parts.Heading }}{{ $parts.Heading | safeHTML }}{{ else }}<h1>{{ .Title }}</h1>{{ end }}
+      {{ $parts.Body | safeHTML }}
+    {{ end }}
+  </article>
+
+  {{ if not .IsHome }}
+    {{ partial "delor/topics" . }}
+  {{ end }}
+
+  {{- $pages := .Pages.ByWeight -}}
+  {{- if .IsHome -}}
+    {{- $pages = .Site.RegularPages -}}
+    {{- $pages = where $pages "Section" "not in" (slice "search" "page" "pages") -}}
+    {{- $pages = where $pages "Params.delorexclude" "ne" true -}}
+    {{- $pages = where $pages "Date.IsZero" false -}}
+    {{- $count := int (default 5 .Site.Params.DelorRecentCount) -}}
+    {{- $pages = first $count $pages.ByDate.Reverse -}}
+    <h2>{{ if $de }}Neueste Beiträge{{ else }}Latest articles{{ end }}</h2>
+  {{- end -}}
+
+  <div class="delor-entry-list">
+    {{ range $pages }}
+      {{ partial "delor/entry" . }}
+    {{ else }}
+      <p>{{ if $de }}Hier sind noch keine Beiträge vorhanden.{{ else }}There are no articles here yet.{{ end }}</p>
+    {{ end }}
+  </div>
+</div>

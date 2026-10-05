@@ -1,0 +1,5 @@
+{{- with .GetTerms "categories" -}}
+<div class="delor-chips">
+  {{- range . -}}<a class="delor-chip delor-chip--categories" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{- end -}}
+</div>
+{{- end -}}

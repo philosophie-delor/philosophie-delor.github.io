@@ -1,0 +1,47 @@
+{{- $de := eq .Language.Lang "de" -}}
+
+<header id="delor-topbar" class="delor-topbar" data-language="{{ .Language.Lang }}" hidden>
+  <button type="button" class="delor-nav-toggle" id="delor-menu-toggle" aria-expanded="false" aria-label="{{ if $de }}Hauptmenü öffnen{{ else }}Open main menu{{ end }}">
+    <svg class="delor-open-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    <svg class="delor-close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+  </button>
+  <a class="delor-topbar-title" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+  <nav class="delor-top-links" aria-label="{{ if $de }}Direktzugriff{{ else }}Quick links{{ end }}">
+    {{- $limit := int (.Site.Params.DelorTopMenuLimit | default 3) -}}
+    {{- range first $limit (where .Site.Home.Sections.ByWeight "Params.bookHidden" "ne" true) -}}
+      <div class="delor-top-item">{{ partial "delor/top-menu-node" (dict "page" .) }}</div>
+    {{- end -}}
+  </nav>
+  <div class="delor-top-actions">
+    {{- $searchData := resources.Get "search-data.json" | resources.ExecuteAsTemplate (printf "%s.search-data.json" .Language.Name) . | resources.Minify | resources.Fingerprint -}}
+    {{- with partial "delor/search-page" . -}}
+    <form class="delor-top-search" action="{{ .RelPermalink }}" role="search" data-index="{{ $searchData.RelPermalink }}" data-engine="{{ "minisearch.min.js" | relURL }}">
+      <input id="delor-top-query" type="search" name="q" maxlength="200" autocomplete="off" aria-controls="delor-top-results" aria-label="{{ if $de }}Schnellsuche{{ else }}Quick search{{ end }}" placeholder="{{ if $de }}Suchen …{{ else }}Search …{{ end }}" />
+      <button class="delor-top-search-toggle" type="submit" aria-controls="delor-top-query delor-top-results" title="{{ if $de }}Detailsuche{{ else }}Full search{{ end }}" aria-label="{{ if $de }}Detailsuche öffnen{{ else }}Open full search{{ end }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
+      <div class="delor-search-dropdown" hidden>
+        <p class="delor-top-search-status" role="status" aria-live="polite"></p>
+        <ul id="delor-top-results"></ul>
+        <a class="delor-top-search-more" href="{{ .RelPermalink }}">{{ if $de }}Zur Detailsuche{{ else }}Open full search{{ end }}</a>
+      </div>
+    </form>
+    {{- end -}}
+    {{- if hugo.IsMultilingual -}}
+    <select id="delor-language" aria-label="{{ if $de }}Sprache{{ else }}Language{{ end }}">
+      {{- $page := . -}}
+      {{- range hugo.Sites -}}
+        {{- $target := .Home -}}
+        {{- range $page.AllTranslations -}}{{- if eq .Language.Lang $target.Language.Lang -}}{{- $target = . -}}{{- end -}}{{- end -}}
+        <option value="{{ $target.RelPermalink }}" {{ if eq .Language.Lang $page.Language.Lang }}selected{{ end }}>{{ .Language.Lang | upper }}</option>
+      {{- end -}}
+    </select>
+    {{- end -}}
+    <button id="delor-theme-toggle" type="button" aria-label="{{ if $de }}Darstellung wechseln{{ else }}Switch theme{{ end }}">
+      {{ range slice "auto" "light" "dark" }}{{ partial "delor/theme-icon" . }}{{ end }}
+    </button>
+  </div>
+  <button type="button" class="delor-nav-toggle" id="delor-toc-toggle" aria-expanded="false" aria-label="{{ if $de }}Seitenübersicht öffnen{{ else }}Open page navigation{{ end }}" hidden>
+    <svg class="delor-open-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M3 6h1M3 12h1M3 18h1"/></svg>
+    <svg class="delor-close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+  </button>
+</header>
+<div id="delor-panel-backdrop" hidden aria-hidden="true"></div>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ $de := eq .Language.Lang "de" }}
+  {{ $filename := printf "%s.search-data.json" .Language.Name }}
+  {{ $data := resources.Get "search-data.json" | resources.ExecuteAsTemplate $filename . | resources.Minify | resources.Fingerprint }}
+
+  <section id="delor-full-search" data-language="{{ .Language.Lang }}" data-index="{{ $data.RelPermalink }}" data-engine="{{ "minisearch.min.js" | relURL }}">
+    <h1>{{ .Title }}</h1>
+    <form id="delor-search-form" role="search" method="get" action="{{ .RelPermalink }}">
+      <label for="delor-search-query">{{ if $de }}Suchbegriff{{ else }}Search terms{{ end }}</label>
+      <div class="delor-search-row">
+        <input id="delor-search-query" name="q" type="search" maxlength="200" autocomplete="off" enterkeyhint="search" />
+        <button class="delor-search-button" type="submit">{{ if $de }}Suchen{{ else }}Search{{ end }}</button>
+      </div>
+    </form>
+    <p id="delor-search-status" role="status" aria-live="polite">{{ if $de }}Gib einen Suchbegriff ein.{{ else }}Enter a search term.{{ end }}</p>
+    <ol id="delor-search-results"></ol>
+    <button id="delor-search-more" class="delor-search-button" type="button" hidden>{{ if $de }}Weitere Treffer anzeigen{{ else }}Show more results{{ end }}</button>
+    <noscript><p>{{ if $de }}Die Suche benötigt JavaScript.{{ else }}Search requires JavaScript.{{ end }}</p></noscript>
+  </section>
+{{ end }}
+{{ define "breadcrumbs" }}{{ end }}
+
+{{ define "toc-container" }}
+  {{ partial "delor/right-sidebar" . }}
+{{ end }}
