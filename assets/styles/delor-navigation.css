@@ -164,7 +164,7 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
 
 /* Seitenleisten bleiben nach dem Banner stehen,
    passen sich aber an ihren Inhalt an. */ 
-   @media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
   body.delor-nav-ready > main.container {
     display: flex;
     flex-direction: row;
@@ -190,57 +190,40 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
   body.delor-nav-ready
   .book-menu:not(.delor-overlay),
   body.delor-nav-ready
-  .book-toc:not(.delor-overlay) {
+  .book-toc:not(.delor-overlay):not(.delor-empty-panel) {
     display: block;
     visibility: visible;
-    position: static;
+    position: sticky;
+    top: calc(var(--delor-bar-height) + 16px);
+    align-self: flex-start;
+    height: auto;
+    max-height: calc(100dvh - var(--delor-bar-height) - 32px);
     margin: 0;
     transform: none;
     flex: 1 1 0;
     width: auto;
     min-width: 220px;
     max-width: 360px;
+    overflow: visible;
   }
 
   body.delor-nav-ready
   :is(.book-menu, .book-toc):not(.delor-overlay)
   :is(.book-menu-content, .book-toc-content) {
-    box-sizing: border-box;
-    width: 100%;
-    padding-inline: 14px;
-    overflow-wrap: anywhere;
-  }
-}
-   /*
-@media screen and (min-width: 900px) {
-  body.delor-nav-ready
-  .book-menu:not(.delor-overlay),
-  body.delor-nav-ready
-  .book-toc:not(.delor-overlay):not(.delor-empty-panel) {
-    position: sticky;
-    top: calc(var(--delor-bar-height) + 16px);
-    align-self: flex-start;
-    height: auto;
-    max-height: calc(100dvh - var(--delor-bar-height) - 32px);
-    overflow: visible;
-  }
-
-  body.delor-nav-ready
-  .book-menu:not(.delor-overlay) .book-menu-content,
-  body.delor-nav-ready
-  .book-toc:not(.delor-overlay) .book-toc-content {
     position: static;
     top: auto;
     bottom: auto;
+    box-sizing: border-box;
     width: 100%;
     height: auto;
     max-height: calc(100dvh - var(--delor-bar-height) - 32px);
-    box-sizing: border-box;
+    padding-inline: 14px;
     overflow-y: auto;
     overflow-x: hidden;
+    overflow-wrap: anywhere;
   }
 }
-*/
+
 /* Reserve the right column on wide screens even when it has no content.
    Empty columns have no visible glass surface and no mobile overlay button. */
    
