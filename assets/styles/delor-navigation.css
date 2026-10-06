@@ -21,6 +21,8 @@
 
 /* Navigation only becomes active once its script has initialized. */
 :root {
+  --delor-bp-menu: {{ .menu }};
+  --delor-bp-toc: {{ .toc }};
   --delor-bar-height: calc(52px + env(safe-area-inset-top, 0px));
   --delor-reading-opacity: .84;
   --delor-overlay-opacity: .94;
