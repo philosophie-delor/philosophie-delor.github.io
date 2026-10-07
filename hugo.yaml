@@ -67,6 +67,9 @@ permalinks:
     page: /:slug/
 
 params:
+    delor:
+      bpMenu: 900
+      bpToc: 1180
     BookSection: "/"
     BookTheme: "ayu-auto"
     featuredImageField: image

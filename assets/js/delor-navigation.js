@@ -4,8 +4,14 @@
   if (!bar) return;
   const body = document.body;
   const de = bar.dataset.language === 'de';
-  const menuNarrow = matchMedia('(max-width: 899.98px)');
-  const tocNarrow = matchMedia('(max-width: 1399.98px)');
+  const css = getComputedStyle(document.documentElement);
+  const cssPx = (name, fallback) => parseFloat(css.getPropertyValue(name)) || fallback;
+
+  const BP_MENU = cssPx('--delor-bp-menu', 900);
+  const BP_TOC  = cssPx('--delor-bp-toc', 1400);
+
+  const menuNarrow = matchMedia(`(max-width: ${BP_MENU - 0.02}px)`);
+  const tocNarrow  = matchMedia(`(max-width: ${BP_TOC - 0.02}px)`);
   const page = document.querySelector('main.container > .book-page');
   const backdrop = document.getElementById('delor-panel-backdrop');
   const panels = {

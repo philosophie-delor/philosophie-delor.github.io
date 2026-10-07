@@ -1,8 +1,38 @@
-/* Book fallback when the enhanced navigation has not initialized. */
+{{- /*
+  Hugo-Template: Breakpoints kommen aus hugo.yaml (params.delor.bpMenu / bpToc).
+  Hier nichts Festes mehr eintragen, Zahlen nur in hugo.yaml ändern.
+*/ -}}
+{{- $menu      := .menu -}}
+{{- $toc       := .toc -}}
+{{- $menuBelow := printf "%.2f" (sub .menu 0.02) -}}
+{{- $tocBelow  := printf "%.2f" (sub .toc 0.02) -}}
+
+/* ==========================================================================
+   1. Variablen
+   ========================================================================== */
+:root {
+  /* Breakpoints (nur zum Auslesen durch delor-navigation.js) */
+  --delor-bp-menu: {{ $menu }};
+  --delor-bp-toc: {{ $toc }};
+
+  --delor-bar-height: calc(52px + env(safe-area-inset-top, 0px));
+  --delor-reading-opacity: .84;
+  --delor-overlay-opacity: .94;
+  --delor-layout-max: 1900px;
+  --delor-reading-max: 700px;
+  --delor-menu-min: 220px;
+  --delor-menu-max: 360px;
+  --delor-toc-min: 220px;
+  --delor-toc-max: 340px;
+}
+
+/* ==========================================================================
+   2. Fallback, solange die erweiterte Navigation nicht initialisiert ist
+   ========================================================================== */
 @media screen and (min-width: 56.001rem) {
   body:not(.delor-nav-ready) .book-menu .book-menu-content,
   body:not(.delor-nav-ready) .book-toc .book-toc-content {
-    position: sticky; 
+    position: sticky;
     top: 16px;
     bottom: auto;
     max-height: calc(100vh - 32px);
@@ -19,22 +49,77 @@
   }
 }
 
-/* Navigation only becomes active once its script has initialized. */
-:root {
-  --delor-bar-height: calc(52px + env(safe-area-inset-top, 0px));
-  --delor-reading-opacity: .84;
-  --delor-overlay-opacity: .94;
-  --delor-layout-max: 1900px;
-  --delor-reading-max: 700px;
-  --delor-menu-min: 220px;
-  --delor-menu-max: 340px;
-  --delor-toc-min: 220px;
-  --delor-toc-max: 340px;
+/* ==========================================================================
+   3. Grundzustand mit aktiver Navigation
+   ========================================================================== */
+body.delor-nav-ready {
+  padding-top: var(--delor-bar-height);
+  overflow-x: clip;
+  font-size: 1rem;
 }
-body.delor-nav-ready { padding-top: var(--delor-bar-height); overflow-x: clip; }
-html:has(body.delor-nav-ready) { scroll-padding-top: calc(var(--delor-bar-height) + 16px); scrollbar-gutter: stable; }
-body.delor-nav-ready .markdown :is(h1,h2,h3,h4,h5,h6)[id] { scroll-margin-top: 16px; }
-.delor-nav-toggle, .delor-panel-close {
+
+html:has(body.delor-nav-ready) {
+  scroll-padding-top: calc(var(--delor-bar-height) + 16px);
+  scrollbar-gutter: stable;
+}
+
+body.delor-nav-ready .markdown :is(h1, h2, h3, h4, h5, h6)[id] {
+  scroll-margin-top: 16px;
+}
+
+body.delor-nav-ready .book-header,
+body.delor-nav-ready .book-menu-overlay {
+  display: none;
+}
+
+body.delor-nav-ready .book-page {
+  opacity: 1;
+  max-width: 88ch;
+  min-width: 0;
+  margin-inline: auto;
+  background-color: rgb(from var(--glass-background, var(--body-background)) r g b / var(--delor-reading-opacity));
+}
+
+body.delor-nav-ready .book-menu .book-brand span,
+body.delor-nav-ready .book-menu .book-brand:not(:has(img)) {
+  display: none;
+}
+
+body.delor-nav-ready .book-toc.delor-empty-panel {
+  display: none;
+}
+
+body.delor-nav-ready :is(.book-menu-content, .book-toc-content) {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body.delor-nav-ready .book-toc-content nav a {
+  display: block;
+  padding-block: 6px;
+}
+
+.delor-toc-current {
+  color: var(--color-link);
+  font-weight: 700;
+}
+
+/* Spalten-Modus (kein Overlay): Inhalt bleibt unter dem Banner stehen */
+body.delor-nav-ready .book-menu:not(.delor-overlay) .book-menu-content,
+body.delor-nav-ready .book-toc:not(.delor-overlay) .book-toc-content {
+  position: sticky;
+  top: calc(var(--delor-bar-height) + 16px);
+  bottom: auto;
+  max-height: calc(100dvh - var(--delor-bar-height) - 32px);
+  padding: 16px;
+  overflow-y: auto;
+}
+
+/* ==========================================================================
+   4. Buttons
+   ========================================================================== */
+.delor-nav-toggle,
+.delor-panel-close {
   padding: 8px;
   border: 1px solid transparent;
   border-radius: 8px;
@@ -43,44 +128,135 @@ body.delor-nav-ready .markdown :is(h1,h2,h3,h4,h5,h6)[id] { scroll-margin-top: 1
   font: inherit;
   cursor: pointer;
 }
-.delor-nav-toggle { width: 44px; height: 44px; display: grid; place-items: center; }
-.delor-nav-toggle:hover, .delor-panel-close:hover { background: var(--gray-100); }
-.delor-nav-toggle:focus-visible, .delor-panel-close:focus-visible { outline: 2px solid var(--color-link); outline-offset: 1px; }
+
+.delor-nav-toggle:hover,
+.delor-panel-close:hover {
+  background: var(--gray-100);
+}
+
+.delor-nav-toggle:focus-visible,
+.delor-panel-close:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 1px;
+}
+
+.delor-nav-toggle {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+}
+
 .delor-nav-toggle .delor-close-icon { display: none; }
 .delor-nav-toggle[aria-expanded="true"] .delor-open-icon { display: none; }
 .delor-nav-toggle[aria-expanded="true"] .delor-close-icon { display: block; }
-body.delor-nav-ready .book-header,
-body.delor-nav-ready .book-menu-overlay { display: none; }
-body.delor-nav-ready .book-page {
-  opacity: 1; max-width: 88ch; min-width: 0; margin-inline: auto;
-  background-color: rgb(from var(--glass-background, var(--body-background)) r g b / var(--delor-reading-opacity));
-}
-body.delor-nav-ready .book-menu .book-brand span,
-body.delor-nav-ready .book-menu .book-brand:not(:has(img)) { display: none; }
-body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
-.delor-panel-close { display: none; }
-.delor-toc-current { color: var(--color-link); font-weight: 700; }
 
-/* Each sidebar independently switches between a column and an overlay.
-   Keep 900px / 1400px in sync with delor-navigation.js. */
-@media screen {
-  body.delor-nav-ready .book-menu:not(.delor-overlay) .book-menu-content,
-  body.delor-nav-ready .book-toc:not(.delor-overlay) .book-toc-content {
-    position: sticky; 
-    top: calc(var(--delor-bar-height) + 16px);
-    bottom: auto;
-    max-height: calc(100dvh - var(--delor-bar-height) - 32px);
-    padding: 16px;
-    overflow-y: auto;
+.delor-panel-close { display: none; }
+
+/* Toggle-Buttons verschwinden, sobald die jeweilige Spalte sichtbar ist */
+@media (min-width: {{ $menu }}px) { #delor-menu-toggle { display: none; } }
+@media (min-width: {{ $toc }}px)  { #delor-toc-toggle  { display: none; } }
+
+/* ==========================================================================
+   5. Theme-Umschalter
+   ========================================================================== */
+#delor-theme-toggle svg { display: none; }
+
+#delor-theme-toggle[data-mode="auto"] .delor-theme-auto,
+#delor-theme-toggle[data-mode="light"] .delor-theme-light,
+#delor-theme-toggle[data-mode="dark"] .delor-theme-dark {
+  display: block;
+}
+
+.theme-switch {
+  display: flex;
+  margin-top: 16px;
+}
+
+#delor-sidebar-themes {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: max-content;
+  gap: 6px;
+  align-self: flex-start;
+}
+
+#delor-sidebar-themes > button {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  flex: 0 0 44px;
+  width: 44px;
+  min-width: 44px;
+  max-width: 44px;
+  height: 44px;
+  padding: 8px;
+  margin: 0;
+  font: inherit;
+  border: 1px solid var(--glass-border, var(--gray-200));
+  border-radius: 8px;
+  color: var(--body-font-color);
+  background: transparent;
+  cursor: pointer;
+}
+
+#delor-sidebar-themes > button svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+#delor-sidebar-themes > button:hover {
+  border-color: var(--color-link);
+}
+
+#delor-sidebar-themes > button[aria-pressed="true"] {
+  background: var(--color-link);
+  color: var(--body-background);
+  border-color: var(--color-link);
+  box-shadow: inset 0 0 0 1px var(--color-link);
+}
+
+#delor-sidebar-themes > button:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   6. Unterhalb von bpMenu: einspaltig, größere Klickflächen
+   ========================================================================== */
+@media (max-width: {{ $menuBelow }}px) {
+  body.delor-nav-ready > main.container { flex-direction: column; }
+}
+
+@media (pointer: coarse), (max-width: {{ $menuBelow }}px) {
+  body.delor-nav-ready .book-menu-content nav a,
+  body.delor-nav-ready .book-menu-content nav label,
+  body.delor-nav-ready .book-toc-content nav a {
+    min-height: 44px;
+    box-sizing: border-box;
+    padding-block: 10px;
+  }
+  body.delor-nav-ready .book-menu-content nav label {
+    display: flex;
+    align-items: center;
+  }
+  body.delor-nav-ready .book-menu-content nav label > a {
+    min-height: 0;
+    padding-block: 0;
   }
 }
-@media (min-width: 900px) { #delor-menu-toggle { display: none; } }
-@media (min-width: 1400px) { #delor-toc-toggle { display: none; } }
-@media (max-width: 899.98px) { body.delor-nav-ready > main.container { flex-direction: column; } }
 
-/* Sidebar thresholds use CSS pixels, independently of the default font size. */
-@media screen and (max-width: 1399.98px) {
-  body.delor-nav-ready .book-page { box-sizing: border-box; width: 100%; min-width: 0; }
+/* ==========================================================================
+   7. Unterhalb von bpToc: Seitenleisten als Overlay
+   ========================================================================== */
+@media screen and (max-width: {{ $tocBelow }}px) {
+  body.delor-nav-ready .book-page {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+  }
+
   body.delor-nav-ready .book-menu.delor-overlay,
   body.delor-nav-ready .book-toc.delor-overlay {
     display: block;
@@ -99,8 +275,16 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
     transform: translateX(calc(-100% - 16px));
     transition: transform .18s ease, visibility .18s;
   }
-  body.delor-nav-ready .book-menu.delor-overlay { left: max(12px, env(safe-area-inset-left, 0px)); }
-  body.delor-nav-ready .book-toc.delor-overlay { right: max(12px, env(safe-area-inset-right, 0px)); transform: translateX(calc(100% + 16px)); }
+
+  body.delor-nav-ready .book-menu.delor-overlay {
+    left: max(12px, env(safe-area-inset-left, 0px));
+  }
+
+  body.delor-nav-ready .book-toc.delor-overlay {
+    right: max(12px, env(safe-area-inset-right, 0px));
+    transform: translateX(calc(100% + 16px));
+  }
+
   body.delor-nav-ready .book-menu.delor-overlay .book-menu-content,
   body.delor-nav-ready .book-toc.delor-overlay .book-toc-content {
     position: static;
@@ -125,46 +309,39 @@ body.delor-nav-ready .book-toc.delor-empty-panel { display: none; }
     -webkit-backdrop-filter: blur(var(--glass-blur, 1px));
     backdrop-filter: blur(var(--glass-blur, 1px));
   }
+
   body.delor-nav-ready[data-delor-panel="menu"] .book-menu.delor-overlay,
   body.delor-nav-ready[data-delor-panel="toc"] .book-toc.delor-overlay {
     visibility: visible;
     pointer-events: auto;
     transform: translateX(0);
   }
-  .delor-overlay .delor-panel-close { display: block; margin: 0 0 12px auto; font-size: .9rem; }
-  #delor-panel-backdrop { position: fixed; inset: var(--delor-bar-height) 0 0; z-index: 1100; background: rgba(0,0,0,.06); touch-action: none; }
-  html:has(body.delor-nav-ready[data-delor-panel]) { overflow: hidden; }
-}
-#delor-theme-toggle svg { display: none; }
-#delor-theme-toggle[data-mode="auto"] .delor-theme-auto,
-#delor-theme-toggle[data-mode="light"] .delor-theme-light,
-#delor-theme-toggle[data-mode="dark"] .delor-theme-dark { display: block; }
-.theme-switch { display: flex; margin-top: 16px; }
-#delor-sidebar-themes { display: inline-flex; flex: 0 0 auto; width: max-content; gap: 6px; align-self: flex-start; }
-#delor-sidebar-themes > button { display: grid; place-items: center; box-sizing: border-box; flex: 0 0 44px; width: 44px; min-width: 44px; max-width: 44px; height: 44px; padding: 8px; margin: 0; font: inherit; border: 1px solid var(--glass-border, var(--gray-200)); border-radius: 8px; color: var(--body-font-color); background: transparent; cursor: pointer; }
-#delor-sidebar-themes > button svg { display: block; width: 20px; height: 20px; }
-#delor-sidebar-themes > button:hover { border-color: var(--color-link); }
-#delor-sidebar-themes > button[aria-pressed="true"] { background: var(--color-link); color: var(--body-background); border-color: var(--color-link); box-shadow: inset 0 0 0 1px var(--color-link); }
-#delor-sidebar-themes > button:focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; }
-body.delor-nav-ready :is(.book-menu-content, .book-toc-content) { font-size: 1rem; line-height: 1.5; }
-body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6px; }
-@media (pointer: coarse), (max-width: 899.98px) {
-  body.delor-nav-ready .book-menu-content nav a,
-  body.delor-nav-ready .book-menu-content nav label,
-  body.delor-nav-ready .book-toc-content nav a { min-height: 44px; box-sizing: border-box; padding-block: 10px; }
-  body.delor-nav-ready .book-menu-content nav label { display: flex; align-items: center; }
-  body.delor-nav-ready .book-menu-content nav label > a { min-height: 0; padding-block: 0; }
-}
-/* Compact desktop typography; touch devices keep their existing font size. */
-@media screen and (hover: hover) and (pointer: fine) {
-  html:has(body.delor-nav-ready) { font-size: 16px; }
-  body.delor-nav-ready { font-size: 1rem; }
-  body.delor-nav-ready .markdown { font-size: 1rem; line-height: 1.65; }
+
+  .delor-overlay .delor-panel-close {
+    display: block;
+    margin: 0 0 12px auto;
+    font-size: .9rem;
+  }
+
+  #delor-panel-backdrop {
+    position: fixed;
+    inset: var(--delor-bar-height) 0 0;
+    z-index: 1100;
+    background: rgba(0, 0, 0, .06);
+    touch-action: none;
+  }
+
+  html:has(body.delor-nav-ready[data-delor-panel]) {
+    overflow: hidden;
+  }
 }
 
-/* Seitenleisten bleiben nach dem Banner stehen,
-   passen sich aber an ihren Inhalt an. */ 
-@media screen and (min-width: 900px) {
+/* ==========================================================================
+   8. Ab bpMenu: Menü-Spalte + Inhalt in der Mitte
+      Die Spalten bleiben nach dem Banner stehen (sticky), passen sich
+      aber an ihren Inhalt an.
+   ========================================================================== */
+@media screen and (min-width: {{ $menu }}px) {
   body.delor-nav-ready > main.container {
     display: flex;
     flex-direction: row;
@@ -187,10 +364,8 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
     box-sizing: border-box;
   }
 
-  body.delor-nav-ready
-  .book-menu:not(.delor-overlay),
-  body.delor-nav-ready
-  .book-toc:not(.delor-overlay):not(.delor-empty-panel) {
+  body.delor-nav-ready .book-menu:not(.delor-overlay),
+  body.delor-nav-ready .book-toc:not(.delor-overlay):not(.delor-empty-panel) {
     display: block;
     visibility: visible;
     position: sticky;
@@ -202,14 +377,12 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
     transform: none;
     flex: 1 1 0;
     width: auto;
-    min-width: 220px;
-    max-width: 360px;
+    min-width: var(--delor-menu-min);
+    max-width: var(--delor-menu-max);
     overflow: visible;
   }
 
-  body.delor-nav-ready
-  :is(.book-menu, .book-toc):not(.delor-overlay)
-  :is(.book-menu-content, .book-toc-content) {
+  body.delor-nav-ready :is(.book-menu, .book-toc):not(.delor-overlay) :is(.book-menu-content, .book-toc-content) {
     position: static;
     top: auto;
     bottom: auto;
@@ -224,12 +397,27 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
   }
 }
 
-/* Reserve the right column on wide screens even when it has no content.
-   Empty columns have no visible glass surface and no mobile overlay button. */
-   
-@media screen and (min-width: 1400px) {
-  body.delor-nav-ready .book-toc:not(.delor-overlay) { display: block; visibility: visible; position: static; order: initial; margin: 0; transform: none; flex: 1.2 0 var(--delor-toc-min); width: auto; min-width: var(--delor-toc-min); max-width: var(--delor-toc-max); }
-  body.delor-nav-ready .book-toc.delor-empty-panel .book-toc-content { visibility: hidden; }
+/* ==========================================================================
+   9. Ab bpToc: rechte Spalte auch dann reservieren, wenn sie leer ist
+   ========================================================================== */
+@media screen and (min-width: {{ $toc }}px) {
+  body.delor-nav-ready .book-toc:not(.delor-overlay) {
+    display: block;
+    visibility: visible;
+    position: static;
+    order: initial;
+    margin: 0;
+    transform: none;
+    flex: 1.2 0 var(--delor-toc-min);
+    width: auto;
+    min-width: var(--delor-toc-min);
+    max-width: var(--delor-toc-max);
+  }
+
+  body.delor-nav-ready .book-toc.delor-empty-panel .book-toc-content {
+    visibility: hidden;
+  }
+
   body.delor-nav-ready > main.container:not(:has(> .book-toc))::after {
     content: "";
     flex: 1.2 0 var(--delor-toc-min);
@@ -238,21 +426,29 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
   }
 }
 
+/* ==========================================================================
+   10. Kompakte Typografie (nur Desktop mit Maus)
+   ========================================================================== */
+@media screen and (hover: hover) and (pointer: fine) {
+  html:has(body.delor-nav-ready) { font-size: 16px; }
+  body.delor-nav-ready { font-size: 1rem; }
+  body.delor-nav-ready .markdown { font-size: 1rem; line-height: 1.65; }
+}
+
+/* ==========================================================================
+   11. TOC: Themenliste
+   ========================================================================== */
 .book-toc-content .delor-topics { margin-block: 1rem 0; }
 .book-toc-content .delor-topics:first-child { margin-top: 0; }
+
 .book-toc-content #TableOfContents:has(a) ~ .delor-topics {
   border-top: 1px solid var(--glass-border);
   padding-top: 1rem;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  body.delor-nav-ready .book-menu, body.delor-nav-ready .book-toc { transition: none; }
-}
-@media print {
-  .delor-topbar, #delor-panel-backdrop, .delor-panel-close { display: none; }
-  body.delor-nav-ready { padding-top: 0; }
-}
-
+/* ==========================================================================
+   12. Avatar im Menü
+   ========================================================================== */
 .delor-menu-avatar {
   display: flex;
   justify-content: center;
@@ -268,4 +464,20 @@ body.delor-nav-ready .book-toc-content nav a { display: block; padding-block: 6p
   aspect-ratio: 1;
   object-fit: contain;
   border-radius: 50%;
+}
+
+/* ==========================================================================
+   13. Bewegung / Druck
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  body.delor-nav-ready .book-menu,
+  body.delor-nav-ready .book-toc { transition: none; }
+}
+
+@media print {
+  .delor-topbar,
+  #delor-panel-backdrop,
+  .delor-panel-close { display: none; }
+
+  body.delor-nav-ready { padding-top: 0; }
 }

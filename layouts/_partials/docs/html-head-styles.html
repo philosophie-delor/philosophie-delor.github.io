@@ -1,0 +1,13 @@
+{{- $styles := slice -}}
+{{- $bp := dict
+      "menu" (site.Params.delor.bpMenu | default 900)
+      "toc"  (site.Params.delor.bpToc  | default 1400) -}}
+{{- range resources.Get "styles/index.yaml" | transform.Unmarshal -}}
+  {{- $res := resources.Get (printf "styles/%s" .) -}}
+  {{- if eq . "delor-navigation.css" -}}
+    {{- $res = $res | resources.ExecuteAsTemplate "styles/delor-navigation.gen.css" $bp -}}
+  {{- end -}}
+  {{- $styles = $styles | append $res -}}
+{{- end -}}
+{{- $styles := $styles | resources.Concat "book.css" | resources.Minify | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ partial "docs/links/resource-precache" $styles }}" {{ template "integrity" $styles }}>
