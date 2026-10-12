@@ -1,107 +1,125 @@
 ---
-date: '2026-05-09T12:00:00+02:00'
+date: '2026-10-12T12:00:00+02:00'
 draft: false
-title: "The Failure of Utilitarianism and the Solution to the Is–Ought Problem"
-tags: ["Philosophy", "Ethics", "Metaethics", "Utilitarianism", "Hedonism", "Is-Ought Problem", "Evolutionary Theory", "Sam Harris", "Critical Rationalism"]
-categories: ["Philosophy","Utilitarianism", "Ethics", "Is-Ought Problem", Sam Harris"]
-description: "A detailed critique of hedonism, utilitarianism, and Sam Harris' Moral Landscape — and an outline of the solution to the is–ought problem through evolutionary reconstruction of the objective ultimate goal."
+title: "The Misconception of Utilitarianism"
+tags:
+  - Philosophy
+  - Ethics
+  - Metaethics
+  - Utilitarianism
+  - Hedonism
+  - Is-Ought Problem
+  - Evolutionary Theory
+  - Sam Harris
+  - Critical Rationalism
+categories:
+  - Philosophy
+  - Utilitarianism
+  - Is-Ought Problem
+  - Ethics
+  - Sam Harris
+description: "Why happiness and the minimization of suffering fail as ultimate moral goals, and how the is–ought problem can be solved through an evolutionary reconstruction."
 ---
 
-# Why Happiness and Suffering Minimization Cannot Be an Objective Ultimate Goal
+# The Misconception of Utilitarianism
 
-*The Solution to the Is–Ought Problem in Light of Evolution*
-
+*And the solution to the is–ought problem in light of evolution*
 
 ## Introduction
 
-> "He who has a why to live can bear almost any how. Man does not strive for happiness; only the Englishman does."
-> (Friedrich Nietzsche, *Twilight of the Idols*, Maxims and Arrows, §12)
+> “If one has one’s why in life, one can cope with almost any how. Man does not strive for happiness; only the Englishman does.”
+>
+> Friedrich Nietzsche, *Twilight of the Idols*, Maxims and Arrows, § 12 (translation from the German)
 
-People endure extreme suffering — the loss of limbs, the death of loved ones, mortal danger — when they have a strong *why*. Once that *why* is missing, the *how* — more happiness, less suffering — gets elevated to a supposed ultimate goal. This very confusion underlies most ethical approaches today, from hedonism to utilitarianism to Effective Altruism.
+People endure extreme suffering when they have a compelling why. They even risk their own lives for their children. When this why is missing, a more pleasant life itself becomes the supposed ultimate goal. This confusion shapes many contemporary ethical approaches.
 
-Hedonism — the doctrine that pleasure is the highest good and pain the greatest evil — is the oldest variant of this error (Epicurus; Bentham, 1789). Utilitarianism extends it by demanding the maximization of aggregate well-being across all affected parties (Mill, 1861). Both approaches share the same foundational assumption: that happiness and suffering are the decisive standards of moral action. 
+Hedonism and utilitarianism are among the most widespread ethical theories. Hedonism (from the Greek “hedonē,” meaning pleasure or joy) declares pleasure to be the highest good and pain the greatest evil. This raises the question of whose happiness should be maximized and whose suffering minimized. Utilitarianism (from the English “utility,” meaning usefulness) turns this into a general principle for society by demanding that the total happiness of all those affected be maximized and their total suffering minimized (Bentham, 1789; Mill, 1861).
 
-This post shows why these approaches fail: they do not solve the is–ought problem, but instead mistake a merely proximate control signal for the ultimate goal. It also gives a brief empirical reconstruction of the actual ultimate goal, and in doing so solves the is–ought problem. The full argument can be found in my paper (Delor, 2026).
-
-
+These approaches, however, confuse an evolutionary regulatory mechanism with its underlying goal. Reconstructing this goal leads to the solution to the is–ought problem, which I can only outline here. The complete argument can be found in my paper (Delor, 2026).
 
 ## 1. Sam Harris and the Failure of Utilitarianism
 
-Sam Harris continues the utilitarian project in *The Moral Landscape* (2010). Like his predecessors, he posits well-being, happiness maximization, and suffering minimization as the ultimate goal of moral action. But he does not stop at this assertion. Harris also attempts to describe how the world is actually constituted from the perspective of happiness and suffering. To this end, he constructs the image of a moral landscape: a multidimensional topography in which each point represents a possible state of conscious beings. The valleys are the depths of suffering, the peaks the heights of happiness. Science, he claims, should show which actions lead us from the valleys to the peaks.
+In *The Moral Landscape* (2010), Sam Harris posits the well-being of conscious creatures as the ultimate goal. To illustrate this, he introduces the image of a moral landscape. Each point in this multidimensional landscape is meant to represent a possible state of conscious creatures. Its valleys would correspond to deep suffering, its peaks to high levels of well-being. Science is supposed to show which actions could lead us to the highest peaks.
 
-### The Landscape Is Fictitious
+Yet Sam Harris already presupposes well-being as the ultimate goal here and does not explain why it should take precedence over other goals. Empirical scientific investigations could indeed show which conditions increase the well-being of particular individuals or groups. Why we should pursue this well-being, however, and whose well-being should count would first need to be established. Agreement or consensus cannot replace this justification, since neither is a criterion of truth.
 
-Harris nowhere demonstrates that this landscape corresponds to reality. It is not an empirically derived model but a fictitious image that presupposes what it purports to describe: that well-being is the relevant dimension along which moral states can be meaningfully ordered.
+### A Map Without a Goal
 
-### A Map Without a Destination
+This model also raises several questions. Whose well-being and happiness are to be represented here? How can we develop an objective measurement procedure and an objective scale for this? Which suffering counts more than other suffering? The same applies to happiness.
 
-Even if one were to grant Harris that his happiness-suffering landscape correctly depicted reality, nothing would be gained. One would then know that certain regions represent more happiness for someone and less suffering for someone. But which point on this map ought to be pursued, and why, remains entirely open. A map does not prescribe a destination. It helps find the best route *if* one already has a destination. Without one, it is useless.
+But let us assume that we could produce such an objective map. Which point on this map should we actually strive to reach? Do its points apply to society as a whole or to individual people? How deep may the valleys be on the way to a higher peak? How many sacrifices may we therefore make to achieve greater well-being in the long term or overall?
 
-Peter Railton had already proposed something structurally similar before Harris, and in fact went further: morally right, he argued, is what an ideally informed agent would do — someone possessing complete information and impartial social rationality (Railton, 1986). Railton's map thus contains not just the happiness-suffering topography but all available information whatsoever. Yet it fails at the same problem: even a complete map does not prescribe a destination. Knowing what is the case does not tell us what ought to be the case — that is the is–ought problem, and neither Railton nor Harris solves it.
+Such a map could be useful if we had already determined our goal and knew that it lay somewhere on this map. Producing the map alone, however, does not yet give us that goal.
 
-Harris is thus in an even worse position than Railton: his map depicts only a single dimension — happiness and suffering — while the real world is infinitely more complex. A contour map is useless when the shortest path leads over a vertical cliff face, through a desert where one would die of thirst, or through a war zone. Harris' moral landscape, even if it were accurate, would not contain the relevant information.
+Similar proposals involving idealized knowledge do not solve this problem either. Peter Railton, for example, developed an approach according to which a person’s good would be determined by what their ideally informed self would advise them to desire under their actual circumstances (Railton, 1986). Yet even this complete knowledge does not answer the question of which goal we should pursue. At most, it could help us find the best route to a goal already determined.
 
-Moreover, both proposals presuppose something counterfactual. Neither Harris' happiness-suffering landscape nor Railton's complete information landscape can ever be fully and accurately known. Our knowledge remains in principle limited. And even if we were to approximate the ideal, it could turn out that we had been heading for entirely the wrong destination.
+Moreover, both models face the problem that our actual knowledge of the moral landscape and the consequences of our actions can never be complete. We do not even know what proportion of it we know. In practice, therefore, such a model could not show us a reliable route even if the goal were known. Most of the map remains unexplored and unknown in advance, and along the way we encounter unexpected events and black swans (Taleb, 2007).
 
 ### For Whom?
 
-**Well-being for whom?** For the individual? Their family? Their group? All of humanity? The biosphere? Future beings, as longtermism demands? Harris leaves this underdetermined. If the landscape applies to the individual agent, there are as many landscapes as there are agents — and no shared map. If it is supposed to apply to all of humanity or the biosphere, it is unclear why we should agree on that. And as soon as future generations are included (like longtermism suggests), the problem becomes fully apparent: no one can know what well-being will mean for beings that do not yet exist.
+An individual’s well-being can conflict with that of their community. Anyone seeking to weigh the two against each other needs a standard for assigning those weights.
+
+Individual landscapes do not yet provide this common standard. A shared landscape already presupposes it. Including future creatures adds further uncertainty. We can only estimate to a limited extent what needs they will have under living conditions that are still unknown.
 
 ### Centralization and Abuse
 
-Utilitarianism invites centralization. If science is supposed to supply the necessary information, central control becomes the obvious next step — expert committees or algorithms deciding for everyone. This fails because our knowledge is incomplete and distributed (Hayek, 1945): no one possesses all the relevant information, and centralized errors become global catastrophes. Those who decide for others without bearing the consequences themselves decide worse and can abuse the program — whoever claims to act for the greatest good can ensure that they themselves profit the most (Taleb, 2018).
+The scientific optimization of overall well-being suggests centralized control. A panel of experts could claim to bring together the necessary information and make decisions for everyone.
+
+However, the knowledge required for this is distributed and often tied to specific circumstances of life (Hayek, 1945). A central body can capture it only incompletely. Its errors can nevertheless affect an entire society.
+
+If decision-makers bear little of the consequences of their own mistakes, they also lack an incentive to exercise caution (Taleb, 2018). Under the banner of the greatest common good, they may also pursue their own advantage.
 
 ### Confusing the Reward Mechanism with the Goal
 
-The decisive error — not only in Harris but in all of utilitarianism and hedonism — is the confusion of the reward mechanism with the actual goal. Happiness, suffering, and well-being are evolved steering mechanisms. Evolution selected them as proximal signals that, under conditions of scarcity, typically reinforced behavior promoting an underlying goal. That humans pursue happiness is undisputed. But this does not make happiness the ultimate goal — it makes it a steering signal. Which goal this signal serves is an open question that utilitarianism does not ask, because it already takes the signal for the goal.
+Happiness and suffering regulate our behavior. Under the conditions in which they evolved, these signals favored behaviors that served an underlying goal. The fact that people strive for happiness therefore does not yet explain its status as an ultimate goal.
 
-A comparison: to drive to the sea, one must cover kilometers. The odometer reading correlates with reaching the destination. But whoever elevates the odometer reading itself to the ultimate goal will find that they maximize it most efficiently by driving back and forth on an unrestricted highway. Better still: fly around the earth in a jet as often as possible. Or get launched into space and orbit the earth in a space station. The odometer reading grows — but one never arrives anywhere. This is precisely the state of utilitarianism: a metric that normally correlates with reaching a goal is mistaken for the goal itself.
+On a journey to the sea, the odometer reading usually increases. Anyone who declares this reading to be the actual goal can increase it by driving around endlessly. The reading rises while the sea remains unreached.
 
-Nietzsche puts it succinctly: people die for their family, for a goal greater than their own well-being. They endure any suffering when the *why* is right. Harris' Landscape would brand such behavior a "valley." Whoever does that has not understood the actual goal.
+Likewise, a pleasant sensation can become detached from its original function. An addiction rewards behavior that destroys the affected person’s foundations of life. The reward signal remains effective even though the behavior undermines the underlying goal.
 
-## 2. The Solution to the Is–Ought Problem
+Conversely, people accept great suffering for a higher goal. And why well-being should be the ultimate standard remains unanswered.
 
-If suffering minimization and the maximization of pleasure or well-being cannot be the solution — what is?
+## 2. The Is–Ought Problem
 
-First of all, two blocking theses are commonly advanced today, claiming that the problem is in principle unsolvable. First: the is–ought gap is insurmountable. Second: any attempt to derive an ethics from natural facts commits a "naturalistic fallacy." In my paper (Delor, 2026), I show that both blocking theses are untenable — and what the actual solution looks like.
+### 2.1 Two Seemingly Insurmountable Barriers
 
-The naturalistic fallacy is in truth a definist fallacy (Frankena, 1939) — and Moore commits it himself by positing intuitions as the supreme standard. The insurmountability of the is–ought gap has likewise never been proven. All previous attempts show only that certain systems are not suited for the task — systems in which "good" or "ought" are defined as monadic predicates, that is, without specifying good *for whom* and, more importantly, *toward which goal*. Such systems make no claims testable against reality and must therefore be excluded. A general proof of the gap's unclosability is, as I show in the paper, not achievable.
+The search for this standard leads to the is–ought problem. Two claims are commonly advanced to rule out a solution. The is–ought gap is said to be fundamentally unbridgeable. Furthermore, any attempt to provide a natural grounding for ethics is said to commit a naturalistic fallacy.
 
-The solution begins with reconstructing "good" and "ought" from actual usage in a meaningful way. The only substantive reconstruction is a goal-relative ought: "ought" is only meaningful and testable against reality — and can therefore only make normative claims about reality — when it is defined relative to a goal. This alone does not yet solve the is–ought problem, for the question remains: which goals ought actually to be pursued? This question cannot be derived purely deductively from definitions. It must be reconstructed empirically.
+In my paper, I show why both claims are untenable (Delor, 2026). The so-called naturalistic fallacy concerns a problem of definition (Frankena, 1939). A definition cannot replace the examination of the chosen standard. Moore’s appeal to intuitions does not escape this problem either (Moore, 1903).
 
-And the only way to reconstruct it empirically is through evolutionary theory. All goals, desires, dispositions, instincts, and intuitions are products of evolution — therefore they must also be explicable in evolutionary terms. In fact, an ultimate goal can be identified evolutionarily: **lineage fitness** — the long-term persistence and adaptive success of one's own line of descent (oneself, one's children, their children, and so on) under changing conditions. All dispositions, desires, goals, and instincts of all living beings can be subsumed under this ultimate goal. Reward and punishment mechanisms — happiness, suffering, satisfaction — are calibrated toward it. Where they misfire under modern conditions — in addiction, overconsumption, social isolation — these are maladaptations: our environment has changed faster than we could adapt to it evolutionarily.
+The formal proofs concerning the is–ought gap, in turn, depend on the assumptions of their respective systems. They show the limits of particular reconstructions of normative concepts. A general impossibility of any connection between facts and normative statements does not follow from them.
+
+### 2.2 Outline of the Solution
+
+There is no good in itself. Neither an action nor a state can be good in and of itself. Likewise, nothing can be unconditionally obligatory. Such one-place concepts of “good” and “ought” are untenable because they specify no conditions by which their correspondence with reality could be tested. They therefore say nothing about reality. Something can be good only for a subject in achieving a goal under the given boundary conditions (Bunge & Mahner, 2004). The same applies to “ought.” An action ought to be performed when, under the given boundary conditions, it offers the best chances of achieving an existing goal.
+
+Goals are hierarchically ordered. We can choose instrumental goals ourselves. We cannot freely choose an ultimate goal, since this would require libertarian free will, which is logically impossible (Schopenhauer, 1839/1841).
+
+Which ultimate goal actually exists can only be reconstructed empirically. Since all life, and thus our desires and goals as well, arose through evolution, this ultimate goal must be explicable in terms of evolutionary theory.
+
+Indeed, an evolved, teleonomic ultimate goal shared by all living organisms can be reconstructed. “Teleonomic” means that it arose naturally without a goal-setter. This ultimate goal is the long-term preservation of the genetic lineage. I call it lineage fitness. Organisms with such a goal function were able to prevail over organisms without it.
+
+Our dispositions, desires, and goals are proximate mechanisms that serve the attainment of this ultimate goal. These include the pursuit of happiness and the avoidance of unnecessary suffering. Under the altered environmental conditions of our modern society, however, these natural regulatory mechanisms often no longer function as they did under the conditions in which they evolved. This gives rise to misguidance, known as evolutionary mismatch (Yong & Kanazawa, 2026). However, we possess the cognitive capacity to correct such misguidance, at least in part, through conscious value judgments (Delor, 2026).
 
 ## Conclusion
 
-Lineage fitness is the first objective standard and the first solution to the is–ought problem that is not circular, does not immunize itself against criticism, and leaves its foundational assumptions, its derivation, and the resulting moral claims testable against reality.
+Utilitarianism confuses happiness and suffering as reward and punishment mechanisms with the ultimate goal and adds a generalized maximization maxim that can neither be justified nor be empirically testable and substantive. Anyone seeking to reconstruct ethics objectively must do so on the basis of the goals that actually exist in living systems. Lineage fitness provides precisely this objective standard and remains open to criticism and empirically testable in both its derivation and its normative consequences. The is–ought problem is thus solved for the first time under the best epistemological assumptions we know, which also underlie modern science and the Enlightenment (Delor, 2026).
 
-Any ethics that systematically undermines lineage fitness undermines itself: either its adherents learn in time, or they perish together with the ethics they follow.
-
-What this concretely means for individual life decisions and social coexistence will be developed in further publications.
-
-The full argument — including the methodological, epistemological, and ontological foundations, the complete reconstruction, the critique of alternative ethical systems, and the treatment of anticipated objections — can be found in my paper (Delor, 2026).
-
-I welcome serious criticism. Since my paper challenges the dominant paradigm in ethics and metaethics, such criticism cannot simply proceed from that very paradigm. Meaningful criticism must show either where my argument fails within its own framework, where that framework itself is defective, or which alternative framework solves the problem better.
-
-- English version: [https://philpapers.org/rec/DELTST](https://philpapers.org/rec/DELTST)
-- German version: [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
-
-## Disclosure on AI assistance
-
-The argument, the conceptual framework, the claims, and the structure of this post are entirely my own. Since I am not a native English speaker, I used AI tools for translation assistance and for limited linguistic polishing of some English formulations. I did not use AI to generate the argument, decide the content, or supply claims that I do not understand and endorse. I take full responsibility for every statement in the text.
-
-Tools used: ChatGPT and Claude.
+Serious criticism is welcome. It must identify errors in the argument or its foundations. An alternative framework must solve the problem better. Merely appealing to the paradigm being challenged is insufficient.
 
 ## References
 
-- Bentham, J. (1789). *An Introduction to the Principles of Morals and Legislation*.
-- Delor, F. (2026). The Solution to the Is–Ought Problem Based on Critical Rationalism and Evolutionary Theory. Preprint. [https://philpapers.org/rec/DELTST](https://philpapers.org/rec/DELTST)
-- Frankena, W. K. (1939). The Naturalistic Fallacy. *Mind*, 48(192), 464–477.
-- Harris, S. (2010). *The Moral Landscape*. Free Press.
-- Hayek, F. A. (1945). The Use of Knowledge in Society. *American Economic Review*, 35(4), 519–530.
-- Mill, J. S. (1861). *Utilitarianism*.
+- Bentham, J. (1789). *An Introduction to the Principles of Morals and Legislation*. T. Payne and Son.
+- Bunge, M., & Mahner, M. (2004). *Über die Natur der Dinge*. S. Hirzel.
+- Delor, F. (2026). *Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*. Preprint. [German version](https://philpapers.org/rec/DELDLD-13). [English version](https://philpapers.org/rec/DELTST).
+- Frankena, W. K. (1939). The naturalistic fallacy. *Mind, 48*(192), 464–477.
+- Harris, S. (2010). *The Moral Landscape: How Science Can Determine Human Values*. Free Press.
+- Hayek, F. A. (1945). The use of knowledge in society. *American Economic Review, 35*(4), 519–530.
+- Mill, J. S. (1861). *Utilitarianism*. First published in *Fraser’s Magazine*.
 - Moore, G. E. (1903). *Principia Ethica*. Cambridge University Press.
-- Nietzsche, F. (1889). *Twilight of the Idols*.
-- Railton, P. (1986). Moral Realism. *The Philosophical Review*, 95(2), 163–207.
-- Taleb, N. N. (2018). *Skin in the Game*. Random House.
-- Tinbergen, N. (1963). On Aims and Methods of Ethology. *Zeitschrift für Tierpsychologie*, 20(4), 410–433.
+- Nietzsche, F. (1889). *Götzen-Dämmerung oder Wie man mit dem Hammer philosophirt*. C. G. Naumann.
+- Railton, P. (1986). Moral realism. *The Philosophical Review, 95*(2), 163–207.
+- Schopenhauer, A. (1841). Über die Freiheit des menschlichen Willens. In *Die beiden Grundprobleme der Ethik*. Joh. Christ. Hermann’sche Buchhandlung. (Prize essay from 1839)
+- Taleb, N. N. (2007). *The Black Swan: The Impact of the Highly Improbable*. Random House.
+- Taleb, N. N. (2018). *Skin in the Game: Hidden Asymmetries in Daily Life*. Random House.
+- Yong, J. C., & Kanazawa, S. (2026). Why evolutionary mismatches are ubiquitous while evolutionary matches are rare when humans use technology. *Evolutionary Behavioral Sciences, 20*(1), 88–102. https://doi.org/10.1037/ebs0000383
