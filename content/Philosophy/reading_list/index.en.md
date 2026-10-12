@@ -1,8 +1,22 @@
 ---
-date: '2026-08-15T19:38:50+02:00'
+date: '2026-08-15T19:38:41+02:00'
 draft: false
-title: 'Reading_list'
+title: 'A Reading List for Critical Thinking'
+description: 'Why I would start with neither the classics nor well-known contemporary works, even though they have their place on the list. And where I would recommend starting instead and why there in particular.'
+categories:
+  - Philosophy
+  - Reading
+  - Critical Thinking
+  - Philosophy and Science
+  - Classical Philosophy
+tags:
+  - Reading List
+  - Reading Recommendations
+  - Epistemology
+  - Critical Rationalism
+  - Philosophy of Science
 ---
+
 # How I Would Recommend Approaching Philosophy
 
 ## A Reading List for Critical Thinking

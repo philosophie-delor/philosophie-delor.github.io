@@ -1,9 +1,21 @@
 ---
 date: '2026-08-15T19:38:41+02:00'
 draft: false
-title: 'Reading_list'
+title: 'Eine Leseliste für kritisches Denken'
+description: 'Warum ich weder die Klassiker noch die bekannten zeitgenössischen Werke an den Anfang stellen würde, auch wenn sie ihren Platz in der Liste finden. Und wo ich stattdessen empfehlen würde anzufangen und warum genau dort.'
+categories:
+  - Philosophie
+  - Lesen
+  - Kritisches Denken
+  - Philosophie und Wissenschaft
+  - Klassische Philosophie
+tags:
+  - Leseliste
+  - Leseempfehlungen
+  - Erkenntnistheorie
+  - Kritischer Rationalismus
+  - Wissenschaftstheorie
 ---
-
 
 # Wie ich empfehlen würde, Philosophie zu lesen
 
