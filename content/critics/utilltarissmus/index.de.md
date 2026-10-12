@@ -1,99 +1,126 @@
 ---
-date: '2026-05-09T12:00:00+02:00'
+date: '2026-10-12T12:00:00+02:00'
 draft: false
-title: "Das Scheitern des Utilitarismus und die Lösung des Sein-Sollen-Problems"
-tags: ["Philosophie", "Ethik", "Metaethik", "Utilitarismus", "Hedonismus", "Is-Ought Problem", "Sein-Sollen-Problem", "Evolutionstheorie", "Sam Harris", "Kritischer Rationalismus"]
-categories: ["Philosophie", "Utilitarismus", "Sein-Sollen-Problem", "Ethik", "Sam Harris"]
-description: "Eine ausführliche Kritik an Hedonismus, Utilitarismus und Sam Harris' Moral Landscape — und ein Ausblick auf die Lösung des Sein-Sollen-Problems durch evolutionäre Rekonstruktion des objektiven Oberziels."
+title: "Der Irrtum des Utilitarismus"
+tags:
+  - Philosophie
+  - Ethik
+  - Metaethik
+  - Utilitarismus
+  - Hedonismus
+  - Is-Ought Problem
+  - Sein-Sollen-Problem
+  - Evolutionstheorie
+  - Sam Harris
+  - Kritischer Rationalismus
+categories:
+  - Philosophie
+  - Utilitarismus
+  - Sein-Sollen-Problem
+  - Ethik
+  - Sam Harris
+description: "Warum Glück und Leidminimierung als oberste moralische Ziele scheitern und wie sich das Sein-Sollen-Problem durch eine evolutionäre Rekonstruktion lösen lässt."
 ---
 
-# Warum Glück und Leidminimierung kein objektives Oberziel sein können
+# Der Irrtum des Utilitarismus
 
-*Die Lösung des Sein-Sollen-Problems im Licht der Evolution*
-
+*Und die Lösung des Sein-Sollen-Problems im Licht der Evolution*
 
 ## Einleitung
 
-> „Hat man sein Warum des Lebens, so verträgt man sich fast mit jedem Wie. Der Mensch strebt nicht nach Glück; nur der Engländer tut das."
-> (Friedrich Nietzsche, *Götzen-Dämmerung*, Sprüche und Pfeile, §12)
+> „Hat man sein Warum des Lebens, so verträgt man sich fast mit jedem Wie. Der Mensch strebt nicht nach Glück; nur der Engländer tut das.“
+>
+> Friedrich Nietzsche, *Götzen-Dämmerung*, Sprüche und Pfeile, § 12
 
-Menschen ertragen extremes Leid — den Verlust von Gliedmaßen, den Tod nahestehender Personen, die eigene Todesgefahr —, wenn sie ein starkes *Warum* haben. Sobald dieses *Warum* fehlt, wird das *Wie* — mehr Glück, weniger Leid — zum vermeintlichen Oberziel erklärt. Genau diese Verwechslung liegt den meisten heutigen ethischen Ansätzen zugrunde, vom Hedonismus über den Utilitarismus bis zum Effective Altruism.
+Menschen ertragen extremes Leid, wenn sie ein starkes Warum haben. Für ihre Kinder riskieren sie sogar das eigene Leben. Fehlt dieses Warum, wird das angenehmere Leben selbst zum vermeintlichen Oberziel. Diese Verwechslung prägt viele heutige ethische Ansätze.
 
-Hedonismus — die Lehre, dass Lust das höchste Gut und Schmerz das größte Übel sei — ist die älteste Variante dieses Fehlers (Epikur; Bentham, 1789). Der Utilitarismus erweitert ihn, indem er fordert, die Summe des Wohlbefindens über alle Betroffenen zu maximieren (Mill, 1861). Beide Ansätze teilen dieselbe Grundannahme: dass Glück und Leid die entscheidenden Maßstäbe moralischen Handelns seien.
+Hedonismus und Utilitarismus gehören zu den am weitesten verbreiteten Ethiken. Der Hedonismus (vom griechischen „hedoné“ für Lust oder Freude) erklärt Lust zum höchsten Gut und Schmerz zum größten Übel. Daraus ergibt sich die Frage, für wen das Glück maximiert und das Leid minimiert werden soll. Der Utilitarismus (vom englischen „utility“ für Nutzen) formuliert daraus ein allgemeines Prinzip für die Gesellschaft, indem er fordert, das gesamte Glück aller Betroffenen zu maximieren und ihr gesamtes Leid zu minimieren (Bentham, 1789; Mill, 1861).
 
-Dieser Post zeigt, warum diese Ansätze scheitern: Sie lösen das Sein-Sollen-Problem nicht, sondern setzen ein bloß proximales Steuerungssignal als Oberziel. Darüber hinaus rekonstruiert er skizzenhaft das tatsächliche Oberziel empirisch und löst damit das Sein-Sollen-Problem. Die vollständige Argumentation findet sich in meinem Paper (Delor, 2026).
+Diese Ansätze verwechseln aber einen evolutionären Steuerungsmechanismus mit dem dahinterliegenden Ziel. Dessen Rekonstruktion führt zur Lösung des Sein-Sollen-Problems, die ich hier nur in Ansätzen erläutern kann. Die vollständige Argumentation findet sich in meinem Paper (Delor, 2026).
 
-## 1. Sam Harris und das Scheitern des Utilitarismus
+## Sam Harris und das Scheitern des Utilitarismus
 
-Sam Harris führt in *The Moral Landscape* (2010) das utilitaristische Projekt weiter. Wie seine Vorgänger setzt er Wohlbefinden und Glücksmaximierung sowie Leidminimierung als oberstes Ziel. Er belässt es aber nicht bei dieser Setzung, sondern versucht darüber hinaus zu beschreiben, wie die Welt aus der Perspektive von Glück und Leid tatsächlich beschaffen sei. Dafür entwirft er das Bild einer moralischen Landschaft: einer mehrdimensionalen Topografie, in der jeder Punkt einen möglichen Zustand bewusster Wesen darstelle. Die Täler seien die Tiefen des Leids, die Gipfel die Peaks des Glücks. Wissenschaft solle zeigen, welche Handlungen uns von den Tälern zu den Gipfeln führen könnten.
+Sam Harris setzt in *The Moral Landscape* (2010) das Wohlbefinden bewusster Wesen als oberstes Ziel. Dazu entwirft er das Bild einer moralischen Landschaft. Jeder Punkt dieser mehrdimensionalen Landschaft stehe für einen möglichen Zustand bewusster Wesen. Ihre Täler entsprächen tiefem Leid, ihre Gipfel hohem Wohlbefinden. Die Wissenschaft solle zeigen, welche Handlungen uns zu den höchsten Gipfeln führen könnten.
 
-### Die Landschaft ist fiktiv
-
-Dass diese Landschaft der Realität entspreche, zeigt Harris nirgends. Sie ist kein empirisch gewonnenes Modell, sondern ein fiktives Bild, das voraussetzt, was es zu beschreiben vorgibt: dass Wohlbefinden die relevante Dimension sei.
+Sam Harris setzt das Wohlbefinden hier aber bereits als oberstes Ziel voraus und erklärt nicht, warum es Vorrang vor anderen Zielen haben sollte. Empirisch-wissenschaftliche Untersuchungen könnten zwar zeigen, welche Bedingungen das Wohlbefinden bestimmter Personen oder Gruppen steigern. Warum wir dieses Wohlbefinden allerdings anstreben sollten und wessen Wohlbefinden dabei zählen soll, müsste zuvor begründet werden. Zustimmung oder Konsens können diese Begründung nicht ersetzen, da sie kein Wahrheitskriterium sind.
 
 ### Eine Landkarte ohne Ziel
 
-Selbst wenn man Harris zugestehen würde, dass seine Glücks-Leid-Landschaft die Realität korrekt abbildete, wäre damit noch nichts gewonnen. Man wüsste dann, dass es Bereiche gebe, die mehr Glück für irgendwen bedeuteten. Aber welcher Punkt auf dieser Karte angestrebt werden solle und warum, bleibt offen. Eine Landkarte gibt kein Ziel vor. Sie hilft, den Weg zu finden, *wenn* man ein Ziel hat. Ohne Ziel ist sie nutzlos.
+Außerdem wirft dieses Modell einige Fragen auf. Wessen Wohlbefinden und Glück soll hier abgebildet werden? Wie entwickeln wir dafür ein objektives Messverfahren und eine objektive Messskala? Welches Leid zählt mehr als anderes? Gleiches gilt für das Glück.
 
-Peter Railton hatte bereits vor Harris einen ähnlichen, sogar weitergehenden Vorschlag gemacht: Moralisch richtig sei, was ein ideal informierter Akteur tun würde — jemand mit vollständigem Wissen über alles (Railton, 1986). Railtons Karte enthält also nicht nur Glück und Leid, sondern sämtliche Informationen überhaupt. Trotzdem scheitert er am selben Problem: Auch eine vollständige Karte gibt kein Ziel vor. Wissen, was der Fall ist, sagt nicht, was der Fall sein soll — das ist das Sein-Sollen-Problem, und weder Railton noch Harris lösen es.
+Nehmen wir aber einmal an, wir könnten eine solche objektive Karte erstellen. Welchen Punkt auf dieser Karte sollten wir tatsächlich anstreben? Gelten ihre Punkte jeweils für die gesamte Gesellschaft oder für einzelne Menschen? Wie tief dürfen die Täler auf dem Weg zu einem höheren Gipfel sein? Wie viele Opfer dürfen wir also bringen, um langfristig oder insgesamt mehr Wohlbefinden zu erreichen?
 
-Harris ist damit sogar schlechter dran als Railton: Seine Karte bildet nur eine einzige Dimension ab — Glück und Leid —, während die reale Welt unendlich viel komplexer ist. Eine Höhenlinienkarte nützt nichts, wenn der kürzeste Weg über eine senkrechte Felswand führt, durch eine Wüste, in der man verdurstet, oder durch ein Kriegsgebiet. Die moralische Landschaft, selbst wenn sie zuträfe, enthielte nicht die relevanten Informationen.
+Eine solche Landkarte könnte hilfreich sein, wenn wir unser Ziel bereits bestimmt hätten und wüssten, dass es auf dieser Karte liegt. Das Erstellen der Landkarte allein gibt uns dieses Ziel jedoch noch nicht vor.
 
-Hinzu kommt: Beide Vorschläge setzen etwas Kontrafaktisches voraus. Weder Harris' Landschaft noch Railtons vollständige Karte können je vollständig bekannt sein. Unser Wissen bleibt prinzipiell begrenzt. Und selbst wenn wir uns dem Ideal annäherten, könnte sich herausstellen, dass wir das komplett falsche Ziel angesteuert haben.
+Auch ähnliche Vorschläge mit idealisiertem Wissen lösen dieses Problem nicht. Peter Railton entwickelte beispielsweise einen Ansatz, nach dem sich das Wohl eines Menschen daran bemesse, was sein ideal informiertes Selbst ihm unter seinen tatsächlichen Lebensbedingungen zu wünschen raten würde (Railton, 1986). Auch dieses vollständige Wissen beantwortet jedoch nicht die Frage, welches Ziel wir anstreben sollen. Es könnte höchstens helfen, den besten Weg zu einem bereits bestimmten Ziel zu finden.
+
+Zudem haben beide Modelle das Problem, dass unser tatsächliches Wissen über die moralische Landschaft und die Folgen unserer Handlungen niemals vollständig sein kann. Wir wissen nicht einmal, welchen Anteil davon wir kennen. In der Praxis könnte uns ein solches Modell deshalb auch bei bekanntem Ziel keinen verlässlichen Weg weisen. Der größte Teil der Landkarte bleibt unerforscht und ist vorab unbekannt, und unterwegs begegnen uns unerwartete Ereignisse und schwarze Schwäne (Taleb, 2007).
 
 ### Für wen?
 
-**Wohlbefinden für wen?** Für den Einzelnen? Seine Familie? Die Gruppe? Die gesamte Menschheit? Die Biosphäre? Zukünftige Wesen, wie der Longtermismus fordert? Harris lässt das unterbestimmt. Wenn die Landschaft für den einzelnen Akteur gilt, gibt es so viele Landschaften wie Akteure — und keine gemeinsame Karte. Wenn sie für die gesamte Menschheit gelten soll, ist nicht klar, warum. Und sobald zukünftige Generationen einbezogen werden, wird das Problem vollends offensichtlich: Niemand kann wissen, was für Wesen, die es noch nicht gibt, Wohlbefinden bedeuten wird.
+Das Wohlbefinden eines Einzelnen kann mit dem seiner Gemeinschaft kollidieren. Wer beides gegeneinander abwägen will, braucht einen Maßstab für diese Gewichtung.
+
+Einzelne Landschaften liefern diesen gemeinsamen Maßstab noch nicht. Eine gemeinsame Landschaft setzt ihn bereits voraus. Mit der Einbeziehung zukünftiger Wesen wächst zudem die Unsicherheit. Welche Bedürfnisse sie unter noch unbekannten Lebensbedingungen haben werden, lässt sich nur begrenzt abschätzen.
 
 ### Zentralisierung und Missbrauch
 
-Der Utilitarismus lädt zur Zentralisierung ein. Wenn Wissenschaft die nötigen Informationen liefern soll, liegt zentrale Steuerung nahe — Expertengremien oder Algorithmen, die für alle entscheiden. Das scheitert, weil unser Wissen unvollständig und dezentral verteilt ist (Hayek, 1945): Niemand hat alle relevanten Informationen, und zentrale Irrtümer werden zu globalen Katastrophen. Wer für andere entscheidet, ohne die Konsequenzen selbst zu tragen, entscheidet schlechter und kann das Programm missbrauchen — wer behauptet, für das größte Gut zu handeln, kann dafür sorgen, dass er selbst am meisten profitiert (Taleb, 2018).
+Die wissenschaftliche Optimierung des gesamten Wohlbefindens legt eine zentrale Steuerung nahe. Ein Expertengremium könnte beanspruchen, die nötigen Informationen zusammenzuführen und für alle zu entscheiden.
+
+Das dafür erforderliche Wissen ist jedoch dezentral verteilt und häufig an konkrete Lebensumstände gebunden (Hayek, 1945). Eine zentrale Stelle kann es nur unvollständig erfassen. Ihre Fehler können trotzdem eine ganze Gesellschaft treffen.
+
+Tragen die Entscheidungsträger die Folgen ihrer Fehler kaum selbst, fehlt ihnen zudem ein Anreiz zur Vorsicht (Taleb, 2018). Unter dem Anspruch des größten allgemeinen Wohls können sie auch den eigenen Vorteil verfolgen.
 
 ### Verwechslung von Belohnungsmechanismus und Ziel
 
-Der entscheidende Fehler — nicht nur bei Harris, sondern im gesamten Utilitarismus und Hedonismus — ist die Verwechslung des Belohnungsmechanismus mit dem tatsächlichen Ziel. Glück, Leid und Wohlbefinden sind evolvierte Steuerungsmechanismen. Die Evolution hat sie als Signale selektiert, die unter Knappheitsbedingungen typischerweise jenes Verhalten belohnten, das ein dahinterliegendes Ziel förderte. Dass Menschen nach Glück streben, ist unbestritten. Aber das macht Glück nicht zum Oberziel — es macht es zum Steuerungssignal. Welches Ziel dieses Signal steuert, ist eine offene Frage, die der Utilitarismus nicht stellt, weil er das Signal bereits für das Ziel hält.
+Glück und Leid steuern unser Verhalten. Diese evolutionär entstandenen Signale begünstigten unter den Bedingungen ihrer Entstehung Verhaltensweisen, die einem dahinterliegenden Ziel dienten. Dass Menschen nach Glück streben, erklärt deshalb noch nicht dessen Rang als Oberziel.
 
-Ein Vergleich: Um ans Meer zu fahren, muss man Kilometer zurücklegen. Der Kilometerstand korreliert mit dem Erreichen des Ziels. Wer aber den Kilometerstand selbst zum Oberziel erhebt, wird feststellen, dass er ihn am effizientesten maximiert, indem er auf der Autobahn hin- und herfährt. Noch besser: mit einem Düsenjet um die Erde fliegen. Oder sich mit einer Raumstation ins All schießen lassen. Der Kilometerstand wächst — aber man kommt nirgendwo an. Genau das ist der Zustand des Utilitarismus: Ein Maßstab, der normalerweise damit korreliert, ein Ziel zu erreichen, wird für das Ziel selbst gehalten.
+Bei einer Fahrt ans Meer steigt gewöhnlich der Kilometerstand. Wer diesen Wert zum eigentlichen Ziel erklärt, kann ihn durch endlose Rundfahrten erhöhen. Die Anzeige wächst, während das Meer unerreicht bleibt.
 
-Nietzsche bringt es auf den Punkt: Menschen sterben für ihre Familie, für ein Ziel, das größer ist als ihr eigenes Wohlbefinden. Sie nehmen jedes Leid auf sich, wenn das *Warum* stimmt. Harris' Landscape würde dieses Verhalten als „Valley" brandmarken. Wer das tut, hat das eigentliche Ziel nicht verstanden.
+Ebenso kann sich eine angenehme Empfindung von ihrer ursprünglichen Funktion lösen. Eine Sucht belohnt ein Verhalten, das die Lebensgrundlage des Betroffenen zerstört. Das Belohnungssignal bleibt wirksam, obwohl das Verhalten dem dahinterliegenden Ziel schadet.
 
-## 2. Die Lösung des sein-sollen Problems
+Für ein übergeordnetes Ziel nehmen Menschen umgekehrt großes Leid auf sich. Und warum Wohlbefinden der letzte Maßstab sein sollte, bleibt unbeantwortet.
 
-Wenn Leidminimierung und Maximierung von Lust oder Wohlbefinden nicht die Lösung sein können — was ist es dann?
+## Das Sein-Sollen-Problem
 
-Zunächst einmal werden heutzutage zwei Sperrthesen vorgebracht, die behaupten, das Problem sei prinzipiell unlösbar. Erstens: Die Sein-Sollen-Lücke sei unüberwindbar. Zweitens: Jeder Versuch, aus natürlichen Tatsachen eine Ethik abzuleiten, sei ein „naturalistischer Fehlschluss". In meinem Paper (Delor, 2026) zeige ich, dass beide Sperrthesen unhaltbar sind — und wie die tatsächliche Lösung aussieht.
+### Zwei scheinbar unüberwindbare Sperrthesen
 
-Der naturalistische Fehlschluss ist in Wahrheit ein definitorischer Fehlschluss (Frankena, 1939) — und Moore begeht ihn selbst, indem er Intuitionen als obersten Maßstab setzt. Die Unüberwindbarkeit der Sein-Sollen-Lücke konnte ebenfalls nicht bewiesen werden. Alle bisherigen Versuche zeigen nur, dass bestimmte Systeme dazu nicht geeignet sind — Systeme, in denen „gut" oder „sollen" als einwertige Prädikate definiert werden, also ohne Angabe, gut *für wen* und wichtiger noch *welches Ziel*. Solche Systeme machen keine an der Realität prüfbaren Aussagen und sind daher auszuschließen. Ein allgemeiner Beweis der Unschließbarkeit ist, wie ich im Paper zeige, nicht erbringbar.
+Die Suche nach diesem Maßstab führt zum Sein-Sollen-Problem. Gegen dessen Lösung werden gewöhnlich zwei Sperrthesen vorgebracht. Die Sein-Sollen-Lücke sei grundsätzlich unüberwindbar. Außerdem begehe jeder Versuch einer natürlichen Begründung von Ethik einen naturalistischen Fehlschluss.
 
-Die Lösung besteht zunächst darin, „gut" und „sollen" aus dem tatsächlichen Gebrauch sinnvoll zu rekonstruieren. Die einzige gehaltvolle Rekonstruktion ist ein zielrelatives Sollen: „Sollen" ist nur dann gehaltvoll und an der Realität überprüfbar — und kann somit auch nur dann normative Aussagen über die Realität machen —, wenn es zielrelativ definiert ist. Das allein löst das Sein-Sollen-Problem noch nicht, denn es bleibt die Frage: Welche Ziele sollen tatsächlich verfolgt werden? Diese Frage lässt sich nicht rein deduktiv aus Definitionen ableiten. Sie muss empirisch rekonstruiert werden.
+In meinem Paper zeige ich, warum beide Sperrthesen unhaltbar sind (Delor, 2026). Der sogenannte naturalistische Fehlschluss betrifft ein Definitionsproblem (Frankena, 1939). Eine Definition kann die Prüfung des gewählten Maßstabs nicht ersetzen. Auch Moores Berufung auf Intuitionen entgeht diesem Problem nicht (Moore, 1903).
 
-Und die einzige Möglichkeit, sie empirisch zu rekonstruieren, ist die Evolutionstheorie. Alle Ziele, Wünsche, Dispositionen, Instinkte und Intuitionen sind evolutionär entstanden — also müssen sie auch evolutionär erklärbar sein. Tatsächlich lässt sich evolutionär ein Oberziel bestimmen: **Linienfitness** — der langfristige Fortbestand und die Bewährung der eigenen Abstammungslinie (man selbst, die eigenen Kinder, deren Kinder und so weiter) unter sich ändernden Bedingungen. Diesem Oberziel lassen sich alle Dispositionen, Wünsche, Ziele und Instinkte von allen Lebewese unterordnen. Belohnungs- und Bestrafungsmechanismen — Glück, Leid, Zufriedenheit — sind auf dieses Oberziel ausgerichtet. Wo sie unter modernen Bedingungen fehlleiten — bei Sucht, Überkonsum, sozialer Isolation —, handelt es sich um Fehlanpassungen: unsere Umwelt hat sich schneller verändert, als wir uns evolutionär anpassen konnten.
+Die formalen Beweise zur Sein-Sollen-Lücke hängen wiederum von den Voraussetzungen ihrer Systeme ab. Sie zeigen die Grenzen bestimmter Rekonstruktionen normativer Begriffe. Eine allgemeine Unmöglichkeit jeder Verbindung zwischen Tatsachen und normativen Aussagen folgt daraus nicht.
 
-## Schlusswort
+### Lösungsskizze
 
-Linienfitness ist der erste objektive Maßstab und die erste Lösung des Sein-Sollen-Problems, die nicht zirkulär ist, sich nicht gegen Kritik immunisiert und bei der sowohl die Grundannahmen als auch die Herleitung und die daraus folgenden moralischen Aussagen an der Realität überprüfbar sind.
+Es gibt kein Gutes an sich. Weder eine Handlung noch ein Zustand kann an und für sich gut sein. Ebenso kann nichts absolut gesollt werden. Solche einwertigen Begriffe von „gut“ und „sollen“ sind unhaltbar, weil sie keine Bedingungen angeben, anhand derer sich ihre Übereinstimmung mit der Realität überprüfen ließe. Damit sagen sie nichts über die Realität aus. Gut kann etwas nur für ein Subjekt zum Erreichen eines Ziels unter den gegebenen Randbedingungen sein (Bunge & Mahner, 2004). Gleiches gilt für „sollen“. Eine Handlung soll dann ausgeführt werden, wenn sie unter den gegebenen Randbedingungen die besten Chancen bietet, ein vorhandenes Ziel zu erreichen.
 
-Jede Ethik, die Linienfitness systematisch unterminiert, unterminiert sich selbst: Entweder lernen ihre Anhänger rechtzeitig um — oder sie gehen zugrunde, zusammen mit der Ethik, der sie folgen.
+Ziele sind hierarchisch geordnet. Instrumentelle Ziele können wir selbst wählen. Ein Oberziel können wir nicht frei wählen, da dies einen libertären freien Willen voraussetzen würde, der jedoch logisch unmöglich ist (Schopenhauer, 1839/1841).
 
-Was das konkret für Lebensentscheidungen und soziales Zusammenleben bedeutet, folgt in weiteren Veröffentlichungen.
+Welches Oberziel tatsächlich existiert, kann nur empirisch rekonstruiert werden. Da alles Leben und damit auch unsere Wünsche und Ziele evolutionär entstanden sind, muss sich dieses Oberziel aus der Evolutionstheorie erklären lassen.
 
-Die vollständige Argumentation — einschließlich der methodischen, erkenntnistheoretischen und ontologischen Grundlagen, der gesamten Rekonstruktion, der Kritik alternativer Ethiken und der Behandlung zu erwartender Einwände — findet sich in meinem Paper (Delor, 2026).
+Tatsächlich lässt sich ein evolutionär entstandenes, teleonomisches Oberziel rekonstruieren, das alle Lebewesen gemeinsam haben. „Teleonomisch“ bedeutet, dass es ohne einen Zielsetzer natürlich entstanden ist. Dieses Oberziel ist der langfristige Erhalt der genetischen Linie. Ich nenne es Linienfitness. Lebewesen mit einer solchen Zielfunktion konnten sich gegenüber Lebewesen ohne diese Zielfunktion durchsetzen.
 
-Ich freue mich auf ernsthafte Kritik. Da mein Paper das vorherrschende Paradigma in Ethik und Metaethik angreift, kann diese Kritik aber nicht einfach aus genau diesem Paradigma heraus erfolgen. Sinnvolle Kritik muss zeigen, wo meine Argumentation innerhalb ihres eigenen Rahmens scheitert, wo dieser Rahmen selbst fehlerhaft ist, oder welcher alternative Rahmen das Problem besser löst.
+Unsere Dispositionen, Wünsche und Ziele sind proximale Mechanismen, die dem Erreichen dieses Oberziels dienen. Dazu gehören auch das Streben nach Glück und das Vermeiden unnötigen Leids. Unter den veränderten Umweltbedingungen unserer modernen Gesellschaft funktionieren diese natürlichen Steuerungsmechanismen jedoch oft nicht mehr so wie unter den Bedingungen ihrer evolutionären Entstehung. Dadurch kommt es zu Fehlleitungen, dem sogenannten evolutionären Mismatch (Yong & Kanazawa, 2026). Wir besitzen jedoch die kognitive Fähigkeit, solche Fehlleitungen zumindest teilweise durch bewusste Werturteile zu korrigieren (Delor, 2026).
 
-- Deutsche Version: [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
-- Englische Version: [https://philpapers.org/rec/DELTST](https://philpapers.org/rec/DELTST)
+## Schluss
+
+Der Utilitarismus verwechselt Glück und Leid als Belohnungs- und Bestrafungsmechanismen mit dem Oberziel und fügt eine verallgemeinerte Maximierungsmaxime hinzu, die weder begründet werden kann noch empirisch überprüfbar und gehaltvoll ist. Wer Ethik objektiv rekonstruieren will, muss dies anhand der tatsächlich vorhandenen Ziele lebender Systeme tun. Linienfitness liefert genau diesen objektiven Maßstab und bleibt sowohl in der Herleitung als auch in den normativen Konsequenzen kritikoffen und empirisch prüfbar. Damit wird das Sein-Sollen-Problem erstmals unter den besten erkenntnistheoretischen Voraussetzungen gelöst, die wir kennen und die auch der modernen Wissenschaft und Aufklärung zugrunde liegen (Delor, 2026).
+
+Ernsthafte Kritik ist willkommen. Sie muss Fehler in der Argumentation oder ihren Grundlagen aufzeigen. Ein alternativer Rahmen muss das Problem besser lösen. Die bloße Berufung auf das angegriffene Paradigma reicht dafür nicht aus.
 
 ## Quellen
 
-- Bentham, J. (1789). *An Introduction to the Principles of Morals and Legislation*.
-- Delor, F. (2026). Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie. Preprint. [https://philpapers.org/rec/DELDLD-13](https://philpapers.org/rec/DELDLD-13)
-- Frankena, W. K. (1939). The Naturalistic Fallacy. *Mind*, 48(192), 464–477.
-- Harris, S. (2010). *The Moral Landscape*. Free Press.
-- Hayek, F. A. (1945). The Use of Knowledge in Society. *American Economic Review*, 35(4), 519–530.
-- Mill, J. S. (1861). *Utilitarianism*.
+- Bentham, J. (1789). *An Introduction to the Principles of Morals and Legislation*. T. Payne and Son.
+- Bunge, M., & Mahner, M. (2004). *Über die Natur der Dinge*. S. Hirzel.
+- Delor, F. (2026). *Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*. Preprint. [Deutsche Fassung](https://philpapers.org/rec/DELDLD-13). [Englische Fassung](https://philpapers.org/rec/DELTST).
+- Frankena, W. K. (1939). The naturalistic fallacy. *Mind, 48*(192), 464–477.
+- Harris, S. (2010). *The Moral Landscape: How Science Can Determine Human Values*. Free Press.
+- Hayek, F. A. (1945). The use of knowledge in society. *American Economic Review, 35*(4), 519–530.
+- Mill, J. S. (1861). *Utilitarianism*. Erstveröffentlichung in *Fraser’s Magazine*.
 - Moore, G. E. (1903). *Principia Ethica*. Cambridge University Press.
-- Nietzsche, F. (1889). *Götzen-Dämmerung*.
-- Railton, P. (1986). Moral Realism. *The Philosophical Review*, 95(2), 163–207.
-- Taleb, N. N. (2018). *Skin in the Game*. Random House.
-- Tinbergen, N. (1963). On Aims and Methods of Ethology. *Zeitschrift für Tierpsychologie*, 20(4), 410–433.
+- Nietzsche, F. (1889). *Götzen-Dämmerung oder Wie man mit dem Hammer philosophirt*. C. G. Naumann.
+- Railton, P. (1986). Moral realism. *The Philosophical Review, 95*(2), 163–207.
+- Schopenhauer, A. (1841). Über die Freiheit des menschlichen Willens. In *Die beiden Grundprobleme der Ethik*. Joh. Christ. Hermann’sche Buchhandlung. (Preisschrift von 1839)
+- Taleb, N. N. (2007). *The Black Swan: The Impact of the Highly Improbable*. Random House.
+- Taleb, N. N. (2018). *Skin in the Game: Hidden Asymmetries in Daily Life*. Random House.
+- Yong, J. C., & Kanazawa, S. (2026). Why evolutionary mismatches are ubiquitous while evolutionary matches are rare when humans use technology. *Evolutionary Behavioral Sciences, 20*(1), 88–102. https://doi.org/10.1037/ebs0000383
