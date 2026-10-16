@@ -3,13 +3,21 @@ title: "The Two Dogmas of Königsberg-7"
 description: "Why human dignity is truly inviolable, the categorical imperative is categorically correct, and neither says anything about reality."
 date: 2026-03-21
 draft: false
-tags: ["Philosophy", "Ethics", "Kant", "Critical Rationalism", "Is-Ought Problem", "Human Dignity"]
-categories: ["Philosophy"]
-series: ["Kant"]
+tags:
+  - Philosophy
+  - Ethics
+  - Kant
+  - Critical Rationalism
+  - Is-Ought Problem
+  - Human Dignity
+categories:
+  - Philosophy
+series:
+  - Kant
 description_2: "Part 1: Why the categorical imperative and universal human dignity fail — and why it matters, because every Western constitution is built on them."
 ---
 
-*This is the first part of a two-part critique of Kant. The second part — "As Free as a Roasting Spit" — covers Kant's synthetic a priori judgments, his acausal free will, and the question of why the supposed champion of Enlightenment had to suspend knowledge in order to make room for faith.*
+This is the first part of a two-part critique of Kant. The second part — [As Free as a Turnspit](/en/satire/kants-idealissmus/) — covers Kant's synthetic a priori judgments, his acausal free will, and the question of why the supposed champion of Enlightenment had to suspend knowledge in order to make room for faith.
 
 ---
 
@@ -27,21 +35,19 @@ The last words of the civilisation, recorded by a passing trader with a cheap su
 
 On Earth, the situation is messier, because the author of this ethics — Immanuel Kant — is revered as one of the greatest philosophers of all time, and his principles are embedded in every Western constitution. The question is not whether Kant was historically significant — the historical significance of bloodletting is also not in dispute. The question is whether his ethics works.
 
-
 ## The First Dogma: Categorically Correct and Completely Empty
 
 The most famous restaurant on Königsberg-7 was called "The Categorical Imperative." It was remarkable in that it served no food. You walked in, sat down, placed your own sandwich on the table, and the waiter checked whether it violated any hygiene regulations. If not, you were allowed to eat it. The restaurant had no menu, no kitchen, and no chef — but five stars and an award for moral excellence. *The Guide* notes: "Nobody has ever starved there, but only because the guests brought their own food."
 
 Kant's universalisation formula — "Act only according to the maxim by which you can at the same time will that it become a universal law" (Kant, 1785, AA IV, 421) — works in exactly this way. It does not tell you what to do. It only checks whether what you already want to do is consistently universalisable. Hegel saw this in 1821: from the pure form of universalisability, any content whatsoever can be derived, as long as it is consistently universalisable (Hegel, 1821, §135). The categorical imperative is a sieve without mesh. The categorical imperative is categorically correct — because it says nothing anyone could disagree with. That is its problem, not its strength.
 
-An ought-statement has content only relative to a goal — that is the basic structure of every ought-statement that has ever worked. Without a goal, the statement makes no claim about reality that could fail the test of reality. Wolfgang Pauli called such statements *not even wrong* (cf. Peierls, 1960, p. 186). 
+An ought-statement has content only relative to a goal — that is the basic structure of every ought-statement that has ever worked. Without a goal, the statement makes no claim about reality that could fail the test of reality. Wolfgang Pauli called such statements *not even wrong* (cf. Peierls, 1960, p. 186).
 
 The telling thing is: Kant had the working structure in his hands. His *hypothetical imperative* — whoever wills an end ought to will the suitable means — is goal-relative, testable, and open to criticism. Kant dismissed it as a mere "counsel of prudence" and replaced it with a formula that is universal, absolute, and completely empty.
 
 Kant also claims that his second formulation — "Act so that you treat humanity, in your own person as well as in the person of every other, always as an end and never merely as a means" (Kant, 1785, AA IV, 429) — is equivalent to the first. It is not: the first is purely formal, the second smuggles in a substantive standard — "human dignity" — that does not follow from the first.
 
 Furthermore, the categorical imperative claims context-free validity — that is what "categorical" means. Nassim Taleb identifies the general principle: rules that claim universal and absolute validity produce fragility by eliminating local adaptability (Taleb, 2012). Karl Popper formulated the methodological criterion that applies here — the *prohibition of immunisation against criticism*: no theory may be constructed so that no experience could refute it (Popper, 1934/1959, p. 82). The categorical imperative eliminates boundary conditions from the equation and immunises the norm against reality.
-
 
 ## The Second Dogma: Inviolable Because Untouchable
 
@@ -63,20 +69,15 @@ Article 1 of the German Basic Law states: "Human dignity is inviolable." Correct
 
 That human dignity appears in the German Basic Law, the European Convention on Human Rights, and the Charter of the United Nations does not make it truer — it demonstrates the political reach of an unjustified posit.
 
-
 ## What Now?
 
 There is an alternative. It consists not in abandoning ethics but in taking it seriously enough that it can fail the test of reality. Ought-statements have content only as goal-relative, empirically testable promotion claims. The ultimate goal is not freely choosable but teleonomically reconstructable — evolutionary theory identifies lineage fitness as the goal toward which every living being is oriented through selection history. Ethics whose observance systematically works against lineage fitness are refuted not by philosophical arguments but by reality itself — populations that follow them disappear. Just like the Königsbergers.
 
-I lay the groundwork for this in my paper *The Solution to the Is-Ought Problem*:
+I lay the groundwork for this in my paper [The Solution to the Is-Ought Problem](https://philpapers.org/rec/DELTST) and in my post [Hume's Is-Ought Problem and Its Solution](/en/ethics/hume_is_ought/).
 
-- English: [The Solution to the Is-Ought Problem](https://philpapers.org/rec/DELTST)
-- Deutsch: [Die Lösung des Sein-Sollen-Problems](https://philpapers.org/rec/DELDLD-13)
-
-The next post — *As Free as a Roasting Spit* — shows why Kant's project was never Enlightenment in the first place, but its opposite.
+The next post — [As Free as a Turnspit](/en/satire/kants-idealissmus/) — shows why Kant's project was never Enlightenment in the first place, but its opposite.
 
 Or, as was once remarked at the Restaurant at the End of the Universe over a Pan Galactic Gargle Blaster: "The problem with morality was never that there were no answers. The problem was that people found answers that couldn't be wrong about anything and then called that a feature."
-
 
 ## References
 

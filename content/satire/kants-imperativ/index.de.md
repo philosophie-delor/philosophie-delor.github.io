@@ -3,13 +3,22 @@ title: "Die zwei Dogmen von Königsberg-7"
 description: "Warum die Menschenwürde unantastbar ist, der kategorische Imperativ kategorisch richtig ist, aber beide nichts über die Realität aussagen."
 date: 2026-03-21
 draft: false
-tags: ["Philosophie", "Ethik", "Kant", "Kritischer Rationalismus", "Sein-Sollen-Problem", "Menschenwürde"]
-categories: ["Philosophie"]
-series: ["Kant"]
+tags:
+  - Philosophie
+  - Ethik
+  - Kant
+  - Kritischer Rationalismus
+  - Sein-Sollen-Problem
+categories:
+  - Menschenwürde
+  - Immanuel Kant
+  - Philosophie
+series:
+  - Immanuel Kant
 description_2: "Teil 1: Warum der kategorische Imperativ und die universelle Menschenwürde scheitern — und warum das wichtig ist, weil sämtliche westlichen Verfassungen darauf aufbauen."
 ---
 
-*Dies ist der erste Teil einer zweiteiligen Kant-Kritik. Der zweite Teil — „So frei wie ein Bratenwender" — behandelt Kants synthetische Urteile a priori, seine akausale Willensfreiheit und die Frage, warum der angebliche Aufklärer das Wissen aufheben musste, um zum Glauben Platz zu bekommen.*
+Dies ist der erste Teil einer zweiteiligen Kant-Kritik. Der zweite Teil — [So frei wie ein Bratenwender](/de/satire/kants-idealissmus/) — behandelt Kants synthetische Urteile a priori, seine akausale Willensfreiheit und die Frage, warum der angebliche Aufklärer das Wissen aufheben musste, um zum Glauben Platz zu bekommen.
 
 ---
 
@@ -66,12 +75,9 @@ Artikel 1 des Grundgesetzes sagt: „Die Würde des Menschen ist unantastbar." S
 
 Es gibt eine Alternative. Sie besteht nicht darin, Ethik aufzugeben, sondern darin, sie so ernst zu nehmen, dass sie an der Wirklichkeit scheitern kann. Sollenssätze haben Gehalt nur als zielrelative, empirisch prüfbare Förderbehauptungen. Das oberste Ziel ist nicht frei wählbar, sondern teleonomisch rekonstruierbar — die Evolutionstheorie identifiziert Linienfitness als dasjenige Ziel, auf das jedes Lebewesen durch Selektionsgeschichte ausgerichtet ist. Ethiken, deren Befolgung systematisch gegen Linienfitness arbeitet, werden durch die Realität widerlegt — Populationen, die ihnen folgen, verschwinden. Genau wie die Königsberger.
 
-Die Grundlage dafür lege ich in meinem Paper *Die Lösung des Sein-Sollen-Problems*:
+Die Grundlage dafür lege ich in meinem Paper  [Die Lösung des Sein-Sollen-Problems](https://philarchive.org/rec/DELDLD-13)  und in meinen dem Beitrag  [Humes Sein-Sollen-Problem und seine Lösung](/de/ethics/hume_is_ought/) nachgelesen werden.
 
-- Deutsch: [Die Lösung des Sein-Sollen-Problems](https://philpapers.org/rec/DELDLD-13)
-- English: [The Solution to the Is-Ought Problem](https://philpapers.org/rec/DELTST)
-
-Der nächste Beitrag — *So frei wie ein Bratenwender* — zeigt, warum Kants Projekt von Anfang an nicht Aufklärung war, sondern deren Gegenteil.
+Der nächste Beitrag — [So frei wie ein Bratenwender](/de/satire/kants-idealissmus/) — zeigt, warum Kants Projekt von Anfang an nicht Aufklärung war, sondern deren Gegenteil.
 
 Oder, wie am Ende des Universums im Restaurant bei einem pangalaktischen Donnergurgler formuliert wurde: „Das Problem mit der Moral war nie, dass es keine Antworten gab. Das Problem war, dass man Antworten fand, die an nichts scheitern konnten, und das dann für eine Stärke hielt."
 

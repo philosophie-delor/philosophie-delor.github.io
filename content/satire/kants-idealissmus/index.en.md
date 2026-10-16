@@ -3,17 +3,26 @@ title: "As Free as a Turnspit"
 description: "Why Kant needs acausal free will, why synthetic a priori judgments are impossible, and why the supposed champion of Enlightenment had to suspend knowledge to make room for faith."
 date: 2026-03-22
 draft: false
-tags: ["Philosophy", "Ethics", "Kant", "Critical Rationalism", "Is-Ought Problem", "Free Will", "Enlightenment"]
-categories: ["Philosophy"]
-series: ["Kant"]
+tags:
+  - Ethics
+  - Philosophy
+  - Critical Rationalism
+  - Is-Ought Problem
+categories:
+  - Enlightenment
+  - Free Will
+  - Immanuel Kant
+  - Philosophy
+series:
+  - Immanuel Kant
 description_2: "Part 2: The metaphysical presuppositions of Kant's ethics — and why every single one of them fails."
 ---
 
-*This is the second part of a two-part critique of Kant. The first part — ["The Two Dogmas of Königsberg-7"](/blog/kant-two-dogmas/) — deals with the categorical imperative and universal human dignity.*
+This is the second part of a two-part critique of Kant. The first part — ["The Two Dogmas of Königsberg-7"](/en/satire/kants-imperativ//) — deals with the categorical imperative and universal human dignity.
 
----
+##  As Free as a Turnspit
 
-The civilisation of Königsberg-7, whose demolition was documented in [Part 1](/blog/kant-two-dogmas/), has since gone extinct. Galactic archaeology has never conclusively established whether the extinction bore any relation to the Königsbergers' philosophy. The Königsbergers themselves would have emphatically denied any connection. After all, their philosophy was not empirical, and the extinction was.
+The civilisation of Königsberg-7, whose demolition was documented in [Part 1](/en/satire/kants-imperativ/), has since gone extinct. Galactic archaeology has never conclusively established whether the extinction bore any relation to the Königsbergers' philosophy. The Königsbergers themselves would have emphatically denied any connection. After all, their philosophy was not empirical, and the extinction was.
 
 What the archaeologists found were three metaphysical pillars on which the entire ethics rested. The field of galactic architectural criticism classifies this construction method as "inverted statics": a technique in which the load-bearing capacity of a building depends on nobody entering it.
 
@@ -85,10 +94,7 @@ That he labels this "Enlightenment" changes matters about as much as the fact th
 
 ## Conclusion
 
-Together with the two dogmas from [Part 1](/blog/kant-two-dogmas/), the result is an ethics that says nothing about reality but is embedded in every Western constitution. The foundation of an alternative is laid out in my paper *The Solution to the Is-Ought Problem*:
-
-- Deutsch: [Die Lösung des Sein-Sollen-Problems](https://philpapers.org/rec/DELDLD-13)
-- English: [The Solution to the Is-Ought Problem](https://philpapers.org/rec/DELTST)
+Together with the two dogmas from [Part 1](/en/satire/kants-imperativ/), the result is an ethics that says nothing about reality but is embedded in every Western constitution. The foundation of an alternative is laid out in my paper [The Solution to the Is-Ought Problem](https://philpapers.org/rec/DELTST).
 
 As for the inhabitants of Königsberg-7: their extinction, as noted, demonstrably had nothing to do with their philosophy. Then again, nobody has been able to demonstrate the contrary either. The cosmic notary's records were, regrettably, not to be found.
 
