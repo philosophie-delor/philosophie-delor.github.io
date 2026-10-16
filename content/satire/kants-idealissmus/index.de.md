@@ -3,17 +3,26 @@ title: "So frei wie ein Bratenwender"
 description: "Warum Kant akausale Willensfreiheit braucht, synthetische Urteile a priori unmöglich sind und der angebliche Aufklärer das Wissen aufheben musste, um zum Glauben Platz zu bekommen."
 date: 2026-03-22
 draft: false
-tags: ["Philosophie", "Ethik", "Kant", "Kritischer Rationalismus", "Sein-Sollen-Problem", "Willensfreiheit", "Aufklärung"]
-categories: ["Philosophie"]
-series: ["Kant"]
+tags:
+  - Philosophie
+  - Ethik
+  - Kritischer Rationalismus
+  - Sein-Sollen-Problem
+categories:
+  - Willensfreiheit
+  - Aufklärung
+  - Immanuel Kant
+  - Philosophie
+series:
+  - Immanuel Kant
 subtitle: "Teil 2: Die metaphysischen Voraussetzungen von Kants Ethik — und warum jede einzelne scheitert."
 ---
 
-*Dies ist der zweite Teil einer zweiteiligen Kant-Kritik. Der erste Teil — [„Die zwei Dogmen von Königsberg-7"](/blog/kant-zwei-dogmen/) — behandelt den kategorischen Imperativ und die universelle Menschenwürde.*
+Dies ist der zweite Teil einer zweiteiligen Kant-Kritik. Der erste Teil — [„Die zwei Dogmen von Königsberg-7"](/de/satire/kants-imperativ/) — behandelt den kategorischen Imperativ und die universelle Menschenwürde.
 
----
+## So frei wie ein Bratenwender
 
-Die Zivilisation von Königsberg-7, deren Sprengung im [ersten Teil](/blog/kant-zwei-dogmen/) dokumentiert wurde, ist inzwischen ausgestorben. Die galaktische Archäologie hat nie abschließend klären können, ob das Aussterben in irgendeinem Zusammenhang mit der Philosophie der Königsberger stand. Die Königsberger selbst hätten den Zusammenhang entschieden bestritten. Schließlich war ihre Philosophie nicht empirisch, und das Aussterben war es.
+Die Zivilisation von Königsberg-7, deren Sprengung im [ersten Teil](/de/satire/kants-imperativ/) dokumentiert wurde, ist inzwischen ausgestorben. Die galaktische Archäologie hat nie abschließend klären können, ob das Aussterben in irgendeinem Zusammenhang mit der Philosophie der Königsberger stand. Die Königsberger selbst hätten den Zusammenhang entschieden bestritten. Schließlich war ihre Philosophie nicht empirisch, und das Aussterben war es.
 
 
 
@@ -88,10 +97,7 @@ Dass er sich das Etikett „Aufklärung" gibt, ändert daran so wenig wie die Ta
 
 ## Fazit
 
-Zusammen mit den zwei Dogmen aus dem [ersten Teil](/blog/kant-zwei-dogmen/) ergibt sich eine Ethik, die nichts über die Wirklichkeit sagt, aber in jeder westlichen Verfassung steckt. Die Grundlage einer Alternative lege ich in meinem Paper *Die Lösung des Sein-Sollen-Problems*:
-
-- Deutsch: [Die Lösung des Sein-Sollen-Problems](https://philpapers.org/rec/DELDLD-13)
-- English: [The Solution to the Is-Ought Problem](https://philpapers.org/rec/DELTST)
+Zusammen mit den zwei Dogmen aus dem [ersten Teil](/de/satire/kants-imperativ/) ergibt sich eine Ethik, die nichts über die Wirklichkeit sagt, aber in jeder westlichen Verfassung steckt. Die Grundlage einer Alternative lege ich in meinem Paper [Die Lösung des Sein-Sollen-Problems](https://philpapers.org/rec/DELDLD-13).
 
 Was die Bewohner von Königsberg-7 betrifft: Ihr Aussterben hat, wie gesagt, nachweislich nichts mit ihrer Philosophie zu tun. Es hat allerdings auch niemand das Gegenteil nachweisen können. Die Akten des kosmischen Notars waren leider nicht auffindbar.
 
@@ -113,9 +119,3 @@ Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson. (Ursprün
 Quine, W. V. O. (1951). Two Dogmas of Empiricism. *The Philosophical Review*, 60(1), 20–43.
 
 Schlick, M. (1925). *Allgemeine Erkenntnislehre*. 2. Auflage. Verlag von Julius Springer. (Ursprünglich erschienen 1918)
-
-
-Ich habe eine satirische Kritik an Kants kategorischem Imperativ und der universellen Menschenwürde geschrieben — satirisch im Ton, vollkommen ernst in der Sache. Teil 1 ist gerade auf meinem Blog erschienen:
-https://philosophie-delor.github.io/de/posts/kants-imperativ/
-Die Menschenwürde ist unantastbar. Der kategorische Imperativ ist kategorisch richtig. Leider sagen beide nichts über die Realität. Warum das so ist und warum es uns alle betrifft — denn sämtliche westlichen Verfassungen bauen darauf auf —, steht im Beitrag. Teil 2 folgt.
-Wer inhaltliche Einwände hat: gerne. Wer nur findet, man dürfe das nicht sagen: genau darum geht es.

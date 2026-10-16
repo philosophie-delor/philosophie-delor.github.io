@@ -99,9 +99,12 @@ body.delor-nav-ready .book-toc-content nav a {
   padding-block: 6px;
 }
 
-.delor-toc-current {
+body.delor-nav-ready .book-toc-content nav a.delor-toc-current {
   color: var(--color-link);
   font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 /* Spalten-Modus (kein Overlay): Inhalt bleibt unter dem Banner stehen */
