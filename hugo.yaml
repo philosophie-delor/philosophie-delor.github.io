@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir: true
 
 languages:
   de:
-    languageName: Deutsch
+    label: Deutsch
     weight: 1
     params:
       sidebar:
@@ -37,7 +37,7 @@ languages:
           weight: 4
 
   en:
-    languageName: English
+    label: English
     weight: 2
     params:
       sidebar:
@@ -194,8 +194,21 @@ sitemap:
   disable: false
   filename: sitemap.xml
 
+outputFormats:
+  txt:
+    mediaType: text/plain
+    baseName: source
+    isPlainText: true
+
 outputs:
   home:
     - HTML
     - RSS
-    - SITEMAP
+    - txt
+  page:
+    - HTML
+    - txt
+  section:
+    - HTML
+    - RSS
+    - txt

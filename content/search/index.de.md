@@ -5,7 +5,6 @@ type: "page"
 layout: "search"
 outputs:
   - HTML
-  - JSON
 menu:
   main:
     identifier: search
