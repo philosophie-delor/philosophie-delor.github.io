@@ -118,7 +118,7 @@ Darwin, C. (1859). *On the Origin of Species by Means of Natural Selection, or t
 
 Dawkins, R. (2016). *The Extended Selfish Gene*. Oxford University Press. (Original work published 1976)
 
-**Delor, F. (2026). *The Solution to the Is-Ought Problem based on Critical Rationalism and Evolutionary Theory*. Preprint. https://philpapers.org/rec/DELTST2**
+**Delor, F. (2026). *The Solution to the Is-Ought Problem based on Critical Rationalism and Evolutionary Theory*. Preprint. https://philpapers.org/rec/DELTST**
 
 Dobzhansky, T. (1973). Nothing in biology makes sense except in the light of evolution. *The American Biology Teacher, 35*(3), 125–129. https://doi.org/10.2307/4444260
 

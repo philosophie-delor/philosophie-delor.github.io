@@ -1,16 +1,22 @@
-/* Gemeinsame Farben und Glasflächen */
+/* Farben und gemeinsame Einstellungen */
 :root {
-  --glass-background: rgba(252, 252, 252, 0.78);
+  --glass-opacity: 0.83;
+  --glass-background: rgba(252, 252, 252, var(--glass-opacity));
   --glass-border: rgba(80, 100, 120, 0.16);
   --glass-shadow: 0 6px 22px rgba(0, 0, 0, 0.06);
   --glass-radius: 18px;
-  --glass-blur: 1px;
+  --glass-blur: 1.5px;
+
+  --layout-gap: 16px;
+  --layout-padding: 16px;
+  --sidebar-top: 16px;
 }
 
 /* Dunkle Darstellung */
 :root[data-theme$="dark"] {
-  --body-background: #071a3a;
-  --glass-background: rgba(41, 53, 66, 0.78);
+  --glass-opacity: 0.91;
+  --body-background: rgba(7, 26, 58, 1);
+  --glass-background: rgba(41, 53, 66, var(--glass-opacity));
   --glass-border: rgba(180, 202, 229, 0.16);
   --glass-shadow: 0 6px 22px rgba(0, 0, 0, 0.20);
 }
@@ -18,14 +24,15 @@
 /* Automatische dunkle Darstellung */
 @media (prefers-color-scheme: dark) {
   :root[data-theme$="auto"] {
-    --body-background: #071a3a;
-    --glass-background: rgba(41, 53, 66, 0.78);
+    --glass-opacity: 0.91;
+    --body-background: rgba(7, 26, 58, 1);
+    --glass-background: rgba(41, 53, 66, var(--glass-opacity));
     --glass-border: rgba(180, 202, 229, 0.16);
     --glass-shadow: 0 6px 22px rgba(0, 0, 0, 0.20);
   }
 }
 
-/* Höhenlinien */
+/* Seitenhintergrund */
 body {
   background-color: var(--body-background);
   background-image: url("/images/contours.svg");
@@ -33,7 +40,7 @@ body {
   background-size: 600px 600px;
 }
 
-/* Titelbild */
+/* Banner */
 body::before {
   content: "";
   display: block;
@@ -46,40 +53,92 @@ body::before {
   background-repeat: no-repeat;
 }
 
-/* Abstand zwischen den Bereichen */
-body > main.container {
-  padding: 16px;
-  gap: 16px;
+@media screen {
+  /* Abstand unter dem Banner und zwischen den Spalten */
+  body > main.container {
+    box-sizing: border-box;
+    padding: var(--layout-padding);
+    gap: var(--layout-gap);
+  }
+
+  /* Eine Glasfläche pro Bereich */
+  body main.container .book-page,
+  body .book-menu .book-menu-content,
+  body .book-toc .book-toc-content {
+    box-sizing: border-box;
+    background: var(--glass-background);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--glass-radius);
+    box-shadow: var(--glass-shadow);
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur));
+  }
+
+  /* Inhalt ohne zusätzliche Hintergrundschicht */
+  body main.container .book-page > .markdown,
+  body main.container .book-page > .book-header,
+  body main.container .book-page > .book-footer,
+  body main.container .book-page > .book-comments {
+    background: transparent;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
 }
 
-/* Glasflächen für Inhalt, Navigation und Inhaltsverzeichnis */
-.book-page,
-.book-menu .book-menu-content,
-.book-toc .book-toc-content {
-  background: var(--glass-background);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--glass-radius);
-  box-shadow: var(--glass-shadow);
-  -webkit-backdrop-filter: blur(var(--glass-blur));
-  backdrop-filter: blur(var(--glass-blur));
+/* Desktop: beide Seitenleisten gleich positionieren */
+@media screen and (min-width: 56.001rem) {
+  body > main.container {
+    align-items: stretch;
+  }
+
+  body main.container .book-page {
+    min-width: 0;
+  }
+
+  body main.container .book-menu,
+  body main.container .book-toc {
+    position: static;
+    align-self: stretch;
+    height: auto;
+    min-width: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  body main.container .book-menu .book-menu-content,
+  body main.container .book-toc .book-toc-content {
+    position: sticky;
+    top: var(--sidebar-top);
+    bottom: auto;
+    left: auto;
+    right: auto;
+    width: 100%;
+    height: auto;
+    max-height: calc(100vh - var(--sidebar-top) * 2);
+    margin: 0;
+    transform: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 }
 
-/* Handy: schmalerer Banner und weniger Außenabstand */
+/* Kleine Bildschirme */
 @media screen and (max-width: 56rem) {
+  :root {
+    --layout-gap: 12px;
+    --layout-padding: 12px;
+  }
+
   body::before {
     height: 150px;
   }
-
-  body > main.container {
-    padding: 12px;
-    gap: 12px;
-  }
 }
 
-/* Beim Drucken Hintergrund und Banner ausblenden */
+/* Druckansicht */
 @media print {
   body {
-    background: white;
+    background: rgba(255, 255, 255, 1);
   }
 
   body::before {
