@@ -163,7 +163,7 @@ body.delor-nav-ready .book-toc:not(.delor-overlay) .book-toc-content {
 /* ==========================================================================
    5. Theme-Umschalter
    ========================================================================== */
-#delor-theme-toggle svg { display: none; }
+#delor-theme-toggle img { display: none; }
 
 #delor-theme-toggle[data-mode="auto"] .delor-theme-auto,
 #delor-theme-toggle[data-mode="light"] .delor-theme-light,
