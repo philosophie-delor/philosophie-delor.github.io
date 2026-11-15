@@ -1,7 +1,8 @@
 ---
-title: "Hume’s Is–Ought Problem and Its Solution"
+title: "The Is-Ought Problem: Why Hume Failed and a Naturalistic Way Out"
 date: 2026-10-03
 draft: false
+version: 2
 tags:
   - Philosophy
   - Ethics
@@ -17,10 +18,10 @@ categories:
   - Ethics
   - Is-Ought Problem
   - David Hume
-description: "The article explains the is–ought problem and Hume’s proposed solution. It shows why this and other approaches fail, then outlines the solution. The detailed solution can be found in the paper at the end of the article."
+description: "The article explains the is–ought problem and Hume’s proposed solution. It shows why this fails, and outlines the solution. The detailed solution can be found in the paper at the end of the article."
 ---
 
-# Hume’s Is–Ought Problem and Its Solution
+# The Is-Ought Problem: Why Hume Failed and a Naturalistic Way Out
 
 ## Is and Ought
 
@@ -30,13 +31,15 @@ Hume thereby formulates the problem that later became known as Hume’s Law, Hum
 
 The reason lies in the different functions of the two kinds of statements. A factual statement describes a state of affairs. An ought-statement contains a normative claim. Anyone who moves from facts to norms must explain how the normative content enters the conclusion. Hume did not see how this transition could be achieved by logic alone. For him, there was a sharp separation between is-statements and ought-statements. This observation identifies a real error in many moral arguments. An ought-statement cannot simply be smuggled into an argument without explanation.
 
-## Hume’s Conception of Morality
+## Hume’s Attempted Solution and Why It Fails
+
+### Hume’s Conception of Morality
 
 For David Hume (1739/1978, T 3.1.1.6), morality is characterized by its effect on the will and on action. Moral judgments would therefore have to possess motivational force. He writes: “Morals excite passions, and produce or prevent actions.”
 
 From this, Hume concludes that reason alone cannot produce moral judgments. Reason may recognize relations between ideas and matters of fact, but by itself it cannot generate an impulse to act. Since moral judgments, according to Hume, must move the will, moral rules cannot be conclusions of reason. Hume (1739/1978, T 3.1.1.6) writes: “The rules of morality, therefore, are not conclusions of our reason.”
 
-## Hume’s Attempted Solution
+### Hume’s Approach
 
 Hume then attempts to solve the problem through sentiment. According to him, moral judgments arise from moral feelings. A person considers an action or a character, understands the circumstances, and feels approval or disapproval. For Hume, this sentiment forms the core of moral judgment. He summarizes this in the formula that morality is felt rather than judged: “Morality, therefore, is more properly felt than judg’d of.” (Hume 1739/1978, T 3.1.2.1). Moral evaluation therefore comes from feeling. Reason merely helps identify the appropriate means for acting accordingly.
 
@@ -44,7 +47,7 @@ He summarizes this division of roles in the following famous sentence: “Reason
 
 The passions therefore determine the direction of action, while reason merely organizes information and means and cannot generate the final practical impulse. For Hume, the transition to morality is accomplished by a feeling that evaluates an action or character and possesses motivational force.
 
-## The Limit of This Solution
+### Motivation is Not Validity
 
 Hume’s solution explains how moral judgments arise psychologically, but not why they are valid. From the fact that people feel approval or disapproval, no standard follows for determining whether those feelings are correct. Feeling explains the origin of the judgment, but it does not justify its truth.
 
@@ -54,23 +57,22 @@ Feelings do not possess the status of an ultimate standard. They are themselves 
 
 Nikolaas Tinbergen (1951) showed, using supernormal stimuli, that an originally functional mechanism can be misdirected under changed conditions. The same applies to moral feelings. They may have been useful in certain environments and misleading in others. They must therefore be tested against a standard. That standard cannot itself be another feeling. It follows from the evolutionary function of those feelings.
 
-## Motivation and Truth
+### Motivation and Truth
 
 Hume’s account of motivation explains why certain moral judgments motivate action, but it does not explain why a judgment is true or valid. A statement can be true even if it motivates no one. An ought-statement can be objectively valid even if a particular subject feels no motivation to follow it. Motivation concerns the psychology of the agent. Validity concerns the statement’s relation to reality.
 
-## Reason and Motivation
+### Reason and Motivation
 
 Hume’s claim that reason cannot produce motivation is also untenable. Motivation arises from expectations and evaluations. Rational insight can change such expectations. If an argument changes someone’s understanding of the consequences of an action, it can thereby create a new readiness to act (Wolfram Schultz 2016; Kent Berridge 2009; Berridge & Robinson 2016; Salamone et al. 2018).
 
 Happiness, life satisfaction, and eudaimonia belong to the biologically grounded feedback structures of action. They can motivate and stabilize behavior. No ultimate moral standard follows from this. Reason also remains embedded in the evolutionary structure. It allows moral feelings to be checked against knowledge of the world and assessments of consequences. It cannot generate motivation arbitrarily, but it can change expectations and thereby trigger or prevent actions.
 
-## Pure Reason
+### Concluding Remarks on Hume’s Attempted Solution
+In conclusion, while David Hume’s demand for an explanation of the transition from is to ought was entirely justified, his own proposed solution fails. Hume ultimately derives the normative significance of moral judgments from emotions and their motivating force—thereby implicitly performing an unjustified transition from facts to an ought himself. Furthermore, he confuses psychological motivation with semantic validity. To genuinely solve the is-ought problem, it is therefore insufficient to rely on psychological mechanisms or moral sentiments; what is required is an objective, relational definition of values that is verifiable against reality and the biological goal structure of living systems.
 
-Attempts to derive moral standards from pure reason or from a priori principles can be found in different forms in Kant, Rawls, and Korsgaard (Kant 1785/2016; Rawls 1971/1999; Korsgaard 1996). These approaches fail as well. Purely logical and analytic inferences cannot expand the content of their premises (Schlick 1918/1925; Hahn 1933). If a derivation is to end with moral content, that content must therefore already be contained in its premises or concepts.
+## The solution to the Is-Ought Problem
 
-The choice of particular principles of reason does not solve this problem either. Whether one begins with consistency, universalizability, or autonomy, no objective moral standard follows from the principle itself. For any stipulated moral principle, competing principles can be formulated that are equally logically consistent yet lead to opposite conclusions. Pure reason therefore cannot determine which of them is valid. That requires examining which principles correspond to reality.
-
-## Ontology of Value Judgments
+### Ontology of Value Judgments
 
 To solve the problem and identify where Hume and others went wrong, we must first analyze what values actually are. What makes something valuable to someone? Something becomes valuable to a person when, under given conditions, it helps that person achieve a goal, or achieve it better than available alternatives. Value therefore consists in a relation between what is evaluated, the entity for which it is valuable, a goal, and the relevant conditions. Mario Bunge formulates this relational structure precisely:
 
@@ -80,7 +82,7 @@ A value judgment therefore asserts a real relation. Whether something is in fact
 
 This also allows Hume’s error to be identified more precisely. The motivational effect of a moral judgment does not determine its value. It describes what a judgment does psychologically to a person. The value judgment itself instead asserts a relation between something evaluated and a goal under particular conditions. Hume therefore conflates motivation with value.
 
-## The Ultimate Goal
+### The Ultimate Goal
 
 > “Nothing in biology makes sense except in the light of evolution.” (Dobzhansky 1973)
 
