@@ -3,6 +3,7 @@ title: "The Is-Ought Problem: Why Hume Failed and a Naturalistic Way Out"
 date: 2026-10-03
 draft: false
 version: 2
+weight: 20
 tags:
   - Philosophy
   - Ethics

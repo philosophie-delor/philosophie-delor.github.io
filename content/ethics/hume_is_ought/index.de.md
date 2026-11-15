@@ -3,6 +3,7 @@ title: "Das Sein-Sollen-Problem: Warum Hume scheiterte und ein naturalistischer 
 date: 2026-10-03
 draft: false
 versin: 2
+weight: 20
 tags:
   - Philosophie
   - Ethik

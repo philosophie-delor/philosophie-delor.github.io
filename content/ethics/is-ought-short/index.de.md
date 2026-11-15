@@ -3,6 +3,7 @@ title: "Die Lösung des Sein-Sollen-Problems: Eine detaillierte Lösungsskizze a
 date: 2026-11-15
 draft: false
 version: 1
+weight: 30
 tags:
   - Philosophie
   - Ethik

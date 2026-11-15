@@ -3,6 +3,7 @@ title: "The Solution to the Is-Ought Problem: A Detailed Outline Based on Popper
 date: 2026-11-15
 draft: false
 version: 1
+weight: 30
 tags:
   - Philosophy
   - Ethics
