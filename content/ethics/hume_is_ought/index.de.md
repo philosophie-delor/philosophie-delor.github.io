@@ -1,7 +1,8 @@
 ---
-title: "Humes Sein-Sollen-Problem und seine Lösung"
+title: "Das Sein-Sollen-Problem: Warum Hume scheiterte und ein naturalistischer Ausweg"
 date: 2026-10-03
 draft: false
+versin: 2
 tags:
   - Philosophie
   - Ethik
@@ -17,10 +18,10 @@ categories:
   - Ethik
   - Sein-Sollen-Problem
   - David Hume
-description: "Der Beitrag erläutert das Sein-Sollen-Problem und Humes Lösungsvorschlag. Er zeigt, warum dieser und andere Ansätze scheitern, und skizziert anschließend die Lösung. Die ausführliche Lösung findet sich im Paper am Ende des Beitrags."
+description: "Der Beitrag erläutert das Sein-Sollen-Problem und Humes Lösungsvorschlag. Er zeigt, warum dieser scheitert, und skizziert anschließend die Lösung. Die ausführliche Lösung findet sich im Paper am Ende des Beitrags."
 ---
 
-# Humes Sein-Sollen-Problem und seine Lösung
+# Das Sein-Sollen-Problem: Warum Hume scheiterte und ein naturalistischer Ausweg
 
 ## Sein und Sollen
 
@@ -30,13 +31,15 @@ Damit formuliert Hume das Problem, das später als Humes Gesetz, Humes Guillotin
 
 Der Grund dafür liegt in der verschiedenen Funktion beider Satzarten. Ein Tatsachensatz beschreibt einen Sachverhalt. Ein Sollenssatz enthält einen normativen Anspruch. Wer von Tatsachen auf Normen schließt, muss erklären, wie der normative Gehalt in die Schlussfolgerung gelangt. Hume sah nicht, wie dieser Übergang rein logisch gelöst werden könne. Für ihn bestand zwischen Seinsaussagen und Sollensaussagen eine scharfe Trennung. Diese Feststellung trifft einen realen Fehler vieler moralischer Argumentationen. Ein Sollenssatz darf nicht stillschweigend in eine Argumentation eingeschoben werden.
 
-## Humes Moralbegriff
+## Humes Lösungsversuchversuch und warum er scheitert
+
+### Humes Moralbegriff
 
 Für David Hume (1739/1978, T 3.1.1.6) gehört zur Moral, dass sie auf den Willen wirkt und Handlungen beeinflusst. Moralische Urteile müssten deshalb motivierende Kraft besitzen. Er schreibt: „Moral erregt Leidenschaften und bringt Handlungen hervor oder verhindert sie.“
 
 Daraus folgert Hume, dass Vernunft allein keine moralischen Urteile hervorbringen könne. Sie könne Beziehungen zwischen Vorstellungen und Tatsachenverhältnisse erkennen, aus sich heraus aber keinen Handlungsimpuls erzeugen. Da moralische Urteile nach Hume den Willen bewegen müssten, könnten moralische Regeln keine Schlussfolgerungen der Vernunft sein. Hume (1739/1978, T 3.1.1.6) schreibt: „Die Regeln der Moral sind daher keine Schlussfolgerungen unserer Vernunft.“
 
-## Humes Lösungsversuch
+### Humes Ansatzt 
 
 Hume versucht das Problem anschließend über Gefühle zu lösen. Moralische Urteile entstehen nach ihm aus moralischen Gefühlen. Der Mensch betrachtet eine Handlung oder einen Charakter, versteht die Umstände und empfindet Zustimmung oder Missbilligung. Diese Empfindung bildet für Hume den Kern des moralischen Urteils. Er fasst das in der Formel zusammen, Moral werde eher gefühlt als geurteilt: „Morality, therefore, is more properly felt than judg’d of.“ (Hume 1739/1978, T 3.1.2.1). Die moralische Bewertung stammt für ihn also aus dem Gefühl. Die Vernunft hilft lediglich dabei, die geeigneten Mittel zu erkennen, um entsprechend zu handeln.
 
@@ -44,7 +47,7 @@ Dies fasst er mit dem folgenden berühmten Satz zusammen: „Reason is, and ough
 
 Die Leidenschaften geben danach die Richtung des Handelns vor, während die Vernunft nur Informationen und Mittel ordne, nicht aber den letzten praktischen Antrieb erzeugen könne. Der Übergang zur Moral wird bei Hume durch ein Gefühl geleistet, das eine Handlung oder einen Charakter bewertet und motivierende Kraft besitzt.
 
-## Grenze dieser Lösung
+### Motivation ist nicht Geltung
 
 Humes Lösung erklärt, wie moralische Urteile psychologisch entstehen, aber nicht, warum sie gelten. Aus der Tatsache, dass Menschen Zustimmung oder Missbilligung empfinden, folgt kein Maßstab für die Richtigkeit dieser Empfindungen. Das Gefühl erklärt die Entstehung des Urteils, aber begründet nicht seine Wahrheit.
 
@@ -54,23 +57,23 @@ Gefühle besitzen keinen letzten Maßstabsstatus. Sie sind selbst erklärungsbed
 
 Nikolaas Tinbergen (1951) zeigte am Beispiel übernormaler Reize, dass ein ursprünglich funktionaler Mechanismus unter veränderten Bedingungen fehlgeleitet werden kann. Dasselbe gilt für moralische Gefühle. Sie können in bestimmten Umwelten nützlich gewesen sein und in anderen Umwelten in die Irre führen. Deshalb müssen sie an einem Maßstab geprüft werden. Dieser Maßstab kann nicht wieder ein Gefühl sein. Er ergibt sich aus der evolutionären Funktion dieser Gefühle.
 
-## Motivation und Wahrheit
+### Motivation und Wahrheit
 
 Humes Motivationsbegriff erklärt, warum (bestimmte) moralische Urteile praktisch motivieren, erklärt aber nicht, warum ein Urteil wahr oder gültig sein soll. Eine Aussage kann wahr sein, auch wenn sie niemanden motiviert. Ein Sollenssatz kann objektiv gelten, auch wenn ein bestimmtes Subjekt keinen Antrieb verspürt, ihm zu folgen. Motivation betrifft die Psychologie des Handelnden. Geltung betrifft den Realitätsbezug der Aussage.
 
-## Vernunft und Motivation
+### Vernunft und Motivation
 
 Auch Humes These, Vernunft könne keine Motivation hervorbringen, ist nicht haltbar. Motivation entsteht aus Erwartungen und Bewertungen. Rationale Einsicht kann solche Erwartungen verändern. Wer durch ein Argument die Folgen einer Handlung neu versteht, kann dadurch eine neue Handlungsbereitschaft gewinnen (Wolfram Schultz 2016; Kent Berridge 2009; Berridge & Robinson 2016; Salamone et al. 2018).
 
 Glück, Lebenszufriedenheit und Eudaimonia gehören zu den biologisch verankerten Rückmeldestrukturen des Handelns. Sie können Verhalten antreiben und stabilisieren. Daraus folgt kein letzter moralischer Maßstab. Vernunft bleibt ebenfalls in die evolutionäre Struktur eingebunden. Sie erlaubt den Abgleich moralischer Gefühle mit Weltwissen und Folgenabschätzung. Sie kann nicht beliebig Motivation erzeugen, sie kann aber Erwartungen verändern und dadurch Handlungen auslösen oder verhindern.
 
-## Reine Vernunft
+### Fazit zu Humes Lösungsversuch
 
-Der Versuch, moralische Maßstäbe aus reiner Vernunft oder aus A-priori-Prinzipien abzuleiten, findet sich in unterschiedlichen Formen etwa bei Kant, Rawls und Korsgaard (Kant 1785/2016; Rawls 1971/1999; Korsgaard 1996). Diese Ansätze funktionieren jedoch ebenfalls nicht. Reine logische und analytische Schlüsse können den Gehalt ihrer Voraussetzungen nicht erweitern (Schlick 1918/1925; Hahn 1933). Soll am Ende einer Ableitung ein moralischer Gehalt stehen, muss dieser daher bereits in den Voraussetzungen oder Begriffen enthalten sein.
+Abschließend lässt sich feststellen, dass David Humes Forderung nach einer Erklärung des Übergangs vom Sein zum Sollen zwar völlig berechtigt war, sein eigener Lösungsversuch jedoch scheitert. Hume leitet die normative Bedeutung moralischer Urteile letztlich aus Gefühlen und ihrer motivierenden Wirkung ab – und vollzieht damit im Grunde selbst unbemerkt einen unzulässigen Übergang von Tatsachen zu einem Sollen. Zudem verwechselt er psychologische Motivation mit semantischer Geltung. Um das Sein-Sollen-Problem tatsächlich zu lösen, reicht es daher nicht aus, sich auf psychologische Mechanismen oder moralische Gefühle zu verlassen; es bedarf einer objektiven, relationalen Bestimmung von Werten, die an der Realität und der biologischen Zielstruktur lebender Systeme überprüfbar ist.
 
-Auch die Wahl bestimmter Vernunftprinzipien löst dieses Problem nicht. Ob man Widerspruchsfreiheit, Universalisierbarkeit oder Autonomie zugrunde legt, aus dem Prinzip selbst folgt noch kein objektiver moralischer Maßstab. Für gesetzte moralische Prinzipien lassen sich konkurrierende Prinzipien formulieren, die ebenfalls logisch konsistent sind und zu entgegengesetzten Ergebnissen führen. Welche davon gelten, kann daher nicht durch reine Vernunft entschieden werden. Dafür muss geprüft werden, welche Prinzipien mit der Realität übereinstimmen.
+## Die Lösung des Sein-Sollen-Problems
 
-## Ontologie von Werturteilen
+### Ontologie von Werturteilen
 
 Um das Problem lösen zu können und zu erkennen, wo Hume und andere falsch liegen, müssen wir zunächst analysieren, was Werte eigentlich sind. Woraus ergibt sich, dass etwas für jemanden wertvoll ist? Etwas wird für eine Person wertvoll, wenn es ihr unter gegebenen Bedingungen hilft, ein Ziel zu erreichen oder besser zu erreichen als andere Möglichkeiten. Wert besteht damit in einer Beziehung zwischen dem Bewerteten, demjenigen, für den es wertvoll ist, einem Ziel und den jeweiligen Bedingungen. Mario Bunge fasst diese relationale Struktur präzise:
 
@@ -79,7 +82,7 @@ Um das Problem lösen zu können und zu erkennen, wo Hume und andere falsch lieg
 Ein Werturteil behauptet damit eine reale Beziehung. Ob etwas für jemanden im Hinblick auf ein Ziel unter bestimmten Bedingungen tatsächlich wertvoll ist, lässt sich prüfen. Ein einwertiger Wertbegriff wie „X ist gut“ lässt dagegen die Beziehungen weg, durch die überhaupt erst bestimmt wird, worin der Wert von X besteht. Ohne die Angabe, für wen, im Hinblick worauf und unter welchen Bedingungen etwas wertvoll sein soll, ist kein bestimmbarer Sachverhalt angegeben. Viele ethische Theorien rekonstruieren Werte deshalb bereits auf der begrifflichen Ebene falsch, wenn sie „gut“ oder „wertvoll“ wie eine Eigenschaft behandeln, die einem Gegenstand oder einer Handlung an sich zukommt.
 
 Damit lässt sich auch Humes Fehler genauer bestimmen. Die motivierende Wirkung eines moralischen Urteils ist keine Bestimmung seines Wertes. Sie beschreibt, was ein Urteil psychologisch bei einem Menschen bewirkt. Das Werturteil selbst behauptet dagegen eine Beziehung zwischen etwas Bewertetem und einem Ziel unter bestimmten Bedingungen. Hume verwechselt damit Motivation und Wert.
-## Das Oberziel
+### Das Oberziel
 
 > „Nichts in der Biologie ergibt Sinn außer im Licht der Evolution.“ (Dobzhansky 1973)
 
@@ -101,7 +104,12 @@ Abschließend lässt sich feststellen, dass David Humes Forderung nach einer Erk
 
 Die schwache Form des Sein-Sollen-Problems bleibt davon unberührt. Aus reinen Seinsaussagen folgt durch reine Logik kein Sollen, wenn der dafür erforderliche Sollensoperator im verwendeten System fehlt. Daraus folgt jedoch keine allgemeine Sperre gegen eine naturalistische Ethik. Wird der Sollensoperator selbst aus realen Ziel- und Förderbeziehungen rekonstruiert und das Oberziel ebenfalls aus Tatsachen über lebende Systeme gewonnen, ist keine moralische Prämisse frei gesetzt. Der normative Operator gehört dann selbst zur aus dem Sein rekonstruierten Theoriestruktur. Aus Tatsachen über das Oberziel und darüber, welche Handlungen dieses Ziel unter bestimmten Bedingungen fördern, können deshalb Sollenssätze folgen.
 
-Später wurden weitere Sperrthesen gegen eine naturalistische Ethik entwickelt. Dazu gehört insbesondere G. E. Moores (1903) sogenannter naturalistischer Fehlschluss. In neuerer Zeit kommen evolutionäre Debunking-Argumente hinzu, die aus der evolutionären Entstehung unserer moralischen Urteile Einwände gegen deren objektive Geltung ableiten. Auch diese Argumente halten einer genaueren Prüfung nicht stand. In meinem Paper [*Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*](https://philarchive.org/rec/DELDLD-13) rekonstruiere ich die hier skizzierte Lösung ausführlicher und behandle diese sowie weitere Einwände gegen eine naturalistische Lösung des Sein-Sollen-Problems.
+Später wurden weitere Sperrthesen gegen eine naturalistische Ethik entwickelt. Dazu gehört insbesondere G. E. Moores (1903) sogenannter naturalistischer Fehlschluss. In neuerer Zeit kommen evolutionäre Debunking-Argumente hinzu, die aus der evolutionären Entstehung unserer moralischen Urteile Einwände gegen deren objektive Geltung ableiten. Auch diese Argumente halten einer genaueren Prüfung nicht stand. 
+
+Eine detailliertere Skizze dieser Lösung findet sich in meinem Beitrag [*Die Lösung des Sein-Sollen-Problems: Eine detaillierte Lösungsskizze auf Basis von Popper und Bunge*](https://philosophie-delor.github.io/de/ethics/is-ought-short/).
+
+Die vollständige Ausarbeitung mit detaillierten Herleitungen und der Behandlung vieler weiterer Einwände sowohl gegen diese Lösung als auch gegen naturalistische, evolutionäre und holistische Ethiken allgemein, darunter der Vorwurf des naturalistischen Fehlschlusses und evolutionäre Debunking-Argumente, findet sich in meinem Paper [*Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*](https://philarchive.org/rec/DELDLD-13).
+
 
 ## Quellenverzeichnis
 
