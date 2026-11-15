@@ -104,7 +104,11 @@ In conclusion, David Hume’s demand for an explanation of the transition from i
 
 The weak form of the is–ought problem remains unaffected. No ought follows by pure logic from purely descriptive statements if the required ought-operator is absent from the system. But no general barrier to a naturalistic ethics follows from this. If the ought-operator itself is reconstructed from real goal and promotion relations, and if the ultimate goal is likewise derived from facts about living systems, then no moral premise has been freely stipulated. The normative operator itself belongs to the theoretical structure reconstructed from facts. Ought-statements can therefore follow from facts about the ultimate goal and about which actions promote that goal under particular conditions.
 
-Later, further barriers to naturalistic ethics were developed. These include, in particular, G. E. Moore’s (1903) so-called naturalistic fallacy. More recently, evolutionary debunking arguments have attempted to derive objections to the objective validity of our moral judgments from their evolutionary origin. These arguments also fail under closer examination. In my paper [*The Solution to the Is-Ought Problem based on Critical Rationalism and Evolutionary Theory*](https://philarchive.org/rec/DELTST), I reconstruct the solution outlined here in greater detail and address these and further objections to a naturalistic solution to the is–ought problem.
+Later, further barriers to naturalistic ethics were developed. These include, in particular, G. E. Moore’s (1903) so-called naturalistic fallacy. More recently, evolutionary debunking arguments have attempted to derive objections to the objective validity of our moral judgments from their evolutionary origin. These arguments also fail under closer examination. 
+
+A more detailed outline of this solution can be found in my article [*The Solution to the Is-Ought Problem: A Detailed Outline Based on Popper and Bunge*](https://philosophie-delor.github.io/en/ethics/is-ought-short/).
+
+The full account, including detailed derivations and a discussion of many further objections both to this solution and to naturalistic, evolutionary, and holistic approaches to ethics in general, including the charge of the naturalistic fallacy and evolutionary debunking arguments, can be found in my paper [*The Solution to the Is-Ought Problem Based on Critical Rationalism and Evolutionary Theory*](https://philpapers.org/rec/DELTST).
 
 ## References
 

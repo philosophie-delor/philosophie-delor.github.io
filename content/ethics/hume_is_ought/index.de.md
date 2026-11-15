@@ -104,7 +104,12 @@ Abschließend lässt sich feststellen, dass David Humes Forderung nach einer Erk
 
 Die schwache Form des Sein-Sollen-Problems bleibt davon unberührt. Aus reinen Seinsaussagen folgt durch reine Logik kein Sollen, wenn der dafür erforderliche Sollensoperator im verwendeten System fehlt. Daraus folgt jedoch keine allgemeine Sperre gegen eine naturalistische Ethik. Wird der Sollensoperator selbst aus realen Ziel- und Förderbeziehungen rekonstruiert und das Oberziel ebenfalls aus Tatsachen über lebende Systeme gewonnen, ist keine moralische Prämisse frei gesetzt. Der normative Operator gehört dann selbst zur aus dem Sein rekonstruierten Theoriestruktur. Aus Tatsachen über das Oberziel und darüber, welche Handlungen dieses Ziel unter bestimmten Bedingungen fördern, können deshalb Sollenssätze folgen.
 
-Später wurden weitere Sperrthesen gegen eine naturalistische Ethik entwickelt. Dazu gehört insbesondere G. E. Moores (1903) sogenannter naturalistischer Fehlschluss. In neuerer Zeit kommen evolutionäre Debunking-Argumente hinzu, die aus der evolutionären Entstehung unserer moralischen Urteile Einwände gegen deren objektive Geltung ableiten. Auch diese Argumente halten einer genaueren Prüfung nicht stand. In meinem Paper [*Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*](https://philarchive.org/rec/DELDLD-13) rekonstruiere ich die hier skizzierte Lösung ausführlicher und behandle diese sowie weitere Einwände gegen eine naturalistische Lösung des Sein-Sollen-Problems.
+Später wurden weitere Sperrthesen gegen eine naturalistische Ethik entwickelt. Dazu gehört insbesondere G. E. Moores (1903) sogenannter naturalistischer Fehlschluss. In neuerer Zeit kommen evolutionäre Debunking-Argumente hinzu, die aus der evolutionären Entstehung unserer moralischen Urteile Einwände gegen deren objektive Geltung ableiten. Auch diese Argumente halten einer genaueren Prüfung nicht stand. 
+
+Eine detailliertere Skizze dieser Lösung findet sich in meinem Beitrag [*Die Lösung des Sein-Sollen-Problems: Eine detaillierte Lösungsskizze auf Basis von Popper und Bunge*](https://philosophie-delor.github.io/de/ethics/is-ought-short/).
+
+Die vollständige Ausarbeitung mit detaillierten Herleitungen und der Behandlung vieler weiterer Einwände sowohl gegen diese Lösung als auch gegen naturalistische, evolutionäre und holistische Ethiken allgemein, darunter der Vorwurf des naturalistischen Fehlschlusses und evolutionäre Debunking-Argumente, findet sich in meinem Paper [*Die Lösung des Sein-Sollen-Problems auf Basis des kritischen Rationalismus und der Evolutionstheorie*](https://philarchive.org/rec/DELDLD-13).
+
 
 ## Quellenverzeichnis
 
